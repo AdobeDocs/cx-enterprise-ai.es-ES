@@ -2,10 +2,10 @@
 title: Realizar análisis de datos de Customer Journey Analytics con compañeros
 description: Aprenda a realizar análisis de datos de Customer Journey Analytics con Coworker.
 hold: true
-source-git-commit: 30f4d593bdec8cb45d10c4c49fac3dce16e8ca03
+source-git-commit: 8b82dcb024ff528a86fbe782212a267610b46091
 workflow-type: tm+mt
-source-wordcount: '1760'
-ht-degree: 5%
+source-wordcount: '1865'
+ht-degree: 4%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 5%
 
 Adobe CX Enterprise Coworker Chat puede realizar análisis de datos avanzados que anteriormente solo eran posibles en Analysis Workspace. El chat de compañeros accede a los datos de sus vistas de datos de Customer Journey Analytics, lo que le permite explorar esos datos y obtener respuestas a las preguntas en lenguaje natural.
 
-Antes de comenzar el análisis, acceda al chat de Coworker iniciando sesión en su cuenta de CX Enterprise y, a continuación, asegúrese de que el servidor MCP de Customer Journey Analytics esté conectado.
+Antes de comenzar el análisis, acceda a Chat del compañero iniciando sesión en su cuenta de CX Enterprise y, a continuación, asegúrese de que el servidor MCP de Customer Journey Analytics esté conectado.
 
 ## Acceso a Coworker Chat
 
@@ -25,29 +25,25 @@ Antes de comenzar el análisis, acceda al chat de Coworker iniciando sesión en 
 
 1. Inicie sesión en [Adobe CX Enterprise](https://experience.adobe.com) con sus credenciales de Adobe ID.
 
-1. ¿Entonces qué?
+1. Seleccione [!UICONTROL **Coworker**] del selector de productos de CX Enterprise. <!--not sure what this step should say-->
 
-## Conexión del servidor MCP de Customer Journey Analytics
+1. En Compañero de trabajo, compruebe que este esté conectado a Customer Journey Analytics:
 
-1. En Compañero de trabajo, seleccione el icono MCP en el carril izquierdo.
+   1. Seleccione el icono de MCP en el carril izquierdo y, a continuación, asegúrese de que [!UICONTROL **cja-mcp**] está disponible en su lista de servidores MCP conectados.
 
-   ![Icono de MCP resaltado en el carril izquierdo de Coworker](images/data-validation-aa-cja/coworker-mcp.png)
+      ![Icono de MCP resaltado en el carril izquierdo de Coworker](images/data-validation-aa-cja/coworker-mcp-cja.png)
 
-1. Asegúrese de que [!UICONTROL **cja-mcp**] esté disponible en su lista de servidores MCP conectados.
-
-   ![Icono de MCP resaltado en el carril izquierdo de Coworker](images/data-validation-aa-cja/coworker-mcp-cja.png)
-
-1. (Condicional) Si [!UICONTROL **cja-mcp**] aún no está conectado, seleccione [!UICONTROL **Agregar servidor MCP**], especifique cja en el campo [!UICONTROL **Nombre de servidor**] y selecciónelo cuando aparezca, luego seleccione [!UICONTROL **Agregar servidor**].
+   1. (Condicional) Si [!UICONTROL **cja-mcp**] aún no está conectado, seleccione [!UICONTROL **Agregar servidor MCP**], especifique cja en el campo [!UICONTROL **Nombre de servidor**] y selecciónelo cuando aparezca, luego seleccione [!UICONTROL **Agregar servidor**].
 
 ## Conéctese a la vista de datos correcta
-
-<!--I did this. Do users need to?-->
 
 Una vista de datos es un contenedor de Customer Journey Analytics que determina cómo se interpretan los datos.
 
 Es posible que tenga acceso a varias vistas de datos en Customer Journey Analytics, cada una de las cuales contiene diferentes dimensiones y métricas que el colaborador puede utilizar al analizar los datos.
 
-Indique a su Compañero de trabajo los tipos de preguntas que desea responder y pregúntele a qué vistas de datos tiene acceso que sería mejor para proporcionar esa información.
+### Decida qué vistas de datos desea utilizar
+
+Indique a su Compañero de trabajo los tipos de preguntas que desea responder y pregúntele a qué vistas de datos tiene acceso que sería mejor para proporcionar esa información. También puede [establecer su vista de datos como una preferencia en la memoria](#add-a-data-view-preference-in-memory).
 
 **Usted:**
 
@@ -80,6 +76,16 @@ Genial, vamos a usar esa vista de datos.
 De acuerdo, usaré la vista de datos de `Customer lifecycle` para responder preguntas futuras en esta sesión de chat.
 
 >[!ENDSHADEBOX]
+
+### Agregar una preferencia de vista de datos en la memoria
+
+El Chat de Coworker contiene una función de memoria que le permite proporcionarle acceso a la información que abarca todos los chats. Se recomienda añadir las vistas de datos preferidas como preferencias en la memoria del colaborador.
+
+1. En Chat del compañero, en la barra de navegación izquierda, seleccione el icono Memoria.
+
+1. En la página Memoria, en la sección Preferencias almacenadas, especifique una o varias vistas de datos que quiera que Chat del compañero use en sus conversaciones.
+
+   ![Sección de memoria en el carril izquierdo](images/data-validation-aa-cja/coworker-memory.png)
 
 ## Caso de uso: Encuentre el lugar de entrega de los clientes
 
