@@ -6,9 +6,9 @@ description: Obtenga información sobre el asistente de IA en CX Enterprise. Mej
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 8ea40b596655b02813a75bf5a0dde1d2265f7773
+source-git-commit: 6e3ab12f1d9ec706e745749b7ca47b91a09ff8b3
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '211'
 ht-degree: 19%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 19%
   - [IA agéntica](./overview/agentic-ai.md)
   - [Monitorización de IA agéntica](./overview/monitoring.md)
   - [Trabajos del agente y consumo de crédito de IA](./overview/ai-credit-consumption.md)
-  - [Herramientas agénticas](https://experienceleague.adobe.com/es/docs/cx-enterprise-agentic-tools/using/overview)
+  - [Herramientas agénticas](https://experienceleague.adobe.com/en/docs/cx-enterprise-agentic-tools/using/overview)
 - Asistente de IA {#ai-assistant}
   - [Guía de IU del asistente de IA](./ai-assistant/ai-assistant-ui.md)
   - [Biblioteca de mensajes](./ai-assistant/prompt-library.md)
@@ -55,8 +55,8 @@ ht-degree: 19%
     - [Herramientas de Journey Optimizer](./mcp/ajo-mcp.md)
     - [Herramientas de Customer Journey Analytics](./mcp/cja-mcp.md)
     - [Herramientas de Adobe Analytics](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/es/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Compañero {#coworker}
   - {hide-from-toc}[Chat de compañeros en el patio de recreo](./coworker/playground-coworker-chat.md)
   - {hide-from-toc}[Validar datos de migración de AA a CJA](./coworker/data-validation-aa-cja.md)
-  - {hide-from-toc}[Analizar entrega de conversión](./coworker/analytics-use-cases.md)
+  - [Analizar datos de CJA](./coworker/analytics-chat.md)
