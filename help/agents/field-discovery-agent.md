@@ -31,7 +31,7 @@ Para utilizar el agente de detección de campos, asegúrese de que dispone de lo
 - La organización y zona protegida correctas
 - Acceso a los esquemas y conjuntos de datos que desea consultar
 
-La familiaridad básica con los esquemas XDM y cómo se utilizan los campos en la segmentación o en los flujos de trabajo de datos puede ayudarle a interpretar los resultados de forma más eficaz. Para obtener más información, consulte la [descripción general de XDM](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/home) y la [documentación del Editor de esquemas](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/create-schema-ui).
+La familiaridad básica con los esquemas XDM y cómo se utilizan los campos en la segmentación o en los flujos de trabajo de datos puede ayudarle a interpretar los resultados de forma más eficaz. Para obtener más información, consulte la [descripción general de XDM](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/home) y la [documentación del Editor de esquemas](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/tutorials/create-schema-ui).
 
 Para obtener instrucciones sobre cómo habilitar el acceso al Asistente de IA y conceder los permisos necesarios, consulte la [guía de acceso de Agent Orchestrator](./agent-orchestrator.md#access).
 
@@ -213,7 +213,7 @@ Si tiene acceso a la edición de esquemas, puede mejorar la calidad de los resul
 - Agregar descripciones de campo siempre que sea posible.
 - Asociar campos a conjuntos de datos activos en lugar de dejarlos como definiciones solo de esquema.
 
-Para obtener instrucciones sobre cómo editar nombres para mostrar y descripciones de campos en el Editor de esquemas, consulte [Crear y editar esquemas en la interfaz de usuario](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas).
+Para obtener instrucciones sobre cómo editar nombres para mostrar y descripciones de campos en el Editor de esquemas, consulte [Crear y editar esquemas en la interfaz de usuario](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/ui/resources/schemas).
 
 Si no tiene acceso a la edición de esquemas y los resultados son deficientes de forma consistente, póngase en contacto con el administrador de Experience Platform o con el equipo de ingeniería de datos para revisar los metadatos de los campos de los esquemas con los que trabaja.
 
