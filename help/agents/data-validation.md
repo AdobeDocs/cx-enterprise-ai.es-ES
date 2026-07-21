@@ -1,7 +1,7 @@
 ---
 title: Validar los datos en el asistente de IA
 description: Aprenda a utilizar la validación de datos con tecnología de Agent Orchestrator en el Asistente de IA para realizar validaciones estadísticas y semánticas en los conjuntos de datos.
-source-git-commit: 04fd79b306242d9fab4d0115ef3ac49e1c36401e
+source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
 workflow-type: tm+mt
 source-wordcount: '1585'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Utilice **AI Assistant** en Adobe CX Enterprise para validar sus datos. El asist
 
 ### Iniciar validación
 
-![Inicio del asistente de IA con el campo de solicitud que muestra una solicitud de validación del conjunto de datos, un selector de entorno de Experience Platform y un control de envío.](./images/validation/home.png)
+![Inicio del asistente de IA con el campo de solicitud que muestra una solicitud de validación del conjunto de datos, un selector de entorno de Experience Platform y un control de envío.](./assets/validation/home.png)
 
 En el panel de navegación izquierdo, seleccione **[!UICONTROL Asistente de IA]**. A continuación, utilice el selector de entorno y elija la organización de Experience Platform o zona protegida donde reside el conjunto de datos (por ejemplo, **[!UICONTROL Experience Platform - Prod]**). En el campo de solicitud, escriba una solicitud de validación (por ejemplo, pida validar un conjunto de datos por su nombre). Seleccione **[!UICONTROL Enviar]** para enviar la solicitud.
 
@@ -48,7 +48,7 @@ En el panel de navegación izquierdo, seleccione **[!UICONTROL Asistente de IA]*
 
 ### Lea el resumen del conjunto de datos y la tabla de campos
 
-![Respuesta del Asistente de IA con Razonamiento completado, un resumen de validación y una tabla de resúmenes de campos que enumera rutas de campo, tipos y valores válidos.](./images/validation/answer.png)
+![Respuesta del Asistente de IA con Razonamiento completado, un resumen de validación y una tabla de resúmenes de campos que enumera rutas de campo, tipos y valores válidos.](./assets/validation/answer.png)
 
 Espere un momento para que Agent Orchestrator complete la ejecución (**Razonamiento completado**). Cuando finalice la ejecución, lea el resumen del nombre del conjunto de datos, cuántos campos se validaron y el tamaño de muestra (normalmente, hasta unas 1000 filas).
 
@@ -58,7 +58,7 @@ Seleccione **[!UICONTROL Mostrar todos los resultados]** cuando necesite columna
 
 ### Trabajo en vista dividida
 
-![Vista dividida con estadísticas y narrativa de validación a la izquierda y una visualización de gráfico expandida de valores válidos a la derecha.](./images/validation/split-screen.png)
+![Vista dividida con estadísticas y narrativa de validación a la izquierda y una visualización de gráfico expandida de valores válidos a la derecha.](./assets/validation/split-screen.png)
 
 En la vista expandida, utilice el diseño dividido: estadísticas detalladas y narrativa por un lado y el gráfico por el otro.
 
@@ -69,19 +69,19 @@ Use **[!UICONTROL Sugerencias relacionadas]** o el campo de solicitud de la part
 
 ### Utilizar una sugerencia relacionada para un seguimiento
 
-![Fichas de sugerencias relacionadas encima del campo de solicitud, con una sugerencia seleccionada para validar un campo específico en el conjunto de datos.](./images/validation/related-suggestion.png)
+![Fichas de sugerencias relacionadas encima del campo de solicitud, con una sugerencia seleccionada para validar un campo específico en el conjunto de datos.](./assets/validation/related-suggestion.png)
 
 Después de una respuesta, encuentra **[!UICONTROL sugerencias relacionadas]** debajo de la conversación. Seleccione una sugerencia (por ejemplo, validar un campo específico en el mismo conjunto de datos) para cargarlo en el campo de solicitud. Ajuste el texto si es necesario, confirme el entorno y, a continuación, seleccione **[!UICONTROL Enviar]** para ejecutar el seguimiento.
 
 ### Validar en el nivel de campo
 
-![Tarjeta de resultados de validación para un solo campo en la vista de gráfico, que muestra un gráfico de anillo de validez y la acción Mostrar en vista expandida.](./images/validation/single-field.png)
+![Tarjeta de resultados de validación para un solo campo en la vista de gráfico, que muestra un gráfico de anillo de validez y la acción Mostrar en vista expandida.](./assets/validation/single-field.png)
 
 Abra una tarjeta de **[!UICONTROL resultados de validación]** de nivel de campo (por ejemplo, después de validar un solo campo). Use los controles de vista para cambiar a **Gráfico** (u otra vista) cuando desee un resumen visual en lugar de una tabla. Durante este paso, si lo desea, puede seleccionar **[!UICONTROL Propiedades]** para ver más información sobre el campo.
 
 Seleccione **[!UICONTROL Mostrar en vista expandida]** para abrir una vista más grande y detallada de la validación de ese campo.
 
-![Vista ampliada que muestra estadísticas detalladas de validación en el nivel de campo y visualización de gráficos.](./images/validation/expanded-view.png)
+![Vista ampliada que muestra estadísticas detalladas de validación en el nivel de campo y visualización de gráficos.](./assets/validation/expanded-view.png)
 
 A través de la vista expandida, puede ver una lista desglosada de todo el campo, basada en una muestra de hasta 1000 registros para el campo dado. Puede utilizar esta capacidad para recuperar información sobre los valores válidos, distintos y nulos.
 
@@ -161,9 +161,9 @@ Se realizan los siguientes tipos de validación para cada campo y conjunto de da
 - **Comprobaciones de distribución**: valores únicos principales y sus distribuciones, detección de alta cardinalidad.
 - **Comprobaciones semánticas frente a esquema**: utiliza el nombre, el tipo y la descripción del campo XDM para deducir el aspecto &quot;válido&quot; y, a continuación, marca las anomalías.
 - **Comprobaciones según el tipo de datos** (donde corresponda):
-   - Correo electrónico: formato y verosimilitud de dominio
-   - Teléfono: preparación de formato (por ejemplo, E.164)
-   - Fechas/marcas de hora: corrección básica del formato (por ejemplo, ISO-8601)
+  - Correo electrónico: formato y verosimilitud de dominio
+  - Teléfono: preparación de formato (por ejemplo, E.164)
+  - Fechas/marcas de hora: corrección básica del formato (por ejemplo, ISO-8601)
 - **Comprobaciones relacionadas con la identidad** (futuras/extendidas): exclusividad de los campos de identidad de los candidatos o claves compuestas.
 
 Estas comprobaciones combinan estadísticas deterministas con una validación semántica asistida por LLM para detectar valores que &quot;tienen un aspecto incorrecto&quot; incluso cuando coinciden técnicamente con el esquema.

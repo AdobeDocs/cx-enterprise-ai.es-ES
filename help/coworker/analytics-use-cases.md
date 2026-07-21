@@ -2,7 +2,7 @@
 title: Realizar análisis de datos de Customer Journey Analytics con compañeros
 description: Aprenda a realizar análisis de datos de Customer Journey Analytics con Coworker.
 hold: true
-source-git-commit: 8b82dcb024ff528a86fbe782212a267610b46091
+source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
 workflow-type: tm+mt
 source-wordcount: '1865'
 ht-degree: 4%
@@ -31,7 +31,7 @@ Antes de comenzar el análisis, acceda a Chat del compañero iniciando sesión e
 
    1. Seleccione el icono de MCP en el carril izquierdo y, a continuación, asegúrese de que [!UICONTROL **cja-mcp**] está disponible en su lista de servidores MCP conectados.
 
-      ![Icono de MCP resaltado en el carril izquierdo de Coworker](images/data-validation-aa-cja/coworker-mcp-cja.png)
+      ![Icono de MCP resaltado en el carril izquierdo de Coworker](assets/data-validation-aa-cja/coworker-mcp-cja.png)
 
    1. (Condicional) Si [!UICONTROL **cja-mcp**] aún no está conectado, seleccione [!UICONTROL **Agregar servidor MCP**], especifique cja en el campo [!UICONTROL **Nombre de servidor**] y selecciónelo cuando aparezca, luego seleccione [!UICONTROL **Agregar servidor**].
 
@@ -85,7 +85,7 @@ El Chat de Coworker contiene una función de memoria que le permite proporcionar
 
 1. En la página Memoria, en la sección Preferencias almacenadas, especifique una o varias vistas de datos que quiera que Chat del compañero use en sus conversaciones.
 
-   ![Sección de memoria en el carril izquierdo](images/data-validation-aa-cja/coworker-memory.png)
+   ![Sección de memoria en el carril izquierdo](assets/data-validation-aa-cja/coworker-memory.png)
 
 ## Caso de uso: Encuentre el lugar de entrega de los clientes
 
@@ -125,7 +125,7 @@ Tenga en cuenta que Coworker Chat elige la visualización correcta, secuencia lo
 
 >[!BEGINSHADEBOX]
 
-![Icono de MCP resaltado en el carril izquierdo de Coworker](images/data-validation-aa-cja/coworker-funnel-response.png)
+![Icono de MCP resaltado en el carril izquierdo de Coworker](assets/data-validation-aa-cja/coworker-funnel-response.png)
 
 Esta es una pregunta de funnel. Permítanme ejecutar funnel de conversión para ver dónde se producen los descensos en la ruta de compra.
 
@@ -176,7 +176,7 @@ Vale, vamos a desglosar por canal de marketing
 
 >[!BEGINSHADEBOX]
 
-![Icono de MCP resaltado en el carril izquierdo de Coworker](images/data-validation-aa-cja/coworker-funnel-response2.png)
+![Icono de MCP resaltado en el carril izquierdo de Coworker](assets/data-validation-aa-cja/coworker-funnel-response2.png)
 
 Hay una dimensión **Canal de mercadotecnia** personalizada. Permítanme extraer el funnel y, a continuación, calcular las tasas de conversión por canal e identificar dónde se filtra cada canal.
 
@@ -227,7 +227,7 @@ Interesante. Intentemos desglosar por tipo de dispositivo.
 
 >[!BEGINSHADEBOX]
 
-![Icono de MCP resaltado en el carril izquierdo de Coworker](images/data-validation-aa-cja/coworker-funnel-response3.png)
+![Icono de MCP resaltado en el carril izquierdo de Coworker](assets/data-validation-aa-cja/coworker-funnel-response3.png)
 
 **Lo encontró: el cierre de compra móvil está roto**
 

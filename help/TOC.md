@@ -1,21 +1,27 @@
 ---
 audience: user
-user-guide-title: Asistente de IA en Adobe Experience Cloud
+user-guide-title: Asistente de IA en Adobe CX Enterprise
 user-guide-description: Aprenda a utilizar el Asistente de IA para acelerar el flujo de trabajo con Adobe Experience Platform y Real-time Customer Data Platform.
-description: Obtenga más información sobre el Asistente de IA en Experience Cloud. Mejore su conocimiento de los productos y obtenga datos operativos utilizando IA en Experience Cloud.
+description: Obtenga información sobre el asistente de IA en CX Enterprise. Mejore sus conocimientos sobre productos y obtenga perspectivas operativas utilizando IA en CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: 30f4d593bdec8cb45d10c4c49fac3dce16e8ca03
+source-git-commit: c393098da76094c7696cfa385c43e74f5b82633c
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 34%
+source-wordcount: '212'
+ht-degree: 19%
 
 ---
 
 
-# IA en Experience Cloud {#experience-cloud-ai}
+# IA en CX Enterprise {#experience-cloud-ai}
 
-- [IA en aplicaciones de Experience Cloud](home.md)
+- [IA en aplicaciones empresariales de CX](home.md)
+- Acerca de la IA en CX Enterprise {#overview}
+  - [IA generativa](./overview/generative-ai.md)
+  - [IA agéntica](./overview/agentic-ai.md)
+  - [Monitorización de IA agéntica](./overview/monitoring.md)
+  - [Trabajos del agente y consumo de crédito de IA](./overview/ai-credit-consumption.md)
+  - [Herramientas agénticas](https://experienceleague.adobe.com/en/docs/cx-enterprise-agentic-tools/using/overview)
 - Asistente de IA {#ai-assistant}
   - [Guía de IU del asistente de IA](./ai-assistant/ai-assistant-ui.md)
   - [Biblioteca de mensajes](./ai-assistant/prompt-library.md)
@@ -48,7 +54,7 @@ ht-degree: 34%
     - [Herramientas de Journey Optimizer](./mcp/ajo-mcp.md)
     - [Herramientas de Customer Journey Analytics](./mcp/cja-mcp.md)
     - [Herramientas de Adobe Analytics](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/es/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Compañero {#coworker}
   - {hide-from-toc}[Chat de compañeros en el patio de recreo](./coworker/playground-coworker-chat.md)
   - {hide-from-toc}[Validar datos de migración de AA a CJA](./coworker/data-validation-aa-cja.md)

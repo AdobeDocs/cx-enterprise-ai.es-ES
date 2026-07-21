@@ -2,16 +2,10 @@
 title: Guía de la interfaz de usuario del Asistente de IA
 description: Obtenga información sobre cómo acceder al Asistente de IA y utilizarlo en la interfaz de usuario.
 TQID: https://experienceleague.adobe.com/MWhVCqUFt5Qze4mQp-G85OF81Mk1OL4xY8Jygm-B4PI
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 04fd79b306242d9fab4d0115ef3ac49e1c36401e
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
 workflow-type: tm+mt
 source-wordcount: 2162
 ht-degree: 3%
@@ -31,14 +25,14 @@ Consulte la siguiente tabla para ver una comparación de AI Assistant (Legacy) y
 | Experiencia del usuario | El asistente de IA (heredado) solo está disponible en un panel del carril derecho. | El asistente de IA (próxima generación) está disponible tanto en el panel derecho como en la experiencia de pantalla completa envolvente. |
 | Ámbito de las capacidades | Puede utilizar el asistente de IA (heredado) para obtener conocimientos del producto y perspectivas operativas. | Puede utilizar el asistente de IA (próxima generación) para obtener conocimientos del producto, perspectivas operativas, así como habilidades agénticas avanzadas y ejecución de tareas de varios pasos. |
 | Arquitectura de plataforma | El asistente de IA (heredado) no se crea en la pila de Agent Orchestrator. | El Asistente de IA (próxima generación) cuenta con la tecnología [Adobe Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/es/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator), lo que permite la extensibilidad y la coordinación avanzada entre las distintas funcionalidades. |
-| Cobertura de aplicación | El asistente de IA (heredado) es una implementación específica de la aplicación. | Puede utilizar el asistente de IA (próxima generación) para obtener una experiencia de asistente de IA unificada en todas las aplicaciones de Adobe Experience Cloud. |
-| Modelo de acceso y permiso | Modelo de acceso con ámbito de aplicación alineado con los límites de cada producto. | Todos los usuarios tienen acceso al asistente de IA (próxima generación) y a los agentes de Experience Platform asociados. **Nota**: <ul><li>**Adobe Experience Manager**: el administrador debe concederle permiso para acceder al Asistente de IA (próxima generación) a través de [Adobe Admin Console](https://helpx.adobe.com/es/enterprise/using/admin-console.html).</li><li>**Customer Journey Analytics**: el administrador debe concederle permiso para acceder al Asistente de IA a través de [Control de acceso de Customer Journey Analytics](https://experienceleague.adobe.com/es/docs/analytics-platform/using/technotes/access-control?lang=en). Esto le permite hacer preguntas sobre el conocimiento del producto y las perspectivas de datos. |
+| Cobertura de aplicación | El asistente de IA (heredado) es una implementación específica de la aplicación. | Puede utilizar el asistente de IA (próxima generación) para obtener una experiencia de asistente de IA unificada en todas las aplicaciones empresariales de Adobe CX. |
+| Modelo de acceso y permiso | Modelo de acceso con ámbito de aplicación alineado con los límites de cada producto. | Todos los usuarios tienen acceso al asistente de IA (próxima generación) y a los agentes de Experience Platform asociados. **Nota**: <ul><li>**Adobe Experience Manager**: el administrador debe concederle permiso para acceder al Asistente de IA (próxima generación) a través de [Adobe Admin Console](https://helpx.adobe.com/es/enterprise/using/admin-console.html).</li><li>**Customer Journey Analytics**: el administrador debe concederle permiso para acceder al Asistente de IA a través de [Control de acceso de Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control?lang=en). Esto le permite hacer preguntas sobre el conocimiento del producto y las perspectivas de datos. |
 
 El asistente de IA es una herramienta inteligente de IA conversacional y generativa que impulsará la productividad y redefinirá el trabajo en aplicaciones basadas en Adobe Experience Platform. Puede utilizar el Asistente de IA para acceder a los agentes de Adobe Experience Platform y otras funciones de IA.
 
 Lea esta guía para aprender a utilizar el Asistente para IA.
 
-![Interfaz de inicio del Asistente de IA en pantalla completa.](./images/ai-assistant/blank-home.png)
+![Interfaz de inicio del Asistente de IA en pantalla completa.](./assets/ai-assistant/blank-home.png)
 
 >[!SLIDE](agent-orchestrator-ui)
 
@@ -46,19 +40,19 @@ Lea esta guía para aprender a utilizar el Asistente para IA.
 
 Existen varias formas de acceder a AI Assistant.
 
-En la interfaz de inicio de Experience Cloud, seleccione **[!UICONTROL Asistente de IA]** en el panel de navegación izquierdo para iniciar una vista de pantalla completa del Asistente de IA.
+En la interfaz de inicio de CX Enterprise, seleccione **[!UICONTROL AI Assistant]** en el panel de navegación izquierdo para iniciar una vista de pantalla completa de AI Assistant.
 
 +++Seleccionar para ver
 
-![Inicio de Experience Cloud con el icono Asistente de IA seleccionado en el panel de navegación izquierdo.](./images/ai-assistant/from-experience-cloud.png)
+![Inicio de CX Enterprise con el icono Asistente de IA seleccionado en el panel de navegación izquierdo.](./assets/ai-assistant/from-experience-cloud.png)
 
 +++
 
-También puede iniciar el asistente de IA desde las páginas de inicio de aplicaciones de Experience Cloud como Experience Platform, Adobe Journey Optimizer y Customer Journey Analytics. Vaya a la página de inicio del producto y, a continuación, seleccione el **icono del asistente de IA** en el encabezado superior para iniciar el panel de chat del asistente de IA en el carril derecho.
+También puede iniciar AI Assistant desde las páginas de inicio de las aplicaciones empresariales de CX, como Experience Platform, Adobe Journey Optimizer y Customer Journey Analytics. Vaya a la página de inicio del producto y, a continuación, seleccione el **icono del asistente de IA** en el encabezado superior para iniciar el panel de chat del asistente de IA en el carril derecho.
 
 +++Seleccionar para ver
 
-![Inicio del producto con el icono del Asistente de IA seleccionado en el panel de navegación izquierdo.](./images/ai-assistant/from-product.png)
+![Inicio del producto con el icono del Asistente de IA seleccionado en el panel de navegación izquierdo.](./assets/ai-assistant/from-product.png)
 
 +++
 
@@ -76,7 +70,7 @@ La interfaz del asistente de IA incluye varios elementos clave para ayudarle a i
 4. **Configuración de contexto**: - Seleccione el icono Configuración de contexto para configurar las fuentes de información para el Asistente de IA. Puede utilizar esta herramienta para configurar la aplicación, la zona protegida y la vista de datos a los que hace referencia el Asistente de IA para responder a la consulta. Para obtener más información, lea la sección sobre [configuración de contexto](#context-setting).
 5. **Descubrimiento**: - Seleccione **[!UICONTROL Aprender]**, **[!UICONTROL Analizar]** y **[!UICONTROL Optimizar]** para ver las consultas de muestra que puede usar para comenzar. Para obtener más información, lea la sección sobre [avisos de detección](#discoverability-prompts).
 
-![El Asistente de IA en pantalla completa.](./images/ai-assistant/ui-home.png)
+![El Asistente de IA en pantalla completa.](./assets/ai-assistant/ui-home.png)
 
 ### Vista de carril
 
@@ -90,7 +84,7 @@ La vista de carril proporciona acceso rápido al chat, las peticiones de informa
 1. **Autocompletar datos y objetos**: seleccione el icono de signo + para usar la sugerencia y autocompletar datos y objetos. Una vez seleccionada, puede utilizar una ventana emergente para seleccionar las entidades sugeridas. Para obtener más información, lea la sección sobre [autocompletar datos y objetos](#autocomplete).
 1. **Configuración de contexto**: seleccione el icono Configuración de contexto para configurar las fuentes de información del Asistente de IA. Puede utilizar esta herramienta para configurar la aplicación, la zona protegida y la vista de datos a los que hace referencia el Asistente de IA para responder a la consulta. Para obtener más información, lea la sección sobre [configuración de contexto](#context-setting).
 
-![El asistente de IA en la vista de carril](./images/ai-assistant/rail-mode.png)
+![El asistente de IA en la vista de carril](./assets/ai-assistant/rail-mode.png)
 
 ## Guía de IU del asistente de IA
 
@@ -108,19 +102,19 @@ Desde la vista de pantalla completa, las solicitudes de detección se agrupan en
 
 Para usar las indicaciones de detección para avanzar en el conocimiento del producto, seleccione **[!UICONTROL Aprender]** y, a continuación, seleccione una solicitud en la ventana desplegable que aparece.
 
-![Selección de petición de datos de detección en la vista de pantalla completa.](./images/ai-assistant/inputs/discover.png)
+![Selección de petición de datos de detección en la vista de pantalla completa.](./assets/ai-assistant/inputs/discover.png)
 
 >[!TAB Usar detección desde la vista de carril]
 
 Seleccione **[!UICONTROL Descubrimiento]** de la vista de carril para acceder a una amplia lista de mensajes de detección que puede utilizar para empezar y rellenar el chat con el Asistente de IA.
 
-![El panel de detección de la vista de carril.](./images/ai-assistant/inputs/discover-rail.png)
+![El panel de detección de la vista de carril.](./assets/ai-assistant/inputs/discover-rail.png)
 
 >[!ENDTABS]
 
 Seleccione un mensaje para rellenar el cuadro de entrada. Desde aquí, puede editar el mensaje para que se ajuste a su caso de uso particular. Cuando esté listo, seleccione el icono de envío a la derecha para enviar la consulta.
 
-![Mensaje de detección en el cuadro de entrada.](./images/ai-assistant/inputs/question-input.png)
+![Mensaje de detección en el cuadro de entrada.](./assets/ai-assistant/inputs/question-input.png)
 
 ## Interactuar con respuestas
 
@@ -130,23 +124,23 @@ A continuación, el asistente de IA consulta su base de conocimiento y calcula u
 
 Para comprender mejor el proceso de razonamiento subyacente, seleccione **[!UICONTROL Razonamiento completado]**.
 
-![Respuesta del Asistente de IA.](./images/ai-assistant/inputs/answer.png)
+![Respuesta del Asistente de IA.](./assets/ai-assistant/inputs/answer.png)
 
 La ventana *[!UICONTROL Razonamiento completado]* se amplía para mostrar un resumen de su solicitud y detalles sobre cómo se escribió la respuesta.
 
-![Panel de razonamiento ampliado en una respuesta del Asistente de IA.](./images/ai-assistant/inputs/reasoning-complete.png)
+![Panel de razonamiento ampliado en una respuesta del Asistente de IA.](./assets/ai-assistant/inputs/reasoning-complete.png)
 
 ### Usar sugerencias relacionadas
 
 A continuación, desplácese hacia abajo hasta la parte inferior de la respuesta y seleccione **[!UICONTROL Sugerencias relacionadas]** para recibir una lista de preguntas relacionadas con la consulta inicial. Puede utilizar estas indicaciones para continuar con la conversación con el asistente de IA.
 
-![Ventana de sugerencias relacionadas en el Asistente para IA.](./images/ai-assistant/inputs/related-suggestions.png)
+![Ventana de sugerencias relacionadas en el Asistente para IA.](./assets/ai-assistant/inputs/related-suggestions.png)
 
 ### Ver fuentes
 
 Para comprobar la respuesta del Asistente de inteligencia artificial, seleccione **[!UICONTROL Sources]** para ver una lista de fuentes de información a las que hizo referencia el Asistente de inteligencia artificial al calcular su respuesta.
 
-![Lista de orígenes a los que hace referencia el Asistente de IA.](./images/ai-assistant/inputs/sources.png)
+![Lista de orígenes a los que hace referencia el Asistente de IA.](./assets/ai-assistant/inputs/sources.png)
 
 ### Proporcionar comentarios
 
@@ -154,7 +148,7 @@ Puede proporcionar comentarios sobre su experiencia con el asistente de IA media
 
 Para proporcionar comentarios, seleccione los pulgares hacia arriba o hacia abajo después de recibir una respuesta del asistente de IA y, a continuación, introduzca sus comentarios en el cuadro de texto proporcionado.
 
-![Los iconos de pulgar hacia arriba y pulgar hacia abajo en el Ayudante de IA.](./images/ai-assistant/inputs/feedback.png)
+![Los iconos de pulgar hacia arriba y pulgar hacia abajo en el Ayudante de IA.](./assets/ai-assistant/inputs/feedback.png)
 
 >[!BEGINTABS]
 
@@ -164,11 +158,11 @@ Seleccione **[!UICONTROL Pulgares arriba]** para proporcionar comentarios positi
 
 +++Seleccionar para ver
 
-![Ventana de comentarios en miniatura.](./images/ai-assistant/inputs/thumbs-up.png)
+![Ventana de comentarios en miniatura.](./assets/ai-assistant/inputs/thumbs-up.png)
 
 También puedes seleccionar **[!UICONTROL Comentarios detallados]** para obtener más información. Cuando termine, seleccione **[!UICONTROL Enviar]**.
 
-![Ventana de comentarios detallada para la vista en miniatura.](./images/ai-assistant/inputs/thumbs-up-detailed.png)
+![Ventana de comentarios detallada para la vista en miniatura.](./assets/ai-assistant/inputs/thumbs-up-detailed.png)
 
 +++
 
@@ -178,11 +172,11 @@ Seleccione **[!UICONTROL Pulgares hacia abajo]** para proporcionar comentarios c
 
 +++Seleccionar para ver
 
-![Ventana de comentarios en miniatura.](./images/ai-assistant/inputs/thumbs-down.png)
+![Ventana de comentarios en miniatura.](./assets/ai-assistant/inputs/thumbs-down.png)
 
 Del mismo modo, también puede seleccionar **[!UICONTROL Comentarios detallados]** para obtener más información. Cuando termine, seleccione **[!UICONTROL Enviar]**.
 
-![Ventana de comentarios detallada para los pulgares hacia abajo.](./images/ai-assistant/inputs/thumbs-down-detailed.png)
+![Ventana de comentarios detallada para los pulgares hacia abajo.](./assets/ai-assistant/inputs/thumbs-down-detailed.png)
 
 +++
 
@@ -192,59 +186,59 @@ Del mismo modo, también puede seleccionar **[!UICONTROL Comentarios detallados]
 
 Si la respuesta del asistente de IA incluye una imagen, puede seleccionar el icono de ruta para iniciar un modo de vista dividida. Esto le permite leer la respuesta completa del asistente de IA con la imagen contextual a la derecha.
 
-![Modo de vista dividida en el Asistente de IA.](./images/ai-assistant/inputs/split-view.png)
+![Modo de vista dividida en el Asistente de IA.](./assets/ai-assistant/inputs/split-view.png)
 
 ### Conversaciones
 
 Puede usar el panel *[!UICONTROL Todas las conversaciones]* para restablecer y volver a visitar las conversaciones con el Asistente de inteligencia artificial. Seleccione el icono **[!UICONTROL Conversaciones]** para ver la ventana *[!UICONTROL Todas las conversaciones]*.
 
-![Ventana de conversaciones del Asistente de IA.](./images/ai-assistant/conversations/select-conversations.png)
+![Ventana de conversaciones del Asistente de IA.](./assets/ai-assistant/conversations/select-conversations.png)
 
 Para volver a una conversación anterior, seleccione el tema de conversación en la lista proporcionada.
 
-![La lista de conversaciones anteriores grabadas en el Asistente de IA.](./images/ai-assistant/conversations/revisit-conversation.png)
+![La lista de conversaciones anteriores grabadas en el Asistente de IA.](./assets/ai-assistant/conversations/revisit-conversation.png)
 
 Para iniciar una nueva conversación, selecciona **[!UICONTROL Nueva conversación]**.
 
-![Se seleccionó la opción &quot;nueva conversación&quot;.](./images/ai-assistant/conversations/new-conversation.png)
+![Se seleccionó la opción &quot;nueva conversación&quot;.](./assets/ai-assistant/conversations/new-conversation.png)
 
 ### Configuración de contexto {#context-setting}
 
 Use la característica de configuración de contexto del Asistente de IA para configurar la **aplicación**, la **zona protegida** y la **vista de datos** a las que el Asistente de IA hace referencia para responder a su consulta. Para acceder a la configuración de contexto, seleccione el icono **[!UICONTROL Configuración de contexto]** del cuadro de entrada.
 
-![Icono de configuración de contexto seleccionado.](./images/ai-assistant/inputs/context-selection.png)
+![Icono de configuración de contexto seleccionado.](./assets/ai-assistant/inputs/context-selection.png)
 
 Aparece la ventana emergente *[!UICONTROL Respuesta de...]*. Utilice esta ventana para configurar los orígenes de información que desea utilizar y, a continuación, seleccione **[!UICONTROL Establecer contexto]**.
 
 | Fuente de información | Descripción | Ejemplos |
 | --- | --- | --- |
-| Aplicación | La aplicación de Experience Cloud a la que pertenece su consulta. | Experience Platform, Journey Optimizer, Customer Journey Analytics, etc. |
+| Aplicación | La aplicación CX Enterprise a la que pertenece su consulta. | Experience Platform, Journey Optimizer, Customer Journey Analytics, etc. |
 | Zona protegida | La zona protegida que contiene los conjuntos de datos o la información a la que pertenece su consulta. | Producción (VA7), Desarrollo |
 | Dataview | Cuando utiliza el asistente de IA con Customer Journey Analytics, la configuración de vista de datos ayuda a Data Insights Agent a comprender lo siguiente: <ul><li>Qué conjuntos de datos consultar</li><li>Qué componentes de datos están disponibles</li><li>Estructurar las respuestas sobre los datos</li><li>Qué visualizaciones crear en Analysis Workspace</li></ul> | |
 
-![Panel de &quot;Respuesta de&quot; donde se pueden configurar las fuentes de información.](./images/ai-assistant/inputs/answer-from.png)
+![Panel de &quot;Respuesta de&quot; donde se pueden configurar las fuentes de información.](./assets/ai-assistant/inputs/answer-from.png)
 
 ### Autocompletar datos y objetos
 
 Puede utilizar la función de autocompletar para recibir una lista de los objetos de datos que existen en su zona protegida. Para utilizar el completado automático, escriba el icono de signo más (+) en la consulta. Como alternativa, también puede seleccionar el icono de signo más (+) situado en la parte inferior del cuadro de entrada de texto. Aparece una ventana con una lista de los objetos de datos recomendados de la zona protegida.
 
-![Botón de autocompletar de objetos y datos seleccionado.](./images/ai-assistant/autocomplete/autocomplete.png)
+![Botón de autocompletar de objetos y datos seleccionado.](./assets/ai-assistant/autocomplete/autocomplete.png)
 
 ### Verificar respuestas
 
 Existen varias formas de verificar las respuestas desde el Asistente de IA. Seleccione **[!UICONTROL Término de consulta coincidente con objetos]** para ver un resumen de los términos de la consulta que coincidieron con objetos específicos de su organización.
 
-![Los términos de la consulta coinciden con su respuesta.](./images/ai-assistant/autocomplete/query-terms.png)
+![Los términos de la consulta coinciden con su respuesta.](./assets/ai-assistant/autocomplete/query-terms.png)
 
 Seleccione **[!UICONTROL Aquí es donde obtuve los resultados]** para ver una explicación detallada y paso a paso de cómo el Asistente de IA llegó a su respuesta. Además, también puede ver la consulta SQL que se ejecutó para responder a su pregunta. Esta consulta es de solo lectura y no se admite para su uso en el servicio de consultas.
 
-![Herramientas de verificación SQL en el Asistente para IA.](./images/ai-assistant/autocomplete/verifications.png)
+![Herramientas de verificación SQL en el Asistente para IA.](./assets/ai-assistant/autocomplete/verifications.png)
 
 ### Configuración de visualización de datos
 
 Puede utilizar las funcionalidades de visualización de datos de AI Assistant para comprender mejor sus datos. También puede especificar el tipo de gráfico que desea utilizar en la consulta. Por ejemplo, envíe una consulta que diga: **&quot;Mostrar beneficio por nombre de producto del último mes (barra)&quot;** para recibir un gráfico de barras de ganancias del último mes, organizado por nombre de producto.
 
-![Se muestra un gráfico de barras en el Asistente de IA](./images/ai-assistant/visualization/graph.png)
+![Se muestra un gráfico de barras en el Asistente de IA](./assets/ai-assistant/visualization/graph.png)
 
 A continuación, seleccione **[!UICONTROL Propiedades]** para cambiar el tipo de gráfico y configurar los valores de los ejes X e Y.
 
@@ -256,24 +250,24 @@ El asistente de IA admite varios tipos de gráficos para la visualización de da
 
 Para ver un gráfico de líneas, seleccione **[!UICONTROL Propiedades]** y luego seleccione **[!UICONTROL Línea]**.
 
-![Gráfico de líneas del Asistente de IA.](./images/ai-assistant/visualization/line.png)
+![Gráfico de líneas del Asistente de IA.](./assets/ai-assistant/visualization/line.png)
 
 >[!TAB Área]
 
 Para ver un gráfico de áreas, seleccione **[!UICONTROL Propiedades]** y, a continuación, seleccione **[!UICONTROL Área]**.
 
-![Un gráfico de áreas en el Asistente de IA.](./images/ai-assistant/visualization/area.png)
+![Un gráfico de áreas en el Asistente de IA.](./assets/ai-assistant/visualization/area.png)
 
 >[!TAB Dispersión]
 
 Para ver un gráfico de dispersión, selecciona **[!UICONTROL Propiedades]** y luego selecciona **[!UICONTROL Dispersión]**.
 
-![Un gráfico de dispersión en el Asistente de IA.](./images/ai-assistant/visualization/scatter.png)
+![Un gráfico de dispersión en el Asistente de IA.](./assets/ai-assistant/visualization/scatter.png)
 
 >[!TAB Anillo]
 
 Para ver un gráfico de anillo, selecciona **[!UICONTROL Propiedades]** y luego selecciona **[!UICONTROL Anillo]**.
 
-![Gráfico de anillo en el Asistente de IA.](./images/ai-assistant/visualization/donut.png)
+![Gráfico de anillo en el Asistente de IA.](./assets/ai-assistant/visualization/donut.png)
 
 >[!ENDTABS]

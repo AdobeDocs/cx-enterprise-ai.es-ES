@@ -4,10 +4,10 @@ description: Busque, evalúe y seleccione campos XDM en Adobe Experience Platfor
 keywords: detección de campos, XDM, asistente de IA, agentes de Experience Platform, vinculación de entidades, recomendaciones de campos, creación de audiencias, segmentación
 solution: Experience Platform
 role: User, Admin, Developer
-source-git-commit: 04fd79b306242d9fab4d0115ef3ac49e1c36401e
+source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
 workflow-type: tm+mt
-source-wordcount: '3534'
-ht-degree: 0%
+source-wordcount: '3367'
+ht-degree: 1%
 
 ---
 
@@ -31,7 +31,7 @@ Para utilizar el agente de detección de campos, asegúrese de que dispone de lo
 - La organización y zona protegida correctas
 - Acceso a los esquemas y conjuntos de datos que desea consultar
 
-La familiaridad básica con los esquemas XDM y cómo se utilizan los campos en la segmentación o en los flujos de trabajo de datos puede ayudarle a interpretar los resultados de forma más eficaz. Para obtener más información, consulte la [descripción general de XDM](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/home) y la [documentación del Editor de esquemas](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/tutorials/create-schema-ui).
+La familiaridad básica con los esquemas XDM y cómo se utilizan los campos en la segmentación o en los flujos de trabajo de datos puede ayudarle a interpretar los resultados de forma más eficaz. Para obtener más información, consulte la [descripción general de XDM](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/home) y la [documentación del Editor de esquemas](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/create-schema-ui).
 
 Para obtener instrucciones sobre cómo habilitar el acceso al Asistente de IA y conceder los permisos necesarios, consulte la [guía de acceso de Agent Orchestrator](./agent-orchestrator.md#access).
 
@@ -101,7 +101,7 @@ El agente de detección de campos devuelve resultados en un panel de **[!UICONTR
 - **[!UICONTROL Relevancia]**: la etiqueta de relevancia asignada al campo (**[!UICONTROL Muy relevante]**, **[!UICONTROL Moderadamente relevante]** o **[!UICONTROL Relevante]**)
 - **[!UICONTROL Contextos de uso]**: vínculos que muestran dónde aparece el campo en el ecosistema de datos. Seleccione **[!UICONTROL audience]**, **[!UICONTROL dataset]**, **[!UICONTROL destination]** o **[!UICONTROL schema]** para abrir un panel lateral que muestre dónde se utiliza el campo.
 
-![El panel Campos identificados en el Ayudante de IA muestra filas de campos candidatos con vínculos Etiquetas de relevancia y Contextos de uso.](./images/field-discovery/fields-identified-panel-in-chat.png)
+![El panel Campos identificados en el Ayudante de IA muestra filas de campos candidatos con vínculos Etiquetas de relevancia y Contextos de uso.](./assets/field-discovery/fields-identified-panel-in-chat.png)
 
 Aparece una sección **[!UICONTROL Resultados explicados]** debajo de la tabla **[!UICONTROL Campos identificados]** y proporciona contexto de nivel de campo adicional, incluidas explicaciones y detalles de compatibilidad para cada resultado. Para obtener instrucciones sobre cómo navegar por la interfaz del Asistente de IA, consulte la [guía de la interfaz de usuario del Asistente de IA](../ai-assistant/ai-assistant-ui.md).
 
@@ -118,7 +118,7 @@ Para utilizar el agente de detección de campos:
 3. Revise los resultados de clasificación en el panel **[!UICONTROL Campos identificados]**. Cada fila incluye una etiqueta de relevancia y una ruta de campo XDM en la columna **[!UICONTROL Nombre de campo]**.
 4. Seleccione **[!UICONTROL audience]**, **[!UICONTROL dataset]**, **[!UICONTROL destination]** o **[!UICONTROL schema]** en la columna **[!UICONTROL Contextos de uso]** para abrir un panel lateral que muestre dónde se utiliza el campo. Para obtener contexto de nivel de campo adicional, consulte la sección **[!UICONTROL Resultados explicados]** debajo de la tabla de resultados.
 
-   ![Panel lateral del Asistente de IA que muestra los contextos de uso de un campo seleccionado, incluidas las asociaciones de audiencia, conjunto de datos, destino y esquema.](./images/field-discovery/fields-identified-panel-expanded.png)
+   ![Panel lateral del Asistente de IA que muestra los contextos de uso de un campo seleccionado, incluidas las asociaciones de audiencia, conjunto de datos, destino y esquema.](./assets/field-discovery/fields-identified-panel-expanded.png)
 
 5. Utilice la ruta **[!UICONTROL Nombre de campo]** en herramientas de flujo descendente como Generador de segmentos, Servicio de consulta o flujos de trabajo de ingesta de datos, según el caso de uso. El agente de detección de campos proporciona la referencia de campo, pero no la inserta en otras herramientas.
 
@@ -138,7 +138,9 @@ Las secciones siguientes describen cada una de las tres funciones del agente de 
 
 Al describir un concepto o atributo de datos específico, el agente de detección de campos devuelve una lista clasificada de campos que coinciden semánticamente con la descripción.
 
-> &quot;¿Qué campos representan el estado o la provincia de origen de un cliente?&quot;&quot;Buscar campos relacionados con la fecha de transacción de compra.&quot;&quot;¿Qué campos contienen información sobre el consentimiento de marketing por correo electrónico?&quot;
+> &quot;¿Qué campos representan el estado o la provincia de origen de un cliente?&quot;
+> &quot;Buscar campos relacionados con la fecha de transacción de compra.&quot;
+> &quot;¿Qué campos contienen información sobre el consentimiento de marketing por correo electrónico?&quot;
 
 La respuesta enumera los campos candidatos con su etiqueta de relevancia y ruta XDM en el panel **[!UICONTROL Campos identificados]**. Los campos etiquetados como **[!UICONTROL Muy relevante]** se asemejan más a su concepto indicado. Si los resultados principales están etiquetados como **[!UICONTROL Moderadamente relevante]** o **[!UICONTROL Relevante]** en lugar de **[!UICONTROL Altamente relevante]**, refina la consulta usando una terminología más específica o un contexto de nivel de campo.
 
@@ -146,7 +148,9 @@ La respuesta enumera los campos candidatos con su etiqueta de relevancia y ruta 
 
 Cuando describe un objetivo de flujo de trabajo o un caso de uso, como crear un segmento, incorporar un conjunto de datos o preparar una consulta, Field Discovery Agent recomienda campos alineados con ese objetivo, priorizados por la relevancia.
 
-> &quot;Quiero crear una audiencia de clientes de alto valor. ¿Qué campos debo utilizar?&quot;&quot;Campos recomendados para modelar la tendencia de compra&quot;.&quot;¿Qué campos debo incluir al incorporar un conjunto de datos de transacciones minoristas?&quot;
+> &quot;Quiero crear una audiencia de clientes de alto valor. ¿Qué campos debo utilizar?&quot;
+> &quot;Campos recomendados para modelar la tendencia a la compra&quot;.
+> &quot;¿Qué campos debo incluir al incorporar un conjunto de datos de transacciones minoristas?&quot;
 
 La respuesta devuelve una lista priorizada de campos con contexto de relevancia. Revise el contexto de uso de cada campo recomendado para confirmar que se utiliza activamente en su entorno.
 
@@ -154,7 +158,9 @@ La respuesta devuelve una lista priorizada de campos con contexto de relevancia.
 
 Cuando se pregunta por un campo específico por su nombre o ruta, el agente de detección de campos devuelve un contexto detallado para ese campo, incluidos valores de muestra, ubicación de esquema y uso en conjuntos de datos, audiencias y destinos.
 
-> &quot;Más información acerca del campo `person.name.lastName`&quot;.&quot;¿Qué valores de muestra existen para `homeAddress.stateProvince`?&quot;&quot;¿Dónde se utiliza el campo `commerce.purchases.value` en mis conjuntos de datos y audiencias?&quot;
+> &quot;Más información acerca del campo `person.name.lastName`&quot;.
+> &quot;¿Qué valores de muestra existen para `homeAddress.stateProvince`?&quot;
+> &quot;¿Dónde se utiliza el campo `commerce.purchases.value` en mis conjuntos de datos y audiencias?&quot;
 
 La respuesta devuelve los valores de muestra del campo, la ubicación del esquema, los conjuntos de datos asociados y cualquier audiencia o destino en el que aparezca el campo. Revise este contexto para confirmar que el campo contiene los datos esperados.
 
@@ -207,7 +213,7 @@ Si tiene acceso a la edición de esquemas, puede mejorar la calidad de los resul
 - Agregar descripciones de campo siempre que sea posible.
 - Asociar campos a conjuntos de datos activos en lugar de dejarlos como definiciones solo de esquema.
 
-Para obtener instrucciones sobre cómo editar nombres para mostrar y descripciones de campos en el Editor de esquemas, consulte [Crear y editar esquemas en la interfaz de usuario](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/ui/resources/schemas).
+Para obtener instrucciones sobre cómo editar nombres para mostrar y descripciones de campos en el Editor de esquemas, consulte [Crear y editar esquemas en la interfaz de usuario](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas).
 
 Si no tiene acceso a la edición de esquemas y los resultados son deficientes de forma consistente, póngase en contacto con el administrador de Experience Platform o con el equipo de ingeniería de datos para revisar los metadatos de los campos de los esquemas con los que trabaja.
 
@@ -235,19 +241,31 @@ Utilice esta sección como biblioteca de mensajes de referencia rápida. Si no t
 
 Utilice estas indicaciones cuando conozca el concepto de datos que necesita, pero no el campo que lo contiene.
 
-> &quot;¿Qué campo contiene el estado o la región de un cliente?&quot;&quot;Busque campos relacionados con el estado de suscripción de correo electrónico.&quot;&quot;¿Qué campo contiene la fecha de la primera compra de un cliente?&quot;&quot;Identifique los campos que representan el valor de duración del cliente&quot;.&quot;¿Qué campos del esquema de perfil se relacionan con la pertenencia al programa de fidelidad?&quot;
+> &quot;¿Qué campo contiene el estado o la región de un cliente?&quot;
+> &quot;Buscar campos relacionados con el estado de suscripción de correo electrónico&quot;.
+> &quot;¿Qué campo contiene la fecha de la primera compra de un cliente?&quot;
+> &quot;Identifique campos que representen el valor de duración del cliente&quot;.
+> &quot;¿Qué campos de mi esquema de perfil se relacionan con la pertenencia al programa de fidelidad?&quot;
 
 ### Mensajes de recomendación
 
 Utilice estas indicaciones cuando inicie un flujo de trabajo y necesite instrucciones sobre los campos que desea incluir para un objetivo específico.
 
-> &quot;¿Qué campos debo utilizar para crear una audiencia de renovación de la participación?&quot;&quot;Campos recomendados para una audiencia dirigida a clientes que no han realizado compras en 90 días&quot;.&quot;¿Qué campos son más útiles para modelar el riesgo de pérdida?&quot;&quot;Sugerir campos que se deben incluir al crear una segmentación geográfica.&quot;&quot;Estoy construyendo un modelo de tendencia a comprar. ¿Con qué campos debo empezar?&quot;
+> &quot;¿Qué campos debo utilizar para crear una audiencia de renovación de la participación?&quot;
+> &quot;Campos recomendados para una audiencia dirigida a clientes que no han realizado compras en 90 días&quot;.
+> &quot;¿Qué campos son más útiles para modelar el riesgo de pérdida?&quot;
+> &quot;Sugerir campos que debería incluir al crear una segmentación geográfica&quot;.
+> &quot;Estoy construyendo un modelo de tendencia a comprar. ¿Con qué campos debo empezar?&quot;
 
 ### Mensajes de enriquecimiento
 
 Utilice estos indicadores cuando tenga un campo candidato y desee verificarlo antes de utilizarlo en un segmento, consulta o asignación.
 
-> &quot;Más información sobre `homeAddress.stateProvince`&quot;.&quot;Mostrarme valores de muestra para `commerce.purchases.value`&quot;.&quot;¿Dónde se utiliza `person.name.lastName` en mis conjuntos de datos y audiencias?&quot;&quot;¿Qué conjuntos de datos contienen el campo `web.webPageDetails.URL`?&quot;&quot;¿Está `segmentMembership` asignado a algún destino activo?&quot;
+> &quot;Más información sobre `homeAddress.stateProvince`&quot;.
+> &quot;Mostrarme valores de muestra para `commerce.purchases.value`.&quot;
+> &quot;¿Dónde se usa `person.name.lastName` en mis conjuntos de datos y audiencias?&quot;
+> &quot;¿Qué conjuntos de datos contienen el campo `web.webPageDetails.URL`?&quot;
+> &quot;¿Está `segmentMembership` asignado a algún destino activo?&quot;
 
 ## Solución de problemas {#troubleshooting}
 

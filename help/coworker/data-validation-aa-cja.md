@@ -2,7 +2,7 @@
 title: Validar datos con su compañero de trabajo al actualizar de Adobe Analytics a Customer Journey Analytics
 description: Descubra cómo los administradores de Analytics utilizan la habilidad de validación de datos de CX Enterprise Coworker para comparar los datos de Adobe Analytics y Customer Journey Analytics durante la actualización.
 hide: true
-source-git-commit: 30f4d593bdec8cb45d10c4c49fac3dce16e8ca03
+source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
 workflow-type: tm+mt
 source-wordcount: '1542'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 >[!NOTE]
 > 
->Siga los pasos de esta página solo después de completar todos los pasos de actualización anteriores. Puede seguir los pasos de actualización recomendados (recomendados para la mayoría de las organizaciones) o puede seguir los pasos generados dinámicamente para su organización con la Guía de actualización de Customer Journey Analytics. <ul><li>**Pasos de actualización recomendados** (recomendado para la mayoría de las organizaciones)<p>Un conjunto de pasos que conducen a una implementación de Customer Journey Analytics ideal.</p><p>Para obtener información detallada, consulte [Actualizar de Adobe Analytics a Customer Journey Analytics](https://experienceleague.adobe.com/es/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations).</p></li><li>**Guía de actualización de Customer Journey Analytics** (Pasos personalizados adaptados a las necesidades específicas de su organización)<p>Hay disponible una nueva guía de actualización que genera dinámicamente pasos de actualización adaptados a su organización y a sus circunstancias únicas.</p><p>Para acceder a la guía desde Customer Journey Analytics, selecciona la pestaña **[!UICONTROL Workspace]** y, a continuación, selecciona **[!UICONTROL Actualizar a Customer Journey Analytics]** en el panel izquierdo. Siga las instrucciones que aparecen en pantalla.</p></li></ul>
+>Siga los pasos de esta página solo después de completar todos los pasos de actualización anteriores. Puede seguir los pasos de actualización recomendados (recomendados para la mayoría de las organizaciones) o puede seguir los pasos generados dinámicamente para su organización con la Guía de actualización de Customer Journey Analytics. <ul><li>**Pasos de actualización recomendados** (recomendado para la mayoría de las organizaciones)<p>Un conjunto de pasos que conducen a una implementación de Customer Journey Analytics ideal.</p><p>Para obtener información detallada, consulte [Actualizar de Adobe Analytics a Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations).</p></li><li>**Guía de actualización de Customer Journey Analytics** (Pasos personalizados adaptados a las necesidades específicas de su organización)<p>Hay disponible una nueva guía de actualización que genera dinámicamente pasos de actualización adaptados a su organización y a sus circunstancias únicas.</p><p>Para acceder a la guía desde Customer Journey Analytics, selecciona la pestaña **[!UICONTROL Workspace]** y, a continuación, selecciona **[!UICONTROL Actualizar a Customer Journey Analytics]** en el panel izquierdo. Siga las instrucciones que aparecen en pantalla.</p></li></ul>
 
 CX Enterprise Coworker incluye una habilidad de validación que le permite validar datos al actualizar de Adobe Analytics a Customer Journey Analytics. La validación de datos se completa en una sola conversación.
 
@@ -89,10 +89,10 @@ Puede validar métricas o dimensiones individuales, o bien puede validar todas l
 
    | Puntuación | Clasificación | Lo que significa |
    |---------|----------|----------|
-   | 97-100% | ![Cuadrado verde](./images/data-validation-aa-cja/excellent-square.svg) [!UICONTROL Excelente] | Todas las propiedades están altamente alineadas. No se requiere ninguna acción. |
-   | 90-96 % | ![Círculo amarillo](./images/data-validation-aa-cja/good-circle.svg) [!UICONTROL Bueno] | Hay brechas menores. Monitorice las tendencias e investigue si disminuyen. |
-   | 75-89 % | ![Círculo naranja](./images/data-validation-aa-cja/review-circle.svg) [!UICONTROL Revisión] | Existen brechas significativas. Investigue las causas raíz antes de depender de los datos de Customer Journey Analytics. |
-   | Menos del 75% | ![Círculo rojo](./images/data-validation-aa-cja/critical-circle.svg) [!UICONTROL Pobre] | Desalineación significativa. Realice acciones inmediatas antes de utilizar los datos de Customer Journey Analytics. |
+   | 97-100% | ![Cuadrado verde](./assets/data-validation-aa-cja/excellent-square.svg) [!UICONTROL Excelente] | Todas las propiedades están altamente alineadas. No se requiere ninguna acción. |
+   | 90-96 % | ![Círculo amarillo](./assets/data-validation-aa-cja/good-circle.svg) [!UICONTROL Bueno] | Hay brechas menores. Monitorice las tendencias e investigue si disminuyen. |
+   | 75-89 % | ![Círculo naranja](./assets/data-validation-aa-cja/review-circle.svg) [!UICONTROL Revisión] | Existen brechas significativas. Investigue las causas raíz antes de depender de los datos de Customer Journey Analytics. |
+   | Menos del 75% | ![Círculo rojo](./assets/data-validation-aa-cja/critical-circle.svg) [!UICONTROL Pobre] | Desalineación significativa. Realice acciones inmediatas antes de utilizar los datos de Customer Journey Analytics. |
 
 1. Seleccione la ficha [!UICONTROL **Información clave**] para ver de dos a cuatro cuadros de llamada cortos, cada uno de los cuales resume un resultado del análisis en una sola frase. Las llamadas están codificadas por gravedad para que pueda identificar primero los hallazgos más importantes.
 
@@ -102,23 +102,23 @@ Puede validar métricas o dimensiones individuales, o bien puede validar todas l
 
    En el caso de las métricas, se trata de un gráfico de líneas que compara la tendencia diaria.
 
-   ![Pestaña de tendencia diaria que muestra un gráfico de líneas](./images/data-validation-aa-cja/trend-line.png)
+   ![Pestaña de tendencia diaria que muestra un gráfico de líneas](./assets/data-validation-aa-cja/trend-line.png)
 
    Para las dimensiones, se trata de un gráfico de barras que compara los valores principales.
 
-   ![Pestaña de tendencia diaria que muestra un gráfico de barras horizontales](./images/data-validation-aa-cja/trend-bar.png)
+   ![Pestaña de tendencia diaria que muestra un gráfico de barras horizontales](./assets/data-validation-aa-cja/trend-bar.png)
 
 1. (Condicional) Al realizar una comparación de una sola dimensión o una comparación de métrica única, puede ver los detalles de nivel de fila en la pestaña [!UICONTROL **Detalle de fecha**]. En esta tabla se muestra la fecha, el valor de Adobe Analytics, el valor de Customer Journey Analytics, el porcentaje de varianza y un distintivo de estado para cada métrica o valor de dimensión comparado.
 
-   ![Pestaña de detalles de fecha que muestra una tabla de porcentajes de variación e insignias de estado](./images/data-validation-aa-cja/date-detail.png)
+   ![Pestaña de detalles de fecha que muestra una tabla de porcentajes de variación e insignias de estado](./assets/data-validation-aa-cja/date-detail.png)
 
    Las columnas Variación y Estado utilizan la siguiente escala:
 
    | Varianza | Estado | Lo que significa |
    |---------|----------|----------|
-   | Menos del 3% | ![Marca de verificación verde](./images/data-validation-aa-cja/pass-check.svg) [!UICONTROL Aprobado] | Los datos están bien alineados. No se requiere ninguna acción. |
-   | 3-10 % | ![Triángulo de advertencia amarillo](./images/data-validation-aa-cja/flagged-warning.svg) [!UICONTROL Indicador] | Monitorice la diferencia e investigue si continúa o empeora. |
-   | Superior al 10 % | ![Círculo rojo](./images/data-validation-aa-cja/critical-circle.svg) [!UICONTROL Crítico] | Investigue inmediatamente. Esto generalmente apunta a un problema de esquema, ingesta o asignación. |
+   | Menos del 3% | ![Marca de verificación verde](./assets/data-validation-aa-cja/pass-check.svg) [!UICONTROL Aprobado] | Los datos están bien alineados. No se requiere ninguna acción. |
+   | 3-10 % | ![Triángulo de advertencia amarillo](./assets/data-validation-aa-cja/flagged-warning.svg) [!UICONTROL Indicador] | Monitorice la diferencia e investigue si continúa o empeora. |
+   | Superior al 10 % | ![Círculo rojo](./assets/data-validation-aa-cja/critical-circle.svg) [!UICONTROL Crítico] | Investigue inmediatamente. Esto generalmente apunta a un problema de esquema, ingesta o asignación. |
 
 1. (Condicional) Al ejecutar una auditoría de vista de datos y un grupo de informes completos, las pestañas [!UICONTROL **Tendencia diaria**] y [!UICONTROL **Detalle diario**] se reemplazan con un cuadro de resultados que muestra los recuentos correctos, marcados y críticos, junto con tablas independientes que enumeran las cinco métricas y dimensiones que mejor coinciden y las cinco principales que menos coinciden.
 
@@ -142,5 +142,5 @@ Puede validar métricas o dimensiones individuales, o bien puede validar todas l
 
 1. (Opcional) Continúe con el análisis analizando otra métrica, analizando otra dimensión o ejecutando otro informe de hasta 40 métricas y 20 dimensiones, como se describe en [Elija los datos que desea validar](#choose-the-data-to-validate). No es necesario que repita el proceso de configuración para hacerlo; su empresa, grupo de informes y selecciones de vista de datos se transfieren a lo largo de la conversación.
 
-1. Siga los [pasos de actualización recomendados](https://experienceleague.adobe.com/es/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations#recommended-upgrade-steps-for-most-organizations) o los pasos de actualización generados dinámicamente en la Guía de actualización de Customer Journey Analytics. Para acceder a la guía desde Customer Journey Analytics, selecciona la pestaña **[!UICONTROL Workspace]** y, a continuación, selecciona **[!UICONTROL Actualizar a Customer Journey Analytics]** en el panel izquierdo. Siga las instrucciones que aparecen en pantalla.
+1. Siga los [pasos de actualización recomendados](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations#recommended-upgrade-steps-for-most-organizations) o los pasos de actualización generados dinámicamente en la Guía de actualización de Customer Journey Analytics. Para acceder a la guía desde Customer Journey Analytics, selecciona la pestaña **[!UICONTROL Workspace]** y, a continuación, selecciona **[!UICONTROL Actualizar a Customer Journey Analytics]** en el panel izquierdo. Siga las instrucciones que aparecen en pantalla.
 
