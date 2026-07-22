@@ -12,7 +12,7 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 04fd79b306242d9fab4d0115ef3ac49e1c36401e
+source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
 workflow-type: tm+mt
 source-wordcount: 1242
 ht-degree: 2%
@@ -38,15 +38,15 @@ Audience Agent le permite ver información sobre las audiencias, como la detecci
 El asistente de Audience Agent en IA es compatible con los siguientes casos de uso:
 
 - Explorar la audiencia de forma conversacional
-   - Buscar tamaños de audiencia de audiencias existentes
-   - Busque audiencias basadas en atributos completos o parciales llamados
-   - Detección de audiencias duplicadas
-   - Descubra los campos XDM que puede utilizar para definir una audiencia
+  - Buscar tamaños de audiencia de audiencias existentes
+  - Busque audiencias basadas en atributos completos o parciales llamados
+  - Detección de audiencias duplicadas
+  - Descubra los campos XDM que puede utilizar para definir una audiencia
 - Detectar cambios significativos en el tamaño de la audiencia
-   - Esto le permite encontrar audiencias que han crecido o disminuido de repente, lo que le permite analizar mejor los posibles cambios del mercado
+  - Esto le permite encontrar audiencias que han crecido o disminuido de repente, lo que le permite analizar mejor los posibles cambios del mercado
 - Creación de públicos
-   - Esta aptitud le permite crear una audiencia basada en los atributos y eventos determinados
-   - Además, esta aptitud le permite calcular el tamaño potencial de una audiencia antes de crearla, lo que le permite iterar rápidamente en la audiencia más eficaz antes de que esté lista para activarse
+  - Esta aptitud le permite crear una audiencia basada en los atributos y eventos determinados
+  - Además, esta aptitud le permite calcular el tamaño potencial de una audiencia antes de crearla, lo que le permite iterar rápidamente en la audiencia más eficaz antes de que esté lista para activarse
 
 <!--
   - Find your audience size and detect significant changes in audience size
@@ -62,17 +62,17 @@ El asistente de Audience Agent en IA es compatible con los siguientes casos de u
 Audience Agent no **admite actualmente** la siguiente característica:
 
 - Exploración de audiencias basada en objetivos
-   - La exploración de audiencias basada en objetivos permite descubrir conjuntos de datos y perfiles relevantes alineados con un objetivo empresarial mediante la aplicación de modelos de aprendizaje automático como la tendencia a comprar o convertir.
+  - La exploración de audiencias basada en objetivos permite descubrir conjuntos de datos y perfiles relevantes alineados con un objetivo empresarial mediante la aplicación de modelos de aprendizaje automático como la tendencia a comprar o convertir.
 
 Además, al utilizar Audience Agent, debe tener en cuenta las siguientes restricciones:
 
 - Audience Agent necesita al menos 24 horas para procesar sus datos
-   - Por ejemplo, **no puede** tener una consulta que busque datos en las últimas 24 horas. Tendrá que mirar dentro de las últimas 48 horas, como mínimo.
+  - Por ejemplo, **no puede** tener una consulta que busque datos en las últimas 24 horas. Tendrá que mirar dentro de las últimas 48 horas, como mínimo.
 - Audience Agent solo admite los siguientes tipos de audiencia:
-   - **Audiencias basadas en personas** que se evalúan mediante la segmentación por lotes
-   - Audiencias **basadas en cuenta** para los siguientes casos de uso:
-      - Exploración de audiencia conversacional
-      - Detección de audiencia duplicada
+  - **Audiencias basadas en personas** que se evalúan mediante la segmentación por lotes
+  - Audiencias **basadas en cuenta** para los siguientes casos de uso:
+    - Exploración de audiencia conversacional
+    - Detección de audiencia duplicada
 
 ## Ejemplos de peticiones de datos
 
@@ -84,7 +84,7 @@ Muéstrame campos para compradores adinerados.
 
 +++ Respuesta
 
-![El asistente de IA muestra una tabla con campos relevantes para los compradores adinerados.](./images/audience/affluent-buyers.png)
+![El asistente de IA muestra una tabla con campos relevantes para los compradores adinerados.](./assets/audience/affluent-buyers.png)
 
 +++
 
@@ -92,7 +92,7 @@ Muéstrame campos para compradores adinerados.
 
 +++ Respuesta
 
-![El Asistente para IA muestra una tabla con audiencias que no se han activado o utilizado en campañas en los últimos 30 días.](./images/audience/not-activated.png)
+![El Asistente para IA muestra una tabla con audiencias que no se han activado o utilizado en campañas en los últimos 30 días.](./assets/audience/not-activated.png)
 
 +++
 
@@ -100,7 +100,7 @@ Enumerar todas las audiencias que se han asignado a nuevos destinos en los últi
 
 +++ Respuesta
 
-![El Asistente para IA enumera una audiencia que se ha asignado a un nuevo destino en los últimos tres meses.](./images/audience/new-destination.png)
+![El Asistente para IA enumera una audiencia que se ha asignado a un nuevo destino en los últimos tres meses.](./assets/audience/new-destination.png)
 
 +++
 
@@ -108,7 +108,7 @@ Enumerar todas las audiencias que se han asignado a nuevos destinos en los últi
 
 +++ Respuesta
 
-![El Asistente para IA muestra una tabla con las audiencias de cuenta más grandes.](./images/audience/largest-account-audience.png)
+![El Asistente para IA muestra una tabla con las audiencias de cuenta más grandes.](./assets/audience/largest-account-audience.png)
 
 +++
 
@@ -118,7 +118,7 @@ Enumerar todas las audiencias que se han asignado a nuevos destinos en los últi
 
 +++ Respuesta
 
-![El Asistente de IA muestra una tabla que contiene la definición del segmento y los nombres de las audiencias con las mismas definiciones de segmento.](./images/audience/similar-descriptions.png)
+![El Asistente de IA muestra una tabla que contiene la definición del segmento y los nombres de las audiencias con las mismas definiciones de segmento.](./assets/audience/similar-descriptions.png)
 
 +++
 
@@ -126,7 +126,7 @@ Identifique las audiencias que tienen las mismas reglas pero tienen nombres dife
 
 +++ Respuesta
 
-![El Asistente para IA muestra una tabla con los nombres de audiencias que comparten las mismas reglas de audiencia.](./images/audience/same-rules-different-names.png)
+![El Asistente para IA muestra una tabla con los nombres de audiencias que comparten las mismas reglas de audiencia.](./assets/audience/same-rules-different-names.png)
 
 +++
 
@@ -134,7 +134,7 @@ Mostrar todas las audiencias que tengan las mismas reglas pero distintos destino
 
 +++ Respuesta
 
-![El Asistente de IA muestra que no hay definiciones de segmento duplicadas para diferentes destinos.](./images/audience/same-rules-different-destinations.png)
+![El Asistente de IA muestra que no hay definiciones de segmento duplicadas para diferentes destinos.](./assets/audience/same-rules-different-destinations.png)
 
 +++
 
@@ -142,7 +142,7 @@ Identificar audiencias de cuenta que tienen las mismas reglas pero tienen nombre
 
 +++ Respuesta
 
-![El Asistente para IA muestra una tabla con los nombres e identificadores de audiencias de cuenta que comparten las mismas reglas de audiencia.](./images/audience/duplicate-account-audience.png)
+![El Asistente para IA muestra una tabla con los nombres e identificadores de audiencias de cuenta que comparten las mismas reglas de audiencia.](./assets/audience/duplicate-account-audience.png)
 
 +++
 
@@ -152,7 +152,7 @@ Identificar audiencias de cuenta que tienen las mismas reglas pero tienen nombre
 
 +++ Respuesta
 
-![El Asistente para IA indica el tamaño actual de la audiencia sobre la que se preguntó.](./images/audience/current-size.png)
+![El Asistente para IA indica el tamaño actual de la audiencia sobre la que se preguntó.](./assets/audience/current-size.png)
 
 +++
 
@@ -160,7 +160,7 @@ Identificar audiencias de cuenta que tienen las mismas reglas pero tienen nombre
 
 +++ Respuesta
 
-![El Asistente para IA proporciona información sobre la audiencia con la mayor cantidad de perfiles, incluidos el nombre y el ID de audiencia.](./images/audience/largest-audience.png)
+![El Asistente para IA proporciona información sobre la audiencia con la mayor cantidad de perfiles, incluidos el nombre y el ID de audiencia.](./assets/audience/largest-audience.png)
 
 +++
 
@@ -170,7 +170,7 @@ Identificar audiencias de cuenta que tienen las mismas reglas pero tienen nombre
 
 +++ Respuesta
 
-![El Asistente de IA muestra una tabla con los nombres de todas las audiencias que coinciden con la consulta. También muestra el aumento porcentual, el tamaño actual de la audiencia, así como el tamaño anterior de la audiencia.](./images/audience/increase-past-week.png)
+![El Asistente de IA muestra una tabla con los nombres de todas las audiencias que coinciden con la consulta. También muestra el aumento porcentual, el tamaño actual de la audiencia, así como el tamaño anterior de la audiencia.](./assets/audience/increase-past-week.png)
 
 +++
 
@@ -178,7 +178,7 @@ Identificar audiencias de cuenta que tienen las mismas reglas pero tienen nombre
 
 +++ Respuesta
 
-![El Asistente de IA muestra una tabla con los nombres de todas las audiencias que coinciden con la consulta. También muestra el tamaño de audiencia actual, el tamaño de la audiencia anterior y la fecha del tamaño de audiencia anterior.](./images/audience/decrease-month.png)
+![El Asistente de IA muestra una tabla con los nombres de todas las audiencias que coinciden con la consulta. También muestra el tamaño de audiencia actual, el tamaño de la audiencia anterior y la fecha del tamaño de audiencia anterior.](./assets/audience/decrease-month.png)
 
 +++
 
@@ -186,7 +186,7 @@ Identificar audiencias de cuenta que tienen las mismas reglas pero tienen nombre
 
 +++ Respuesta
 
-![El Asistente para IA indica el nombre de la audiencia que crece más rápido, así como el tamaño actual y el porcentaje de crecimiento.](./images/audience/fastest-growing.png)
+![El Asistente para IA indica el nombre de la audiencia que crece más rápido, así como el tamaño actual y el porcentaje de crecimiento.](./assets/audience/fastest-growing.png)
 
 +++
 
@@ -200,7 +200,7 @@ Al crear una audiencia con Audience Agent, el asistente de IA le guiará a trav�
 
 +++ Respuesta
 
-![El Asistente para IA muestra el plan para crear una audiencia.](./images/audience/audience-create-plan.png)
+![El Asistente para IA muestra el plan para crear una audiencia.](./assets/audience/audience-create-plan.png)
 
 +++
 
@@ -212,13 +212,13 @@ Este plan consta de tres pasos:
 
 #### Identificación de características de audiencia {#identify}
 
-![Paso 1 del plan, que consiste en identificar las características de la audiencia.](./images/audience/plan-step-1.png){align="center" width="80%"}
+![Paso 1 del plan, que consiste en identificar las características de la audiencia.](./assets/audience/plan-step-1.png){align="center" width="80%"}
 
 Después de aceptar el plan, el asistente de IA recopilará las características de la audiencia en función de su consulta inicial.
 
 +++ Respuesta
 
-![Definición de audiencia basada en la consulta del usuario.](./images/audience/audience-create-definition.png)
+![Definición de audiencia basada en la consulta del usuario.](./assets/audience/audience-create-definition.png)
 
 Para esta consulta, AI Assistant genera el Profile Query Language (PQL) relevante que buscaría personas que viven en California. En este caso de uso, la consulta de PQL tendría el siguiente aspecto:
 
@@ -234,13 +234,13 @@ Si la definición de audiencia del asistente de IA es correcta, puede aprobarla 
 
 #### Calcular tamaño de audiencia {#estimate}
 
-![Paso 2 del plan, que es estimar el tamaño de la audiencia potencial.](./images/audience/plan-step-2.png){align="center" width="80%"}
+![Paso 2 del plan, que es estimar el tamaño de la audiencia potencial.](./assets/audience/plan-step-2.png){align="center" width="80%"}
 
 Después de aprobar las características de audiencia identificadas, el asistente de IA calculará el tamaño de la audiencia potencial y los detalles de definición de audiencia.
 
 +++ Respuesta
 
-![Se muestra la estimación de muestra de la audiencia potencial. Se muestran el tamaño estimado y la definición del segmento.](./images/audience/audience-create-estimate.png)
+![Se muestra la estimación de muestra de la audiencia potencial. Se muestran el tamaño estimado y la definición del segmento.](./assets/audience/audience-create-estimate.png)
 
 +++
 
@@ -248,7 +248,7 @@ Si el tamaño estimado parece correcto, puede aprobarlo y pasar al siguiente pas
 
 #### Crear y mantener nueva audiencia {#create}
 
-![Paso 3 del plan, que es terminar de crear la audiencia.](./images/audience/plan-step-3.png){align="center" width="80%"}
+![Paso 3 del plan, que es terminar de crear la audiencia.](./assets/audience/plan-step-3.png){align="center" width="80%"}
 
 Por último, si las características y el tamaño de la audiencia parecen correctos, puede aprobar o rechazar la creación de la audiencia.
 
@@ -256,17 +256,17 @@ Por último, si las características y el tamaño de la audiencia parecen correc
 
 En primer lugar, puede revisar la audiencia propuesta a través de la cuadrícula de datos proporcionada.
 
-![Se muestra la pantalla de revisión.](./images/audience/audience-create-review.png)
+![Se muestra la pantalla de revisión.](./assets/audience/audience-create-review.png)
 
 Si la audiencia tiene el aspecto correcto, puede aceptar la propuesta seleccionando **[!UICONTROL Crear]** para finalizar la creación de la audiencia.
 
-![Se muestra la propuesta completa para la audiencia.](./images/audience/audience-create-proposal.png)
+![Se muestra la propuesta completa para la audiencia.](./assets/audience/audience-create-proposal.png)
 
 +++
 
 Se crea la audiencia.
 
-![Se aceptó la propuesta de audiencia y se creó la audiencia.](./images/audience/audience-finish-create.png){align="center" width="80%"}
+![Se aceptó la propuesta de audiencia y se creó la audiencia.](./assets/audience/audience-finish-create.png){align="center" width="80%"}
 
 ## Próximos pasos
 

@@ -22,9 +22,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 04fd79b306242d9fab4d0115ef3ac49e1c36401e
+source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
 workflow-type: tm+mt
-source-wordcount: 2690
+source-wordcount: 2655
 ht-degree: 4%
 
 ---
@@ -39,7 +39,7 @@ Data Insights Agent, al que se puede acceder desde el [Asistente de IA](/help/ai
 
 El uso de Data Insights Agent para responder preguntas centradas en los datos en Analysis Workspace puede ahorrar un tiempo considerable que, de lo contrario, podría dedicar manualmente a la creación de visualizaciones en Analysis Workspace y a familiarizarse con los componentes de las vistas de datos.
 
-![Data Insights Agent en el asistente de IA](/help/agents/images/cja-agent/cja-ai-asst-da.gif)
+![Data Insights Agent en el asistente de IA](/help/agents/assets/cja-agent/cja-ai-asst-da.gif)
 
 ## Funciones dentro y fuera de ámbito
 
@@ -72,22 +72,22 @@ Los siguientes parámetros rigen el acceso a Data Insights Agent en Customer Jou
 * **Permisos**: Deben otorgarse los permisos necesarios en [!UICONTROL Adobe Admin Console] para que los usuarios puedan acceder a Data Insights Agent.
 
   Para conceder permisos, un [administrador de perfil de producto](https://helpx.adobe.com/es/enterprise/using/manage-product-profiles.html) debe completar los siguientes pasos en [!UICONTROL Admin Console]:
-   1. En **[!UICONTROL Admin Console]**, seleccione la ficha **[!UICONTROL Productos]** para ver la página **[!UICONTROL Todos los productos y servicios]**.
-   1. Seleccione **[!UICONTROL Customer Journey Analytics]**.
-   1. En la ficha **[!UICONTROL Perfiles de producto]**, seleccione el título del perfil de producto para el que desea proporcionar acceso a [!UICONTROL Asistente de IA: Conocimiento del producto].
-   1. En el perfil de producto específico, seleccione la ficha **[!UICONTROL Permisos]**.
+  1. En **[!UICONTROL Admin Console]**, seleccione la ficha **[!UICONTROL Productos]** para ver la página **[!UICONTROL Todos los productos y servicios]**.
+  1. Seleccione **[!UICONTROL Customer Journey Analytics]**.
+  1. En la ficha **[!UICONTROL Perfiles de producto]**, seleccione el título del perfil de producto para el que desea proporcionar acceso a [!UICONTROL Asistente de IA: Conocimiento del producto].
+  1. En el perfil de producto específico, seleccione la ficha **[!UICONTROL Permisos]**.
 
-      ![Ficha Permisos en Admin Console](/help/agents/images/cja-agent/ai-assistant-permissions-tab.png)
+     ![Ficha Permisos en Admin Console](/help/agents/assets/cja-agent/ai-assistant-permissions-tab.png)
 
-   1. En la fila **[!UICONTROL Herramientas de informes]** de la tabla proporcionada, seleccione el icono de edición ![Editar](/help/agents/images/cja-agent/Edit.svg).
-   1. Desplácese hasta o busque **[!UICONTROL Asistente de IA: conocimiento del producto]** y, a continuación, seleccione el icono de signo más ![AgregarCírculo](/help/agents/images/cja-agent/AddCircle.svg) junto a este permiso.
-   1. Desplácese hasta **[!UICONTROL Data Insights Agent]** o búsquelo y, a continuación, seleccione el icono de signo más ![AddCircle](/help/agents/images/cja-agent/AddCircle.svg) junto a este permiso.
+  1. En la fila **[!UICONTROL Herramientas de informes]** de la tabla proporcionada, seleccione el icono de edición ![Editar](/help/agents/assets/cja-agent/Edit.svg).
+  1. Desplácese hasta o busque **[!UICONTROL Asistente de IA: conocimiento del producto]** y, a continuación, seleccione el icono de signo más ![AgregarCírculo](/help/agents/assets/cja-agent/AddCircle.svg) junto a este permiso.
+  1. Desplácese hasta **[!UICONTROL Data Insights Agent]** o búsquelo y, a continuación, seleccione el icono de signo más ![AddCircle](/help/agents/assets/cja-agent/AddCircle.svg) junto a este permiso.
 
-      El permiso **[!UICONTROL Asistente de IA: conocimiento del producto]** y el permiso **[!UICONTROL Data Insights Agent]** se han agregado a la columna **[!UICONTROL Elementos de permiso incluidos]**.
+     El permiso **[!UICONTROL Asistente de IA: conocimiento del producto]** y el permiso **[!UICONTROL Data Insights Agent]** se han agregado a la columna **[!UICONTROL Elementos de permiso incluidos]**.
 
-      ![Agregar permiso](/help/agents/images/cja-agent/ai-assistant-permissions.png).
+     ![Agregar permiso](/help/agents/assets/cja-agent/ai-assistant-permissions.png).
 
-   1. Seleccione **[!UICONTROL Guardar]** para guardar los permisos.
+  1. Seleccione **[!UICONTROL Guardar]** para guardar los permisos.
 
   Para obtener información adicional sobre el control de acceso, consulte [Control de acceso](https://experienceleague.adobe.com/es/docs/analytics-platform/using/technotes/access-control#access-control).
 
@@ -96,33 +96,34 @@ Los siguientes parámetros rigen el acceso a Data Insights Agent en Customer Jou
   >[!IMPORTANT]
   >
   >Tenga en cuenta lo siguiente al habilitar las vistas de datos:
-  >* Puede habilitar un máximo de 50 vistas de datos por organización IMS. Si habilita más de 50 vistas de datos en todos los perfiles de producto para una organización determinada, Data Insights Agent utilizará las 50 vistas de datos más utilizadas.  >  Puede usar la [información de la columna Data Insights Agent en Vistas de datos](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/manage-dataviews#manage-data-views) para ver la cantidad de vistas de datos que están habilitadas para Data Insights Agent en su organización IMS.
+  >* Puede habilitar un máximo de 50 vistas de datos por organización IMS. Si habilita más de 50 vistas de datos en todos los perfiles de producto para una organización determinada, Data Insights Agent utilizará las 50 vistas de datos más utilizadas.
+  >  Puede usar la [información de la columna Data Insights Agent en Vistas de datos](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/manage-dataviews#manage-data-views) para ver la cantidad de vistas de datos que están habilitadas para Data Insights Agent en su organización IMS.
   >* Data Insights Agent puede hacer referencia a las vistas de datos incluidas en algún momento durante el mismo día en que las habilita.
 
   Para habilitar las vistas de datos para Data Insights Agent:
 
-   1. En Customer Journey Analytics, seleccione **[!UICONTROL Administración de datos]** > **[!UICONTROL Vistas de datos]**.
+  1. En Customer Journey Analytics, seleccione **[!UICONTROL Administración de datos]** > **[!UICONTROL Vistas de datos]**.
 
-   1. Seleccione una o más vistas de datos que desee habilitar para Data Insights Agent y, a continuación, seleccione **[!UICONTROL Habilitar para Data Insights Agent]**.
+  1. Seleccione una o más vistas de datos que desee habilitar para Data Insights Agent y, a continuación, seleccione **[!UICONTROL Habilitar para Data Insights Agent]**.
 
-      ![Habilitar vistas de datos para Data Insights Agent](/help/agents/images/cja-agent/data-view-enable-dia.png)
+     ![Habilitar vistas de datos para Data Insights Agent](/help/agents/assets/cja-agent/data-view-enable-dia.png)
 
-      Para obtener más información acerca de cómo habilitar vistas de datos para Data Insights Agent, consulte la [Configuración de IA para una vista de datos](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/create-dataview#ai-settings/help/data-views/create-dataview.md#ai-settings).
+     Para obtener más información acerca de cómo habilitar vistas de datos para Data Insights Agent, consulte la [Configuración de IA para una vista de datos](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/create-dataview#ai-settings/help/data-views/create-dataview.md#ai-settings).
 
   Para ver la cantidad de vistas de datos que están habilitadas para Data Insights Agent en su organización IMS:
 
-   1. En Customer Journey Analytics, seleccione **[!UICONTROL Administración de datos]** > **[!UICONTROL Vistas de datos]**.
+  1. En Customer Journey Analytics, seleccione **[!UICONTROL Administración de datos]** > **[!UICONTROL Vistas de datos]**.
 
-   1. Seleccione el icono de información en la parte superior de la columna **[!UICONTROL Data Insights Agent]**.
+  1. Seleccione el icono de información en la parte superior de la columna **[!UICONTROL Data Insights Agent]**.
 
-      ![Icono de información de Data Insights Agent](/help/agents/images/cja-agent/data-insights-agent-tooltip.png)
+     ![Icono de información de Data Insights Agent](/help/agents/assets/cja-agent/data-insights-agent-tooltip.png)
 
 
 ## Acceder a Data Insights Agent en el asistente de IA
 
 1. Vaya a [experience.adobe.com](https://experience.adobe.com/) e inicie sesión con su Adobe ID.
 
-2. Seleccione **Customer Journey Analytics** en la página de inicio de Experience Cloud.
+2. Seleccione **Customer Journey Analytics** de la página de inicio de CX Enterprise.
 
 3. Seleccione **[!UICONTROL Proyecto en blanco]** en el banner de la parte superior de la página de proyectos para abrir un nuevo proyecto en blanco.
 
@@ -138,7 +139,7 @@ Los siguientes parámetros rigen el acceso a Data Insights Agent en Customer Jou
 
    Para obtener más información, consulte [Administrar el acceso a Data Insights Agent en Customer Journey Analytics](#manage-access-to-data-insights-agent-in-customer-journey-analytics).
 
-   ![icono del Asistente de IA](/help/agents/images/cja-agent/ai-asst-icon.png)
+   ![icono del Asistente de IA](/help/agents/assets/cja-agent/ai-asst-icon.png)
 
 6. En el cuadro de diálogo **[!UICONTROL Preguntar por Customer Journey Analytics]** que aparece en la parte inferior de la página, haga una pregunta sobre la visualización de datos con Data Insights Agent.
 
@@ -150,13 +151,13 @@ Por ejemplo, supongamos que le interesan los pedidos que recibió su empresa en 
 
 **Mensaje:** Escriba *&quot;Tendencia de pedidos en julio.&quot;*
 
-![petición de datos de IA](/help/agents/images/cja-agent/ai-asst-prompt1.png)
+![petición de datos de IA](/help/agents/assets/cja-agent/ai-asst-prompt1.png)
 
 **Respuesta:** Data Insights Agent recopila datos al examinar los datos de la vista de datos, incluidas las métricas y los componentes. Traduce el mensaje a las dimensiones y métricas correctas dentro del rango de datos.
 
 Como puede ver, generó automáticamente un gráfico de líneas y una tabla de forma libre para mostrar los pedidos de julio.
 
-![Respuesta a la solicitud: gráfico de líneas y tabla de forma libre](/help/agents/images/cja-agent/ai-asst-result.png)
+![Respuesta a la solicitud: gráfico de líneas y tabla de forma libre](/help/agents/assets/cja-agent/ai-asst-result.png)
 
 ### Ejemplo 2
 
@@ -166,7 +167,7 @@ A continuación, desea ver cómo se comparan los ingresos por región.
 
 **Respuesta:** Data Insights Agent entiende inteligentemente que por &quot;región&quot; se refiere a &quot;región del cliente&quot;. Genera un gráfico de barras que muestra mejor los ingresos por región:
 
-![Gráfico de barras](/help/agents/images/cja-agent/ai-asst-result2.png)
+![Gráfico de barras](/help/agents/assets/cja-agent/ai-asst-result2.png)
 
 ### Ejemplo 3
 
@@ -176,7 +177,7 @@ A continuación, además de comprender los ingresos por región, también desea 
 
 **Respuesta:** El gráfico de **[!UICONTROL barras]** sigue proporcionando la respuesta más concisa, pero la métrica de beneficios se ha agregado como una columna en la tabla de forma libre:
 
-![Gráfico de barras](/help/agents/images/cja-agent/ai-asst-result4.png)
+![Gráfico de barras](/help/agents/assets/cja-agent/ai-asst-result4.png)
 
 ### Ejemplo 4
 
@@ -186,11 +187,11 @@ Por último, veamos los ingresos por categoría de producto.
 
 **Respuesta:** De nuevo, Data Insights Agent elige la visualización más adecuada, en este caso la visualización **[!UICONTROL Anillo]**, para responder a la pregunta.
 
-![Anillo](/help/agents/images/cja-agent/ai-asst-result3.png)
+![Anillo](/help/agents/assets/cja-agent/ai-asst-result3.png)
 
-## Acceso a Data Insights Agent en todas las aplicaciones de Experience Cloud
+## Acceso a Data Insights Agent en todas las aplicaciones empresariales de CX
 
-Adobe Experience Platform Agent Orchestrator le permite acceder a la funcionalidad de Data Insights Agent en varias aplicaciones de Adobe Experience Cloud, como Adobe Journey Optimizer y Real-Time CDP.
+Adobe Experience Platform Agent Orchestrator le permite acceder a la funcionalidad de Data Insights Agent en varias aplicaciones empresariales de Adobe CX, como Adobe Journey Optimizer y Real-Time CDP.
 
 Agent Orchestrator interpreta su solicitud, determina qué agentes especializados son necesarios y los organiza para que proporcionen la respuesta correcta. Realiza un seguimiento del contexto en las interacciones de varias vueltas, para que pueda aprovechar las consultas anteriores de forma natural.
 
@@ -284,5 +285,8 @@ A continuación se describen las prácticas recomendadas para la configuración 
 
 >[!MORELIKETHIS]
 >
->[Configuración de componentesDiccionario de datosAprobar métrica calculadaCompartir segmentos](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-components/segments/seg-share)
+>[Configuración de componentes](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
+>[Diccionario de datos](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-components/data-dictionary/data-dictionary-overview)
+>[Aprobar métrica calculada](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-approving)
+>[Compartir segmentos](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-components/segments/seg-share)
 
