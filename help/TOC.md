@@ -21,7 +21,7 @@ ht-degree: 17%
   - [IA agéntica](./overview/agentic-ai.md)
   - [Monitorización de IA agéntica](./overview/monitoring.md)
   - [Trabajos del agente y consumo de crédito de IA](./overview/ai-credit-consumption.md)
-  - [Herramientas agénticas](https://experienceleague.adobe.com/en/docs/cx-enterprise-agentic-tools/using/overview)
+  - [Herramientas agénticas](https://experienceleague.adobe.com/es/docs/cx-enterprise-agentic-tools/using/overview)
 - Asistente de IA {#ai-assistant}
   - [Guía de IU del asistente de IA](./ai-assistant/ai-assistant-ui.md)
   - [Biblioteca de mensajes](./ai-assistant/prompt-library.md)
@@ -54,7 +54,7 @@ ht-degree: 17%
     - [Herramientas de Journey Optimizer](./mcp/ajo-mcp.md)
     - [Herramientas de Customer Journey Analytics](./mcp/cja-mcp.md)
     - [Herramientas de Adobe Analytics](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/es/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Compañero {#coworker}
   - [Campañas de compañeros](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/campaigns/overview)
   - [Chat de compañeros](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/overview)
