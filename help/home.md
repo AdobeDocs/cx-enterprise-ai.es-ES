@@ -15,9 +15,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: d8daade8bb7d0259cd18fe7c8f957955dd97b2a0
+source-git-commit: 2d8059201070965b01e67d2c910adc3a7b66ab01
 workflow-type: tm+mt
-source-wordcount: 766
+source-wordcount: 881
 ht-degree: 2%
 
 ---
@@ -60,14 +60,17 @@ Para obtener la lista completa de agentes, las aplicaciones compatibles y los re
 
 ## CX Enterprise Coworker
 
-CX Enterprise Coworker es una evolución del asistente de IA que se centra en el agente. En lugar de hacer una pregunta a la vez, se describe un objetivo en lenguaje natural y el colaborador planifica el trabajo, lo ejecuta en el Adobe y en los sistemas conectados, valida los resultados y devuelve el trabajo terminado para su aprobación. El compañero incluye:
+CX Enterprise Coworker es una evolución de IA Assistant que automatiza la experiencia del cliente y los flujos de trabajo de marketing, para que su equipo pueda centrarse en los objetivos comerciales en lugar de en la ejecución rutinaria. En lugar de hacer una pregunta a la vez, se describe un objetivo en lenguaje natural y el colaborador planifica el trabajo, lo ejecuta en el Adobe y en los sistemas conectados, valida los resultados y devuelve el trabajo terminado para su aprobación. El compañero incluye:
 
-- **Chat del compañero**: Una interfaz conversacional para explorar sus datos, validar audiencias y recorridos y completar tareas de varios pasos en las aplicaciones de CX Enterprise.
-- **Campañas de compañeros de trabajo**: una aplicación nativa de IA que consolida la información de la campaña, la creación de audiencias, la generación de contenido, el diseño de recorridos y la revisión en una sola experiencia de conversación.
+- **[Chat del compañero](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/overview)**: Una interfaz conversacional para explorar los datos, validar audiencias y recorridos y completar tareas de varios pasos en las aplicaciones de CX Enterprise.
+- **[Campañas de compañeros de trabajo](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/campaigns/overview)**: una aplicación nativa de IA que consolida la información de la campaña, la creación de audiencias, la generación de contenido, el diseño de recorridos y la revisión en una sola experiencia de conversación, utilizando plantillas integradas, prácticas recomendadas y orientación para que equipos pequeños y ágiles puedan iniciar campañas rápidamente.
+- **Proyectos de compañeros** (próximamente): Un espacio de trabajo unificado para automatizar los flujos de trabajo de la orquestación de la experiencia del cliente de extremo a extremo, lo que ayuda a los equipos a coordinar tareas, aprobaciones y ejecuciones para dirigir los resultados desde la estrategia hasta la entrega. La documentación de los proyectos estará disponible próximamente.
 
 Los clientes aptos se están trasladando gradualmente del asistente de IA y los agentes de Experience Platform al chat con el compañero. Lea la [Prueba de CX Enterprise Coworker](./agents/trial.md) para obtener información sobre la elegibilidad del periodo de prueba, el uso del crédito de IA y cómo obtener acceso.
 
-Para ver el chat de compañeros en acción, visita [Chat de compañeros en el patio](./coworker/playground-coworker-chat.md) o lee casos de uso reales como [Validar datos de migración de AA a CJA](./coworker/data-validation-aa-cja.md) y [Analizar la entrega de conversiones](./coworker/analytics-chat.md).
+Para ver el chat de compañeros en acción, visita [Chat de compañeros en el patio](./coworker/playground-coworker-chat.md) o lee casos de uso reales como [Validar datos de migración de AA a CJA](./coworker/data-validation-aa-cja.md) y [Analizar datos de CJA](./coworker/analytics-chat.md).
+
+Para obtener documentación completa del producto sobre Chat, campañas y proyectos de compañeros de trabajo, consulte [Colaborador empresarial de Adobe CX](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/home).
 
 ## MCP
 
