@@ -5,10 +5,10 @@ user-guide-description: Aprenda a utilizar el Asistente de IA para acelerar el f
 description: Obtenga información sobre el asistente de IA en CX Enterprise. Mejore sus conocimientos sobre productos y obtenga perspectivas operativas utilizando IA en CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: db9cc53acf4631273b7dab96c503d5c174fe106c
+source-git-commit: 2f0d068bb46de297561a71ec728d614dce7166b7
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 17%
+source-wordcount: '219'
+ht-degree: 18%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 17%
   - [IA agéntica](./overview/agentic-ai.md)
   - [Monitorización de IA agéntica](./overview/monitoring.md)
   - [Trabajos del agente y consumo de crédito de IA](./overview/ai-credit-consumption.md)
-  - [Herramientas agénticas](https://experienceleague.adobe.com/es/docs/cx-enterprise-agentic-tools/using/overview)
+  - [Herramientas agénticas](https://experienceleague.adobe.com/en/docs/cx-enterprise-agentic-tools/using/overview)
 - Asistente de IA {#ai-assistant}
   - [Guía de IU del asistente de IA](./ai-assistant/ai-assistant-ui.md)
   - [Biblioteca de mensajes](./ai-assistant/prompt-library.md)
@@ -54,10 +54,9 @@ ht-degree: 17%
     - [Herramientas de Journey Optimizer](./mcp/ajo-mcp.md)
     - [Herramientas de Customer Journey Analytics](./mcp/cja-mcp.md)
     - [Herramientas de Adobe Analytics](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/es/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Compañero {#coworker}
-  - [Campañas de compañeros](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/campaigns/overview)
-  - [Chat de compañeros](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/overview)
+  - [Página de inicio del compañero](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/home)
   - {hide-from-toc}[Chat de compañeros en el patio de recreo](./coworker/playground-coworker-chat.md)
   - {hide-from-toc}[Validar datos de migración de AA a CJA](./coworker/data-validation-aa-cja.md)
-  - [Analizar datos de CJA](./coworker/analytics-chat.md)
+
