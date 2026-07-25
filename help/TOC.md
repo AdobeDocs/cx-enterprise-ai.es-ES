@@ -5,10 +5,10 @@ user-guide-description: Aprenda a utilizar el Asistente de IA para acelerar el f
 description: Obtenga información sobre el asistente de IA en CX Enterprise. Mejore sus conocimientos sobre productos y obtenga perspectivas operativas utilizando IA en CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: db9cc53acf4631273b7dab96c503d5c174fe106c
+source-git-commit: 2f0d068bb46de297561a71ec728d614dce7166b7
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 17%
+source-wordcount: '219'
+ht-degree: 18%
 
 ---
 
@@ -56,8 +56,7 @@ ht-degree: 17%
     - [Herramientas de Adobe Analytics](./mcp/analytics-mcp.md)
     - [Workfront](https://experienceleague.adobe.com/es/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Compañero {#coworker}
-  - [Campañas de compañeros](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/campaigns/overview)
-  - [Chat de compañeros](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/overview)
+  - [Página de inicio del compañero](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/home)
   - {hide-from-toc}[Chat de compañeros en el patio de recreo](./coworker/playground-coworker-chat.md)
   - {hide-from-toc}[Validar datos de migración de AA a CJA](./coworker/data-validation-aa-cja.md)
-  - [Analizar datos de CJA](./coworker/analytics-chat.md)
+
