@@ -5,9 +5,9 @@ user-guide-description: Aprenda a utilizar el Asistente de IA para acelerar el f
 description: Obtenga información sobre el asistente de IA en CX Enterprise. Mejore sus conocimientos sobre productos y obtenga perspectivas operativas utilizando IA en CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: 2f0d068bb46de297561a71ec728d614dce7166b7
+source-git-commit: 8648fc2b3c36c2e017ba122a46931cdc14b04160
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '220'
 ht-degree: 18%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 18%
   - [IA agéntica](./overview/agentic-ai.md)
   - [Monitorización de IA agéntica](./overview/monitoring.md)
   - [Trabajos del agente y consumo de crédito de IA](./overview/ai-credit-consumption.md)
-  - [Herramientas agénticas](https://experienceleague.adobe.com/es/docs/cx-enterprise-agentic-tools/using/overview)
+  - [Herramientas agénticas](https://experienceleague.adobe.com/en/docs/cx-enterprise-agentic-tools/using/overview)
 - Asistente de IA {#ai-assistant}
   - [Guía de IU del asistente de IA](./ai-assistant/ai-assistant-ui.md)
   - [Biblioteca de mensajes](./ai-assistant/prompt-library.md)
@@ -54,9 +54,9 @@ ht-degree: 18%
     - [Herramientas de Journey Optimizer](./mcp/ajo-mcp.md)
     - [Herramientas de Customer Journey Analytics](./mcp/cja-mcp.md)
     - [Herramientas de Adobe Analytics](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/es/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-- Compañero {#coworker}
-  - [Página de inicio del compañero](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/home)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+- Ayuda de compañeros {#coworker}
+  - [Ayuda de compañeros](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/home)
   - {hide-from-toc}[Chat de compañeros en el patio de recreo](./coworker/playground-coworker-chat.md)
   - {hide-from-toc}[Validar datos de migración de AA a CJA](./coworker/data-validation-aa-cja.md)
 
