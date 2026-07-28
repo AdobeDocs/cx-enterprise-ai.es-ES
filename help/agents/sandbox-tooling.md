@@ -50,15 +50,15 @@ Para utilizar las habilidades de agente de herramientas de espacio aislado:
 
 ![Los resultados de la solicitud con la opción Continuar seleccionada, destacando Enviar.](./assets/sandbox-tooling/results-proceed.png)
 
-4. Seleccione uno o varios objetos que desee migrar y, a continuación, seleccione **[!UICONTROL Enviar]**.
+&#x200B;4. Seleccione uno o varios objetos que desee migrar y, a continuación, seleccione **[!UICONTROL Enviar]**.
 
 ![Enviar resaltado de página de selección de objetos.](./assets/sandbox-tooling/object-selection.png)
 
-5. Revise los objetos y dependencias que el agente identifica y confirme las acciones de la operación: *Crear nuevo* o *Usar existente*. Cuando esté listo para comenzar la migración, seleccione **[!UICONTROL Continuar]** y, a continuación, seleccione **[!UICONTROL Enviar]** para confirmar. La migración puede tardar varios minutos en completarse.
+&#x200B;5. Revise los objetos y dependencias que el agente identifica y confirme las acciones de la operación: *Crear nuevo* o *Usar existente*. Cuando esté listo para comenzar la migración, seleccione **[!UICONTROL Continuar]** y, a continuación, seleccione **[!UICONTROL Enviar]** para confirmar. La migración puede tardar varios minutos en completarse.
 
 ![Confirmar envío de resalte de página de plan de acción.](./assets/sandbox-tooling/action-plan.png)
 
-6. Cuando finaliza la migración, los objetos seleccionados están disponibles en la zona protegida de destino.
+&#x200B;6. Cuando finaliza la migración, los objetos seleccionados están disponibles en la zona protegida de destino.
 
 ![Transferir página completa que muestra el estado de la solicitud.](./assets/sandbox-tooling/transfer-complete.png)
 
