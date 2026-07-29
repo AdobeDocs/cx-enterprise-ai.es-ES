@@ -139,4 +139,4 @@ Proporcione siempre el contexto y la propuesta de valor para que la API pueda ge
 
 >[!MORELIKETHIS]
 >
->Examine más [patrones de solicitud](./) para Campañas de compañeros de trabajo.
+>Examine más [patrones de solicitud] (./) para Campañas de compañeros de trabajo.

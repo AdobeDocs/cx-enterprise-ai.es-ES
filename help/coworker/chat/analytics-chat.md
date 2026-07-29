@@ -29,13 +29,13 @@ Antes de usar el chat de Coworker con los datos de Customer Journey Analytics, a
 * Aptitudes
 * Y más
 
-Para obtener más información, consulte la [Guía de la interfaz de usuario de Coworker Chat](./).
+Para obtener más información, consulte la [Guía de la interfaz de usuario de Coworker Chat] (./).
 
 ### Casos de uso para Customer Journey Analytics
 
 Puede ver casos de uso de Customer Journey Analytics y ejemplos de mensajes que los profesionales utilizan en Adobe CX Enterprise Coworker Chat. Cada mensaje se crea para copiarse, adaptarse con sus propios datos y contexto, y refinarse a través de la conversación.
 
-Para obtener más información, consulte [Casos de uso](./).
+Para obtener más información, consulte [Casos de uso] (./).
 
 ## Compruebe que Chat del compañero está conectado a Customer Journey Analytics
 
