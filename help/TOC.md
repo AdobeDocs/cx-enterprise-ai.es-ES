@@ -5,9 +5,9 @@ user-guide-description: Aprenda a utilizar el Asistente de IA para acelerar el f
 description: Obtenga información sobre el asistente de IA en CX Enterprise. Mejore sus conocimientos sobre productos y obtenga perspectivas operativas utilizando IA en CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: 8648fc2b3c36c2e017ba122a46931cdc14b04160
+source-git-commit: 869d08a77b71bb7690cccdcd5b00c4ddfe0bd722
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '227'
 ht-degree: 18%
 
 ---
@@ -59,4 +59,5 @@ ht-degree: 18%
   - [Ayuda de compañeros](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/home)
   - {hide-from-toc}[Chat de compañeros en el patio de recreo](./coworker/playground-coworker-chat.md)
   - {hide-from-toc}[Validar datos de migración de AA a CJA](./coworker/data-validation-aa-cja.md)
-
+  - [Analizar datos de CJA](./coworker/analytics-chat.md)
+  - [Habilidades de agencia de herramientas para espacios aislados](./agents/sandbox-tooling.md)
