@@ -5,7 +5,7 @@ user-guide-description: Aprenda a utilizar el Asistente de IA para acelerar el f
 description: Obtenga información sobre el asistente de IA en CX Enterprise. Mejore sus conocimientos sobre productos y obtenga perspectivas operativas utilizando IA en CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: c4d93fc0c799e8bb73cb355a53ae8d8167f7659d
+source-git-commit: 0a2e9b364a7e13358055bfd75e70679771bd3b57
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 21%
@@ -21,7 +21,7 @@ ht-degree: 21%
   - [IA agéntica](./overview/agentic-ai.md)
   - [Monitorización de IA agéntica](./overview/monitoring.md)
   - [Trabajos del agente y consumo de crédito de IA](./overview/ai-credit-consumption.md)
-  - [Herramientas agénticas](https://experienceleague.adobe.com/es/docs/cx-enterprise-agentic-tools/using/overview)
+  - [Herramientas agénticas](https://experienceleague.adobe.com/en/docs/cx-enterprise-agentic-tools/using/overview)
 - Asistente de IA {#ai-assistant}
   - [Guía de IU del asistente de IA](./ai-assistant/ai-assistant-ui.md)
   - [Biblioteca de mensajes](./ai-assistant/prompt-library.md)
@@ -54,17 +54,17 @@ ht-degree: 21%
     - [Herramientas de Journey Optimizer](./mcp/ajo-mcp.md)
     - [Herramientas de Customer Journey Analytics](./mcp/cja-mcp.md)
     - [Herramientas de Adobe Analytics](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/es/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Compañero {#coworker}
   - [Acerca de Coworker](./coworker/overview.md)
-  - Campañas {#coworker-campaigns}
+  - Campañas {#campaigns}
     - [Información general](./coworker/campaigns/overview.md)
     - [Creación de una campaña de correo electrónico](./coworker/campaigns/create-an-email-campaign.md)
     - [Casos de uso](./coworker/campaigns/use-cases.md)
     - [Impulso de las prácticas recomendadas](./coworker/campaigns/prompting-best-practices.md)
     - [Conectores](./coworker/campaigns/connectors.md)
     - [Notas de la versión](./coworker/campaigns/release-notes.md)
-  - Chat {#coworker-chat}
+  - Chat {#chat}
     - [Información general](./coworker/chat/overview.md)
     - [Casos de uso](./coworker/chat/use-cases.md)
     - [Guía de IU](./coworker/chat/ui-guide.md)
