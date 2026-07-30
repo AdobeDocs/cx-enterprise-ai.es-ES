@@ -5,7 +5,7 @@ user-guide-description: Aprenda a utilizar el Asistente de IA para acelerar el f
 description: Obtenga información sobre el asistente de IA en CX Enterprise. Mejore sus conocimientos sobre productos y obtenga perspectivas operativas utilizando IA en CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: c4d93fc0c799e8bb73cb355a53ae8d8167f7659d
+source-git-commit: 0a2e9b364a7e13358055bfd75e70679771bd3b57
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 21%
@@ -57,14 +57,14 @@ ht-degree: 21%
     - [Workfront](https://experienceleague.adobe.com/es/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Compañero {#coworker}
   - [Acerca de Coworker](./coworker/overview.md)
-  - Campañas {#coworker-campaigns}
+  - Campañas {#campaigns}
     - [Información general](./coworker/campaigns/overview.md)
     - [Creación de una campaña de correo electrónico](./coworker/campaigns/create-an-email-campaign.md)
     - [Casos de uso](./coworker/campaigns/use-cases.md)
     - [Impulso de las prácticas recomendadas](./coworker/campaigns/prompting-best-practices.md)
     - [Conectores](./coworker/campaigns/connectors.md)
     - [Notas de la versión](./coworker/campaigns/release-notes.md)
-  - Chat {#coworker-chat}
+  - Chat {#chat}
     - [Información general](./coworker/chat/overview.md)
     - [Casos de uso](./coworker/chat/use-cases.md)
     - [Guía de IU](./coworker/chat/ui-guide.md)
