@@ -5,10 +5,10 @@ user-guide-description: Aprenda a utilizar el Asistente de IA para acelerar el f
 description: Obtenga información sobre el asistente de IA en CX Enterprise. Mejore sus conocimientos sobre productos y obtenga perspectivas operativas utilizando IA en CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: 869d08a77b71bb7690cccdcd5b00c4ddfe0bd722
+source-git-commit: c4d93fc0c799e8bb73cb355a53ae8d8167f7659d
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 18%
+source-wordcount: '237'
+ht-degree: 21%
 
 ---
 
@@ -55,9 +55,20 @@ ht-degree: 18%
     - [Herramientas de Customer Journey Analytics](./mcp/cja-mcp.md)
     - [Herramientas de Adobe Analytics](./mcp/analytics-mcp.md)
     - [Workfront](https://experienceleague.adobe.com/es/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-- Ayuda de compañeros {#coworker}
-  - [Ayuda de compañeros](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/home)
+- Compañero {#coworker}
+  - [Acerca de Coworker](./coworker/overview.md)
+  - Campañas {#coworker-campaigns}
+    - [Información general](./coworker/campaigns/overview.md)
+    - [Creación de una campaña de correo electrónico](./coworker/campaigns/create-an-email-campaign.md)
+    - [Casos de uso](./coworker/campaigns/use-cases.md)
+    - [Impulso de las prácticas recomendadas](./coworker/campaigns/prompting-best-practices.md)
+    - [Conectores](./coworker/campaigns/connectors.md)
+    - [Notas de la versión](./coworker/campaigns/release-notes.md)
+  - Chat {#coworker-chat}
+    - [Información general](./coworker/chat/overview.md)
+    - [Casos de uso](./coworker/chat/use-cases.md)
+    - [Guía de IU](./coworker/chat/ui-guide.md)
+    - [Analizar datos de CJA](./coworker/chat/analytics-chat.md)
   - {hide-from-toc}[Chat de compañeros en el patio de recreo](./coworker/playground-coworker-chat.md)
   - {hide-from-toc}[Validar datos de migración de AA a CJA](./coworker/data-validation-aa-cja.md)
-  - [Analizar datos de CJA](./coworker/analytics-chat.md)
   - [Habilidades de agencia de herramientas para espacios aislados](./agents/sandbox-tooling.md)

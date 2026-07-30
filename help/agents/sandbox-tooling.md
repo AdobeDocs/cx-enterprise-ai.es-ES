@@ -1,7 +1,7 @@
 ---
 title: Habilidades de agencia de herramientas para espacios aislados
 description: Aprenda a utilizar las habilidades de agente de herramientas de espacio aislado para replicar metadatos de objetos en entornos de espacio aislado.
-source-git-commit: 1fec24983eff50e6d0215c576049d9a80105bfc0
+source-git-commit: 7790447877fa20321321ce5561d8ff61b28c572e
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 1%
@@ -42,23 +42,23 @@ Interactúe con las habilidades de agencia de herramientas de espacio aislado a 
 Para utilizar las habilidades de agente de herramientas de espacio aislado:
 
 1. Vaya a **[!UICONTROL CX Coworker]**.
-2. Escriba una descripción clara de lo que desea lograr. Por ejemplo:
+1. Escriba una descripción clara de lo que desea lograr. Por ejemplo:
 
    *&quot;Mover el miembro Platino de fidelidad de esquema de la zona protegida actual a la zona protegida de demostración de Acme.&quot;*
 
-3. Revise la tabla de resultados, que muestra los entornos limitados de origen y destino. Cuando esté listo para continuar, seleccione **[!UICONTROL Continuar]** y, a continuación, seleccione **[!UICONTROL Enviar]** para confirmar.
+1. Revise la tabla de resultados, que muestra los entornos limitados de origen y destino. Cuando esté listo para continuar, seleccione **[!UICONTROL Continuar]** y, a continuación, seleccione **[!UICONTROL Enviar]** para confirmar.
 
-![Los resultados de la solicitud con la opción Continuar seleccionada, destacando Enviar.](./assets/sandbox-tooling/results-proceed.png)
+   ![Los resultados de la solicitud con la opción Continuar seleccionada, destacando Enviar.](./assets/sandbox-tooling/results-proceed.png)
 
-&#x200B;4. Seleccione uno o varios objetos que desee migrar y, a continuación, seleccione **[!UICONTROL Enviar]**.
+1. Seleccione uno o varios objetos que desee migrar y, a continuación, seleccione **[!UICONTROL Enviar]**.
 
-![Enviar resaltado de página de selección de objetos.](./assets/sandbox-tooling/object-selection.png)
+   ![Enviar resaltado de página de selección de objetos.](./assets/sandbox-tooling/object-selection.png)
 
-&#x200B;5. Revise los objetos y dependencias que el agente identifica y confirme las acciones de la operación: *Crear nuevo* o *Usar existente*. Cuando esté listo para comenzar la migración, seleccione **[!UICONTROL Continuar]** y, a continuación, seleccione **[!UICONTROL Enviar]** para confirmar. La migración puede tardar varios minutos en completarse.
+1. Revise los objetos y dependencias que el agente identifica y confirme las acciones de la operación: *Crear nuevo* o *Usar existente*. Cuando esté listo para comenzar la migración, seleccione **[!UICONTROL Continuar]** y, a continuación, seleccione **[!UICONTROL Enviar]** para confirmar. La migración puede tardar varios minutos en completarse.
 
-![Confirmar envío de resalte de página de plan de acción.](./assets/sandbox-tooling/action-plan.png)
+   ![Confirmar envío de resalte de página de plan de acción.](./assets/sandbox-tooling/action-plan.png)
 
-&#x200B;6. Cuando finaliza la migración, los objetos seleccionados están disponibles en la zona protegida de destino.
+1. Cuando finaliza la migración, los objetos seleccionados están disponibles en la zona protegida de destino.
 
 ![Transferir página completa que muestra el estado de la solicitud.](./assets/sandbox-tooling/transfer-complete.png)
 
