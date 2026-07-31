@@ -1,14 +1,14 @@
 ---
 audience: user
 user-guide-title: Asistente de IA en Adobe CX Enterprise
-user-guide-description: Aprenda a utilizar el Asistente de IA para acelerar el flujo de trabajo con Adobe Experience Platform y Real-time Customer Data Platform.
+user-guide-description: Aprenda a utilizar el Asistente de IA para acelerar el flujo de trabajo con Adobe Experience Platform y Real-Time Customer Data Platform.
 description: Obtenga información sobre el asistente de IA en CX Enterprise. Mejore sus conocimientos sobre productos y obtenga perspectivas operativas utilizando IA en CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: 0a2e9b364a7e13358055bfd75e70679771bd3b57
+source-git-commit: 41a237937d9c84db25a4fea12f7f3a403b462c67
 workflow-type: tm+mt
 source-wordcount: '237'
-ht-degree: 21%
+ht-degree: 26%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 21%
     - [Creación de una campaña de correo electrónico](./coworker/campaigns/create-an-email-campaign.md)
     - [Casos de uso](./coworker/campaigns/use-cases.md)
     - [Impulso de las prácticas recomendadas](./coworker/campaigns/prompting-best-practices.md)
-    - [Conectores](./coworker/campaigns/connectors.md)
+    - {hide-from-toc}[Conectores](./coworker/campaigns/connectors.md)
     - [Notas de la versión](./coworker/campaigns/release-notes.md)
   - Chat {#chat}
     - [Información general](./coworker/chat/overview.md)
