@@ -78,7 +78,7 @@ Si el cliente desea desactivar el acceso a estas funciones del agente y deshabil
 
 Lea las siguientes guías para obtener más información sobre Coworker, Agent Orchestrator y AI Assistant:
 
-- [CX Enterprise Coworker](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/home)
+- [CX Enterprise Coworker](https://experienceleague.adobe.com/es/docs/cx-enterprise-coworker/content/home)
 - [Información general de Agent Orchestrator](agent-orchestrator.md)
 - [Guía de IU del asistente de IA](../ai-assistant/ai-assistant-ui.md)
 - [Biblioteca de mensajes del Ayudante de IA](../ai-assistant/prompt-library.md)
