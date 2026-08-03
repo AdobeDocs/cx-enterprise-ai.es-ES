@@ -3,8 +3,8 @@ title: Herramientas Adobe Experience Platform en CX Coworker Gateway
 description: Descubra qué herramientas de Adobe Experience Platform están disponibles a través de CX Coworker Gateway.
 source-git-commit: 30f4d593bdec8cb45d10c4c49fac3dce16e8ca03
 workflow-type: tm+mt
-source-wordcount: '1372'
-ht-degree: 8%
+source-wordcount: '1354'
+ht-degree: 6%
 
 ---
 
