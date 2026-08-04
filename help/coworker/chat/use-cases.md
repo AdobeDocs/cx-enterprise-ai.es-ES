@@ -1,16 +1,16 @@
 ---
 description: Casos de uso y ejemplos de mensajes de texto de Browse Coworker Chat, organizados por área en las perspectivas de datos, audiencias, recorridos y operaciones de la plataforma.
 title: Casos de uso
-source-git-commit: 7907ba48f339a6da4f144c0420d31911e03f5050
+source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
 workflow-type: tm+mt
-source-wordcount: '1136'
+source-wordcount: '1134'
 ht-degree: 3%
 
 ---
 
 # Casos de uso {#use-cases}
 
-A continuación se muestran casos de uso y ejemplos de mensajes que los profesionales utilizan en el chat de compañeros de Adobe CX Enterprise, organizado por área de trabajo. Cada mensaje se crea para copiarse, adaptarse con sus propios datos y contexto, y refinarse a través de la conversación.
+A continuación se muestran casos de uso y ejemplos de mensajes que los profesionales utilizan en Adobe Coworker Chat, organizado por área de trabajo. Cada mensaje se crea para copiarse, adaptarse con sus propios datos y contexto, y refinarse a través de la conversación.
 
 ## Perspectivas de datos
 

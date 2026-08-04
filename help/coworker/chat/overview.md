@@ -1,14 +1,14 @@
 ---
 description: Aprenda cómo Coworker Chat utiliza una interfaz conversacional para planificar, ejecutar y completar el trabajo de la experiencia del cliente en Adobe y los sistemas conectados en minutos.
-title: Descripción general del chat de Adobe CX Enterprise
-source-git-commit: 7907ba48f339a6da4f144c0420d31911e03f5050
+title: Descripción general de Adobe Coworker Chat
+source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '679'
 ht-degree: 0%
 
 ---
 
-# Descripción general de Adobe CX Enterprise Coworker Chat {#overview}
+# Información general de Adobe Coworker Chat {#overview}
 
 El chat de compañeros es una interfaz conversacional para lograr que la experiencia del cliente funcione. Usted describe un objetivo en lenguaje sencillo (por ejemplo, &quot;construir una audiencia para la promoción de yoga de primavera&quot; o &quot;dime por qué esta audiencia se redujo la semana pasada&quot;) y Coworker Chat planifica el trabajo, lo ejecuta en su Adobe y sistemas conectados, valida los resultados y le devuelve el trabajo terminado para su aprobación.
 
@@ -20,7 +20,7 @@ El valor: el trabajo que solía abarcar varias pantallas, equipos y días ahora 
 
 >[!NOTE]
 >
->Coworker Chat es un módulo de Adobe CX Enterprise Coworker. Otros dos módulos amplían la misma base: Campañas de compañeros (levántese e inicie una campaña completa desde una conversación) y Proyectos de compañeros (un espacio de trabajo siempre activo para flujos de trabajo de extremo a extremo y de varios equipos). Esta página cubre el Chat del compañero.
+>Coworker Chat es un módulo de Adobe Coworker. Otros dos módulos amplían la misma base: Campañas de compañeros (levántese e inicie una campaña completa desde una conversación) y Proyectos de compañeros (un espacio de trabajo siempre activo para flujos de trabajo de extremo a extremo y de varios equipos). Esta página cubre el Chat del compañero.
 
 ## Una evolución de AI Assistant
 
@@ -51,4 +51,4 @@ Coworker Chat funciona con los componentes básicos de Coworker. Los siguientes 
 
 ## Vídeo introductorio
 
->[!VIDEO](https://video.tv.adobe.com/v/3495970?captions=spa&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3495967?learn=on){transcript=true}

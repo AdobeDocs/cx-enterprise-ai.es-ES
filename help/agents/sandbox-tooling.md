@@ -1,9 +1,9 @@
 ---
 title: Habilidades de agencia de herramientas para espacios aislados
 description: Aprenda a utilizar las habilidades de agente de herramientas de espacio aislado para replicar metadatos de objetos en entornos de espacio aislado.
-source-git-commit: 7790447877fa20321321ce5561d8ff61b28c572e
+source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '706'
 ht-degree: 1%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 1%
 
 >[!AVAILABILITY]
 >
->Los clientes con acceso a Adobe CX Enterprise Coworker pueden adquirir las habilidades de agente de herramientas para zonas protegidas. Para utilizar todas las funciones disponibles, necesita los siguientes permisos:
+>Las habilidades de agente de herramientas de zona protegida están disponibles para todos los clientes con acceso a Adobe Coworker. Para utilizar todas las funciones disponibles, necesita los siguientes permisos:
 >
 >**Manage-sandbox** o **View-sandbox**: estos permisos le permiten utilizar habilidades de agente de herramientas de espacio aislado para ver espacios aislados directamente en Coworker.
 >
@@ -23,7 +23,7 @@ ht-degree: 1%
 >
 >Actualmente, puede utilizar las habilidades de agente de herramientas de zona protegida para descubrir, empaquetar y migrar objetos de esquema y audiencia. En futuras versiones se añadirá compatibilidad con tipos de objeto adicionales.
 
-Utilice las habilidades de agente de herramientas de espacio aislado para mover metadatos de objetos, incluidos esquemas y audiencias, a entornos de Adobe Experience Platform. Para ello, describa lo que desea lograr en lenguaje natural. Con CX Coworker, puede descubrir los metadatos necesarios, identificar automáticamente las dependencias, crear paquetes de migración y migrar objetos a través de una experiencia de conversación.
+Utilice las habilidades de agente de herramientas de espacio aislado para mover metadatos de objetos, incluidos esquemas y audiencias, a entornos de Adobe Experience Platform. Para ello, describa lo que desea lograr en lenguaje natural. Con Coworker, puede descubrir los metadatos necesarios, identificar automáticamente las dependencias, crear paquetes de migración y migrar objetos a través de una experiencia conversacional.
 
 ## Requisitos previos {#prerequisites}
 
@@ -31,13 +31,13 @@ Antes de empezar, asegúrese de que dispone de lo siguiente:
 
 - Acceso a Adobe Experience Platform y a la organización y zona protegida adecuadas.
 - Acceso a los objetos que desea descubrir o migrar.
-- El complemento CXO de Adobe instalado en CX Coworker.
+- El complemento CXO de Adobe instalado en Coworker.
 
-Para obtener instrucciones sobre la instalación de complementos, consulte la [guía de la interfaz de usuario de Coworker](https://experienceleague.adobe.com/es/docs/cx-enterprise-coworker/content/chat/ui-guide).
+Para obtener instrucciones sobre la instalación de complementos, consulte la [guía de la interfaz de usuario de Coworker](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/ui-guide).
 
 ## Uso de habilidades de agente de herramientas de espacio aislado {#use-sandbox-tooling-agentic-skills}
 
-Interactúe con las habilidades de agencia de herramientas de espacio aislado a través de CX Coworker usando lenguaje natural. Describa su objetivo con la mayor claridad posible. Las solicitudes específicas producen los mejores resultados, mientras que las solicitudes vagas o demasiado breves pueden devolver resultados de menor calidad o no invocar al agente.
+Interactúe con Sandbox Tooling Agentic Skills a través de Coworker usando lenguaje natural. Describa su objetivo con la mayor claridad posible. Las solicitudes específicas producen los mejores resultados, mientras que las solicitudes vagas o demasiado breves pueden devolver resultados de menor calidad o no invocar al agente.
 
 Para utilizar las habilidades de agente de herramientas de espacio aislado:
 
@@ -62,7 +62,7 @@ Para utilizar las habilidades de agente de herramientas de espacio aislado:
 
 ![Transferir página completa que muestra el estado de la solicitud.](./assets/sandbox-tooling/transfer-complete.png)
 
-Para obtener más información sobre cómo usar CX Coworker, consulte la [guía de la interfaz de usuario de Coworker](https://experienceleague.adobe.com/es/docs/cx-enterprise-coworker/content/chat/ui-guide).
+Para obtener más información sobre cómo usar Coworker, consulte la [guía de la interfaz de usuario de Coworker](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/ui-guide).
 
 ## Casos de uso admitidos {#supported-use-cases}
 
@@ -72,7 +72,7 @@ Explore formas comunes de utilizar las habilidades agénticas de la herramienta 
 
 Como administrador de zona protegida que administra varios entornos limitados de Adobe Experience Platform, puede migrar los metadatos de los objetos mediante solicitudes en lenguaje natural en lugar de navegar manualmente por la interfaz de usuario.
 
-Con CX Coworker, puede migrar metadatos de objetos (incluidos esquemas, audiencias y recursos de configuración relacionados) de una zona protegida a otra describiendo la migración en lenguaje natural. Las habilidades de agente de herramientas de zona protegida identifican y empaquetan automáticamente las dependencias requeridas, lo que garantiza una migración fiable.
+Con Coworker, puede migrar metadatos de objeto, incluidos esquemas, audiencias y recursos de configuración relacionados, de un entorno limitado a otro describiendo la migración en lenguaje natural. Las habilidades de agente de herramientas de zona protegida identifican y empaquetan automáticamente las dependencias requeridas, lo que garantiza una migración fiable.
 
 Por ejemplo:
 
@@ -108,4 +108,4 @@ Utilice estas indicaciones cuando conozca el nombre de la audiencia.
 
 Después de leer esta guía, debe comprender cómo utilizar las habilidades de agente de herramientas de espacio aislado para descubrir, empaquetar y migrar objetos admitidos entre espacios aislados.
 
-Para obtener más información sobre las herramientas de zonas protegidas, consulte la [Guía de herramientas de zonas protegidas](https://experienceleague.adobe.com/es/docs/experience-platform/sandbox/ui/sandbox-tooling).
+Para obtener más información sobre las herramientas de zonas protegidas, consulte la [Guía de herramientas de zonas protegidas](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/ui/sandbox-tooling).
