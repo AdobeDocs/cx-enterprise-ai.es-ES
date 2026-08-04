@@ -1,7 +1,7 @@
 ---
 title: Analizar datos de Customer Journey Analytics con el chat de Coworker
 description: Aprenda a utilizar el chat de compañeros de Adobe CX Enterprise para analizar datos de Customer Journey Analytics, crear canales y encontrar dónde abandonan los clientes en el recorrido.
-source-git-commit: 7907ba48f339a6da4f144c0420d31911e03f5050
+source-git-commit: 4c615d3c844049e47edde3b4c4dd7f77a788c268
 workflow-type: tm+mt
 source-wordcount: '2047'
 ht-degree: 4%
@@ -21,21 +21,21 @@ Antes de comenzar el análisis, obtenga información acerca de la interfaz y las
 Antes de usar el chat de Coworker con los datos de Customer Journey Analytics, aprenda a iniciar sesión y administrar las opciones de configuración de las siguientes funciones:
 
 * Entradas de chat
-* Conversaciones
+* Conversiones
 * Marketplaces
 * Servidores MCP
 * Memoria
 * Complementos
-* Aptitudes
+* Habilidades
 * Y más
 
-Para obtener más información, consulte la [Guía de la interfaz de usuario de Coworker Chat] (./).
+Para obtener más información, consulte la [Guía de la interfaz de usuario de Coworker Chat](./).
 
 ### Casos de uso para Customer Journey Analytics
 
 Puede ver casos de uso de Customer Journey Analytics y ejemplos de mensajes que los profesionales utilizan en Adobe CX Enterprise Coworker Chat. Cada mensaje se crea para copiarse, adaptarse con sus propios datos y contexto, y refinarse a través de la conversación.
 
-Para obtener más información, consulte [Casos de uso] (./).
+Para obtener más información, consulte [Casos de uso](./).
 
 ## Compruebe que Chat del compañero está conectado a Customer Journey Analytics
 
@@ -60,33 +60,33 @@ Indique a su Compañero de trabajo los tipos de preguntas que desea responder y 
 **Usted:**
 
 >[!BEGINSHADEBOX]
->
->Me interesa saber dónde caen los clientes en el recorrido de clientes. ¿A qué vistas de datos de Customer Journey Analytics tengo acceso que puedan responder a esta pregunta?
->
+
+Me interesa saber dónde caen los clientes en el recorrido de clientes. ¿A qué vistas de datos de Customer Journey Analytics tengo acceso que puedan responder a esta pregunta?
+
 >[!ENDSHADEBOX]
 
 **Respuesta de chat de compañero:**
 
 >[!BEGINSHADEBOX]
->
->Tiene acceso a tres vistas de datos. La vista de datos `Customer lifecycle` contiene las siguientes dimensiones y métricas, que serían las mejores para responder a su pregunta.
->
+
+Tiene acceso a tres vistas de datos. La vista de datos `Customer lifecycle` contiene las siguientes dimensiones y métricas, que serían las mejores para responder a su pregunta.
+
 >[!ENDSHADEBOX]
 
 **Usted:**
 
 >[!BEGINSHADEBOX]
->
->Genial, vamos a usar esa vista de datos.
->
+
+Genial, vamos a usar esa vista de datos.
+
 >[!ENDSHADEBOX]
 
 **Respuesta de chat de compañero:**
 
 >[!BEGINSHADEBOX]
->
->De acuerdo, usaré la vista de datos de `Customer lifecycle` para responder preguntas futuras en esta sesión de chat.
->
+
+De acuerdo, usaré la vista de datos de `Customer lifecycle` para responder preguntas futuras en esta sesión de chat.
+
 >[!ENDSHADEBOX]
 
 ### Agregar una preferencia de vista de datos en la memoria
@@ -138,9 +138,9 @@ No necesita saber qué es una &quot;visualización de abandonos&quot; o qué mé
 **Usted:**
 
 >[!BEGINSHADEBOX]
->
->¿Dónde estamos perdiendo gente en el camino a comprar?
->
+
+¿Dónde estamos perdiendo gente en el camino a comprar?
+
 >[!ENDSHADEBOX]
 
 **Respuesta de chat de compañero:**
@@ -189,9 +189,9 @@ Aquí es donde estás perdiendo gente:
 **Usted:**
 
 >[!BEGINSHADEBOX]
->
->Vale, vamos a desglosar por canal de marketing
->
+
+Vale, vamos a desglosar por canal de marketing
+
 >[!ENDSHADEBOX]
 
 **Respuesta de chat de compañero:**
@@ -240,9 +240,9 @@ Los canales de mercadotecnia están haciendo su trabajo. Todos están interesand
 **Usted:**
 
 >[!BEGINSHADEBOX]
->
->Interesante. Intentemos desglosar por tipo de dispositivo.
->
+
+Interesante. Intentemos desglosar por tipo de dispositivo.
+
 >[!ENDSHADEBOX]
 
 **Respuesta de chat de compañero:**
@@ -299,20 +299,20 @@ El patrón de datos (participación igual, caída catastrófica de cierre de com
 **Usted:**
 
 >[!BEGINSHADEBOX]
->
->Entonces, ¿qué debo hacer?
->
+
+Entonces, ¿qué debo hacer?
+
 >[!ENDSHADEBOX]
 
 **Respuesta de chat de compañero:**
 
 >[!BEGINSHADEBOX]
->
->Basándome en lo que muestran los datos, aquí es donde me enfocaría:
->
->* **Corrija el cierre de compra móvil; no es un problema de canal.** Cada canal está convirtiendo a las personas en el carro de compras a una tasa similar y saludable, por lo que el gasto en publicidad está funcionando en todos los ámbitos. Los ingresos se pierden específicamente en el flujo de cierre de compra móvil, que es donde pertenece la corrección.
->* **Empiece con el pago y la fricción del formulario.** Estas son las razones más comunes por las que los compradores móviles de alta intención abandonan un carro de compras. Ofrecer opciones de billetera móvil y acortar el formulario suelen ser las ganancias más rápidas.
->* **Vuelva a comprobar después de la corrección.** Una vez que se envían los cambios de cierre de compra, observe si la tasa de compra del carro de compras del móvil se desplaza hacia la tasa de escritorio del 23,2 %.
+
+Basándome en lo que muestran los datos, aquí es donde me enfocaría:
+
+* **Corrija el cierre de compra móvil; no es un problema de canal.** Cada canal está convirtiendo a las personas en el carro de compras a una tasa similar y saludable, por lo que el gasto en publicidad está funcionando en todos los ámbitos. Los ingresos se pierden específicamente en el flujo de cierre de compra móvil, que es donde pertenece la corrección.
+* **Empiece con el pago y la fricción del formulario.** Estas son las razones más comunes por las que los compradores móviles de alta intención abandonan un carro de compras. Ofrecer opciones de billetera móvil y acortar el formulario suelen ser las ganancias más rápidas.
+* **Vuelva a comprobar después de la corrección.** Una vez que se envían los cambios de cierre de compra, observe si la tasa de compra del carro de compras del móvil se desplaza hacia la tasa de escritorio del 23,2 %.
 
 ¿Quiere que guarde esto como un proyecto para que pueda rastrearlo o que establezca una alerta si el carro de compras móvil cae por debajo de un umbral?
 
