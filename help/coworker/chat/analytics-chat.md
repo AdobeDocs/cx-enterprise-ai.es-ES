@@ -1,10 +1,10 @@
 ---
 title: Analizar datos de Customer Journey Analytics con el chat de Coworker
 description: Aprenda a utilizar Adobe Coworker Chat para analizar los datos de Customer Journey Analytics, crear canales y encontrar dónde abandonan los clientes en el recorrido.
-source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
+source-git-commit: 73e328412f2997b6710c813844899f7069ba534a
 workflow-type: tm+mt
-source-wordcount: '2040'
-ht-degree: 4%
+source-wordcount: '3239'
+ht-degree: 3%
 
 ---
 
@@ -12,9 +12,18 @@ ht-degree: 4%
 
 Adobe Coworker Chat puede realizar análisis de datos avanzados que anteriormente solo eran posibles en Analysis Workspace. El chat de compañeros accede a los datos de sus vistas de datos de Customer Journey Analytics, lo que le permite explorar esos datos y obtener respuestas a las preguntas en lenguaje natural.
 
+Puede utilizar el chat de Coworker de dos formas, en función del análisis que necesite:
+
+* **Respuestas rápidas** - Haga una pregunta directa en un lenguaje sencillo y obtenga una respuesta inmediata. Los usuarios empresariales suelen utilizar el chat de Coworker de esta manera, y los analistas también lo utilizan cuando necesitan una respuesta rápida para una parte interesada.
+* **Trabajo de reflexión profunda**: mantenga una conversación prolongada y de varias vueltas con Coworker Chat para investigar un problema empresarial, descartar causas y llegar a una recomendación. Los analistas suelen utilizar este método para explorar los datos en profundidad antes de realizar una recomendación.
+
 Antes de comenzar el análisis, obtenga información acerca de la interfaz y las opciones de configuración de Coworker Chat y, a continuación, asegúrese de que Coworker esté conectado a Customer Journey Analytics y a la vista de datos que contiene los datos que desea utilizar.
 
 ## Introducción al chat con compañeros
+
+### Acceso a datos y permisos
+
+El chat de compañeros hereda los permisos de Customer Journey Analytics. Solo puede acceder a las vistas de datos, dimensiones, métricas y segmentos disponibles en Analysis Workspace.
 
 ### Opciones de interfaz y configuración
 
@@ -29,17 +38,43 @@ Antes de usar el chat de Coworker con los datos de Customer Journey Analytics, a
 * Habilidades
 * Y más
 
-Para obtener más información, consulte la [Guía de la interfaz de usuario de Coworker Chat] (./).
+Para obtener más información, consulte la [Guía de la interfaz de usuario de Coworker Chat](/help/coworker/chat/ui-guide.md).
 
-### Casos de uso para Customer Journey Analytics
+### Prácticas recomendadas al analizar datos con Coworker Chat
 
-Puede ver casos de uso de Customer Journey Analytics y ejemplos de mensajes que los profesionales utilizan en el chat de Coworker. Cada mensaje se crea para copiarse, adaptarse con sus propios datos y contexto, y refinarse a través de la conversación.
+#### Prácticas recomendadas a nivel de organización
 
-Para obtener más información, consulte [Casos de uso] (./).
+* Nombrar a un analista de su organización como Coworker champion.
+
+* Cree una biblioteca de preguntas y habilidades evaluadas que se correlacionen con los datos y los componentes disponibles para los usuarios.
+
+* Cree una o más habilidades que dirijan el chat de compañeros para utilizar solo los componentes que desee utilizar en los análisis. Esto ayuda a Coworker Chat a proporcionar a los usuarios de su organización los datos más relevantes.
+
+* Informe a los usuarios sobre cuándo preguntar a Coworker Chat una respuesta rápida en comparación con cuándo usarla para un trabajo profundo.
+
+#### Prácticas recomendadas a nivel de usuario
+
+* Utilice el modo de plan. Esto es especialmente útil para tareas complejas, pero también puede arrojar mejores resultados para tareas simples porque permite a los compañeros hacer preguntas de seguimiento antes de actuar. Para obtener más información, consulte [Modo de planificación](/help/coworker/chat/ui-guide.md#plan-mode).
+
+* Cuando cree una solicitud, sea lo más específico posible:
+
+  * Asigne un nombre a las dimensiones, métricas e intervalos de fechas que desee analizar.
+  * Hacer referencia a componentes de vista de datos, como dimensiones, métricas y segmentos, por su nombre exacto.
+  * Especifique los segmentos, audiencias, canales o dispositivos que quiera incluir, excluir o comparar.
+  * Indique si desea un tipo de visualización específico, como una funnel, una tendencia o una tabla de cohorte.
+  * Pida los siguientes pasos recomendados si desea que Coworker Chat le sugiera preguntas de seguimiento.
+  * Solicite un horizonte de previsión, como &quot;próximos 30 días&quot;, al proyectar métricas.
+  * Mencione cualquier hipótesis que ya tenga, de modo que Coworker Chat pueda validarla o descartarla.
+  * Pregunte por las dimensiones de contribución si desea un desglose de un cambio de métrica.
+  * Especifique la audiencia para un resumen, como el liderazgo o el equipo de marketing, y solicite una descripción del paquete de diapositivas si planea presentar los resultados.
+  * Asigne un nombre al grupo de informes y a la vista de datos específicos que desea comparar al validar los datos.
+  * Complete primero un análisis y, a continuación, pida a Chat del compañero que lo guarde como una habilidad, poniéndole un nombre claro y descriptivo y anotando la frecuencia con la que planea reutilizarlo.
+
+* Añade direcciones estándar a la memoria de Coworker Chat. Por ejemplo, si siempre utiliza datos de las mismas vistas de datos, agréguelos a la memoria.
 
 ## Compruebe que Chat del compañero está conectado a Customer Journey Analytics
 
-1. En Chat del compañero, compruebe que este esté conectado a Customer Journey Analytics.
+En Coworker Chat, compruebe que Coworker esté conectado a Customer Journey Analytics:
 
 1. Seleccione el icono de MCP en el carril izquierdo y, a continuación, asegúrese de que [!UICONTROL **cja-mcp**] está disponible en su lista de servidores MCP conectados.
 
@@ -95,7 +130,7 @@ El Chat de Coworker contiene una función de memoria que le permite proporcionar
 
 1. En Chat del compañero, en la barra de navegación izquierda, seleccione el icono Memoria.
 
-1. En la página Memoria, en la sección Preferencias almacenadas, especifique una o varias vistas de datos que quiera que Chat del compañero use en sus conversaciones.
+1. En la página Memoria, en la sección [!UICONTROL **Preferencias almacenadas**], especifique una o más vistas de datos que quiera que Chat del compañero use en sus chats.
 
    ![Sección de memoria en el carril izquierdo](./assets/coworker-memory.png)
 
@@ -110,6 +145,143 @@ Para abrir una visualización en un nuevo proyecto de Analysis Workspace:
 1. Con la visualización abierta en Customer Journey Analytics, puede utilizar la interfaz del explorador de arrastrar y soltar de Analysis Workspace para realizar modificaciones, desarrollar aún más el análisis, crear una audiencia y mucho más. Incluso puede compartir su proyecto de Workspace con quien desee.
 
    Para obtener más información sobre Analysis Workspace, consulte [Información general de Analysis Workspace](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/home).
+
+### Casos de uso para Customer Journey Analytics
+
+Puede ver casos de uso de Customer Journey Analytics y ejemplos de preguntas que los profesionales utilizan en Adobe CX Enterprise Coworker Chat, desde respuestas rápidas hasta investigaciones exhaustivas del trabajo. Cada mensaje se crea para copiarse, adaptarse con sus propios datos y contexto, y refinarse a través de la conversación.
+
+Para obtener más información, consulte [Casos de uso](/help/coworker/chat/use-cases.md).
+
+## Aptitudes de Analytics
+
+Las siguientes habilidades están disponibles para analizar datos de Customer Journey Analytics.
+
+### Consulta y análisis de datos
+
+Esta aptitud (`cja`) le permite consultar Customer Journey Analytics en tiempo real y analizar los resultados sin crear la solicitud usted mismo en Analysis Workspace.
+
+#### Permisos necesarios
+
+* Ver el acceso a la vista de datos que desea consultar
+
+#### Casos de uso clave
+
+| Ejemplo de uso | Función | Ejemplos de peticiones de datos |
+|---------|----------|---------|
+| **Informes y métricas de extracción** | Consulte Customer Journey Analytics en tiempo real para extraer métricas, dimensiones, segmentos y vistas de datos. | <ul><li>&quot;Mostrarme las vistas de página de los últimos 30 días&quot;</li><li>&quot;Enumerar los segmentos principales en la vista de datos maestra&quot;</li></ul> |
+| **Análisis comparativo** | Comparar métricas en varios canales, períodos de tiempo o segmentos en paralelo. | <ul><li>&quot;Comparar ingresos por canal mes tras mes&quot;</li><li>&quot;¿Qué aspecto tienen las conversiones de móviles y equipos de escritorio este trimestre?&quot;</li></ul> |
+| **Análisis de Funnel** | Pase por los canales de conversión de varios pasos con entrega en cada fase. | <ul><li>&quot;Guíame a través del funnel de pago y envío&quot;</li><li>&quot;Mostrar funnel de conversión de PDP a compra&quot;</li></ul> |
+| **Previsión** | Proyecte valores de métricas futuras basados en datos históricos. | <ul><li>&quot;Prever sesiones para los próximos 30 días&quot;</li><li>&quot;¿Estamos en camino de alcanzar nuestra meta de ingresos?&quot;</li></ul> |
+
+#### En ámbito
+
+* Consulta en tiempo real de métricas, dimensiones, segmentos y vistas de datos
+* Comparaciones paralelas entre canales, períodos de tiempo o segmentos
+* Análisis de abandonos y funnel de varios pasos
+* Previsión de métricas basada en tendencias históricas
+
+#### Fuera de ámbito
+
+* Creación o edición de componentes de vista de datos
+* Datos fuera de las vistas de datos a los que tiene acceso
+* Modelado predictivo más allá de la previsión de métricas
+
+### Análisis de la causa raíz
+
+Esta aptitud (`cja-root-cause-analysis`) investiga por qué cambió una métrica en lugar de informar solamente de que cambió.
+
+#### Permisos necesarios
+
+* Ver el acceso a la vista de datos que se está analizando
+
+#### Casos de uso clave
+
+| Ejemplo de uso | Función | Ejemplos de peticiones de datos |
+|---------|----------|---------|
+| **Diagnóstico de cambios de métricas** | Investigue por qué ha cambiado una métrica, incluidas caídas, picos y anomalías. | <ul><li>&quot;¿Por qué cayeron las conversiones la semana pasada?&quot;</li><li>&quot;¿Qué causó el pico de ingresos el 15 de enero?&quot;</li></ul> |
+
+#### En ámbito
+
+* Investigación de un cambio en una métrica conocida durante un período conocido
+* Aparición de dimensiones y segmentos que contribuyeron al cambio
+
+#### Fuera de ámbito
+
+* Detección de anomalías que no le ha preguntado (sin alertas automatizadas o en tiempo real)
+* Análisis de la causa raíz de las métricas fuera de una vista de datos a la que tenga acceso
+
+### Resúmenes ejecutivos y resúmenes de rendimiento
+
+Esta aptitud (`cja-executive-summary`) genera resúmenes de los datos de Customer Journey Analytics preparados para las partes interesadas.
+
+#### Permisos necesarios
+
+* Ver el acceso a la vista de datos o vistas de datos que se tratan en el resumen
+
+#### Casos de uso clave
+
+| Ejemplo de uso | Función | Ejemplos de peticiones de datos |
+|---------|----------|---------|
+| **Resúmenes de rendimiento** | Produzca resúmenes de rendimiento preparados para las partes interesadas, recomendaciones prescriptivas y descripciones de diapositivas. | <ul><li>&quot;Dame un resumen ejecutivo del mes pasado&quot;</li><li>&quot;Crear un esquema de presentación a partir de los datos de este trimestre&quot;</li></ul> |
+
+#### En ámbito
+
+* Resumen del rendimiento durante un periodo especificado
+* Generar recomendaciones prescriptivas basadas en los datos
+* Esquematización del contenido de un paquete de diapositivas o de la lectura de las partes interesadas
+
+#### Fuera de ámbito
+
+* Generación de la presentación final o del archivo de presentación
+* Resúmenes que abarcan vistas de datos a las que no tiene acceso
+
+### Validación de datos con Adobe Analytics
+
+Esta aptitud (`aa-cja-validation`) compara, audita y concilia datos entre [!DNL Adobe Analytics] y Customer Journey Analytics.
+
+#### Permisos necesarios
+
+* Ver el acceso al grupo de informes [!DNL Adobe Analytics] y a la vista de datos de Customer Journey Analytics que se compara
+
+#### Casos de uso clave
+
+| Ejemplo de uso | Función | Ejemplos de peticiones de datos |
+|---------|----------|---------|
+| **Validar datos al actualizar de Adobe Analytics a Customer Journey Analytics** | Comparar, auditar y reconciliar datos entre [!DNL Adobe Analytics] y Customer Journey Analytics.<p>Para obtener más información, vea [Validar datos con el compañero al actualizar de Adobe Analytics a Customer Journey Analytics](/help/coworker/data-validation-aa-cja.md).</p> | <ul><li>&quot;Comparar mi grupo de informes de Adobe Analytics con mi vista de datos de Customer Journey Analytics&quot;</li><li>&quot;Validar vistas de página entre Adobe Analytics y Customer Journey Analytics&quot;</li></ul> |
+
+#### En ámbito
+
+* Comparación de valores de métricas entre un grupo de informes y una vista de datos
+* Indicación de discrepancias entre las dos fuentes de datos
+
+#### Fuera de ámbito
+
+* Solución de la causa subyacente de una discrepancia de datos
+* Validando orígenes de datos distintos de [!DNL Adobe Analytics] y Customer Journey Analytics
+
+### Crear habilidades personalizadas
+
+Esta aptitud (`cja-skill-creator`) convierte un análisis que ya ha ejecutado en una aptitud reutilizable que persiste entre sesiones.
+
+#### Permisos necesarios
+
+* Administrar aptitudes para guardar una aptitud reutilizable
+
+#### Casos de uso clave
+
+| Ejemplo de uso | Función | Ejemplos de peticiones de datos |
+|---------|----------|---------|
+| **Patrones de análisis reutilizables** | Convierta los patrones analíticos en habilidades reutilizables y repetibles que persistan entre sesiones. | <ul><li>&quot;Convierta este análisis de ingresos semanal en una aptitud reutilizable&quot;</li><li>&quot;Guarde esta aptitud para la creación de informes mensuales de funnel&quot;</li></ul> |
+
+#### En ámbito
+
+* Conversión de un análisis completado en una aptitud con nombre y reutilizable
+* Disponibilidad de una aptitud guardada en las futuras sesiones de chat
+
+#### Fuera de ámbito
+
+* Compartir automáticamente una aptitud guardada con otros usuarios (las bibliotecas de aptitudes de nivel de organización requieren la configuración del administrador)
+* Edición de los componentes de vista de datos a los que hace referencia una aptitud
 
 ## Ejemplo: Encuentre el lugar de entrega de los clientes
 

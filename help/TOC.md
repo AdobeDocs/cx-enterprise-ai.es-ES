@@ -5,7 +5,7 @@ user-guide-description: Aprenda a utilizar el Asistente de IA para acelerar el f
 description: Obtenga información sobre el asistente de IA en CX Enterprise. Mejore sus conocimientos sobre productos y obtenga perspectivas operativas utilizando IA en CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
+source-git-commit: 73e328412f2997b6710c813844899f7069ba534a
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 28%
@@ -54,7 +54,7 @@ ht-degree: 28%
     - [Herramientas de Journey Optimizer](./mcp/ajo-mcp.md)
     - [Herramientas de Customer Journey Analytics](./mcp/cja-mcp.md)
     - [Herramientas de Adobe Analytics](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/es/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Compañero {#coworker}
   - [Acerca de Coworker](./coworker/overview.md)
   - Campañas {#campaigns}
@@ -70,5 +70,5 @@ ht-degree: 28%
     - [Guía de IU](./coworker/chat/ui-guide.md)
     - [Analizar datos de CJA](./coworker/chat/analytics-chat.md)
   - {hide-from-toc}[Chat de compañeros en el patio de recreo](./coworker/playground-coworker-chat.md)
-  - {hide-from-toc}[Validar datos de migración de AA a CJA](./coworker/data-validation-aa-cja.md)
+  - [Validación de datos de migración de AA a CJA](./coworker/data-validation-aa-cja.md)
   - [Habilidades de agencia de herramientas para espacios aislados](./agents/sandbox-tooling.md)
