@@ -2,29 +2,19 @@
 title: IA en aplicaciones empresariales de CX
 description: Descubra cómo las aplicaciones de CX Enterprise utilizan IA generativa (GenAI), AI Assistant, IA auténtica, CX Enterprise Coworker y herramientas MCP.
 TQID: https://experienceleague.adobe.com/heALjEZbowNaygG24oOM2HSlHa9oYVI5ViUNZDr19Ds
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 325bdc7452557cf9a2b448b5e6afa613b87b4544
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: e15ac0578299c0dbc029f178fa028652cc5bb462
 workflow-type: tm+mt
-source-wordcount: 929
+source-wordcount: 873
 ht-degree: 3%
 
 ---
 
 # IA en CX Enterprise
 
-Esta guía cubre las capacidades de IA disponibles en todas las aplicaciones de Adobe CX Enterprise: IA generativa y asistente de IA para el conocimiento del producto y perspectivas operativas, agentes de Agent Orchestrator y Experience Platform para automatizar trabajos, Coworker de CX Enterprise para una experiencia totalmente conversacional, con prioridad del agente y MCP para conectar sus propias herramientas de IA a los datos de CX Enterprise.
+Esta guía cubre las funciones de IA en Adobe CX Enterprise: IA generativa, AI Assistant, Agent Orchestrator, agentes de Experience Platform, compañeros de CX Enterprise y MCP.
 
 ## Resumen de capacidades de IA
 
@@ -33,14 +23,14 @@ Comience aquí para obtener una guía sobre dónde y cómo se utiliza la IA en C
 - [IA generativa](./overview/generative-ai.md) describe qué aplicaciones de CX Enterprise admiten IA generativa y el Asistente de IA, y cómo se comparan.
 - [Inteligencia artificial aplicada a agentes](./overview/agentic-ai.md) explica cómo funcionan los agentes de Experience Platform tanto en las aplicaciones empresariales de CX existentes como en las aplicaciones de IA-First, y enumera los agentes disponibles en cada una de ellas.
 - [Supervisión de IA del agente](./overview/monitoring.md) cubre los paneles que hacen un seguimiento de la adopción del agente, el uso, los comentarios y el consumo de crédito de IA.
-- [Trabajos del agente y consumo de crédito de IA](./overview/ai-credit-consumption.md) explica cómo los trabajos del agente consumen los créditos de IA, con tasas de consumo estimadas por agente y tipo de trabajo.
-- [Herramientas de CX Enterprise Agentic](https://experienceleague.adobe.com/es/docs/cx-enterprise-agentic-tools/using/overview) cubre habilidades y herramientas agénticas adicionales que amplían los agentes de CX Enterprise.
+- [Trabajos de agente y consumo de crédito de IA](./overview/ai-credit-consumption.md) explica cómo los trabajos de agente consumen créditos de IA, con tasas de consumo estimadas por agente y tipo de trabajo.
+- [Las herramientas agénticas de CX Enterprise](https://experienceleague.adobe.com/es/docs/cx-enterprise-agentic-tools/using/overview) cubren habilidades y herramientas agénticas adicionales que amplían los agentes de CX Enterprise (tutoriales en vídeo).
 
 ## Asistente de IA
 
 [Asistente de IA](./ai-assistant/ai-assistant-ui.md) es una herramienta conversacional y generativa de IA disponible en aplicaciones basadas en Adobe Experience Platform. Utilícelo para obtener información sobre el producto, solucionar problemas, encontrar perspectivas operativas y acceder a los agentes de Experience Platform, todo ello a través de indicaciones en lenguaje natural en una interfaz de pantalla completa o de vista de carril.
 
-Lea la [guía de la interfaz de usuario del Ayudante de IA](./ai-assistant/ai-assistant-ui.md) para obtener información sobre cómo navegar por la interfaz y [preguntar a la biblioteca](./ai-assistant/prompt-library.md), por ejemplo, las indicaciones del agente.
+Para aprender a navegar por la interfaz, lea la [guía de la interfaz de usuario del Asistente de IA](./ai-assistant/ai-assistant-ui.md). Para ver las indicaciones de ejemplo del agente, consulte la [biblioteca de indicaciones](./ai-assistant/prompt-library.md).
 
 ## Agentes de Agent Orchestrator y Experience Platform
 
@@ -62,10 +52,10 @@ Para obtener la lista completa de agentes, las aplicaciones compatibles y los re
 
 ## CX Enterprise Coworker
 
-CX Enterprise Coworker es una evolución de IA Assistant que automatiza la experiencia del cliente y los flujos de trabajo de marketing, para que su equipo pueda centrarse en los objetivos comerciales en lugar de en la ejecución rutinaria. En lugar de hacer una pregunta a la vez, se describe un objetivo en lenguaje natural y el colaborador planifica el trabajo, lo ejecuta en el Adobe y en los sistemas conectados, valida los resultados y devuelve el trabajo terminado para su aprobación. El compañero incluye:
+CX Enterprise Coworker es una evolución de IA Assistant que automatiza la experiencia del cliente y los flujos de trabajo de marketing, para que su equipo pueda centrarse en los objetivos comerciales en lugar de en la ejecución rutinaria. En lugar de hacer una pregunta a la vez, se describe un objetivo. El compañero planifica, ejecuta, valida y devuelve el trabajo terminado para su aprobación. El compañero incluye:
 
-- **[Chat del compañero](https://experienceleague.adobe.com/es/docs/cx-enterprise-coworker/content/chat/overview)**: Una interfaz conversacional para explorar los datos, validar audiencias y recorridos y completar tareas de varios pasos en las aplicaciones de CX Enterprise.
-- **[Campañas de compañeros de trabajo](https://experienceleague.adobe.com/es/docs/cx-enterprise-coworker/content/campaigns/overview)**: una aplicación nativa de IA que consolida la información de la campaña, la creación de audiencias, la generación de contenido, el diseño de recorridos y la revisión en una sola experiencia de conversación, utilizando plantillas integradas, prácticas recomendadas y orientación para que equipos pequeños y ágiles puedan iniciar campañas rápidamente.
+- **[Chat del compañero](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/overview)**: Una interfaz conversacional para explorar los datos, validar audiencias y recorridos y completar tareas de varios pasos en las aplicaciones de CX Enterprise.
+- **[Campañas de compañeros de trabajo](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/overview)**: una aplicación nativa de IA que consolida la información de la campaña, la creación de audiencias, la generación de contenido, el diseño de recorridos y la revisión en una sola experiencia de conversación. Utiliza plantillas integradas, prácticas recomendadas y sugerencias para ayudar a equipos pequeños y ágiles a iniciar campañas rápidamente.
 - **Proyectos de compañeros** (próximamente): Un espacio de trabajo unificado para automatizar los flujos de trabajo de la orquestación de la experiencia del cliente de extremo a extremo, lo que ayuda a los equipos a coordinar tareas, aprobaciones y ejecuciones para dirigir los resultados desde la estrategia hasta la entrega. La documentación de los proyectos estará disponible próximamente.
 
 Los clientes aptos se están trasladando gradualmente del asistente de IA y los agentes de Experience Platform al chat con el compañero. Lea la [Prueba de CX Enterprise Coworker](./agents/trial.md) para obtener información sobre la elegibilidad del periodo de prueba, el uso del crédito de IA y cómo obtener acceso.
@@ -76,7 +66,7 @@ Para obtener documentación completa del producto sobre Chat, campañas y proyec
 
 ## MCP
 
-[Adobe CX Coworker Gateway](./mcp/overview.md) es el punto final del Protocolo de contexto de modelo (MCP) unificado para CX Enterprise. Proporciona a los clientes compatibles con MCP, como [!DNL Claude], [!DNL ChatGPT] y [!DNL Cursor], una única conexión controlada a las herramientas de producto que puede utilizar su organización, incluidas Real-Time CDP, Experience Platform, Journey Optimizer, Customer Journey Analytics, Adobe Analytics y Workfront.
+[Adobe CX Coworker Gateway](./mcp/overview.md) es el punto final del Protocolo de contexto de modelo (MCP) unificado para CX Enterprise. Proporciona a los clientes compatibles con MCP, como [!DNL Claude], [!DNL ChatGPT] y [!DNL Cursor], una única conexión controlada a las herramientas de producto que puede utilizar su organización. Estas herramientas incluyen [!DNL Real-Time CDP], [!DNL Experience Platform], [!DNL Journey Optimizer], [!DNL Customer Journey Analytics], [!DNL Adobe Analytics] y [!DNL Workfront].
 
 ¿Es nuevo en CX Coworker Gateway? Consulte [Acceder a las herramientas de CX Coworker Gateway](./mcp/access.md) e [Instalar CX Coworker Gateway](./mcp/install.md) para conectarse.
 
@@ -88,7 +78,7 @@ El administrador de Adobe debe conceder los permisos adecuados para poder utiliz
 
 ### Privacidad y seguridad
 
-El asistente de IA y los agentes de Experience Platform están diseñados con privacidad, seguridad y control en la vanguardia, incluido el aislamiento de datos específicos de zonas protegidas y el cumplimiento de las políticas de control de acceso existentes. Para obtener información detallada, lee [Privacidad, seguridad y administración en el asistente de IA](./ai-assistant/privacy.md).
+El asistente de IA y los agentes de Experience Platform dan prioridad a la privacidad, la seguridad y la gobernanza, incluido el aislamiento de datos específico de la zona protegida y las políticas de control de acceso existentes. Para obtener información detallada, lee [Privacidad, seguridad y administración en el asistente de IA](./ai-assistant/privacy.md).
 
 ## Prácticas recomendadas
 
@@ -102,5 +92,5 @@ Para obtener el máximo valor de su experiencia de asistente de IA o compañero 
 
 ## Consideraciones legales
 
-En la actualidad, AI Assistant solo admite respuestas en inglés, y los modelos de idioma pueden cometer errores ocasionalmente. Compruebe siempre la información proporcionada y siga los pasos de razonamiento incluidos en cada respuesta para comprender cómo se generó. Para obtener información detallada, lea la [exención de responsabilidad legal](./ai-assistant/legal-disclaimer.md).
+Actualmente, el asistente de IA solo admite respuestas en inglés, y los modelos de idioma a veces cometen errores. Compruebe siempre la información proporcionada y siga los pasos de razonamiento incluidos en cada respuesta para comprender cómo se generó. Para obtener información detallada, lea la [exención de responsabilidad legal](./ai-assistant/legal-disclaimer.md).
 
