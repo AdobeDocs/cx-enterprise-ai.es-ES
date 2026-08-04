@@ -1,9 +1,9 @@
 ---
 description: Casos de uso y ejemplos de mensajes de texto de Browse Coworker Chat, organizados por área en las perspectivas de datos, audiencias, recorridos y operaciones de la plataforma.
 title: Casos de uso
-source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
+source-git-commit: ad1e50aa70822ba764b417d2559417c9a235422e
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1232'
 ht-degree: 3%
 
 ---
@@ -44,6 +44,8 @@ A continuación se muestran casos de uso y ejemplos de mensajes que los profesio
 | --- | --- | --- | --- | --- |
 | Crear recorridos a partir del lenguaje natural | Organizar la creación de recorridos en AJO desde un mensaje de texto o una imagen/diagrama de flujo cargado | `journey-create` | Adobe Journey Optimizer (AJO) | &quot;Cree un recorrido de bienvenida que envíe un correo electrónico después de la suscripción, espere 3 días y, a continuación, envíe un seguimiento&quot; · &quot;Crear un recorrido a partir de esta imagen de diagrama de flujo cargada&quot; |
 | Analizar conflictos de recorrido | Detectar superposición de audiencias, conflictos de programación y problemas de deduplicación entre recorridos activos | `journey-analyze-conflict` | Adobe Journey Optimizer (AJO) | &quot;¿El abandono del carro de compras entra en recorrido con algún otro recorrido?&quot; · &quot;Comprobar si hay superposición de audiencias entre mis recorridos activos&quot; |
+| Analizar visitas en el orden previsto de recorrido | Identificar dónde y por qué los clientes abandonan durante un recorrido y detectar patrones de comportamiento que conducen a la desparticipación | `journey-analyze-fallout` | Adobe Journey Optimizer (AJO) | &quot;¿Dónde está la gente dejando mi recorrido de renovación de la participación?&quot; · &quot;¿Qué nodos del recorrido X tienen la mayor tasa de abandono de la secuencia?&quot; |
+| Analizar errores de acciones personalizadas | Identifique cuándo las acciones personalizadas producen errores o las tasas de error aumentan dentro de un recorrido y diagnostique las causas raíz antes de que los errores se propaguen en cascada hasta una interrupción más amplia | `journey-analyze-custom-action` | Adobe Journey Optimizer (AJO) | &quot;¿Por qué las acciones personalizadas fallan en mi recorrido de suscripción de fidelidad?&quot; · &quot;Mostrarme la tasa de error para la acción personalizada ExternalPush en mi recorrido de bienvenida&quot;. |
 
 ## Elementos básicos
 
