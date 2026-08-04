@@ -5,10 +5,10 @@ user-guide-description: Aprenda a utilizar el Asistente de IA para acelerar el f
 description: Obtenga información sobre el asistente de IA en CX Enterprise. Mejore sus conocimientos sobre productos y obtenga perspectivas operativas utilizando IA en CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: 41a237937d9c84db25a4fea12f7f3a403b462c67
+source-git-commit: a70c6440159ccb7c7544008da5707b23c42468cb
 workflow-type: tm+mt
 source-wordcount: '237'
-ht-degree: 26%
+ht-degree: 27%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 26%
     - [Herramientas de Journey Optimizer](./mcp/ajo-mcp.md)
     - [Herramientas de Customer Journey Analytics](./mcp/cja-mcp.md)
     - [Herramientas de Adobe Analytics](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/es/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Compañero {#coworker}
   - [Acerca de Coworker](./coworker/overview.md)
   - Campañas {#campaigns}
