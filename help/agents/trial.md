@@ -42,7 +42,7 @@ Los clientes aptos reciben un derecho único inicial de hasta 10 000 créditos d
 - Chat del compañero: Entradas introducidas en el chat del compañero. Durante un periodo de introducción limitado, las entradas consumen créditos de IA a una velocidad de 25 créditos de IA por entrada. Esta tarifa está disponible por tiempo limitado y sujeta a cambios.
 - Agentes de Experience Platform: Cualquier combinación de trabajos realizados con agentes de Experience Platform (según las licencias existentes para las aplicaciones de CX Enterprise) enumerados en la [Tabla de consumo de crédito de IA](../overview/ai-credit-consumption.md).
 
-Puede rastrear sus créditos de IA mediante el panel de uso de licencias en la interfaz de usuario de Adobe Experience Platform. Para obtener más información, lea la [documentación del tablero de uso de licencias](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage).
+Puede rastrear sus créditos de IA mediante el panel de uso de licencias en la interfaz de usuario de Adobe Experience Platform. Para obtener más información, lea la [documentación del tablero de uso de licencias](https://experienceleague.adobe.com/es/docs/experience-platform/dashboards/guides/license-usage).
 
 El panel de monitorización de la inteligencia artificial aplicada a la agencia le ofrece una visibilidad clara sobre cómo se adopta y utiliza la inteligencia artificial aplicada a la agencia en toda la organización. Los usuarios autorizados pueden rastrear fácilmente la participación, recopilar comentarios, monitorizar el uso del crédito de IA y revisar las métricas clave. Utilice estas perspectivas para descubrir oportunidades de optimización y apoyar sus esfuerzos de gobernanza y adopción. Para obtener más información, visite la [Guía de supervisión del uso de IA del agente](../overview/monitoring.md).
 
@@ -78,7 +78,7 @@ Si el cliente desea desactivar el acceso a estas funciones del agente y deshabil
 
 Lea las siguientes guías para obtener más información sobre Coworker, Agent Orchestrator y AI Assistant:
 
-- [Compañero](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview)
+- [Compañero](https://experienceleague.adobe.com/es/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview)
 - [Información general de Agent Orchestrator](agent-orchestrator.md)
 - [Guía de IU del asistente de IA](../ai-assistant/ai-assistant-ui.md)
 - [Biblioteca de mensajes del Ayudante de IA](../ai-assistant/prompt-library.md)
@@ -110,7 +110,7 @@ Esta versión de prueba no requiere ninguna compra adicional. No hay conversión
 
 ### ¿Quién puede ver el uso y cómo?
 
-Puede rastrear sus créditos de IA mediante el panel de uso de licencias en la interfaz de usuario de Adobe Experience Platform. Para obtener más información, lea la [documentación del tablero de uso de licencias](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage). Utilice el panel para ver el uso de los créditos de IA y los informes. Solo los administradores y usuarios con los permisos adecuados pueden ver la información de uso.
+Puede rastrear sus créditos de IA mediante el panel de uso de licencias en la interfaz de usuario de Adobe Experience Platform. Para obtener más información, lea la [documentación del tablero de uso de licencias](https://experienceleague.adobe.com/es/docs/experience-platform/dashboards/guides/license-usage). Utilice el panel para ver el uso de los créditos de IA y los informes. Solo los administradores y usuarios con los permisos adecuados pueden ver la información de uso.
 
 Los clientes mantienen el control de quién puede ver el uso y los informes. Solo los administradores y usuarios con los permisos adecuados pueden ver esta información.
 
