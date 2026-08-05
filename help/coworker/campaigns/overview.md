@@ -12,7 +12,7 @@ ht-degree: 0%
 
 Campañas de compañeros es una aplicación de marketing nativa de IA que le lleva de un único mensaje a una campaña completa lista para revisión.
 
-En este momento, todas las interacciones con la IA lo dirigirán hacia la [generación de campañas](./). Próximamente habrá más funcionalidades.
+En este momento, todas las interacciones con la IA lo dirigirán hacia la [generación de campañas] (./). Próximamente habrá más funcionalidades.
 
 ## Cómo acceder a
 
