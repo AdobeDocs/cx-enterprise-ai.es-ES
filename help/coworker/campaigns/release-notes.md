@@ -1,14 +1,14 @@
 ---
-description: Obtenga información acerca de las mejoras y correcciones de funciones en las notas de la versión de Adobe Coworker Campaigns.
-title: Notas de la versión de Adobe Coworker Campaigns
-source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
+description: Obtenga información sobre las mejoras y correcciones de funciones en las notas de la versión de Adobe CX Enterprise Coworker Campaigns.
+title: Notas de la versión de Adobe CX Enterprise Coworker Campaigns
+source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
 workflow-type: tm+mt
-source-wordcount: '2182'
+source-wordcount: '2188'
 ht-degree: 0%
 
 ---
 
-# Notas de la versión de Adobe Coworker Campaigns {#release-notes}
+# Notas de la versión de Adobe CX Enterprise Coworker Campaigns {#release-notes}
 
 Las versiones de Campañas de compañeros funcionan con un modelo de entrega continua que permite un enfoque más escalable y gradual de la implementación de funcionalidades.
 
