@@ -7,9 +7,8 @@ feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
 last-update: '2026-05-21T00:00:00.000Z'
-feature_v2:
-  - id: f84b2906-3ce9-4ef0-86f6-cda249273937
-source-git-commit: 9b744e4c60afcd0533d52c11ba65463f8ffb5b0e
+feature_v2: id: f84b2906-3ce9-4ef0-86f6-cda249273937
+source-git-commit: 34a3227d726a6249a6dedea420828b84ad1547a7
 workflow-type: tm+mt
 source-wordcount: 966
 ht-degree: 5%
@@ -26,8 +25,8 @@ Un _crédito de IA_ es una métrica basada en el uso que cuantifica la ejecució
 
 ## Servicios aptos que consumen créditos de IA
 
-* CX Enterprise Coworker
-* Agentes AEP
+* [CX Enterprise Coworker](#cx-enterprise-coworker-credit-rate)
+* [Agentes AEP](#aep-agents-credit-rate)
 
 ### Tasa de crédito de los compañeros de CX Enterprise
 
@@ -75,4 +74,4 @@ Para ver qué agentes de AEP y qué trabajos de agentes están disponibles en su
 
 * [GenAI en CX Enterprise](generative-ai.md)
 * [IA agéntica en CX Enterprise](agentic-ai.md)
-* [Prueba enlazada al uso de agentes de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
+* [Prueba enlazada al uso de agentes de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
