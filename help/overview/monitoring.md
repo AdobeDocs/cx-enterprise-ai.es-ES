@@ -17,16 +17,16 @@ subfeature_v2:
   - id: cda95149-19e1-4cfa-a57e-751283a32378
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: cbded236e67d7d47ad70187a307f403a93ace8e9
+source-git-commit: a70c6440159ccb7c7544008da5707b23c42468cb
 workflow-type: tm+mt
-source-wordcount: 994
-ht-degree: 2%
+source-wordcount: 996
+ht-degree: 1%
 
 ---
 
 # Paneles de monitorización de IA automática
 
-El tablero de monitorización de la inteligencia artificial aplicada a la agencia proporciona a los miembros del Centro de excelencia (COE) y a otras partes interesadas en la gobernanza visibilidad del uso y la adopción de la IA auténtica. Vea las tendencias de 7 días o 30 días para ver quién usa [!DNL AI Assistant] u otras superficies (como [Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/es/docs/experience-cloud-ai/experience-cloud-ai/agents/ama-ms)) para interactuar con [!DNL Experience Platform Agents] y el valor que reciben. En conjunto, estas vistas le ayudan a guiar la adopción de agentes con datos en lugar de suposiciones.
+El tablero de [!UICONTROL Supervisión] de inteligencia artificial aplicada a la agencia proporciona a los miembros del Centro de excelencia (COE) y a otras partes interesadas en la gobernanza visibilidad sobre el uso y la adopción de IA auténtica. Vea las tendencias de 7 días o 30 días para ver quién usa [!DNL AI Assistant] u otras superficies (como [Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/es/docs/cx-enterprise-ai/experience-cloud-ai/agents/ama-ms)) para interactuar con [!DNL Experience Platform Agents] y el valor que reciben. En conjunto, estas vistas le ayudan a guiar la adopción de agentes con datos en lugar de suposiciones.
 
 **Disponibilidad**
 
@@ -42,7 +42,7 @@ El panel [!UICONTROL Supervisión] incluye las siguientes vistas:
 | **Comentarios** | Señales sobre calidad de respuesta y satisfacción del usuario |
 | **Créditos de IA** | Tendencias del consumo de crédito y saldo restante |
 
-La documentación de [Inteligencia artificial aplicada a la agencia en Adobe CX Enterprise](agentic-ai.md) enumera los agentes con ámbito para supervisar su uso en [agentes de inteligencia artificial aplicada en aplicaciones CX Enterprise existentes](agentic-ai.md#existing-apps-table).
+En la documentación de [Inteligencia artificial aplicada a la agencia en Adobe CX Enterprise](agentic-ai.md) se enumeran los agentes con ámbito para la supervisión del uso en la tabla [agentes de inteligencia artificial aplicada en aplicaciones CX Enterprise existentes](agentic-ai.md#existing-apps-table).
 
 >[!VIDEO](https://video.tv.adobe.com/v/3491871?captions=spa&learn=on)
 
@@ -90,7 +90,7 @@ Conceda acceso al panel en [!DNL Adobe Experience Platform] al actualizar el per
 
 ## Panel de información general
 
-El panel Información general es el lugar central para las métricas de adopción y participación en toda la organización. Conecta las tendencias de alto nivel con un análisis más profundo. Para ver qué impulsa los números, explore en profundidad conversaciones individuales desde cualquier métrica.
+El panel Información general es el lugar central para las métricas de adopción y participación en toda la organización. Conecta las tendencias de alto nivel con un análisis más profundo. Para ver los factores que influyen en las métricas, revise las conversaciones individuales de cualquier métrica.
 
 ### Métricas en el tablero Información general
 

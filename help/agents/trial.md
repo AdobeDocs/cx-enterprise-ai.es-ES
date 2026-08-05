@@ -1,6 +1,6 @@
 ---
-title: Prueba de CX Enterprise Coworker
-description: Obtenga información sobre la prueba gratuita de CX Enterprise Coworker.
+title: Prueba de Adobe Coworker
+description: Obtenga información sobre la versión de prueba gratuita de Adobe Coworker.
 TQID: https://experienceleague.adobe.com/3ar5j-6IYEk2w6oyvR6JCuaw2Zrrp2DxUri5EvI0QN0
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
@@ -12,14 +12,14 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
+source-git-commit: 5de0afec89309ab62bd50e0c2cb1d0e96890c57f
 workflow-type: tm+mt
-source-wordcount: 1432
+source-wordcount: 1430
 ht-degree: 1%
 
 ---
 
-# Prueba de CX Enterprise Coworker
+# Prueba de Adobe Coworker
 
 >[!AVAILABILITY]
 >
@@ -78,7 +78,7 @@ Si el cliente desea desactivar el acceso a estas funciones del agente y deshabil
 
 Lea las siguientes guías para obtener más información sobre Coworker, Agent Orchestrator y AI Assistant:
 
-- [CX Enterprise Coworker](https://experienceleague.adobe.com/es/docs/cx-enterprise-coworker/content/home)
+- [Compañero](https://experienceleague.adobe.com/es/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview)
 - [Información general de Agent Orchestrator](agent-orchestrator.md)
 - [Guía de IU del asistente de IA](../ai-assistant/ai-assistant-ui.md)
 - [Biblioteca de mensajes del Ayudante de IA](../ai-assistant/prompt-library.md)

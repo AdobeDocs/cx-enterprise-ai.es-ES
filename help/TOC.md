@@ -5,10 +5,10 @@ user-guide-description: Aprenda a utilizar el Asistente de IA para acelerar el f
 description: Obtenga información sobre el asistente de IA en CX Enterprise. Mejore sus conocimientos sobre productos y obtenga perspectivas operativas utilizando IA en CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: 41a237937d9c84db25a4fea12f7f3a403b462c67
+source-git-commit: 73e328412f2997b6710c813844899f7069ba534a
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 26%
+source-wordcount: '235'
+ht-degree: 28%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 26%
   - [Agente de soporte del producto](./agents/product-support.md)
   - [Adobe Marketing Agent for Microsoft 365 Copilot](./agents/ama-ms.md)
   - [Agente de notificaciones](./agents/notifications.md)
-  - [Prueba de CX Enterprise Coworker](./agents/trial.md)
+  - [Juicio a compañeros](./agents/trial.md)
   - [Validación de los datos](./agents/data-validation.md)
   - Ingeniería de datos {#data-engineering}
     - {hide-from-toc}[Data Engineering Agent](./agents/data-engineering/overview.md)
@@ -70,5 +70,5 @@ ht-degree: 26%
     - [Guía de IU](./coworker/chat/ui-guide.md)
     - [Analizar datos de CJA](./coworker/chat/analytics-chat.md)
   - {hide-from-toc}[Chat de compañeros en el patio de recreo](./coworker/playground-coworker-chat.md)
-  - {hide-from-toc}[Validar datos de migración de AA a CJA](./coworker/data-validation-aa-cja.md)
+  - [Validación de datos de migración de AA a CJA](./coworker/data-validation-aa-cja.md)
   - [Habilidades de agencia de herramientas para espacios aislados](./agents/sandbox-tooling.md)
