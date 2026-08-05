@@ -75,4 +75,4 @@ Para ver qué agentes de AEP y qué trabajos de agentes están disponibles en su
 
 * [GenAI en CX Enterprise](generative-ai.md)
 * [IA agéntica en CX Enterprise](agentic-ai.md)
-* [Prueba enlazada al uso de agentes de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/agents/trial)
+* [Prueba enlazada al uso de agentes de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/cx-enterprise-ai/experience-cloud-ai/agents/trial)
