@@ -1,10 +1,10 @@
 ---
 description: Casos de uso y ejemplos de mensajes de texto de Browse Coworker Chat, organizados por área en las perspectivas de datos, audiencias, recorridos y operaciones de la plataforma.
 title: Casos de uso
-source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
+source-git-commit: 58fc8c37c1bf26a6da3bc69e307931a7680c4490
 workflow-type: tm+mt
-source-wordcount: '1234'
-ht-degree: 3%
+source-wordcount: '1143'
+ht-degree: 4%
 
 ---
 
@@ -33,10 +33,10 @@ A continuación se muestran casos de uso y ejemplos de mensajes que los profesio
 | Crear audiencias a partir de lenguaje natural | Orquestación de la creación de audiencias paso a paso con la aprobación del usuario en cada fase | `audience-creation-flow` | Real-Time CDP (RTCDP) | &quot;Crear una audiencia de usuarios que hayan realizado compras en los últimos 30 días&quot; · &quot;Crear un segmento para miembros fieles de alto valor en California&quot; |
 | Generar definiciones de PQL | Montar definiciones de audiencia de propiedades XDM, eventos de comportamiento o audiencias existentes; admitir ventanas de tiempo y agregación | `segment-definition-assembly` | Real-Time CDP (RTCDP) | &quot;Crear un PQL para usuarios que hayan visto más de 3 productos pero no hayan comprado&quot; · &quot;Añadir un periodo de tiempo de 7 días a mi condición de evento&quot; |
 | Buscar y buscar audiencias | Buscar audiencias por ID, nombre y búsqueda semántica; detectar duplicados y analizar la superposición | `audience-search` | Real-Time CDP (RTCDP) | &quot;Buscar todas las audiencias de fidelidad&quot; · &quot;¿Hay un duplicado de mi segmento &quot;Compradores de vacaciones&quot;?&quot; |
-| Calcular tamaño de audiencia | Calcular el alcance del perfil para una expresión de PQL mediante la API de previsualización de AEP con sondeo | `audience-size-estimate` | Real-Time CDP (RTCDP) | &quot;¿Qué tamaño tiene esta audiencia?&quot; · &quot;Alcance estimado de esta expresión de PQL&quot; |
+| Calcular tamaño de audiencia | Calcular el alcance del perfil para una expresión de PQL mediante la API de previsualización de Adobe Experience Platform con sondeo | `audience-size-estimate` | Real-Time CDP (RTCDP) | &quot;¿Qué tamaño tiene esta audiencia?&quot; · &quot;Alcance estimado de esta expresión de PQL&quot; |
 | Cascada de tamaño de audiencia | Descomponga una PQL en subpredicados y muestre cómo cada condición contribuye al tamaño final de la audiencia | `audience-size-waterfall` | Real-Time CDP (RTCDP) | &quot;Mostrarme el salto de agua de este PQL&quot; · &quot;Desglose cómo reduce la audiencia cada condición&quot; |
 | Descubra los campos XDM para la segmentación | Busque campos por nombre, descripción o valor de datos; vea dónde viven y dónde ya se utilizan | `field-discovery` | Real-Time CDP (RTCDP) | &quot;¿Qué campos puedo utilizar para segmentar clientes fieles?&quot; · &quot;Buscar campos relacionados con el historial de compras&quot; |
-| Publicación o guardado de audiencias | Mantener las definiciones de audiencia en el servicio de segmentación de AEP con convenciones de nomenclatura y comprobaciones de conformidad | `audience-publish` | Real-Time CDP (RTCDP) | &quot;Guardar como borrador&quot; · &quot;Publicar la audiencia con el nombre &#39;Compradores de rebajas de primavera&#39;&quot; |
+| Publicación o guardado de audiencias | Mantener las definiciones de audiencia en el servicio de segmentación de Experience Platform con convenciones de nomenclatura y comprobaciones de conformidad | `audience-publish` | Real-Time CDP (RTCDP) | &quot;Guardar como borrador&quot; · &quot;Publicar la audiencia con el nombre &#39;Compradores de rebajas de primavera&#39;&quot; |
 
 ## Recorridos
 
@@ -52,17 +52,14 @@ A continuación se muestran casos de uso y ejemplos de mensajes que los profesio
 | Caso de uso | Descripción | Aptitud/aptitudes | Aplicación | Indicadores de ejemplo |
 | --- | --- | --- | --- | --- |
 | Conocimiento y documentación del producto | Responda preguntas prácticas, conceptuales, de resolución de problemas y prácticas recomendadas de los documentos oficiales de Adobe | `product-knowledge` | Todas las solicitudes elegibles | &quot;¿Cómo configuro un destino de streaming?&quot; · &quot;¿Cuál es la diferencia entre la segmentación por lotes y la segmentación por streaming?&quot; |
-| Consultar entidades de AEP/AJO | Sirva como punto de entrada principal para preguntas sobre las entidades de la plataforma; enrute a KG, detección de campos o API según sea necesario | `operational-insights` | Todas las solicitudes elegibles | &quot;¿Cuántos conjuntos de datos tengo?&quot; · &quot;Mostrar todos los recorridos activos&quot; · &quot;Enumerar mis destinos&quot; |
+| Consultar entidades de Experience Platform/Journey Optimizer | Sirva como punto de entrada principal para preguntas sobre las entidades de la plataforma; enrute a KG, detección de campos o API según sea necesario | `operational-insights` | Todas las solicitudes elegibles | &quot;¿Cuántos conjuntos de datos tengo?&quot; · &quot;Mostrar todos los recorridos activos&quot; · &quot;Enumerar mis destinos&quot; |
 | Consultas de Knowledge Graph | Recuentos agregados, uniones entre entidades, búsquedas de relaciones y exploración de metadatos mediante consultas SQL únicas | `knowledge-graph` | Todas las solicitudes elegibles | &quot;¿Qué audiencias utilizan este conjunto de datos?&quot; · &quot;Mostrar mis relaciones entre esquemas y conjuntos de datos&quot; |
-| Operaciones de API de AEP/AJO/CJA | Proporcione una puerta de enlace de API directa para mutaciones, comprobaciones de estado en tiempo real y tipos de entidades que no estén en el Gráfico de conocimiento | `cxo-api` | Todas las solicitudes elegibles | &quot;Eliminar conjunto de datos X&quot; · &quot;Comprobar el estado de mi trabajo de ingesta por lotes&quot; |
-| Resolución y vinculación de entidades | Utilice la búsqueda semántica y léxica para resolver las menciones de entidad a entidades AEP reales y descubrir campos XDM | `entity-linking` | Adobe Experience Platform (AEP) | &quot;Resolver &quot;Compradores de vacaciones&quot; en una audiencia real&quot; · &quot;Buscar campos relacionados con el historial de compras&quot; |
-| Crear contexto personal | Genere un perfil de usuario personalizado a partir de los registros de actividad de AEP, CJA o Workfront | `build-my-context` | Todas las solicitudes elegibles | &quot;Crear mi contexto a partir de la actividad de AEP y CJA&quot; · &quot;¿Quién soy yo en esta organización?&quot; |
-| Contexto de organización de Destilación | Extraer conocimiento de toda la organización de un documento en la wiki compartida de contexto de organización. | `distill-org-context` | Todas las solicitudes elegibles | &quot;Destilar este documento en la wiki de la organización&quot; · &quot;Agregar este archivo al contexto de la organización&quot; |
-| Destilar contexto de usuario | Extraer el contexto de trabajo personal de un documento en su wiki de contexto de usuario | `distill-user-context` | Todas las solicitudes elegibles | &quot;Agregar este archivo a mi contexto de usuario&quot; · &quot;Extraer mi contexto de trabajo de este documento&quot; |
+| Operaciones de API de Experience Platform/Journey Optimizer/Customer Journey Analytics | Proporcione una puerta de enlace de API directa para mutaciones, comprobaciones de estado en tiempo real y tipos de entidades que no estén en el Gráfico de conocimiento | `cxo-api` | Todas las solicitudes elegibles | &quot;Eliminar conjunto de datos X&quot; · &quot;Comprobar el estado de mi trabajo de ingesta por lotes&quot; |
+| Resolución y vinculación de entidades | Utilice la búsqueda semántica y léxica para resolver las menciones de entidad a entidades Experience Platform reales y descubrir campos XDM | `entity-linking` | Adobe Experience Platform | &quot;Resolver &quot;Compradores de vacaciones&quot; en una audiencia real&quot; · &quot;Buscar campos relacionados con el historial de compras&quot; |
 | Administrar aptitudes personalizadas | Guardar, modificar o eliminar habilidades reutilizables propiedad del usuario que persisten entre sesiones | `manage-skill` | Todas las solicitudes elegibles | &quot;Guardar ese flujo de trabajo como una aptitud&quot; · &quot;Eliminar mi aptitud de informe semanal&quot; · &quot;Convertir esto en una aptitud reutilizable&quot; |
 
 ## Herramientas de zona protegida
 
 | Caso de uso | Descripción | Aptitud/aptitudes | Aplicación | Indicadores de ejemplo |
 | --- | --- | --- | --- | --- |
-| Mover metadatos de objetos entre zonas protegidas | Migre sin problemas esquemas, audiencias y otras configuraciones de objetos entre entornos limitados, con dependencias resueltas automáticamente | `sandbox-tooling-workflow` | Adobe Experience Platform (AEP) | &quot;Mueva el esquema Platino de los miembros de la lealtad de Luma de la zona protegida actual a la zona protegida de producción&quot; · &quot;Promocione la audiencia de miembros de la lealtad de oro de EE. UU. a la fase&quot; |
+| Mover metadatos de objetos entre zonas protegidas | Migre sin problemas esquemas, audiencias y otras configuraciones de objetos entre entornos limitados, con dependencias resueltas automáticamente | `sandbox-tooling-workflow` | Adobe Experience Platform | &quot;Mueva el esquema Platino de los miembros de la lealtad de Luma de la zona protegida actual a la zona protegida de producción&quot; · &quot;Promocione la audiencia de miembros de la lealtad de oro de EE. UU. a la fase&quot; |
