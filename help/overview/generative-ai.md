@@ -41,14 +41,14 @@ topic_v2:
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 6df9b0df99ff2d5773a94644d1e4313c86c2f1a0
+source-git-commit: a788c313d9df3f97f8c7b3019a09d04e0009e576
 workflow-type: tm+mt
-source-wordcount: 3287
+source-wordcount: 3288
 ht-degree: 13%
 
 ---
 
-# IA generativa en CX Enterprise
+# Acerca de la IA generativa en CX Enterprise
 
 La IA generativa (genAI) en CX Enterprise le ayuda a automatizar tareas creativas y cognitivas y a mejorar la productividad. Esta página le ayuda a comprender dónde admiten las aplicaciones de [!DNL CX Enterprise] genAI y el Asistente para IA. Proporciona vínculos para obtener más información sobre estas funciones.
 
@@ -378,7 +378,7 @@ Marketo se integra con GenStudio for Performance Marketing
 
 +++Detalles
 
-[!UICONTROL Ayudante de IA] en [!DNL Workfront] le ayuda a realizar su trabajo al ofrecerle información y sugerencias dentro de la aplicación. Puede:
+[!UICONTROL Ayudante de IA] en [!DNL Workfront] le ayuda a realizar su trabajo al ofrecerle información y sugerencias dentro de la aplicación. Puede hacer lo siguiente:
 
 * Obtenga resúmenes de algunos objetos, lo que le proporciona una vista de alto nivel de la intención o los detalles del objeto.
 * Haz preguntas y deja que [!UICONTROL AI Assistant] encuentre respuestas en Experience League.

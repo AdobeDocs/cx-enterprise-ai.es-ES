@@ -15,9 +15,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
+source-git-commit: 4da8c6f87f4227983b19c682fdceb0db9a352122
 workflow-type: tm+mt
-source-wordcount: 864
+source-wordcount: 862
 ht-degree: 3%
 
 ---
@@ -30,10 +30,10 @@ Esta guía cubre las funciones de IA en Adobe CX Enterprise: IA generativa, AI A
 
 Comience aquí para obtener una guía sobre dónde y cómo se utiliza la IA en CX Enterprise:
 
-- [IA generativa](./overview/generative-ai.md) describe qué aplicaciones de CX Enterprise admiten IA generativa y el Asistente de IA, y cómo se comparan.
-- [Inteligencia artificial aplicada a agentes](./overview/agentic-ai.md) explica cómo funcionan los agentes de Experience Platform tanto en las aplicaciones empresariales de CX existentes como en las aplicaciones de IA-First, y enumera los agentes disponibles en cada una de ellas.
-- [Supervisión de IA del agente](./overview/monitoring.md) cubre los paneles que hacen un seguimiento de la adopción del agente, el uso, los comentarios y el consumo de crédito de IA.
-- [Trabajos de agente y consumo de crédito de IA](./overview/ai-credit-consumption.md) explica cómo los trabajos de agente consumen créditos de IA, con tasas de consumo estimadas por agente y tipo de trabajo.
+- [Acerca de la IA generativa](./overview/generative-ai.md) describe qué aplicaciones de CX Enterprise admiten IA generativa y el Asistente de IA, y cómo se comparan.
+- [Acerca de la IA auténtica](./overview/agentic-ai.md) explica cómo funcionan los agentes de Experience Platform tanto en las aplicaciones de CX Enterprise existentes como en las aplicaciones de IA-First, y enumera los agentes disponibles en cada una de ellas.
+- [Supervisión de IA](./overview/monitoring.md) cubre los paneles que hacen un seguimiento de la adopción de los agentes, el uso, los comentarios y el consumo de crédito de IA.
+- [Consumo de créditos de IA](./overview/ai-credit-consumption.md) explica cómo los trabajos del agente consumen créditos de IA, con tasas de consumo estimadas por agente y tipo de trabajo.
 - [Las herramientas agénticas de CX Enterprise](https://experienceleague.adobe.com/es/docs/cx-enterprise-agentic-tools/using/overview) cubren habilidades y herramientas agénticas adicionales que amplían los agentes de CX Enterprise (tutoriales en vídeo).
 
 ## Asistente de IA

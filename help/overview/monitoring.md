@@ -17,14 +17,14 @@ subfeature_v2:
   - id: cda95149-19e1-4cfa-a57e-751283a32378
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: a70c6440159ccb7c7544008da5707b23c42468cb
+source-git-commit: a788c313d9df3f97f8c7b3019a09d04e0009e576
 workflow-type: tm+mt
 source-wordcount: 996
 ht-degree: 1%
 
 ---
 
-# Paneles de monitorización de IA automática
+# Panel de monitorización de IA agéntica
 
 El tablero de [!UICONTROL Supervisión] de inteligencia artificial aplicada a la agencia proporciona a los miembros del Centro de excelencia (COE) y a otras partes interesadas en la gobernanza visibilidad sobre el uso y la adopción de IA auténtica. Vea las tendencias de 7 días o 30 días para ver quién usa [!DNL AI Assistant] u otras superficies (como [Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/es/docs/cx-enterprise-ai/experience-cloud-ai/agents/ama-ms)) para interactuar con [!DNL Experience Platform Agents] y el valor que reciben. En conjunto, estas vistas le ayudan a guiar la adopción de agentes con datos en lugar de suposiciones.
 
