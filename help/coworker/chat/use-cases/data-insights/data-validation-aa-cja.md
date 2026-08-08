@@ -1,7 +1,7 @@
 ---
 title: Validar datos con su compañero de trabajo al actualizar de Adobe Analytics a Customer Journey Analytics
 description: Descubra cómo los administradores de Analytics utilizan la habilidad de validación de datos de CX Enterprise Coworker para comparar los datos de Adobe Analytics y Customer Journey Analytics durante la actualización.
-source-git-commit: 8a9f8413f2993e99cf7452bc720500f4823b62a8
+source-git-commit: ccdc8e69ca03630ca0964b22878cff0bd6ca4c01
 workflow-type: tm+mt
 source-wordcount: '1532'
 ht-degree: 0%
@@ -94,10 +94,10 @@ Puede validar métricas o dimensiones individuales, o bien puede validar todas l
 
    | Puntuación | Clasificación | Lo que significa |
    |---------|----------|----------|
-   | 97-100% | ![Cuadrado verde](./assets/data-validation-aa-cja/excellent-square.svg) [!UICONTROL Excelente] | Todas las propiedades están altamente alineadas. No se requiere ninguna acción. |
-   | 90-96 % | ![Círculo amarillo](./assets/data-validation-aa-cja/good-circle.svg) [!UICONTROL Bueno] | Hay brechas menores. Monitorice las tendencias e investigue si disminuyen. |
-   | 75-89 % | ![Círculo naranja](./assets/data-validation-aa-cja/review-circle.svg) [!UICONTROL Revisión] | Existen brechas significativas. Investigue las causas raíz antes de depender de los datos de Customer Journey Analytics. |
-   | Menos del 75% | ![Círculo rojo](./assets/data-validation-aa-cja/critical-circle.svg) [!UICONTROL Pobre] | Desalineación significativa. Realice acciones inmediatas antes de utilizar los datos de Customer Journey Analytics. |
+   | 97-100% | ![Cuadrado verde](../../assets/data-validation-aa-cja/excellent-square.svg) [!UICONTROL Excelente] | Todas las propiedades están altamente alineadas. No se requiere ninguna acción. |
+   | 90-96 % | ![Círculo amarillo](../../assets/data-validation-aa-cja/good-circle.svg) [!UICONTROL Bueno] | Hay brechas menores. Monitorice las tendencias e investigue si disminuyen. |
+   | 75-89 % | ![Círculo naranja](../../assets/data-validation-aa-cja/review-circle.svg) [!UICONTROL Revisión] | Existen brechas significativas. Investigue las causas raíz antes de depender de los datos de Customer Journey Analytics. |
+   | Menos del 75% | ![Círculo rojo](../../assets/data-validation-aa-cja/critical-circle.svg) [!UICONTROL Pobre] | Desalineación significativa. Realice acciones inmediatas antes de utilizar los datos de Customer Journey Analytics. |
 
 1. Seleccione la ficha [!UICONTROL **Información clave**] para ver de dos a cuatro cuadros de llamada cortos, cada uno de los cuales resume un resultado del análisis en una sola frase.
 
@@ -123,11 +123,11 @@ Puede validar métricas o dimensiones individuales, o bien puede validar todas l
 
    En el caso de las métricas, se trata de un gráfico de líneas que compara la tendencia diaria.
 
-   ![Pestaña de tendencia diaria que muestra un gráfico de líneas](./assets/data-validation-aa-cja/trend-line.png)
+   ![Pestaña de tendencia diaria que muestra un gráfico de líneas](../../assets/data-validation-aa-cja/trend-line.png)
 
    Para las dimensiones, se trata de un gráfico de barras que compara los valores principales.
 
-   ![Pestaña de tendencia diaria que muestra un gráfico de barras horizontales](./assets/data-validation-aa-cja/trend-bar.png)
+   ![Pestaña de tendencia diaria que muestra un gráfico de barras horizontales](../../assets/data-validation-aa-cja/trend-bar.png)
 
 1. (Condicional) Al realizar una comparación de una sola dimensión o una comparación de métrica única, seleccione la pestaña [!UICONTROL **Detalle de fecha**] para ver la siguiente información de cada métrica o valor de dimensión comparado:
 
@@ -141,15 +141,15 @@ Puede validar métricas o dimensiones individuales, o bien puede validar todas l
 
    * Distintivo de estado
 
-   ![Pestaña de detalles de fecha que muestra una tabla de porcentajes de variación e insignias de estado](./assets/data-validation-aa-cja/date-detail.png)
+   ![Pestaña de detalles de fecha que muestra una tabla de porcentajes de variación e insignias de estado](../../assets/data-validation-aa-cja/date-detail.png)
 
    Las columnas Variación y Estado utilizan la siguiente escala:
 
    | Varianza | Estado | Lo que significa |
    |---------|----------|----------|
-   | Menos del 3% | ![Marca de verificación verde](./assets/data-validation-aa-cja/pass-check.svg) [!UICONTROL Aprobado] | Los datos están bien alineados. No se requiere ninguna acción. |
-   | 3-10 % | ![Triángulo de advertencia amarillo](./assets/data-validation-aa-cja/flagged-warning.svg) [!UICONTROL Indicador] | Monitorice la diferencia e investigue si continúa o empeora. |
-   | Superior al 10 % | ![Círculo rojo](./assets/data-validation-aa-cja/critical-circle.svg) [!UICONTROL Crítico] | Investigue inmediatamente. Esto generalmente apunta a un problema de esquema, ingesta o asignación. |
+   | Menos del 3% | ![Marca de verificación verde](../../assets/data-validation-aa-cja/pass-check.svg) [!UICONTROL Aprobado] | Los datos están bien alineados. No se requiere ninguna acción. |
+   | 3-10 % | ![Triángulo de advertencia amarillo](../../assets/data-validation-aa-cja/flagged-warning.svg) [!UICONTROL Indicador] | Monitorice la diferencia e investigue si continúa o empeora. |
+   | Superior al 10 % | ![Círculo rojo](../../assets/data-validation-aa-cja/critical-circle.svg) [!UICONTROL Crítico] | Investigue inmediatamente. Esto generalmente apunta a un problema de esquema, ingesta o asignación. |
 
 1. (Condicional) Cuando ejecute un grupo de informes completo y una auditoría de vista de datos, seleccione la pestaña [!UICONTROL **informe de valoración**] para ver la siguiente información:
 

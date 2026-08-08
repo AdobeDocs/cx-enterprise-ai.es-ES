@@ -1,14 +1,14 @@
 ---
 audience: user
-user-guide-title: Asistente de IA en Adobe CX Enterprise
-user-guide-description: Aprenda a utilizar el Asistente de IA para acelerar el flujo de trabajo con Adobe Experience Platform y Real-Time Customer Data Platform.
-description: Obtenga información sobre el asistente de IA en CX Enterprise. Mejore sus conocimientos sobre productos y obtenga perspectivas operativas utilizando IA en CX Enterprise.
+user-guide-title: Compañero
+user-guide-description: Aprenda a crear, configurar, integrar y ampliar el asistente de IA, el compañero de trabajo, los agentes y los MCP mediante documentación práctica, directrices de implementación y materiales de referencia.
+description: Obtenga información sobre las herramientas de IA en CX Enterprise. Mejore sus conocimientos sobre productos y obtenga perspectivas operativas utilizando IA en CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: a788c313d9df3f97f8c7b3019a09d04e0009e576
+source-git-commit: d6aa28c5708256c4717c65bc3fb3d218086f39d6
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 25%
+source-wordcount: '238'
+ht-degree: 17%
 
 ---
 
@@ -66,9 +66,12 @@ ht-degree: 25%
     - [Notas de la versión](./coworker/campaigns/release-notes.md)
   - Chat {#chat}
     - [Información general](./coworker/chat/overview.md)
-    - [Casos de uso](./coworker/chat/use-cases.md)
     - [Guía de IU](./coworker/chat/ui-guide.md)
-    - [Analizar datos de CJA](./coworker/chat/analytics-chat.md)
+    - Casos de uso {#use-cases}
+      - [Información general](./coworker/chat/use-cases/overview.md)
+      - Data Insights {#data-insights}
+        - [Analizar datos de CJA](./coworker/chat/use-cases/data-insights/analytics-chat.md)
+        - [Validación de datos de migración de AA a CJA](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
+      - Herramientas de zona protegida {#sandbox-tooling}
+        - [Mover objetos entre zonas protegidas](./agents/sandbox-tooling.md)
   - {hide-from-toc}[Chat de compañeros en el patio de recreo](./coworker/playground-coworker-chat.md)
-  - [Validación de datos de migración de AA a CJA](./coworker/data-validation-aa-cja.md)
-  - [Habilidades de agencia de herramientas para espacios aislados](./agents/sandbox-tooling.md)

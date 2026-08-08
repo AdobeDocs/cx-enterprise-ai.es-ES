@@ -1,7 +1,7 @@
 ---
 title: Habilidades de agencia de herramientas para espacios aislados
 description: Aprenda a utilizar las habilidades de agente de herramientas de espacio aislado para replicar metadatos de objetos en entornos de espacio aislado.
-source-git-commit: 6df9b0df99ff2d5773a94644d1e4313c86c2f1a0
+source-git-commit: 9b6c144fae1ebb17c22ce0a0d6f65b444408ece9
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 1%
@@ -24,6 +24,8 @@ ht-degree: 1%
 >Actualmente, puede utilizar las habilidades de agente de herramientas de zona protegida para descubrir, empaquetar y migrar objetos de esquema y audiencia. En futuras versiones se añadirá compatibilidad con tipos de objeto adicionales.
 
 Utilice las habilidades de agente de herramientas de espacio aislado para mover metadatos de objetos, incluidos esquemas y audiencias, a entornos de Adobe Experience Platform. Para ello, describa lo que desea lograr en lenguaje natural. Con CX Coworker, puede descubrir los metadatos necesarios, identificar automáticamente las dependencias, crear paquetes de migración y migrar objetos a través de una experiencia de conversación.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3496711?captions=spa&learn=on)
 
 ## Requisitos previos {#prerequisites}
 
