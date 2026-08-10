@@ -1,7 +1,14 @@
 ---
 title: Validar datos con su compañero de trabajo al actualizar de Adobe Analytics a Customer Journey Analytics
 description: Descubra cómo los administradores de Analytics utilizan la habilidad de validación de datos de CX Enterprise Coworker para comparar los datos de Adobe Analytics y Customer Journey Analytics durante la actualización.
-source-git-commit: ccdc8e69ca03630ca0964b22878cff0bd6ca4c01
+feature: AI Tools
+role: User
+level: Intermediate
+doc-type: Feature Video
+duration: null
+last-substantial-update: 2026-08-10T00:00:00Z
+jira: KT-22083
+source-git-commit: bb7a380a87ac8efa6c236532921d9b0bc6cfcf94
 workflow-type: tm+mt
 source-wordcount: '1532'
 ht-degree: 0%
@@ -26,8 +33,6 @@ Después de realizar estas comparaciones, la aptitud genera perspectivas y recom
 
 ## Antes de empezar
 
-
-
 Para validar los datos como parte de la actualización, necesita lo siguiente:
 
 * El grupo de informes de Adobe Analytics que desea validar.
@@ -35,6 +40,8 @@ Para validar los datos como parte de la actualización, necesita lo siguiente:
 * La vista de datos de Customer Journey Analytics que contiene los mismos datos.
 
 No necesita saber cómo se ha diseñado la implementación. La aptitud detecta automáticamente si la implementación de Customer Journey Analytics utiliza el conector de Source de Analytics o una nueva implementación de Experience Platform Web SDK.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3496851/?captions=spa&learn=on&enablevpops)
 
 ## Iniciar una sesión de validación
 
