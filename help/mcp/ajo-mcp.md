@@ -1,9 +1,9 @@
 ---
-title: Herramientas Adobe Journey Optimizer en CX Coworker Gateway
+title: Herramientas de Journey Optimizer en CX Coworker Gateway
 description: Descubra qué herramientas de Adobe Journey Optimizer están disponibles a través de CX Coworker Gateway.
-source-git-commit: 30f4d593bdec8cb45d10c4c49fac3dce16e8ca03
+source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '533'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,7 @@ Utilice las herramientas de producto de Adobe Journey Optimizer para inspecciona
 
 ## Funcionalidades clave {#mcp-capabilities}
 
-Las herramientas de Journey Optimizer proporcionan una superficie de solo lectura para la revisión de la configuración de campañas y canales. Se puede:
+Las herramientas de Journey Optimizer proporcionan una superficie de solo lectura para la revisión de la configuración de campañas y canales. Puede:
 
 - Enumere las campañas de Journey Optimizer y filtre por estado.
 - Recupere detalles de la campaña, incluidos los metadatos de segmentación, programación, canal y configuración de contenido.

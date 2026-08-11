@@ -5,10 +5,11 @@ user-guide-description: Aprenda a crear, configurar, integrar y ampliar el asist
 description: Obtenga información sobre las herramientas de IA en CX Enterprise. Mejore sus conocimientos sobre productos y obtenga perspectivas operativas utilizando IA en CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: bb7a380a87ac8efa6c236532921d9b0bc6cfcf94
+dummy: true
+source-git-commit: b68e00babda4fb9f8af816ceb836367fe86cc0fa
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 17%
+source-wordcount: '260'
+ht-degree: 16%
 
 ---
 
@@ -54,7 +55,7 @@ ht-degree: 17%
     - [Herramientas de Journey Optimizer](./mcp/ajo-mcp.md)
     - [Herramientas de Customer Journey Analytics](./mcp/cja-mcp.md)
     - [Herramientas de Adobe Analytics](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/es/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Compañero {#coworker}
   - [Acerca de Coworker](./coworker/overview.md)
   - Campañas {#campaigns}
@@ -68,15 +69,15 @@ ht-degree: 17%
     - [Información general](./coworker/chat/overview.md)
     - [Guía de IU](./coworker/chat/ui-guide.md)
     - Casos de uso {#use-cases}
-      - [Información general](./coworker/chat/use-cases/overview.md)
+      - [Casos de uso de chat con compañeros](./coworker/chat/use-cases/overview.md)
       - Data Insights {#data-insights}
         - [Analizar datos de CJA](./coworker/chat/use-cases/data-insights/analytics-chat.md)
-        - [Análisis de la causa raíz](./coworker/chat/use-cases/data-insights/root-cause-analysis.md)
-        - [Validación de datos de migración de AA a CJA](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
+        - [Explorar tendencias y causas básicas](./coworker/chat/use-cases/data-insights/root-cause-analysis.md)
+        - [Validar datos de AA a CJA al actualizar](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
       - Públicos {#audiences}
-        - [Crear audiencias con lenguaje natural](./coworker/chat/use-cases/audiences/create-audience-from-natural-language.md)
+        - [Evaluar el estado de la plataforma y crear audiencias](./coworker/chat/use-cases/audiences/create-audience-from-natural-language.md)
       - Recorridos {#journeys}
         - [Creación de recorridos con lenguaje natural](./coworker/chat/use-cases/journeys/create-journey-from-natural-language.md)
       - Herramientas de zona protegida {#sandbox-tooling}
-        - [Mover objetos entre zonas protegidas](./agents/sandbox-tooling.md)
+        - [Aptitudes agénticas de herramientas de zona protegida](./agents/sandbox-tooling.md)
   - {hide-from-toc}[Chat de compañeros en el patio de recreo](./coworker/playground-coworker-chat.md)

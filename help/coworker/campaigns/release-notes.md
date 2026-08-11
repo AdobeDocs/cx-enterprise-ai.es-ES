@@ -1,9 +1,9 @@
 ---
 description: Obtenga información sobre las mejoras y correcciones de funciones en las notas de la versión de Adobe CX Enterprise Coworker Campaigns.
-title: Notas de la versión de Adobe CX Enterprise Coworker Campaigns
-source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
+title: Notas de la versión de CX Enterprise Coworker Campaigns
+source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
 workflow-type: tm+mt
-source-wordcount: '2188'
+source-wordcount: '2187'
 ht-degree: 0%
 
 ---
