@@ -1,9 +1,9 @@
 ---
 title: Acerca de Adobe CX Enterprise
 description: Aprenda a llevar el marketing al siguiente nivel con Adobe CX Enterprise Coworker.
-source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
+source-git-commit: 500932a1e705af1682a71ce460b6fa62e4ffd4ac
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '195'
 ht-degree: 4%
 
 ---
@@ -20,6 +20,11 @@ Campañas de compañeros es una función con plantillas para que los equipos peq
 * [Creación de una campaña de correo electrónico](./campaigns/create-an-email-campaign.md)
 * [Casos de uso](./campaigns/use-cases.md)
 * [Impulso de las prácticas recomendadas](./campaigns/prompting-best-practices.md)
+<!--
+broken links
+* [Connect to Marketo Engage](./coworker/campaigns/connectors/marketo.md)
+* [Connect to Hubspot](./coworker/campaigns/connectors/hubspot.md) 
+-->
 
 ## Chat
 
@@ -29,6 +34,6 @@ Coworker Chat permite a los equipos automatizar las tareas de productos de Adobe
 * [Casos de uso](./chat/use-cases/overview.md)
 * [Guía de IU](./chat/ui-guide.md)
 
-## Proyectos (documentos próximamente)
+## Proyectos (próximamente)
 
 Proyectos de compañeros es un espacio de trabajo unificado para automatizar los flujos de trabajo de orquestación de la experiencia del cliente de extremo a extremo, lo que ayuda a los equipos a coordinar tareas, aprobaciones y ejecuciones para impulsar los resultados desde la estrategia hasta la entrega.
