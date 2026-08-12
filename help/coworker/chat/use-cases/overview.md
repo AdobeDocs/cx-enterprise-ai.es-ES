@@ -1,10 +1,10 @@
 ---
 description: Casos de uso y ejemplos de mensajes de texto de Browse Coworker Chat, organizados por área en las perspectivas de datos, audiencias, recorridos y operaciones de la plataforma.
 title: Casos de uso de chat con compañeros
-source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
+source-git-commit: 8a6d1c51abb7702298af4ac294dbe96a3b90e2df
 workflow-type: tm+mt
-source-wordcount: '1181'
-ht-degree: 3%
+source-wordcount: '1219'
+ht-degree: 4%
 
 ---
 
@@ -46,6 +46,7 @@ El chat de compañeros de trabajo le permite consultar, analizar y actuar en los
 | Analizar conflictos de recorrido | Detectar superposición de audiencias, conflictos de programación y problemas de deduplicación entre recorridos activos | `journey-analyze-conflict` | Adobe Journey Optimizer (AJO) | &quot;¿El abandono del carro de compras entra en recorrido con algún otro recorrido?&quot; · &quot;Comprobar si hay superposición de audiencias entre mis recorridos activos&quot; |
 | Analizar visitas en el orden previsto de recorrido | Identificar dónde y por qué los clientes abandonan durante un recorrido y detectar patrones de comportamiento que conducen a la desparticipación | `journey-analyze-fallout` | Adobe Journey Optimizer (AJO) | &quot;¿Dónde está la gente dejando mi recorrido de renovación de la participación?&quot; · &quot;¿Qué nodos del recorrido X tienen la mayor tasa de abandono de la secuencia?&quot; |
 | Analizar errores de acciones personalizadas | Identifique cuándo las acciones personalizadas producen errores o las tasas de error aumentan dentro de un recorrido y diagnostique las causas raíz antes de que los errores se propaguen en cascada hasta una interrupción más amplia | `journey-analyze-custom-action` | Adobe Journey Optimizer (AJO) | &quot;¿Por qué las acciones personalizadas fallan en mi recorrido de suscripción de fidelidad?&quot; · &quot;Mostrarme la tasa de error para la acción personalizada ExternalPush en mi recorrido de bienvenida&quot;. |
+| [Crear, editar y administrar desafíos de lealtad](journeys/create-loyalty-challenge.md) | Simplificación y aceleración de la administración de programas de fidelización | `loyalty` | Adobe Journey Optimizer (AJO) | &quot;Cree un desafío que anime a los miembros a probar una nueva bebida de temporada&quot; · &quot;Muéstreme los desafíos de fidelidad con las tasas más altas de bajas de miembros&quot;. |
 
 ## Elementos básicos
 

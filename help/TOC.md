@@ -6,9 +6,9 @@ description: Obtenga información sobre las herramientas de IA en CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 91ea22749d33f8d58b5eb7b41f06ea4cc0b9513e
+source-git-commit: 8a6d1c51abb7702298af4ac294dbe96a3b90e2df
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '266'
 ht-degree: 16%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 16%
     - [Herramientas de Journey Optimizer](./mcp/ajo-mcp.md)
     - [Herramientas de Customer Journey Analytics](./mcp/cja-mcp.md)
     - [Herramientas de Adobe Analytics](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/es/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Compañero {#coworker}
   - [Acerca de Coworker](./coworker/overview.md)
   - Campañas {#campaigns}
@@ -77,6 +77,7 @@ ht-degree: 16%
         - [Evaluar el estado de la plataforma y crear audiencias](./coworker/chat/use-cases/audiences/create-audience-from-natural-language.md)
       - Recorridos {#journeys}
         - [Creación de recorridos con lenguaje natural](./coworker/chat/use-cases/journeys/create-journey-from-natural-language.md)
+        - [Creación de un desafío de lealtad y perspectivas de superficie](./coworker/chat/use-cases/journeys/create-loyalty-challenge.md)
       - Herramientas de zona protegida {#sandbox-tooling}
         - [Aptitudes agénticas de herramientas de zona protegida](./agents/sandbox-tooling.md)
   - {hide-from-toc}[Chat de compañeros en el patio de recreo](./coworker/playground-coworker-chat.md)
