@@ -1,10 +1,10 @@
 ---
 description: 'Conozca las campañas de los compañeros que ofrecen recomendaciones: el marco de trabajo CO-STAR, las acciones y no acciones, el contenido no compatible y una lista de comprobación de calidad para las peticiones de datos.'
-title: Impulso de las prácticas recomendadas
-source-git-commit: 7907ba48f339a6da4f144c0420d31911e03f5050
+title: Prácticas recomendadas en materia de solicitudes
+source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
 workflow-type: tm+mt
 source-wordcount: '532'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 

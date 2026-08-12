@@ -1,16 +1,16 @@
 ---
 description: Casos de uso y ejemplos de mensajes de texto de Browse Coworker Chat, organizados por área en las perspectivas de datos, audiencias, recorridos y operaciones de la plataforma.
-title: Casos de uso
-source-git-commit: 539dac230b33d4dee06c940080b48a523211d73d
+title: Casos de uso de chat con compañeros
+source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
 workflow-type: tm+mt
-source-wordcount: '1142'
-ht-degree: 4%
+source-wordcount: '1181'
+ht-degree: 3%
 
 ---
 
-# Casos de uso {#use-cases}
+# Casos de uso de chat con compañeros{#use-cases}
 
-A continuación se muestran casos de uso y ejemplos de mensajes que los profesionales utilizan en el chat de compañeros de Adobe CX Enterprise, organizado por área de trabajo. Cada mensaje se crea para copiarse, adaptarse con sus propios datos y contexto, y refinarse a través de la conversación.
+El chat de compañeros de trabajo le permite consultar, analizar y actuar en los datos de [!DNL Experience Platform] con lenguaje natural en lugar de navegar por varias interfaces de usuario o escribir consultas a mano. Esta página cataloga los casos de uso en los que más se basan los profesionales, organizados por área de trabajo: perspectivas de datos, audiencias, recorridos, elementos fundacionales y herramientas de zona protegida. Cada entrada incluye la aptitud que invoca, las aplicaciones con las que trabaja y los indicadores de ejemplo que puede copiar, adaptar a sus propios datos y refinar a través de la conversación.
 
 ## Perspectivas de datos
 

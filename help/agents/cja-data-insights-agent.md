@@ -1,6 +1,6 @@
 ---
 description: Obtenga información sobre cómo visualizar datos con Data Insights Agent en Customer Journey Analytics
-title: Visualización de datos con Data Insights Agent en Customer Journey Analytics
+title: Visualización de datos con Data Insights Agent
 role: User, Admin
 solution: Customer Journey Analytics
 TQID: https://experienceleague.adobe.com/UtKIDlN2x7MOAiHNRRQ8b5OO4fIwzV74r1fnfMwblcQ
@@ -22,9 +22,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
+source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
 workflow-type: tm+mt
-source-wordcount: 2655
+source-wordcount: 2686
 ht-degree: 4%
 
 ---
@@ -49,7 +49,7 @@ El uso de Data Insights Agent para responder preguntas centradas en los datos en
 | **Acciones de Workspace y capacidades del agente** | <ul><li>Creación y actualización de visualizaciones<p>Genera una tabla de forma libre y una visualización asociada (como una línea, una barra, un anillo, etc.).</p><p>Por ejemplo, *¿Cuál es la ganancia entre SKU de febrero a mayo?*</p></li><li>Formular preguntas de seguimiento<p>Responder a un mensaje en el contexto desde cualquier mensaje anterior. Por ejemplo:</p> <ul><li>Preguntar 1: *Eventos de tendencia de marzo.*</li><li>Mensaje 2: *Mostrarme los datos de marzo a abril*</li></ul> </li><li>Detección de mensajes fuera de ámbito<p>Si envía una solicitud que está fuera del ámbito, como *Exportar este proyecto*, Data Insights Agent le responderá informándole de que la pregunta está fuera del ámbito.</p></li></ul> | <ul><li>Compartir</li><li>Exportar</li><li>Descargar</li><li>Administrar preferencias de usuario</li><li>Administrar vista de datos</li><li>Aplicación de paneles de Analytics</li><li>Atribución</li><li>Resumen o respuesta en línea<p>Data Insights Agent no puede responder en línea en el carril de chat con una respuesta resumida de una petición de datos del usuario. Algunos ejemplos de mensajes fuera del ámbito son: *Dame un resumen de los datos de mi último mensaje* y *Resume los elementos destacados de la visualización de líneas.*</p></li></ul> |
 | **aclarando preguntas** | Si hace una pregunta que no tiene contexto suficiente para que Data Insights Agent la responda o es demasiado genérica, Data Insights Agent responde con una pregunta aclaratoria o con opciones sugeridas. <p>Las siguientes preguntas aclaratorias son ejemplos de preguntas relacionadas con los componentes:</p><ul><li>Métrica: *¿A qué métrica de &quot;ingresos&quot; se refería?*</li><li>Dimension: *¿En cuál de las siguientes &quot;regiones&quot; desea centrarse?*</li><li>Segmento: *¿Qué segmento de &quot;cuenta&quot; quería aplicar?*</li><li>Intervalo de fechas: *Por &quot;mes pasado&quot;, ¿se refería al último mes completo o a los últimos 30 días?*</li></ul><p>La siguiente pregunta aclaratoria es un ejemplo de una pregunta relacionada con los elementos de dimensión:</p> <ul><li>¿A qué &quot;nombre de tienda&quot; te referías? (Por ejemplo, Almacenar #5274, Almacenar #2949, etc.).</li></ul> | Las preguntas de aclaración se limitan a componentes y elementos de dimensión. Data Insights Agent no puede aclarar cosas como vistas de datos, visualizaciones, granularidad de datos, comparación y ámbito. Cuando no se pueden utilizar preguntas aclaratorias, el agente toma como valor predeterminado lo que es más probable que se pida. Si devuelve una visualización o una granularidad de datos inesperada, puede hacer una pregunta de seguimiento o ajustar la visualización y los datos. |
 | **Verificación y corrección de datos** | La verificabilidad y corrección de los datos se puede confirmar consultando la tabla de forma libre y la visualización de datos generadas. <p>Por ejemplo, si solicita a Data Insights Agent que *Tendencie los pedidos el mes pasado*, puede confirmar que la métrica (&quot;pedidos&quot;) y el intervalo de fechas (&quot;el mes pasado&quot;) correctos se seleccionaron en el panel, la visualización de datos y la tabla de forma libre recién generados.</p> | Data Insights Agent no responde informándole de los componentes o visualizaciones que se han añadido. |
-| **Mecanismos de comentarios** | <ul><li>Pulgares hacia arriba</li><li>Pulgar hacia abajo</li><li>Indicador</li></ul> |  |
+| **Mecanismos de comentarios** | <ul><li>Pulgares hacia arriba</li><li>Pulgares hacia abajo</li><li>Indicador</li></ul> |  |
 
 
 ## Administración del acceso a Data Insights Agent {#manage-access}

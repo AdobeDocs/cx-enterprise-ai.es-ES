@@ -1,9 +1,9 @@
 ---
-title: Real-Time CDP MCP (Beta)
+title: Herramientas de Real-Time CDP en CX Coworker Gateway
 description: Obtenga información sobre cómo conectar Adobe Real-Time CDP a clientes MCP mediante el servidor MCP.
-source-git-commit: 30f4d593bdec8cb45d10c4c49fac3dce16e8ca03
+source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '789'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,7 @@ Puede utilizar las herramientas de producto de Real-Time CDP MCP para inspeccion
 
 ## Funcionalidades clave {#mcp-capabilities}
 
-Las herramientas de Real-Time CDP proporcionan una superficie de monitorización y triaje de solo lectura. Se puede:
+Las herramientas de Real-Time CDP proporcionan una superficie de monitorización y triaje de solo lectura. Puede:
 
 * Enumerar e inspeccionar audiencias, incluido el estado del ciclo vital, el origen y el área de nombres de identidad.
 * Revise la evaluación de audiencias y los trabajos de exportación para identificar errores recientes.

@@ -1,9 +1,9 @@
 ---
 description: Examine patrones de mensajes reales para campañas de Adobe CX Enterprise Coworker, organizadas por casos de uso en campañas de adquisición, participación, eventos, conversión y retención.
-title: Casos de uso
-source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
+title: Casos de uso de campañas de compañeros
+source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '508'
 ht-degree: 0%
 
 ---

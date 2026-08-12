@@ -1,10 +1,10 @@
 ---
 description: Una guía de referencia sobre la interfaz de Coworker Chat, que cubre la navegación, el cuadro de entrada, las respuestas, el historial de chat y la configuración de habilidades, servidores MCP y memoria.
-title: Guía de IU
-source-git-commit: 7907ba48f339a6da4f144c0420d31911e03f5050
+title: Guía de IU de Coworker Chat
+source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
 workflow-type: tm+mt
-source-wordcount: '1575'
-ht-degree: 1%
+source-wordcount: '1577'
+ht-degree: 3%
 
 ---
 
@@ -77,7 +77,7 @@ El cuadro de entrada (con la etiqueta &quot;Preguntar a un compañero sobre cual
 | Elemento de interfaz | Descripción |
 | --- | --- |
 | + (Adjuntar) | Abra el menú adjuntar para agregar un archivo o un objeto de datos al mensaje. |
-| Modo de planificación | Pida a Coworker Chat que proponga un plan paso a paso y que haga una pausa para su aprobación antes de que actúe. Desactívela para permitir que Coworker Chat actúe directamente. |
+| Modo Plan | Pida a Coworker Chat que proponga un plan paso a paso y que haga una pausa para su aprobación antes de que actúe. Desactívela para permitir que Coworker Chat actúe directamente. |
 | Vista de transcripción | Controle la cantidad de actividad interna de Coworker Chat que se muestra: Normal, Enfoque o Detallada. |
 | Micrófono | Dicte el mensaje con la entrada de voz. Seleccione de nuevo para detener la grabación. |
 | Enviar | Envíe el mensaje. Mientras Coworker Chat está respondiendo, esto se convierte en un control Stop que puede utilizar para interrumpir. |
@@ -91,7 +91,7 @@ Seleccione + para adjuntar contexto al mensaje:
 
 ![Menú adjunto](./assets/ui-guide-5.png)
 
-### Modo de planificación
+### Modo Plan
 
 Active el modo de planificación cuando una tarea sea compleja o cambie datos y desee revisar primero el método. Coworker Chat responde con un plan y espera su aprobación antes de llevarlo a cabo. Cuando el modo de planificación está desactivado, Coworker Chat pasa directamente al trabajo.
 
@@ -153,7 +153,7 @@ Seleccione Chats en el carril de navegación para abrir todo su historial. Las c
 | Elemento de interfaz | Descripción |
 | --- | --- |
 | Buscar por título | Encuentra una conversación anterior por su nombre. |
-| Mostrar anclados | Muestra solo las conversaciones que has protagonizado. |
+| Mostrar anclado | Muestra solo las conversaciones que has protagonizado. |
 | Mostrar archivados | Muestre las conversaciones que ha archivado. |
 | Nuevo chat | Iniciar una nueva conversación. |
 | Menú Fila (...) | En cualquier conversación, inicie (fije), cambie el nombre, archive o elimine. |
@@ -164,7 +164,7 @@ Seleccione Chats en el carril de navegación para abrir todo su historial. Las c
 
 Configuraciones es donde puede adaptar lo que Coworker Chat puede hacer. Tiene cinco fichas: aptitudes, servidores MCP, mercados, complementos y memoria.
 
-### Aptitudes
+### Habilidades
 
 Las habilidades son funcionalidades especializadas que Coworker Chat invoca automáticamente cuando son relevantes o que puede poner en déclencheur escribiendo / en el chat. La pestaña Aptitudes enumera todas las aptitudes instaladas y le permite añadir más.
 
