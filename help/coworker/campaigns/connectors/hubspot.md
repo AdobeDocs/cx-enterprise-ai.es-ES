@@ -1,9 +1,10 @@
 ---
 description: Conecte su cuenta de HubSpot a Campañas de compañeros mediante una clave de servicio para sincronizar las listas de contactos y, a continuación, administre o desconecte la integración en cualquier momento.
 title: Conectar con HubSpot
-source-git-commit: 58764017fd2504a481be7ed9577cdcf4a1f107cd
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: 1c4f9585c04eae8693e38541084cead08412d192
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: 258
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ Adobe Coworker Campaigns permite conectar su cuenta de HubSpot para extraer list
 >Para utilizar este conector, primero debe tener:
 >
 >* Una cuenta activa de HubSpot
->* Se ha creado una clave de servicio [1&rbrace; con los siguientes ámbitos agregados: `crm.objects.contacts.read`, `crm.objects.leads.read`, `crm.schemas.contacts.read`, `crm.lists.read`, `crm.export`](https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/account-service-keys#create-a-service-key)
+>* Se ha creado una clave de servicio [1} con los siguientes ámbitos agregados: `crm.objects.contacts.read`, `crm.objects.leads.read`, `crm.schemas.contacts.read`, `crm.lists.read`, `crm.export`](https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/account-service-keys#create-a-service-key)
 
 ## Cómo conectar
 
