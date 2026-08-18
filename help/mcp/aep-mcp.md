@@ -1,10 +1,10 @@
 ---
 title: Herramientas de Experience Platform en CX Coworker Gateway
 description: Descubra qué herramientas de Adobe Experience Platform están disponibles a través de CX Coworker Gateway.
-source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
+source-git-commit: 3b9aa67448b5686b614e5f34019d06272837f5c6
 workflow-type: tm+mt
-source-wordcount: '1371'
-ht-degree: 8%
+source-wordcount: '1537'
+ht-degree: 7%
 
 ---
 
@@ -29,6 +29,7 @@ Puede utilizar las herramientas de producto de Adobe Experience Platform para in
 | `search_data_lake` | Inspeccionar metadatos de conjuntos de datos y estado de lotes | API de Data Lake · conjuntos de datos, lotes | obtener, obtener tamaño, enumerar lotes con errores | Activo |
 | `search_dule` | Etiquetas, políticas y acciones de gobernanza de datos de consulta | Administración de datos · etiquetas, políticas, marketing_actions | list, get, list enabled, evaluate | Activo |
 | `search_query_service` | Consultas, consultas SQL, plantillas, programaciones, alertas | Servicio de consultas: consultas, plantillas, programaciones y alertas | list, get, filter, get connection params | Activo |
+| `search_sandbox_health_assessment` | Recupere los resultados más recientes de la evaluación de la comprobación de estado Ejecutar y operar para la zona protegida actual | Ejecutar y operar · evaluaciones de comprobación de estado | lista, obtener por nombre de cheque | Activo |
 | `search_schema_registry` | Esquemas, grupos de campos, clases y tipos de XDM de consulta | Registro de esquemas: esquemas, grupos de campos, clases, data_types, descriptores | lista, obtener, filtrar por contenedor | Activo |
 
 ## Referencia de herramienta
@@ -197,3 +198,18 @@ Herramienta unificada para recursos del servicio de consultas. Mostrar y recuper
 | --- | --- | --- |
 | `entity_type` | Sí | `query`, `query_template`, `schedule`, `schedule_run`, `connection`, `alert_subscription` |
 | `operation` | Sí | `list`, `get`, `get_connection_params`, `list_by_u...` |
+
+### search_sandbox_health_evaluation
+
+**Recurso:** Ejecutar y operar · evaluaciones de comprobación de estado
+**Estado:** activo
+
+Recupere los resultados más recientes de la evaluación de la comprobación de estado Ejecutar y Operar para la zona protegida actual. Devuelve los resultados de todas las categorías admitidas, incluidos los esquemas y las identidades, la segmentación, la ingesta y el perfil. Para identificar la causa raíz sin una búsqueda independiente, cada resultado incluye los recursos afectados tras una comprobación errónea. Solo se devuelven comprobaciones con un nombre publicado y legible en lenguaje natural. Todas las operaciones son de solo lectura.
+
+>[!NOTE]
+>
+>Esta herramienta sólo recupera los resultados de la evaluación. Para solucionar un problema marcado, utilice el panel de detalles de comprobación de estado en la interfaz de usuario de [!DNL Experience Platform]. Ver [Comprobaciones de estado](https://experienceleague.adobe.com/en/docs/experience-platform/run-and-operate/health-checks). La guía de corrección automática para las comprobaciones de estado admitidas está disponible como aptitud en [CX Coworker Chat](../coworker/chat/overview.md).
+
+**Capacidades:** muestran todos los resultados de las comprobaciones de estado de la zona protegida actual y obtienen los resultados de una comprobación con nombre
+
+No hay parámetros.
