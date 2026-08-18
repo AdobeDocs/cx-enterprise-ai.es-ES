@@ -1,9 +1,11 @@
 ---
 description: Una guía paso a paso para generar una campaña de correo electrónico en Adobe CX Enterprise Coworker Campaigns, desde la escritura de mensajes hasta la revisión y exportación de la campaña.
 title: Creación de una campaña de correo electrónico
-source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
+feature_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: 1c4f9585c04eae8693e38541084cead08412d192
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: 976
 ht-degree: 0%
 
 ---
