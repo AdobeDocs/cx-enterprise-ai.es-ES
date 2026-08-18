@@ -40,4 +40,4 @@ Campañas de compañeros conserva Content Credentials asociado con los recursos 
 
 * [Cómo funciona Content Credentials en los productos de Adobe](https://helpx.adobe.com/es/firefly/using/content-credentials.html){target="_blank"}
 
-* [Mecanismos de protección y limitaciones](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/generate-content/gs-generative#generative-guardrails){target="_blank"}
+* [Mecanismos de protección y limitaciones](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/content-management/generate-content/gs-generative#generative-guardrails){target="_blank"}
