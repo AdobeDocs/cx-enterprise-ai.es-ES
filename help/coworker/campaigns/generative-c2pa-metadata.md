@@ -2,10 +2,10 @@
 description: Descubra cómo Campañas de colaboración adjunta y conserva automáticamente los metadatos de C2PA (Content Credentials) en imágenes generadas y editadas por IA, sin necesidad de realizar ninguna acción.
 title: Metadatos de C2PA en campañas de compañeros de trabajo
 hide: true
-source-git-commit: c03bdd213d3e96de1bee022b98e4809d3100a195
+source-git-commit: 2b75854bde0697971e736bd453a14a4aa44352ed
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 8%
+source-wordcount: '361'
+ht-degree: 6%
 
 ---
 
@@ -30,14 +30,14 @@ La siguiente tabla resume cuándo se adjuntan los metadatos de C2PA, en función
 
 ## Qué sucede a medida que se mueve el contenido {#cc-content-moves}
 
-Campañas de compañeros conserva Content Credentials asociado con los recursos de imagen admitidos. Si una imagen contiene Content Credentials cuando se importa en Campañas de compañeros, esas credenciales se conservan cuando el recurso se utiliza en el contenido de campaña generado y en las experiencias de correo electrónico saliente. [Más información acerca de los metadatos de C2PA](https://helpx.adobe.com/es/firefly/using/content-credentials.html){target="_blank"}.
+Campañas de compañeros conserva Content Credentials asociado con los recursos de imagen admitidos. Si una imagen contiene Content Credentials cuando se importa en Campañas de compañeros, esas credenciales se conservan cuando el recurso se utiliza en el contenido de campaña generado y en las experiencias de correo electrónico saliente.
 
 <!-- Some ways of bringing images into your content, such as extracting an image from a PDF or from an embedded (base64) source, may not preserve the original C2PA metadata. In these cases, no C2PA metadata can be read from the source, and none is created for the result. -->
 
 ## Recursos adicionales
 
+* [Más información sobre los metadatos de C2PA](https://helpx.adobe.com/es/firefly/using/content-credentials.html){target="_blank"}
+
 * [Directrices de usuario de IA generativa de Adobe Experience Cloud](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}
 
-* [Cómo funciona Content Credentials en los productos de Adobe](https://helpx.adobe.com/es/firefly/using/content-credentials.html){target="_blank"}
-
-* [Mecanismos de protección y limitaciones](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/content-management/generate-content/gs-generative#generative-guardrails){target="_blank"}
+* [Mecanismos de protección y limitaciones](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/generate-content/gs-generative#generative-guardrails){target="_blank"}
