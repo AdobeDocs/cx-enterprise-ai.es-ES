@@ -1,10 +1,10 @@
 ---
 title: Herramientas de Experience Platform en CX Coworker Gateway
 description: Descubra qué herramientas de Adobe Experience Platform están disponibles a través de CX Coworker Gateway.
-source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
+source-git-commit: a76b4e9bdd925617039b9d6b5362b25974620c34
 workflow-type: tm+mt
-source-wordcount: '1371'
-ht-degree: 8%
+source-wordcount: '1947'
+ht-degree: 6%
 
 ---
 
@@ -29,7 +29,10 @@ Puede utilizar las herramientas de producto de Adobe Experience Platform para in
 | `search_data_lake` | Inspeccionar metadatos de conjuntos de datos y estado de lotes | API de Data Lake · conjuntos de datos, lotes | obtener, obtener tamaño, enumerar lotes con errores | Activo |
 | `search_dule` | Etiquetas, políticas y acciones de gobernanza de datos de consulta | Administración de datos · etiquetas, políticas, marketing_actions | list, get, list enabled, evaluate | Activo |
 | `search_query_service` | Consultas, consultas SQL, plantillas, programaciones, alertas | Servicio de consultas: consultas, plantillas, programaciones y alertas | list, get, filter, get connection params | Activo |
+| `search_sandbox_health_assessment` | Recupere los resultados más recientes de la evaluación de la comprobación de estado Ejecutar y operar para la zona protegida actual | Ejecutar y operar · evaluaciones de comprobación de estado | lista, obtener por nombre de cheque | Activo |
 | `search_schema_registry` | Esquemas, grupos de campos, clases y tipos de XDM de consulta | Registro de esquemas: esquemas, grupos de campos, clases, data_types, descriptores | lista, obtener, filtrar por contenedor | Activo |
+| `execute_observability_metrics_query` | Consultar las métricas de [!DNL Observability Insights] de la zona protegida actual o de todas las zonas protegidas | Observability Insights · métricas | consultas de series temporales y acumuladas, solicitudes multimétricas, filtros de etiquetas, groupBy/exclude, disminución de resolución por métrica | Activo |
+| `inspect_observability_breaches` | Detectar intervalos de infracción de [!DNL Observability Insights] en los que una métrica superó su línea de base configurada | Observability Insights · brechas | intervalos de infracción de lista por serie, organización y ámbito de zona protegida | Activo |
 
 ## Referencia de herramienta
 
@@ -197,3 +200,64 @@ Herramienta unificada para recursos del servicio de consultas. Mostrar y recuper
 | --- | --- | --- |
 | `entity_type` | Sí | `query`, `query_template`, `schedule`, `schedule_run`, `connection`, `alert_subscription` |
 | `operation` | Sí | `list`, `get`, `get_connection_params`, `list_by_u...` |
+
+### execute_observability_metrics_query
+
+**Recurso:** Perspectivas de observabilidad · métricas
+**Estado:** activo
+
+Consulte las métricas de [!DNL Observability Insights] de la zona protegida actual o de todas las zonas protegidas de su organización. Admite varias métricas en una sola solicitud, filtros basados en etiquetas y disminución de resolución por métrica. Para `scope=org`, incluya al menos un filtro `groupBy` en cada métrica. Todas las operaciones son de solo lectura.
+
+**Capacidades:** puntos de datos de métricas de consulta, series de tiempo o agregados, solicitudes de varias métricas, filtros de etiquetas, groupBy/exclude, disminución de resolución por métrica
+
+**Parámetros:**
+
+| Parámetro | Requerido | Descripción |
+| --- | --- | --- |
+| `metrics` | Sí | Matriz de especificaciones de métricas. Cada uno incluye `name` (nombre de métrica completo), `aggregator` (`sum`, `avg`, `min`, `max`, `count`, `last`, `p50`, `p95`, `p99`, variantes de histograma o `absent`), `filters` opcional y `downsample` opcional |
+| `start` | Sí | Inicio de ventana, ISO 8601, p. ej. `2026-01-15T00:00:00.000Z`. Debe ser anterior a `end`. Ventana máxima: 31 días |
+| `end` | Sí | Fin de ventana, ISO 8601. Debe ser posterior a `start` |
+| `granularity` | No | Tamaño del bloque de tiempo: `MINUTE`, `FIVE_MINUTE`, `TEN_MINUTE`, `FIFTEEN_MINUTE`, `THIRTY_MINUTE`, `HOUR`, `FOUR_HOUR`, `TWELVE_HOUR`, `DAY`, `TWO_DAY`, `WEEK`, `MONTH` o `ALL` (contrae la ventana en un solo agregado). Omitir para permitir que el servidor elija |
+| `scope` | No | `sandbox` (predeterminado) consulta la zona protegida actual. `org` consulta todas las zonas protegidas de su organización y recomienda un filtro `groupBy` en cada métrica |
+
+Cada filtro de `metrics[].filters` incluye `name` (nombre de etiqueta), `value` (coincidencia exacta, comodín o regex) y `groupBy` y `exclude` booleanos opcionales.
+
+### inspect_observability_breves
+
+**Recurso:** Observability Insights · Incumplimientos
+**Estado:** activo
+
+Detectar intervalos de brecha [!DNL Observability Insights], ventanas de tiempo en las que una métrica excedió su línea de base configurada, para la zona protegida actual o en todas las zonas protegidas de su organización. Devuelve intervalos coincidentes previamente por serie. Las infracciones abiertas que aún están en curso al final de la ventana se devuelven con `end: null`. Todas las operaciones son de solo lectura.
+
+**Capacidades:** intervalos de infracción de lista por serie, organización y ámbito de zona protegida
+
+**Parámetros:**
+
+| Parámetro | Requerido | Descripción |
+| --- | --- | --- |
+| `metrics` | Sí | Matriz de especificaciones de infracción. Cada uno incluye `name` (nombre de métrica completo) y `filters` opcional |
+| `start` | Sí | Inicio de ventana, ISO 8601. Debe ser anterior a `end`. Ventana máxima: 31 días |
+| `end` | Sí | Fin de ventana, ISO 8601 |
+| `granularity` | No | Tamaño del bloque de tiempo, mismos valores que `execute_observability_metrics_query` excepto `ALL`. Cada contenedor se evalúa de forma independiente respecto a la línea de base |
+| `scope` | No | `sandbox` (predeterminado) o `org`. En `org` sin un filtro de espacio aislado, incluya al menos un filtro con `groupBy: true` por métrica para que los resultados se dividan por esa dimensión en lugar de contraerse en la organización |
+
+`inspect_observability_breaches` no acepta `aggregator` o `downsample` en `metrics[]`. La herramienta los configura internamente para evaluar la condición de infracción.
+
+>[!NOTE]
+>
+>Ambas herramientas de Observability Insights también están limitadas a un estimado de 10 000 puntos de datos por solicitud. Reduzca el intervalo de tiempo, agregue filtros o utilice un elemento más grueso `granularity` si se rechaza una solicitud por exceder este límite.
+
+### search_sandbox_health_evaluation
+
+**Recurso:** Ejecutar y operar · evaluaciones de comprobación de estado
+**Estado:** activo
+
+Recupere los resultados más recientes de la evaluación de la comprobación de estado Ejecutar y Operar para la zona protegida actual. Devuelve los resultados de todas las categorías admitidas, incluidos los esquemas y las identidades, la segmentación, la ingesta y el perfil. Para identificar la causa raíz sin una búsqueda independiente, cada resultado incluye los recursos afectados tras una comprobación errónea. Solo se devuelven comprobaciones con un nombre publicado y legible en lenguaje natural. Todas las operaciones son de solo lectura.
+
+>[!NOTE]
+>
+>Esta herramienta sólo recupera los resultados de la evaluación. Para solucionar un problema marcado, utilice el panel de detalles de comprobación de estado en la interfaz de usuario de [!DNL Experience Platform]. Ver [Comprobaciones de estado](https://experienceleague.adobe.com/es/docs/experience-platform/run-and-operate/health-checks). La guía de corrección automática para las comprobaciones de estado admitidas está disponible como aptitud en [CX Coworker Chat](../coworker/chat/overview.md).
+
+**Capacidades:** muestran todos los resultados de las comprobaciones de estado de la zona protegida actual y obtienen los resultados de una comprobación con nombre
+
+No hay parámetros.
