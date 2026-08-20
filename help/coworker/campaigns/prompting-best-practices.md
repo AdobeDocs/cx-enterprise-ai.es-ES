@@ -1,9 +1,8 @@
 ---
 description: 'Conozca las campañas de los compañeros que ofrecen recomendaciones: el marco de trabajo CO-STAR, las acciones y no acciones, el contenido no compatible y una lista de comprobación de calidad para las peticiones de datos.'
 title: Prácticas recomendadas en materia de solicitudes
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1c4f9585c04eae8693e38541084cead08412d192
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: d408bb6c54e59187382ca120695619c66003bc17
 workflow-type: tm+mt
 source-wordcount: 532
 ht-degree: 1%
@@ -141,4 +140,4 @@ Proporcione siempre el contexto y la propuesta de valor para que la API pueda ge
 
 >[!MORELIKETHIS]
 >
->Examine más [patrones de solicitud] (./) para Campañas de compañeros de trabajo.
+>Examine más [patrones de solicitud](use-cases.md) para Campañas de compañeros de trabajo.
