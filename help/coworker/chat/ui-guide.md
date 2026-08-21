@@ -3,7 +3,8 @@ description: Una guía de referencia sobre la interfaz de Coworker Chat, que cub
 title: Guía de IU de Coworker Chat
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1c4f9585c04eae8693e38541084cead08412d192
+jira: KT-22106
+source-git-commit: ff6ea2f9650bf1c72d2a878c20eecf90f1c8d9aa
 workflow-type: tm+mt
 source-wordcount: 1577
 ht-degree: 3%
@@ -13,6 +14,8 @@ ht-degree: 3%
 # Guía de IU {#ui-guide}
 
 Obtenga orientación con la interfaz de Chat del compañero. Esta guía cubre todo, desde el acceso a la aplicación y la navegación por el espacio de trabajo hasta sacar el máximo partido a las conversaciones, administrar el historial y adaptar la configuración.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3498558?learn=on)
 
 ## Acceso a Coworker Chat
 

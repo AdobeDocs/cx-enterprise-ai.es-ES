@@ -2,9 +2,9 @@
 description: Descubra cómo Campañas de Coworker adjunta y conserva automáticamente los metadatos de C2PA en las imágenes, desde la generación hasta la entrega por correo electrónico.
 title: Metadatos de C2PA en campañas de compañeros de trabajo
 hide: true
-source-git-commit: 1c24814b92c2eb3ecd7f3a54058c9a670613d814
+source-git-commit: 639602b445cba01fce2130006f98e1e388ba7d5b
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '370'
 ht-degree: 4%
 
 ---
@@ -30,13 +30,11 @@ La siguiente tabla resume cuándo se adjuntan los metadatos de C2PA, en función
 ## Tipos de contenido y su ámbito {#content-types}
 
 * **Imágenes**: Cubiertas. Los metadatos de C2PA se adjuntan cuando las imágenes se generan con IA generativa y se conservan mediante las operaciones de recorte, superposición de texto y superposición de imágenes realizadas por la generación de imágenes en Campañas de colaboración.
-* **Texto**: No aplicable. Las salidas de solo texto de la generación de imágenes en Campañas de Coworker, como la generación de copias, la traducción y las sugerencias de alineación de marca, no requieren metadatos de C2PA.
+* **Texto**: No aplicable. Las salidas solo de texto en Campañas de Coworker, como la generación de copias, la traducción y las sugerencias de alineación de marca, no requieren metadatos de C2PA.
 
 ## Qué sucede a medida que se mueve el contenido {#content-moves}
 
 Coworker Campaigns conserva los metadatos de C2PA asociados a los recursos de imagen admitidos. Si una imagen contiene metadatos de C2PA cuando se importa en Campañas de compañeros, esas credenciales se retienen cuando el recurso se utiliza en el contenido de campaña generado y en las experiencias de correo electrónico saliente.
-
-<!-- Some ways of bringing images into your content, such as extracting an image from a PDF or from an embedded (base64) source, may not preserve the original C2PA metadata. In these cases, no C2PA metadata can be read from the source, and none is created for the result. -->
 
 ## Recursos adicionales {#resources}
 
