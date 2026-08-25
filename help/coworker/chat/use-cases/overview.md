@@ -1,12 +1,11 @@
 ---
 description: Casos de uso y ejemplos de mensajes de texto de Browse Coworker Chat, organizados por área en las perspectivas de datos, audiencias, recorridos y operaciones de la plataforma.
 title: Casos de uso de chat con compañeros
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 39d2b564c2b95c1727806ee3478b8496bd1a0660
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: 46299bb3b1cd8179f277940d67bcb876b3f4e9fc
 workflow-type: tm+mt
-source-wordcount: 2835
-ht-degree: 8%
+source-wordcount: 3050
+ht-degree: 7%
 
 ---
 
@@ -22,11 +21,15 @@ El chat de compañeros de trabajo le permite consultar, analizar y actuar en los
 >
 >Todos los clientes elegibles tendrán acceso a las funciones de agente de Adobe Experience Manager en Coworker, de forma gradual.
 >
->Vea también [Información general sobre IA en AEM](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/ai-in-aem/overview).
+>Consulte también [IA en AEM: información general sobre las capacidades de agente en AEM](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/overview).
 
 ## Experiencia de marca
 
 ### Producción de experiencias: casos de uso de Sites
+
+>[!NOTE]
+>
+>Consulte también [Funciones agénticas en AEM: Experiencia de marca - Producción de experiencias - Sitios](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-sites).
 
 | Caso de uso | Descripción | Aptitud/aptitudes | Aplicación | Indicadores de ejemplo |
 | --- | --- | --- | --- | --- |
@@ -35,6 +38,10 @@ El chat de compañeros de trabajo le permite consultar, analizar y actuar en los
 | Pasar de Figma a fragmento de contenido visual | Importe diseños directamente desde Figma a Adobe Experience Manager utilizando un lenguaje natural. La aptitud crea automáticamente el modelo de contenido, el fragmento de contenido, los recursos y la plantilla de visualización necesarios, lo que permite a los usuarios empresariales pasar del diseño al contenido compatible con la web en minutos sin necesidad de una configuración manual. | `aem-sites-visualcontentfragments-create` | Adobe Experience Manager (AEM) | Importar desde &lt;Figma_URL> |
 
 ### Producción de experiencias: casos de uso de Forms
+
+>[!NOTE]
+>
+>Consulte también [Funciones agénticas en AEM: Experiencia de marca - Producción de experiencias - Forms](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-forms).
 
 | Caso de uso | Descripción | Aptitud/aptitudes | Aplicación | Indicadores de ejemplo |
 | --- | --- | --- | --- | --- |
@@ -45,6 +52,10 @@ El chat de compañeros de trabajo le permite consultar, analizar y actuar en los
 
 ### Desarrollo
 
+>[!NOTE]
+>
+>Consulte también [Funciones de agente en AEM: Experiencia de marca - Desarrollo](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/development/use-cases).
+
 | Caso de uso | Descripción | Aptitud/aptitudes | Aplicación | Indicadores de ejemplo |
 | --- | --- | --- | --- | --- |
 | Diagnóstico y corrección de errores en las canalizaciones de Cloud Manager | Investigue la ejecución de una canalización fallida, identifique la causa raíz y genere una corrección (con una comparación de diferencias) para su revisión | `cloud-manager-pipeline-troubleshooting` | Adobe Experience Manager (AEM) | &quot;¿Por qué falló mi canalización de compilación?&quot;<br><br>&quot;Sugerir una corrección para mi canalización de producción dañada&quot; |
@@ -54,6 +65,10 @@ El chat de compañeros de trabajo le permite consultar, analizar y actuar en los
 | Administrar las programaciones de actualización de versiones de AEM | Configure horas tranquilas diarias y periodos sin actualizaciones para el mantenimiento automatizado y consulte las ventanas globales de congelación de código de Adobe | `cloud-manager-release-management` | Adobe Experience Manager (AEM) | &quot;¿Cuál es mi ventana de horas tranquilas actual?&quot;<br><br>&quot;Programe un período sin actualizaciones del 20 de diciembre al 2 de enero&quot; |
 
 ### Incorporación: casos de uso para AEM Assets
+
+>[!NOTE]
+>
+>Consulte también [Funciones de agente en AEM: experiencia de marca - incorporación](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/onboarding/use-cases).
 
 | Caso de uso | Descripción | Aptitud/aptitudes | Aplicación | Indicadores de ejemplo |
 | --- | --- | --- | --- | --- |
@@ -66,6 +81,10 @@ El chat de compañeros de trabajo le permite consultar, analizar y actuar en los
 
 ### Detección de contenido
 
+>[!NOTE]
+>
+>Consulte también [Funciones de agente en AEM: Asesor de contenido: detección de contenido](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/discovery/use-cases).
+
 | Caso de uso | Descripción | Aptitud/aptitudes | Aplicación | Indicadores de ejemplo |
 | --- | --- | --- | --- | --- |
 | Buscar por tema semántico | Busque recursos por concepto, estado de ánimo o tema visual mediante la coincidencia semántica con tecnología de IA. | `aem-assets-discovery` | Adobe Experience Manager (AEM) Assets | &quot;Encuéntrame imágenes de estilo de vida de café matutino&quot; |
@@ -75,6 +94,10 @@ El chat de compañeros de trabajo le permite consultar, analizar y actuar en los
 
 ### Optimización de contenido
 
+>[!NOTE]
+>
+>Consulte también [Funciones agénticas en AEM: Asesor de contenido: optimización de contenido](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/content-optimization/use-cases).
+
 | Caso de uso | Descripción | Aptitud/aptitudes | Aplicación | Indicadores de ejemplo |
 | --- | --- | --- | --- | --- |
 | Creación de representaciones de alta resolución y representaciones optimizadas para el canal | Generar nuevas representaciones de un recurso con una resolución y un nivel de calidad especificados, lo que facilita la preparación de variaciones preparadas para el canal sin edición manual. También puede producir representaciones adaptadas a los requisitos específicos de la plataforma, como Historias de Instagram, lo que garantiza que los recursos cumplan automáticamente las directrices de formato, proporción y calidad. | `aem-assets-content-optimisation` | Adobe Experience Manager (AEM) Assets | &quot;Crear una representación de `2000px` como `JPEG` con `80% quality`&quot;<br><br>&quot;Crear una representación para una historia de Instagram&quot; |
@@ -82,6 +105,10 @@ El chat de compañeros de trabajo le permite consultar, analizar y actuar en los
 | Mejoras de imagen, ajustes de color de fondo, transformaciones de orientación | Aplique mejoras visuales (enfoque de imagen), reemplace los colores de fondo y realice transformaciones de orientación. | `aem-assets-content-optimisation` | Adobe Experience Manager (AEM) Assets | &quot;Cambiar el color de fondo de `PNG` a `#ff8932`&quot;<br><br>&quot;Enfoque de la imagen&quot;<br><br>&quot;Reflejar la imagen horizontalmente&quot; |
 
 ## Gobernanza de marca
+
+>[!NOTE]
+>
+>Consulte también [Funciones de agente en AEM: administración de marcas](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-governance/use-cases).
 
 | Caso de uso | Descripción | Habilidades | Aplicación | Indicadores de ejemplo |
 | --- | --- | --- | --- | --- |
@@ -137,7 +164,7 @@ El chat de compañeros de trabajo le permite consultar, analizar y actuar en los
 | Resolución y vinculación de entidades | Utilice la búsqueda semántica y léxica para resolver las menciones de entidad a entidades Experience Platform reales y descubrir campos XDM | `entity-linking` | Adobe Experience Platform | &quot;Resolver &quot;Compradores de vacaciones&quot; en una audiencia real&quot; · &quot;Buscar campos relacionados con el historial de compras&quot; |
 | Administrar aptitudes personalizadas | Guardar, modificar o eliminar habilidades reutilizables propiedad del usuario que persisten entre sesiones | `manage-skill` | Todas las solicitudes elegibles | &quot;Guardar ese flujo de trabajo como una aptitud&quot; · &quot;Eliminar mi aptitud de informe semanal&quot; · &quot;Convertir esto en una aptitud reutilizable&quot; |
 | Monitorización de la capacidad de streaming y brechas | Compruebe el uso, la capacidad y el estado de brecha de flujo actual e histórico en los entornos limitados | `observability-streaming-capacity`, `observability-streaming-usage`, `observability-capacity-breaches` | Adobe Experience Platform | &quot;¿Cuál es mi capacidad actual de streaming en mi zona protegida actual?&quot; · &quot;¿Mi zona protegida actual ha incumplido los límites de capacidad de la última semana?&quot; |
-| [Ver resultados de la evaluación de comprobación de estado](https://experienceleague.adobe.com/es/docs/experience-platform/run-and-operate/health-checks/overview) | Vea la última evaluación de comprobación de estado de la zona protegida, explore en profundidad una comprobación que da error y vea las entidades afectadas | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | &quot;¿Qué hay de malo en mi zona protegida?&quot; · &quot;Informarme sobre la última evaluación de la comprobación de estado&quot; · &quot;¿Cuáles son los problemas de la comprobación de descripción del área de nombres personalizada?&quot; |
+| [Ver resultados de la evaluación de comprobación de estado](https://experienceleague.adobe.com/en/docs/experience-platform/run-and-operate/health-checks/overview) | Vea la última evaluación de comprobación de estado de la zona protegida, explore en profundidad una comprobación que da error y vea las entidades afectadas | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | &quot;¿Qué hay de malo en mi zona protegida?&quot; · &quot;Informarme sobre la última evaluación de la comprobación de estado&quot; · &quot;¿Cuáles son los problemas de la comprobación de descripción del área de nombres personalizada?&quot; |
 | Solucionar problemas de comprobación de estado | Corrija los problemas del área de nombres de identidad, la política de combinación y el esquema marcados directamente desde el chat, con su aprobación antes de realizar cualquier cambio | `rao-remediate-identity-namespace-description`, `rao-remediate-merge-policy-duplicate-name`, `rao-remediate-missing-audit-field-group`, `rao-remediate-default-merge-policy-naming` | Adobe Experience Platform | &quot;Corregir descripciones de área de nombres de identidad&quot; · &quot;Corregir nombres de políticas de combinación duplicados&quot; · &quot;Corregir esquemas que carecen del grupo de campos de auditoría&quot; · &quot;Corregir nombres de políticas de combinación predeterminados&quot; |
 
 ## Herramientas de zona protegida
