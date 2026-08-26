@@ -1,10 +1,9 @@
 ---
 description: Descubra cómo Campañas de Coworker adjunta y conserva automáticamente los metadatos de C2PA en las imágenes, desde la generación hasta la entrega por correo electrónico.
 title: Metadatos de C2PA en campañas de compañeros de trabajo
-hide: true
-source-git-commit: 639602b445cba01fce2130006f98e1e388ba7d5b
+source-git-commit: 0d07019c1bf88ecb7452767364d1a5f05702ce0e
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '387'
 ht-degree: 4%
 
 ---
@@ -38,6 +37,6 @@ Coworker Campaigns conserva los metadatos de C2PA asociados a los recursos de im
 
 ## Recursos adicionales {#resources}
 
+* [Transparencia de contenido de IA generativa](https://experienceleague.adobe.com/es/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency){target="_blank"}
 * [Directrices de usuario de IA generativa de Adobe Experience Cloud](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}
-
 * [Mecanismos de protección y limitaciones](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/content-management/generate-content/gs-generative#generative-guardrails){target="_blank"}
