@@ -6,10 +6,10 @@ description: Obtenga información sobre las herramientas de IA en CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 1bdbdf6b40e6202073f2759041dd55f5ce9399ca
+source-git-commit: 979ac39364b79973a683cd2f1b2b8e4e67fcbcf3
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 18%
+source-wordcount: '292'
+ht-degree: 17%
 
 ---
 
@@ -37,6 +37,7 @@ ht-degree: 18%
   - [Agente de detección de campos](./agents/field-discovery-agent.md)
   - [Journey Agent](./agents/ajo-agent.md)
   - [Agente de soporte del producto](./agents/product-support.md)
+  - [Habilidades de agencia de herramientas para espacios aislados](./agents/sandbox-tooling.md)
   - [Adobe Marketing Agent for Microsoft 365 Copilot](./agents/ama-ms.md)
   - [Agente de notificaciones](./agents/notifications.md)
   - [Juicio a compañeros](./agents/trial.md)
@@ -56,7 +57,7 @@ ht-degree: 18%
     - [Herramientas de Journey Optimizer](./mcp/ajo-mcp.md)
     - [Herramientas de Customer Journey Analytics](./mcp/cja-mcp.md)
     - [Herramientas de Adobe Analytics](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/es/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Coworker {#coworker}
   - [Acerca de Coworker](./coworker/overview.md)
   - Campañas {#campaigns}
@@ -86,3 +87,5 @@ ht-degree: 18%
       - Herramientas de zona protegida {#sandbox-tooling}
         - [Aptitudes agénticas de herramientas de zona protegida](./agents/sandbox-tooling.md)
   - {hide-from-toc}[Chat de compañeros en el patio de recreo](./coworker/playground-coworker-chat.md)
+  - {hide-from-toc}[Validar datos de migración de AA a CJA](./coworker/data-validation-aa-cja.md)
+  - [Analizar datos de CJA](./coworker/analytics-chat.md)
