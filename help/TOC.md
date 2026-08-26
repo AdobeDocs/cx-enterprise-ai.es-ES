@@ -6,10 +6,10 @@ description: Obtenga información sobre las herramientas de IA en CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 0d07019c1bf88ecb7452767364d1a5f05702ce0e
+source-git-commit: 41dce794de5268fa6f89fcd601ee53fd4da2da5b
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 17%
+source-wordcount: '284'
+ht-degree: 18%
 
 ---
 
@@ -37,7 +37,6 @@ ht-degree: 17%
   - [Agente de detección de campos](./agents/field-discovery-agent.md)
   - [Journey Agent](./agents/ajo-agent.md)
   - [Agente de soporte del producto](./agents/product-support.md)
-  - [Habilidades de agencia de herramientas para espacios aislados](./agents/sandbox-tooling.md)
   - [Adobe Marketing Agent for Microsoft 365 Copilot](./agents/ama-ms.md)
   - [Agente de notificaciones](./agents/notifications.md)
   - [Juicio a compañeros](./agents/trial.md)
@@ -57,7 +56,7 @@ ht-degree: 17%
     - [Herramientas de Journey Optimizer](./mcp/ajo-mcp.md)
     - [Herramientas de Customer Journey Analytics](./mcp/cja-mcp.md)
     - [Herramientas de Adobe Analytics](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/es/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Coworker {#coworker}
   - [Acerca de Coworker](./coworker/overview.md)
   - Campañas {#campaigns}
@@ -70,6 +69,10 @@ ht-degree: 17%
       - [Marketo Engage](./coworker/campaigns/connectors/marketo.md)
       - [Hubspot](./coworker/campaigns/connectors/hubspot.md)
     - [Notas de la versión](./coworker/campaigns/release-notes.md)
+  - Personalizaciones {#customizations}
+    - Habilidades {#skills}
+      - [¿Qué son las aptitudes?](./coworker/customizations/skills/what-are-skills.md)
+      - [Cree su primera aptitud](./coworker/customizations/skills/create-your-first-skill.md)
   - Chat {#chat}
     - [Información general](./coworker/chat/overview.md)
     - [Guía de IU](./coworker/chat/ui-guide.md)
@@ -86,6 +89,3 @@ ht-degree: 17%
         - [Creación de un desafío de lealtad y perspectivas de superficie](./coworker/chat/use-cases/journeys/create-loyalty-challenge.md)
       - Herramientas de zona protegida {#sandbox-tooling}
         - [Aptitudes agénticas de herramientas de zona protegida](./agents/sandbox-tooling.md)
-  - {hide-from-toc}[Chat de compañeros en el patio de recreo](./coworker/playground-coworker-chat.md)
-  - {hide-from-toc}[Validar datos de migración de AA a CJA](./coworker/data-validation-aa-cja.md)
-  - [Analizar datos de CJA](./coworker/analytics-chat.md)
