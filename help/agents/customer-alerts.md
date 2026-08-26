@@ -31,7 +31,7 @@ Antes de empezar, asegúrese de que dispone de lo siguiente:
 - Permiso para ver alertas relevantes para su organización.
 - El complemento CXO de Adobe instalado en CX Coworker.
 
-Para obtener instrucciones sobre la instalación de complementos, consulte https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/ui-guide.
+Para obtener instrucciones sobre la instalación de complementos, consulte https://experienceleague.adobe.com/es/docs/cx-enterprise-coworker/content/chat/ui-guide.
 
 ## Uso de habilidades de alerta del cliente {#use-customer-alert-skills}
 
