@@ -1,11 +1,10 @@
 ---
 description: Casos de uso y ejemplos de mensajes de texto de Browse Coworker Chat, organizados por área en las perspectivas de datos, audiencias, recorridos y operaciones de la plataforma.
 title: Casos de uso de chat con compañeros
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: e396bdc6974eb4484049af450f1b3a6b5045311b
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: c5535d1d559f65b78ccc20a5b4c867f1bd2613e7
 workflow-type: tm+mt
-source-wordcount: 3050
+source-wordcount: 3344
 ht-degree: 7%
 
 ---
@@ -165,7 +164,7 @@ El chat de compañeros de trabajo le permite consultar, analizar y actuar en los
 | Resolución y vinculación de entidades | Utilice la búsqueda semántica y léxica para resolver las menciones de entidad a entidades Experience Platform reales y descubrir campos XDM | `entity-linking` | Adobe Experience Platform | &quot;Resolver &quot;Compradores de vacaciones&quot; en una audiencia real&quot; · &quot;Buscar campos relacionados con el historial de compras&quot; |
 | Administrar aptitudes personalizadas | Guardar, modificar o eliminar habilidades reutilizables propiedad del usuario que persisten entre sesiones | `manage-skill` | Todas las solicitudes elegibles | &quot;Guardar ese flujo de trabajo como una aptitud&quot; · &quot;Eliminar mi aptitud de informe semanal&quot; · &quot;Convertir esto en una aptitud reutilizable&quot; |
 | Monitorización de la capacidad de streaming y brechas | Compruebe el uso, la capacidad y el estado de brecha de flujo actual e histórico en los entornos limitados | `observability-streaming-capacity`, `observability-streaming-usage`, `observability-capacity-breaches` | Adobe Experience Platform | &quot;¿Cuál es mi capacidad actual de streaming en mi zona protegida actual?&quot; · &quot;¿Mi zona protegida actual ha incumplido los límites de capacidad de la última semana?&quot; |
-| [Ver resultados de la evaluación de comprobación de estado](https://experienceleague.adobe.com/es/docs/experience-platform/run-and-operate/health-checks/overview) | Vea la última evaluación de comprobación de estado de la zona protegida, explore en profundidad una comprobación que da error y vea las entidades afectadas | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | &quot;¿Qué hay de malo en mi zona protegida?&quot; · &quot;Informarme sobre la última evaluación de la comprobación de estado&quot; · &quot;¿Cuáles son los problemas de la comprobación de descripción del área de nombres personalizada?&quot; |
+| [Ver resultados de la evaluación de comprobación de estado](https://experienceleague.adobe.com/en/docs/experience-platform/run-and-operate/health-checks/overview) | Vea la última evaluación de comprobación de estado de la zona protegida, explore en profundidad una comprobación que da error y vea las entidades afectadas | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | &quot;¿Qué hay de malo en mi zona protegida?&quot; · &quot;Informarme sobre la última evaluación de la comprobación de estado&quot; · &quot;¿Cuáles son los problemas de la comprobación de descripción del área de nombres personalizada?&quot; |
 | Solucionar problemas de comprobación de estado | Corrija los problemas del área de nombres de identidad, la política de combinación y el esquema marcados directamente desde el chat, con su aprobación antes de realizar cualquier cambio | `rao-remediate-identity-namespace-description`, `rao-remediate-merge-policy-duplicate-name`, `rao-remediate-missing-audit-field-group`, `rao-remediate-default-merge-policy-naming` | Adobe Experience Platform | &quot;Corregir descripciones de área de nombres de identidad&quot; · &quot;Corregir nombres de políticas de combinación duplicados&quot; · &quot;Corregir esquemas que carecen del grupo de campos de auditoría&quot; · &quot;Corregir nombres de políticas de combinación predeterminados&quot; |
 
 ## Herramientas de zona protegida
@@ -173,3 +172,15 @@ El chat de compañeros de trabajo le permite consultar, analizar y actuar en los
 | Caso de uso | Descripción | Habilidades | Aplicación | Indicadores de ejemplo |
 | --- | --- | --- | --- | --- |
 | [Mover objetos entre zonas protegidas](/help/agents/sandbox-tooling.md) | Migre sin problemas esquemas, audiencias y otras configuraciones de objetos entre entornos limitados, con dependencias resueltas automáticamente | `sandbox-tooling-workflow` | Adobe Experience Platform | &quot;Mueva el esquema Platino de los miembros de la lealtad de Luma de la zona protegida actual a la zona protegida de producción&quot; · &quot;Promocione la audiencia de miembros de la lealtad de oro de EE. UU. a la fase&quot; |
+
+## Alertas de clientes
+
+| Caso de uso | Descripción | Habilidades | Aplicación | Indicadores de ejemplo |
+| --- | --- | --- | --- | --- |
+| Administrar suscripciones de alerta | Ver y administrar suscripciones de alerta mediante conversaciones en lenguaje natural. | `alerts-subscribe` | Adobe Experience Platform | &quot;¿A qué alertas estoy suscrito?&quot;<br><br>&quot;Suscribirme a esta alerta.&quot;<br><br>&quot;Quitar mi suscripción a esta alerta.&quot; |
+| Revisar actividad de alerta | Revisar el estado de alerta actual y la actividad de alerta histórica durante un período de tiempo especificado. | `alerts-list` | Adobe Experience Platform | &quot;¿Qué ha sucedido en las últimas 24 horas?&quot;<br><br>&quot;¿Qué alertas se han activado en las últimas 24 horas?&quot;<br><br>&quot;Mostrar alertas activas de los últimos siete días.&quot; |
+| Identificación de patrones de alerta recurrentes | Analice el historial de alertas para identificar los tipos de alertas activados con frecuencia y las tendencias operativas. | `alerts-list` | Adobe Experience Platform | &quot;Mostrarme los 3 tipos de alertas desencadenadas principales.&quot;<br><br>&quot;¿Qué tipos de alertas se produjeron con mayor frecuencia este mes?&quot;<br><br>&quot;¿Qué patrones de alerta se han visto en los últimos siete días?&quot; |
+| Centrarse en cuestiones de alta prioridad | Filtre la actividad de alerta por gravedad para priorizar los esfuerzos de investigación. | `alerts-list` | Adobe Experience Platform | &quot;Mostrar solo alertas de gravedad alta.&quot;<br><br>&quot;¿Qué alertas críticas se activaron esta semana?&quot;<br><br>&quot;Mostrar alertas críticas de los últimos 30 días.&quot; |
+| Comprender el radio de impacto de las alertas | Identificar los objetos más afectados por las alertas y determinar dónde debe comenzar la investigación. | `alerts-list` | Adobe Experience Platform | &quot;¿Cuáles son los 5 objetos más afectados?&quot;<br><br>&quot;¿Qué objetos están asociados con las alertas de gravedad más alta?&quot; |
+| Conexión de tipos de alerta a objetos afectados | Analizar las relaciones entre los tipos de alerta y los recursos afectados. | `alerts-list` | Adobe Experience Platform | &quot;¿Qué tipos de alerta afectaron a este conjunto de datos con mayor frecuencia?&quot;<br><br>&quot;Muestra la relación entre los tipos de alerta y los objetos afectados.&quot;<br><br>&quot;¿Qué tipo de alerta afectó al objeto afectado con mayor frecuencia?&quot; |
+| Centrarse en Mis alertas | Analice las alertas a las que se suscribe y de las que es responsable la monitorización. | `alerts-list` | Adobe Experience Platform | &quot;Mostrarme las alertas de alta gravedad a las que me suscribo.&quot;<br><br>&quot;¿Qué alertas de Mis alertas se activaron esta semana?&quot;<br><br>&quot;¿Alguna de mis alertas suscritas requiere atención?&quot; |
