@@ -64,7 +64,7 @@ Adobe no controla cómo los servicios externos interpretan, muestran o utilizan 
 
 En algunas circunstancias y en ciertas regiones geográficas, las organizaciones pueden elegir o se les puede requerir que identifiquen visiblemente el contenido generado por GenAI o editado por GenAI.
 
-Adobe proporciona [orientación](https://helpx.adobe.com/creative-cloud/apps/generative-ai/ai-content-watermarks-faq.html) sobre el uso de funciones de marca de agua existentes admitidas mediante aplicaciones Adobe. La necesidad de una marca de agua visible depende de los requisitos comerciales de una organización y de las leyes y regulaciones aplicables en las jurisdicciones donde se publica el contenido.
+Adobe proporciona [orientación](https://helpx.adobe.com/es/creative-cloud/apps/generative-ai/ai-content-watermarks-faq.html) sobre el uso de funciones de marca de agua existentes admitidas mediante aplicaciones Adobe. La necesidad de una marca de agua visible depende de los requisitos comerciales de una organización y de las leyes y regulaciones aplicables en las jurisdicciones donde se publica el contenido.
 
 >[!NOTE]
 >
@@ -86,7 +86,7 @@ Los metadatos de C2PA se adjuntan automáticamente al contenido compatible gener
 
 ### Guía de filigrana
 
-Adobe proporciona [documentación](https://helpx.adobe.com/creative-cloud/apps/generative-ai/ai-content-watermarks-faq.html) que describe cómo usar las funciones de marca de agua existentes disponibles en las aplicaciones de Adobe compatibles para las organizaciones que eligen o necesitan aplicar etiquetas visibles.
+Adobe proporciona [documentación](https://helpx.adobe.com/es/creative-cloud/apps/generative-ai/ai-content-watermarks-faq.html) que describe cómo usar las funciones de marca de agua existentes disponibles en las aplicaciones de Adobe compatibles para las organizaciones que eligen o necesitan aplicar etiquetas visibles.
 
 ## Aplicaciones compatibles en Adobe CX Enterprise {#supported-applications}
 
@@ -102,7 +102,7 @@ Sin embargo, cuando corresponda, todas las aplicaciones empresariales de Adobe C
 |---|---|
 | Adobe Advertising Cloud | |
 | Adobe Experience Manager (AEM) | |
-| Asistente de IA para la generación de contenido (función de Adobe Journey Optimizer/Adobe Campaign) | <!--[Documentation] (https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/assets/c2pa-metadata)--> |
+| Asistente de IA para la generación de contenido (función de Adobe Journey Optimizer/Adobe Campaign) | <!--[Documentation] (https://experienceleague.adobe.com/es/docs/journey-optimizer-b2b/user/content-management/assets/c2pa-metadata)--> |
 | Adobe Journey Optimizer B2B edition | <!--[Documentation] (https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/assets/content-credentials)--> |
 | Adobe Journey Optimizer B2C | |
 | Adobe Campaign | |
@@ -110,11 +110,11 @@ Sin embargo, cuando corresponda, todas las aplicaciones empresariales de Adobe C
 | GenStudio for Performance Marketing | |
 | Adobe Marketo Engage | |
 | Adobe Workfront | |
-| Campañas de compañeros de CX Enterprise (anteriormente HALO) | <!--[Documentation](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/generative-c2pa-metadata)--> |
+| Campañas de compañeros de CX Enterprise (anteriormente HALO) | <!--[Documentation](https://experienceleague.adobe.com/es/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/generative-c2pa-metadata)--> |
 
 ## Vínculos relacionados
 
-* [Guía de marcas de agua visibles](https://helpx.adobe.com/creative-cloud/apps/generative-ai/ai-content-watermarks-faq.html)
+* [Guía de marcas de agua visibles](https://helpx.adobe.com/es/creative-cloud/apps/generative-ai/ai-content-watermarks-faq.html)
 * [Adobe Inspect](https://contentauthenticity.adobe.com/inspect)
 
 ## Preguntas frecuentes
