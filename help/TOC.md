@@ -6,7 +6,7 @@ description: Obtenga información sobre las herramientas de IA en CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 979ac39364b79973a683cd2f1b2b8e4e67fcbcf3
+source-git-commit: 0d07019c1bf88ecb7452767364d1a5f05702ce0e
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 17%
@@ -57,7 +57,7 @@ ht-degree: 17%
     - [Herramientas de Journey Optimizer](./mcp/ajo-mcp.md)
     - [Herramientas de Customer Journey Analytics](./mcp/cja-mcp.md)
     - [Herramientas de Adobe Analytics](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/es/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Coworker {#coworker}
   - [Acerca de Coworker](./coworker/overview.md)
   - Campañas {#campaigns}
@@ -65,7 +65,7 @@ ht-degree: 17%
     - [Creación de una campaña de correo electrónico](./coworker/campaigns/create-an-email-campaign.md)
     - [Casos de uso](./coworker/campaigns/use-cases.md)
     - [Impulso de las prácticas recomendadas](./coworker/campaigns/prompting-best-practices.md)
-    - {hide-from-toc}[Metadatos de C2PA](./coworker/campaigns/generative-c2pa-metadata.md)
+    - [Metadatos de C2PA](./coworker/campaigns/c2pa-metadata.md)
     - Conectores {#connectors}
       - [Marketo Engage](./coworker/campaigns/connectors/marketo.md)
       - [Hubspot](./coworker/campaigns/connectors/hubspot.md)
