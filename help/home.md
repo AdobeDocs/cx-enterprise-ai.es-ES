@@ -65,8 +65,8 @@ Para obtener la lista completa de agentes, las aplicaciones compatibles y los re
 
 Coworker es una evolución del asistente de IA que da prioridad al agente y automatiza la experiencia del cliente y los flujos de trabajo de marketing para que su equipo pueda centrarse en los objetivos comerciales en lugar de en la ejecución rutinaria. En lugar de hacer una pregunta a la vez, se describe un objetivo. El compañero planifica, ejecuta, valida y devuelve el trabajo terminado para su aprobación. El compañero incluye:
 
-- **[Chat del compañero](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/overview)**: Una interfaz conversacional para explorar los datos, validar audiencias y recorridos y completar tareas de varios pasos en las aplicaciones de CX Enterprise.
-- **[Campañas de compañeros de trabajo](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/overview)**: una aplicación nativa de IA que consolida la información de la campaña, la creación de audiencias, la generación de contenido, el diseño de recorridos y la revisión en una sola experiencia de conversación. Utiliza plantillas integradas, prácticas recomendadas y sugerencias para ayudar a equipos pequeños y ágiles a iniciar campañas rápidamente.
+- **[Chat del compañero](https://experienceleague.adobe.com/es/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/overview)**: Una interfaz conversacional para explorar los datos, validar audiencias y recorridos y completar tareas de varios pasos en las aplicaciones de CX Enterprise.
+- **[Campañas de compañeros de trabajo](https://experienceleague.adobe.com/es/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/overview)**: una aplicación nativa de IA que consolida la información de la campaña, la creación de audiencias, la generación de contenido, el diseño de recorridos y la revisión en una sola experiencia de conversación. Utiliza plantillas integradas, prácticas recomendadas y sugerencias para ayudar a equipos pequeños y ágiles a iniciar campañas rápidamente.
 - **Proyectos de compañeros** (próximamente): Un espacio de trabajo unificado para automatizar los flujos de trabajo de la orquestación de la experiencia del cliente de extremo a extremo, lo que ayuda a los equipos a coordinar tareas, aprobaciones y ejecuciones para dirigir los resultados desde la estrategia hasta la entrega. La documentación de los proyectos estará disponible próximamente.
 
 Los clientes aptos se están trasladando gradualmente del asistente de IA y los agentes de Experience Platform al chat con el compañero. Lea la [Prueba para colaboradores](./agents/trial.md) para obtener información sobre la elegibilidad del periodo de prueba, el uso del crédito de IA y cómo obtener acceso.
@@ -84,7 +84,7 @@ Para obtener documentación completa del producto sobre Chat, campañas y proyec
 - [Herramientas de Journey Optimizer](./mcp/ajo-mcp.md)
 - [Herramientas de Customer Journey Analytics](./mcp/cja-mcp.md)
 - [Herramientas de Adobe Analytics](./mcp/analytics-mcp.md)
-- [!DNL Workfront] herramientas, documentadas en la [guía del servidor MCP de Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+- [!DNL Workfront] herramientas, documentadas en la [guía del servidor MCP de Workfront](https://experienceleague.adobe.com/es/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 
 ¿Es nuevo en CX Coworker Gateway? Consulte [Acceder a las herramientas de CX Coworker Gateway](./mcp/access.md) e [Instalar CX Coworker Gateway](./mcp/install.md) para conectarse. Una vez que se haya conectado, use las [herramientas de contexto de sesión](./mcp/context-tools.md) para establecer la organización activa, la zona protegida y la vista de datos antes de llamar a las herramientas de producto.
 
