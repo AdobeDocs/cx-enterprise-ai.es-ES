@@ -6,9 +6,9 @@ description: Obtenga información sobre las herramientas de IA en CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 4045f52a0ff95b9b64327551388fddb5a86650ea
+source-git-commit: 2c7c8a8cd40bca2e1a3cdae08f24f56e3b00daa0
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '297'
 ht-degree: 18%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 18%
 
 - [IA en aplicaciones empresariales de CX](home.md)
 - Acerca de la IA en CX Enterprise {#overview}
+  - [Acerca de la IA en CX Enterprise](./overview/overview-ai-cxe.md)
   - [Acerca de la IA generativa](./overview/generative-ai.md)
   - [Acerca de la IA auténtica](./overview/agentic-ai.md)
   - [Acerca del consumo de créditos AI](./overview/ai-credit-consumption.md)
@@ -56,7 +57,7 @@ ht-degree: 18%
     - [Herramientas de Journey Optimizer](./mcp/ajo-mcp.md)
     - [Herramientas de Customer Journey Analytics](./mcp/cja-mcp.md)
     - [Herramientas de Adobe Analytics](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/es/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Coworker {#coworker}
   - [Acerca de Coworker](./coworker/overview.md)
   - Campañas {#campaigns}
