@@ -1,28 +1,19 @@
 ---
 title: Acerca de la IA en CX Enterprise
 description: Una visión general a nivel empresarial de dónde se muestra la IA generativa y auténtica en las aplicaciones empresariales de Adobe CX, cómo se rige y mide el uso, y cómo pueden empezar sus equipos.
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: f84b2906-3ce9-4ef0-86f6-cda249273937
-role_v2:
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: c5345fbf43da8f310c1b076618a615bf8bb8d998
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: f84b2906-3ce9-4ef0-86f6-cda249273937
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: aed11b3ad3450c80516d9cbd580cf983008ddbfd
 workflow-type: tm+mt
-source-wordcount: 447
-ht-degree: 2%
+source-wordcount: 387
+ht-degree: 3%
 
 ---
 
 # Acerca de la IA en CX Enterprise
 
-Las aplicaciones empresariales de Adobe CX utilizan IA de dos formas complementarias: **IA generativa**, a la que se le pide que cree contenido directamente u obtenga una respuesta, y **IA auténtica**, que planea y lleva a cabo un trabajo de varios pasos en su nombre, bajo su supervisión. Este grupo de páginas proporciona a los líderes empresariales y de TI un mapa de dónde se muestra cada tipo de IA, cómo se gobierna y mide, y cómo se revela el contenido generado por IA, para que pueda informar a las partes interesadas y planificar la habilitación antes de implementar la IA en sus equipos.
-
->[!NOTE]
->
->Estas páginas son conceptuales, no están basadas en tareas. Para obtener instrucciones paso a paso sobre el uso de AI Assistant, Agent Orchestrator o CX Enterprise Coworker, comience en [AI en aplicaciones de CX Enterprise](../home.md).
+Las aplicaciones empresariales de Adobe CX utilizan IA de dos formas complementarias: **IA generativa**, a la que se le pide que cree contenido directamente u obtenga una respuesta, y **IA auténtica**, que planea y lleva a cabo un trabajo de varios pasos en su nombre, bajo su supervisión. Los siguientes temas describen en términos generales dónde está disponible cada tipo de IA en CX Enterprise.
 
 ## ¿Qué se cubre en esta sección?
 
@@ -36,7 +27,7 @@ Las aplicaciones empresariales de Adobe CX utilizan IA de dos formas complementa
 ## Por dónde empezar
 
 1. Lea **Acerca de la IA generativa** y **Acerca de la IA genética** para comprender las dos formas de IA disponibles y dónde cada una de ellas ya se encuentra activa en sus aplicaciones con licencia.
-2. Lea **Créditos de IA para consumo** para comprender cómo se traduce el uso en costo, de manera que pueda establecer expectativas con finanzas y compras.
-3. Configure los permisos del tablero de **Supervisión de inteligencia artificial aplicada a la agencia** para su equipo de administración, de modo que la adopción y el uso sean visibles desde el primer día.
-4. Lea **Transparencia del contenido de IA generativa** para comprender qué divulgaciones se aplican automáticamente al contenido generado por IA que publican sus equipos.
-5. Una vez que su organización esté lista para incorporar usuarios, diríjalos a [AI en las aplicaciones empresariales de CX](../home.md) para obtener orientación práctica sobre el asistente de IA, Agent Orchestrator y CX Enterprise Coworker.
+1. Lea **Créditos de IA para consumo** para comprender cómo se traduce el uso en costo, de manera que pueda establecer expectativas con finanzas y compras.
+1. Configure los permisos del tablero de **Supervisión de inteligencia artificial aplicada a la agencia** para su equipo de administración, de modo que la adopción y el uso sean visibles desde el primer día.
+1. Lea **Transparencia del contenido de IA generativa** para comprender qué divulgaciones se aplican automáticamente al contenido generado por IA que publican sus equipos.
+1. Una vez que su organización esté lista para incorporar usuarios, diríjalos a [AI en las aplicaciones empresariales de CX](../home.md) para obtener orientación práctica sobre el asistente de IA, Agent Orchestrator y CX Enterprise Coworker.
