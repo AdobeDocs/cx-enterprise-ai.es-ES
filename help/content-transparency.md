@@ -100,11 +100,11 @@ Sin embargo, cuando corresponda, todas las aplicaciones empresariales de Adobe C
 
 | Aplicación/Solución | Notas de la versión/Directrices |
 |---|---|
-| Adobe Advertising Cloud | [Documentación](https://experienceleague.adobe.com/en/docs/advertising/creative/creative-studio/creative-studio-content-credentials) |
+| Adobe Advertising Cloud | [Documentación](https://experienceleague.adobe.com/es/docs/advertising/creative/creative-studio/creative-studio-content-credentials) |
 | Adobe Experience Manager (AEM) | [Documentación](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/c2pa-metadata-dynamic-media-openapi) |
 | Asistente de IA para la generación de contenido (función de Adobe Journey Optimizer/Adobe Campaign) | [Documentación](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/content-management/generate-content/generative-c2pa-metadata) |
 | Adobe Journey Optimizer B2B Ultimate | [Documentación](https://experienceleague.adobe.com/es/docs/journey-optimizer-b2b/user/content-management/assets/c2pa-metadata) |
-| Adobe Journey Optimizer B2B Prime (también conocido como Adobe Marketo Optimizer) | [Documentación](https://experienceleague.adobe.com/en/docs/marketo-optimizer/user/content/assets/c2pa-metadata) |
+| Adobe Journey Optimizer B2B Prime (también conocido como Adobe Marketo Optimizer) | [Documentación](https://experienceleague.adobe.com/es/docs/marketo-optimizer/user/content/assets/c2pa-metadata) |
 | Adobe Journey Optimizer B2C | |
 | Adobe Campaign | |
 | Adobe Commerce | [Documentación](https://experienceleague.adobe.com/es/docs/commerce/optimizer/manage-results/success-metrics#c2pa-metadata-on-exported-reports) |
