@@ -6,9 +6,9 @@ description: Obtenga información sobre las herramientas de IA en CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: ecdca9c893722e1cdfd392c79c9ee361bb993793
+source-git-commit: ccdef71b4130a87032e0ba0e7b3bde3bd40614f1
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '304'
 ht-degree: 19%
 
 ---
@@ -93,4 +93,6 @@ ht-degree: 19%
         - [Aptitudes agénticas de herramientas de zona protegida](./agents/sandbox-tooling.md)
       - Alertas {#alerts}
         - [Aptitudes de alerta al cliente](./agents/customer-alerts.md)
-
+      - Asesor de contenido {#content-advisor}
+        - [Generación de recursos de marketing](./coworker/chat/use-cases/content-advisor/generate-assets.md)
+        - [Comprobación del cumplimiento de marca](./coworker/chat/use-cases/content-advisor/brand-compliance.md)
