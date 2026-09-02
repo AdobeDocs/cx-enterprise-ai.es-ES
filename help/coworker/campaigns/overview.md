@@ -1,9 +1,9 @@
 ---
 description: Obtenga información sobre Adobe CX Enterprise Coworker Campaigns, una aplicación de marketing nativa de IA que convierte un solo mensaje en una campaña lista para revisión.
 title: Descripción general de Adobe CX Enterprise Coworker
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1c4f9585c04eae8693e38541084cead08412d192
+product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
 workflow-type: tm+mt
 source-wordcount: 950
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Campañas de compañeros es una aplicación de marketing nativa de IA que le lleva de un único mensaje a una campaña completa lista para revisión.
 
-En este momento, todas las interacciones con la IA lo dirigirán hacia la [generación de campañas] (./). Próximamente habrá más funcionalidades.
+En este momento, todas las interacciones con la IA lo dirigirán hacia la [generación de campañas](./). Próximamente habrá más funcionalidades.
 
 ## Cómo acceder a
 
@@ -112,7 +112,7 @@ Campañas de compañeros de trabajo es un producto en desarrollo activo. Esto es
 
 ## Vídeo introductorio
 
->[!VIDEO](https://video.tv.adobe.com/v/3492810?captions=spa&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3492807?learn=on){transcript=true}
 
 
 Las nuevas funciones se enviarán durante la versión de prueba. Los comentarios ayudan a determinar lo que viene después. Envíe comentarios a través del icono de comentarios del producto en el encabezado.
