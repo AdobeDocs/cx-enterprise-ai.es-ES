@@ -1,8 +1,10 @@
 ---
 description: Examine patrones de mensajes reales para campañas de Adobe CX Enterprise Coworker, organizadas por casos de uso en campañas de adquisición, participación, eventos, conversión y retención.
 title: Casos de uso de campañas de compañeros
-product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+product_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
 workflow-type: tm+mt
 source-wordcount: 508
@@ -160,4 +162,4 @@ Mejor para: Cualquier audiencia que haya permanecido en silencio.
 
 ## ¿Listo para compilar?
 
-Elija un caso de uso anterior, visite [Crear una campaña de correo electrónico](./) para ver el paso a paso completo y pruébelo.
+Elija un caso de uso anterior, visite [Crear una campaña de correo electrónico] (./) para ver el paso a paso completo y pruébelo.
