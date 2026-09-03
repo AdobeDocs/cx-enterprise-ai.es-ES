@@ -1,13 +1,11 @@
 ---
 description: Casos de uso y ejemplos de mensajes de texto de Browse Coworker Chat, organizados por área en las perspectivas de datos, audiencias, recorridos y operaciones de la plataforma.
 title: Casos de uso de chat con compañeros
-product_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
+product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: befb56a0afc6de347aa2481bc930d1e0fc812f09
 workflow-type: tm+mt
-source-wordcount: 3729
+source-wordcount: 4261
 ht-degree: 6%
 
 ---
@@ -24,7 +22,7 @@ El chat de compañeros de trabajo le permite consultar, analizar y actuar en los
 >
 >Todos los clientes elegibles tendrán acceso a las funciones de agente de Adobe Experience Manager en Coworker, de forma gradual.
 >
->Consulte también [IA en AEM: información general sobre las capacidades de agente en AEM](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/overview).
+>Consulte también [IA en AEM: información general sobre las capacidades de agente en AEM](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/overview).
 
 ## Experiencia de marca
 
@@ -43,9 +41,9 @@ El chat de compañeros de trabajo le permite consultar, analizar y actuar en los
 
 **Información relacionada**
 
-* [Funciones agénticas en AEM: experiencia de marca, producción de experiencias, sitios](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-sites)
+* [Funciones agénticas en AEM: experiencia de marca, producción de experiencias, sitios](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-sites)
 
-* [Funciones agénticas en AEM: experiencia de marca, producción de experiencias, Forms](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-forms)
+* [Funciones agénticas en AEM: experiencia de marca, producción de experiencias, Forms](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-forms)
 
 ### Desarrollo
 
@@ -58,7 +56,7 @@ El chat de compañeros de trabajo le permite consultar, analizar y actuar en los
 
 **Información relacionada**
 
-* [Capacidades agénticas en AEM: experiencia de marca - desarrollo](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/development/use-cases)
+* [Capacidades agénticas en AEM: experiencia de marca - desarrollo](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/development/use-cases)
 
 ### Incorporación
 
@@ -71,7 +69,7 @@ El chat de compañeros de trabajo le permite consultar, analizar y actuar en los
 
 **Información relacionada**
 
-* [Capacidades agénticas en AEM: experiencia de marca - incorporación](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/onboarding/use-cases)
+* [Capacidades agénticas en AEM: experiencia de marca - incorporación](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/onboarding/use-cases)
 
 ## Asesor de contenido
 
@@ -86,7 +84,7 @@ El chat de compañeros de trabajo le permite consultar, analizar y actuar en los
 
 **Información relacionada**
 
-* [Capacidades agénticas en AEM: Asesor de contenido: detección de contenido](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/discovery/use-cases)
+* [Capacidades agénticas en AEM: Asesor de contenido: detección de contenido](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/discovery/use-cases)
 
 ### Optimización de contenido
 
@@ -98,7 +96,7 @@ El chat de compañeros de trabajo le permite consultar, analizar y actuar en los
 
 **Información relacionada**
 
-* [Capacidades agénticas en AEM: Asesor de contenido: optimización de contenido](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/content-optimization/use-cases)
+* [Capacidades agénticas en AEM: Asesor de contenido: optimización de contenido](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/content-optimization/use-cases)
 
 ## Gobernanza de marca
 
@@ -110,7 +108,7 @@ El chat de compañeros de trabajo le permite consultar, analizar y actuar en los
 
 **Información relacionada**
 
-* [Capacidades agénticas en AEM: administración de marcas](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-governance/use-cases)
+* [Capacidades agénticas en AEM: administración de marcas](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-governance/use-cases)
 
 ## Perspectivas de datos
 
@@ -160,7 +158,7 @@ El chat de compañeros de trabajo le permite consultar, analizar y actuar en los
 | Resolución y vinculación de entidades | Utilice la búsqueda semántica y léxica para resolver las menciones de entidad a entidades Experience Platform reales y descubrir campos XDM | `entity-linking` | Adobe Experience Platform | &quot;Resolver &#39;Compradores de vacaciones&#39; en una audiencia real&quot; <br> &quot;Encuéntrenme campos relacionados con el historial de compras&quot; |
 | Administrar aptitudes personalizadas | Guardar, modificar o eliminar habilidades reutilizables propiedad del usuario que persisten entre sesiones | `manage-skill` | Todas las solicitudes elegibles | &quot;Guardar ese flujo de trabajo como una aptitud&quot; <br> &quot;Eliminar mi aptitud de informe semanal&quot; <br> &quot;Convertir esto en una aptitud reutilizable&quot; |
 | Monitorización de la capacidad de streaming y brechas | Compruebe el uso, la capacidad y el estado de brecha de flujo actual e histórico en los entornos limitados | `observability-streaming-capacity`, `observability-streaming-usage`, `observability-capacity-breaches` | Adobe Experience Platform | &quot;¿Cuál es mi capacidad de flujo actual en mi zona protegida actual?&quot; <br> &quot;¿Mi zona protegida actual ha superado los límites de capacidad en la última semana?&quot; |
-| [Ver resultados de la evaluación de comprobación de estado](https://experienceleague.adobe.com/es/docs/experience-platform/run-and-operate/health-checks/overview) | Vea la última evaluación de comprobación de estado de la zona protegida, explore en profundidad una comprobación que da error y vea las entidades afectadas | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | &quot;¿Qué hay de malo en mi zona protegida?&quot; <br> &quot;Informarme sobre la última evaluación de la comprobación de estado&quot; <br> &quot;¿Cuáles son los problemas de la comprobación de descripción de área de nombres personalizada?&quot; |
+| [Ver resultados de la evaluación de comprobación de estado](https://experienceleague.adobe.com/en/docs/experience-platform/run-and-operate/health-checks/overview) | Vea la última evaluación de comprobación de estado de la zona protegida, explore en profundidad una comprobación que da error y vea las entidades afectadas | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | &quot;¿Qué hay de malo en mi zona protegida?&quot; <br> &quot;Informarme sobre la última evaluación de la comprobación de estado&quot; <br> &quot;¿Cuáles son los problemas de la comprobación de descripción de área de nombres personalizada?&quot; |
 | Solucionar problemas de comprobación de estado | Corrija los problemas del área de nombres de identidad, la política de combinación y el esquema marcados directamente desde el chat, con su aprobación antes de realizar cualquier cambio | `rao-remediate-identity-namespace-description`, `rao-remediate-merge-policy-duplicate-name`, `rao-remediate-missing-audit-field-group`, `rao-remediate-default-merge-policy-naming` | Adobe Experience Platform | &quot;Corregir descripciones del área de nombres de identidad&quot; <br> &quot;Corregir nombres de políticas de combinación duplicados&quot; <br> &quot;Corregir esquemas que no tienen el grupo de campos de auditoría&quot; <br> &quot;Corregir nombres de políticas de combinación predeterminados&quot; |
 
 ## Herramientas de zona protegida
@@ -187,9 +185,25 @@ El chat de compañeros de trabajo le permite consultar, analizar y actuar en los
 | --- | --- | --- | --- | --- |
 | Administrar espacio de trabajo de Planning | Cree y desarrolle espacios de trabajo, secciones, tipos de registros y campos de Workfront Planning para organizar programas y realizar un seguimiento del trabajo | `manage-workfront-planning`, `wf-planning-solution-architect` | Planificación de Workfront | &quot;Cree un espacio de trabajo denominado MKG Hub y configure tipos de registros para realizar el seguimiento de programas por región&quot; <br> &quot;Configure los tipos de registros y las relaciones necesarias para realizar el seguimiento de los programas MKG en todos los canales y regiones&quot; |
 | Administrar registros de Planning | Crear y actualizar registros de planificación (campañas, informes) y sus valores de campo en un espacio de trabajo. | `manage-workfront-planning` | Planificación de Workfront | &quot;Crear una información para la campaña de Otoño de Brand Launch con el objetivo, la audiencia de destino y los mensajes clave&quot; <br> &quot;Actualizar la información de Otoño de Brand Launch con el presupuesto y los canales principales&quot; |
-| Creación y administración de proyectos | Girar y estructurar proyectos: aplicar plantillas, establecer prioridades y presupuestos, secuenciar tareas, agregar fases y dependencias y asignar personas o roles | `manage-workfront-workflow` | Flujo de trabajo Workfront | &quot;Cree una campaña de primavera, establézcala de alta prioridad con un presupuesto de 200.000 $ y secuencie las tareas&quot; <br> &quot;Cree un plan de proyecto de Workfront denominado [nombre de proyecto] a partir de [plantilla de proyecto]&quot; <br> &quot;Genere un plan de proyecto para Launch de otoño - Campaña social con tareas para concebir, diseñar, copiar y revisar&quot; <br> &quot;Agregue una nueva tarea de marketing por correo electrónico y asígnela a Rachel Smith&quot; |
-| Acelerar revisiones y aprobaciones | Configure aprobaciones de varias fases, aplique plantillas de aprobación, añada o elimine aprobadores, envíe recordatorios y realice actualizaciones masivas | `manage-workfront-workflow` | Flujo de trabajo Workfront | &quot;Crear una aprobación de varias fases (copiar, diseñar, legal) y recordar a todo el que no haya aprobado&quot; <br> &quot;Quitar a Chris Smith de todas las aprobaciones abiertas y reemplazarla por Jane Francis&quot; |
+| Creación y administración de proyectos | Proyectos de giro y estructura: aplicar plantillas, establecer prioridades y presupuestos, secuenciar tareas, agregar fases y dependencias y asignar personas o roles | `manage-workfront-workflow` | Flujo de trabajo Workfront | &quot;Crear una campaña de primavera, establecerla de alta prioridad con un presupuesto de 200.000 $ y secuenciar las tareas&quot; <br> &quot;Crear un plan de proyecto de Workfront denominado [nombre de proyecto] a partir de [plantilla de proyecto]&quot; <br> &quot;Crear un plan de proyecto para el lanzamiento de otoño: Campaña social con tareas para la concepción, el diseño, la copia y la revisión&quot; <br> &quot;Agregar una nueva tarea de marketing por correo electrónico y asignarla a Rachel Smith&quot; |
+| Acelerar revisiones y aprobaciones | Configure aprobaciones de varias fases, aplique plantillas de aprobación, añada o elimine aprobadores, envíe recordatorios y realice actualizaciones masivas | `manage-workfront-workflow` | Flujo de trabajo Workfront | &quot;Crear una aprobación de varias etapas (copiar, diseñar, legal) y recordar a todo el que no haya aprobado&quot; <br> &quot;Quitar a Chris Smith de todas las aprobaciones abiertas y reemplazarlo por Jane Francis&quot; |
 | Actualizar estado de trabajo y tarea | Marcar las tareas como completadas, actualizar el porcentaje completado y cerrar el trabajo | `manage-workfront-workflow` | Flujo de trabajo Workfront | &quot;Marcar mi tarea &#39;Producir ilustraciones clave&#39; en el lanzamiento de otoño como completada&quot; <br> &quot;Cerrar mi tarea de copia del lanzamiento de otoño al 100%&quot; |
 | Perspectivas de trabajo superficial | Haga preguntas exploratorias para encontrar trabajo en riesgo, tareas sin asignar, problemas pendientes y estado en todos los proyectos | `query-workfront` | Flujo de trabajo Workfront | &quot;Encontrar tareas incompletas en proyectos actuales que no están asignados a nadie y que vencen esta semana&quot; <br> &quot;¿Cuántos problemas pendientes hay en los proyectos actuales?&quot; |
 | Resumen de proyectos y tareas | Extraer listas, tablas y recuentos de proyectos, tareas, problemas y asignaciones | `query-workfront` | Flujo de trabajo Workfront | &quot;Mostrarme una tabla de mis tareas que están listas para iniciarse, con el nombre del proyecto, la fecha de vencimiento de la tarea y el usuario asignado&quot; <br> &quot;Asignarme todas las tareas asignadas a [nombre de usuario]&quot; |
 | Seguimiento de aprobaciones y estado del portafolio | Comprobar el estado de las aprobaciones y resumir el trabajo incompleto por portafolio | `query-workfront` | Flujo de trabajo Workfront | &quot;Mostrarme el estado de mis aprobaciones&quot; <br> &quot;Mostrarme una tabla con problemas incompletos que forman parte del portafolio [Portfolio name]&quot; |
+
+## Experimentación y optimización
+
+| Dominio | Caso de uso | Descripción | Aptitud/aptitudes | Aplicación | Indicadores de ejemplo |
+|---|---|---|---|---|---|
+| **Experimentación y optimización** | Examinar y buscar entidades de Target | Descubra, inspeccione, busque y enumere entidades de Target: actividades (A/B, XT, AP, Asignación automática, MVT), audiencias y ofertas. Empiece aquí para el descubrimiento. | `target-browse` | Adobe Target | &quot;Mostrar todas mis actividades A/B activas&quot;<br>&quot;¿Qué audiencias tengo?&quot;<br>&quot;Buscar actividad \&lt;nombre o ID>&quot; |
+| **Experimentación y optimización, Análisis de audiencias, Inteligencia de rendimiento de contenido** | Informar sobre el rendimiento de la actividad | Informes de rendimiento y pedidos en todos los tipos de actividades (incluidas Recommendations): alza de conversión, ingresos y pedidos. | `target-analyze` | Adobe Target | &quot;¿Qué rendimiento tiene la actividad \&lt;name/ID>?&quot;<br>&quot;Mostrarme el alza de conversión y los ingresos de \&lt;activity>&quot;<br>&quot;¿Qué actividades generaron la mayor cantidad de pedidos el mes pasado?&quot; |
+| **Experimentación y optimización, Gestión de público** | Actividades de creación, ofertas y audiencias | Crear y configurar actividades, ofertas (HTML/JSON/redirect), audiencias y tokens de respuesta. La principal habilidad de creación. | `target-design` | Adobe Target | &quot;Crear una actividad A/B dirigida a \&lt;audience>&quot;<br>&quot;Generar una oferta JSON para \&lt;use case>&quot;<br>&quot;Agregar un token de respuesta para \&lt;attribute>&quot; |
+| **Experimentación y optimización, creación de contenido** | Creación de actividades visuales (WYSIWYG) | Creación del Compositor de experiencias visuales: cree y edite actividades A/B y XT visuales con una URL de página activa mediante modificaciones del selector CSS. | `target-vec` | Adobe Target | &quot;Crear una prueba A/B visual en \&lt;page URL>&quot;<br>&quot;Cambiar el titular a pantalla completa en \&lt;page URL> a \&lt;text>&quot;<br>&quot;Configurar una actividad XT con ediciones visuales en \&lt;page URL>&quot; |
+| **Experimentación y optimización** | Examinar e inspeccionar recomendaciones | Examinar e inspeccionar de solo lectura criterios, colecciones, diseños, promociones, exclusiones, catálogos y fuentes; incluye consejos de limpieza e inteligencia de atributos de catálogo. | `target-recs` | Adobe Target | &quot;Mostrar mis colecciones y criterios de Recommendations&quot;<br>&quot;Inspeccionar el diseño para \&lt;recs activity>&quot;<br>&quot;Revisar mis fuentes y exclusiones de catálogo&quot; |
+| **Experimentación y optimización** | Solución de problemas de Recommendations | Solución de problemas de solo lectura para problemas de recomendaciones, como &quot;resultados no listos&quot;, resultados vacíos y errores de recomendaciones. | `target-recs-diagnose` | Adobe Target | &quot;¿Por qué no están listos los resultados de mis recomendaciones?&quot;<br>&quot;Mis recomendaciones devuelven vacías, ¿qué es lo que está mal?&quot;<br>&quot;Diagnosticar por qué \&lt;recs activity> produce errores&quot; |
+| **Experimentación y optimización** | Creación y automatización de Recommendations | Creación de Recs: cree, actualice y elimine criterios, colecciones, diseños, exclusiones, promociones y fuentes; cree actividades de Recs; además de automatización/automatización en muchas actividades. | `target-recs-design` | Adobe Target | &quot;Crear un criterio &#39;recientemente visto&#39;&quot;<br>&quot;Generar una actividad de Recommendations con \&lt;criteria>&quot;<br>&quot;Actualizar el diseño en lotes en todas mis actividades de Recs&quot; |
+| **Experimentación y optimización** | Examinar y buscar experimentos | Exploración y búsquedas genéricas en distintos experimentos: enumera, ve y extrae resultados y perspectivas. | `experiment-explorer` | Experimentation Accelerator | &quot;Mostrar mis experimentos&quot;<br>&quot;Enumerar experimentos activos&quot;<br>&quot;Mostrar resultados para \&lt;experiment>&quot;<br>&quot;¿Qué datos tiene \&lt;experiment>?&quot; |
+| **Experimentación y optimización, Análisis de audiencias, Inteligencia de rendimiento de contenido** | Analizar y decidir sobre experimentos | Síntesis guiada y soporte de decisiones en todos los experimentos: comprobaciones de estado, decisiones de envío y resúmenes ejecutivos. | `experiment-analysis` | Experimentation Accelerator | &quot;¿Cómo van mis experimentos?&quot;<br>&quot;¿Debo enviar \&lt;experimento>?&quot;<br>&quot;¿Es saludable mi experimento?&quot;<br>&quot;Escriba un resumen ejecutivo de nuestros experimentos&quot; |
+| **Experimentación y optimización** | Diseño y planificación de experimentos | Diseño y planificación de experimentos con visión de futuro: qué probar a continuación, cómo diseñar una prueba y cómo crear una hoja de ruta. | `experiment-strategist` | Experimentation Accelerator | &quot;¿Qué debería probar a continuación?&quot;<br>&quot;Ayúdeme a diseñar un experimento para \&lt;goal>&quot;<br>&quot;Mi experimento falló, ¿qué sigue?&quot;<br>&quot;Crear una hoja de ruta de pruebas&quot; |
+| **Experimentación y optimización; conocimiento del Recorrido de clientes y cuentas** | Búsqueda de conocimientos e ingesta de datos | Recupere y busque conocimiento del contexto del experimento o introduzca datos CSV externos para su análisis. | `experiment-knowledge-base` | Experimentation Accelerator | &quot;¿Qué sabemos del experimento \&lt;name>?&quot;<br>&quot;¿Hemos probado esta hipótesis anteriormente?&quot;<br>&quot;Cargue un CSV y analice este archivo&quot; |
