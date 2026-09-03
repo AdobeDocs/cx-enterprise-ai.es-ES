@@ -1,41 +1,22 @@
 ---
 description: descripción.
 title: Comprender el editor de correo electrónico
+product_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1c4f9585c04eae8693e38541084cead08412d192
+source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
 workflow-type: tm+mt
-source-wordcount: 707
+source-wordcount: 476
 ht-degree: 0%
 
 ---
 
 # Comprender el editor de correo electrónico {#email-editor}
 
-El editor de correo electrónico permite refinar un correo electrónico generado por IA directamente en el tablero de campaña. Edite la línea de asunto y el preencabezado, dé formato al texto y a las imágenes en línea o cambie a una plantilla diferente. <!-- It's an inline editor over the email's actual HTML, not a drag-and-drop block builder. -->
+El editor de correo electrónico permite refinar un correo electrónico generado por IA directamente en el tablero de campaña. Edite la línea de asunto y el preencabezado, dé formato al texto y a las imágenes en línea o cambie a una plantilla diferente.
 
->[!PREREQUISITES]
->
->Cree una campaña con un correo electrónico generado.
-
-## Qué hace esta función
-
-Al hacer clic en una tarjeta de correo electrónico en el tablero de campañas, se abre el editor de correo electrónico como un panel lateral. Desde allí, el usuario puede editar el asunto y el preencabezado (con alternativas sugeridas por IA), hacer clic en el cuerpo del correo electrónico para seleccionar y dar formato al texto o las imágenes, cambiar entre variantes generadas por IA, intercambiar la plantilla de HTML, comprobar la compatibilidad entre el cliente y el correo electrónico y enviar un correo electrónico de prueba a su propia bandeja de entrada. Los cambios se guardan automáticamente y las versiones anteriores se pueden revisar y restaurar.
-
-### Comportamientos clave
-
-- Al hacer clic en cualquier texto o imagen del cuerpo del correo electrónico, se selecciona y aparece una barra de herramientas de formato flotante.
-- Opciones de formato de texto: negrita, cursiva, subrayado, fuente y tamaño de fuente.
-- Opciones de imagen: Reemplazar, Eliminar, Vincular, Editar con Express, Generar imagen (AI), Cargar desde el equipo.
-- Las cargas de imágenes tienen un límite de 10 MB; las imágenes de más de 3 MB se comprimen automáticamente, con una nota de calidad que recomienda imágenes de menos de 3 MB.
-- Los campos Asunto y preencabezado tienen una opción &quot;Sugerencias inteligentes&quot; para alternativas generadas por IA.
-- Cambios guardados automáticamente (al desenfocar y poco después de acciones de formato): un indicador de estado muestra Cambios no guardados, Guardar..., Guardado, Guardado automáticamente o No se puede guardar (con una opción Reintentar ).
-- Deshacer/rehacer está disponible para la sesión de edición actual.
-- Las versiones guardadas anteriores se pueden previsualizar y restaurar desde un panel del historial de versiones.
-- Si existen varias variantes generadas por IA, el usuario puede alternar entre ellas desde un panel de miniaturas.
-- La plantilla de HTML del correo electrónico se puede intercambiar con &quot;Cambiar plantilla de HTML&quot;.
-- &quot;Enviar correo electrónico de prueba&quot; envía una vista previa real a la bandeja de entrada del usuario con datos de ejemplo; no afecta a la creación de informes de campaña.
-- Hay disponible una comprobación de compatibilidad de cliente de correo electrónico en algunos entornos, que abarca Gmail, Outlook, Apple Mail, Yahoo Mail, Samsung Email y Thunderbird. [NECESITA ENTRADA: se encuentra detrás de un indicador de característica; confirme si está habilitado para la audiencia de destino antes de documentarlo como disponible de forma general]
+Al seleccionar una tarjeta de correo electrónico en el tablero de campañas, se abre el editor de correo electrónico como un panel lateral. Desde allí, el usuario puede editar el asunto y el preencabezado (con alternativas sugeridas por IA), hacer clic en el cuerpo del correo electrónico para seleccionar y dar formato al texto o las imágenes, cambiar entre variantes generadas por IA, intercambiar la plantilla de HTML, comprobar la compatibilidad entre el cliente y el correo electrónico y enviar un correo electrónico de prueba a su propia bandeja de entrada. Los cambios se guardan automáticamente y las versiones anteriores se pueden revisar y restaurar.
 
 ## Cómo acceder a
 
@@ -50,26 +31,13 @@ CAPTURA DE PANTALLA
 1. Utilice el icono del historial de versiones para obtener una vista previa y restaurar una versión guardada anteriormente.
 1. Los cambios se guardan automáticamente: no es necesario guardarlos manualmente.
 
-### Campos/parámetros de entrada
+### Comportamientos clave
 
-| Campo | Descripción | ¿Requerido? |
-| --- | --- | --- |
-| Asunto | La línea de asunto del correo electrónico | No (puede dejarse en blanco; no se aplica actualmente) |
-| Preencabezado | Texto de vista previa que se muestra junto al asunto en una bandeja de entrada | No |
-| Dirección de correo electrónico del destinatario | Dónde enviar un correo electrónico de prueba | Sí, para enviar correo electrónico de prueba |
-
-## Llamadas de IU
-
-> **Nota del redactor técnico**: Se necesitan capturas de pantalla para lo siguiente:
-
-- [ ]: panel lateral del editor de correo electrónico (campos de asunto/encabezado previo más cuerpo del correo electrónico)
-- [ ]: barra de herramientas flotante para la selección de texto
-- [ ]: barra de herramientas flotante para la selección de imágenes
-- [ ]: el panel en miniatura de la variante AI
-- [ ]: panel del historial de versiones
-- [ ]: cuadro de diálogo &quot;Cambiar plantilla de HTML&quot;
-- [ ]: cuadro de diálogo Enviar correo electrónico de prueba
-- [ ]: comprobador de compatibilidad de clientes de correo electrónico (si está habilitado en el entorno de destino).
+- Las cargas de imágenes tienen un límite de 10 MB; las imágenes de más de 3 MB se comprimen automáticamente, con una nota de calidad que recomienda imágenes de menos de 3 MB.
+- Los campos Subject y Preheader tienen la opción de usar alternativas generadas por IA a través de este ICONO.
+- Utilice Ctrl+z (CMD+z para Mac) para &#39;Deshacer&#39; e invertir la última acción. Utilice CTRL+Y (CMD+y para Mac) para &#39;Rehacer&#39; e invertir la última operación de Deshacer. KEITH CHECK STANDARD
+- Las versiones guardadas anteriores se pueden previsualizar y restaurar desde un panel del historial de versiones a través de este ICONO.
+- De forma predeterminada, generamos dos variantes por correo electrónico; puede seleccionar la variante deseada a través de sus miniaturas a la derecha.
 
 ## Qué no hace esta función
 

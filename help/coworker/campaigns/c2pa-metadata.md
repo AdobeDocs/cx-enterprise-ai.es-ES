@@ -1,9 +1,11 @@
 ---
 description: Descubra cómo Campañas de Coworker adjunta y conserva automáticamente los metadatos de C2PA en las imágenes, desde la generación hasta la entrega por correo electrónico.
 title: Metadatos de C2PA en campañas de compañeros de trabajo
-source-git-commit: 0d07019c1bf88ecb7452767364d1a5f05702ce0e
+product_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: 387
 ht-degree: 4%
 
 ---

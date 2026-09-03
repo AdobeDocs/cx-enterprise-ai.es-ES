@@ -1,13 +1,15 @@
 ---
 description: Una guía de referencia sobre la interfaz de Coworker Chat, que cubre la navegación, el cuadro de entrada, las respuestas, el historial de chat y la configuración de habilidades, servidores MCP y memoria.
 title: Guía de IU de Coworker Chat
+jira: KT-22106
+product_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-jira: KT-22106
-source-git-commit: ff6ea2f9650bf1c72d2a878c20eecf90f1c8d9aa
+source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
 workflow-type: tm+mt
-source-wordcount: 1577
-ht-degree: 3%
+source-wordcount: 1713
+ht-degree: 4%
 
 ---
 
@@ -18,6 +20,25 @@ Obtenga orientación con la interfaz de Chat del compañero. Esta guía cubre to
 >[!VIDEO](https://video.tv.adobe.com/v/3498570?captions=spa&learn=on)
 
 ## Acceso a Coworker Chat
+
+Cuando su organización obtenga acceso a Coworker, puede utilizar sus capacidades a través de una experiencia envolvente o de una experiencia integrada en el producto.
+
+>[!NOTE]
+>
+>Se puede acceder a la experiencia del producto a través del icono de Coworker ![Icono de Coworker](./assets/icon-coworker.png) en la parte superior derecha. Los detalles de la experiencia envolvente están [descritos a continuación](#immersive).
+
+La siguiente tabla muestra cuándo estarán disponibles estas experiencias para cada aplicación de CX Enterprise.
+
+| Aplicación empresarial de CX | Experiencia envolvente | Experiencia en el producto |
+|---|---|---|
+| RTCDP | Disponible ahora | Próximamente |
+| AJO | Disponible ahora | Próximamente |
+| CJA | Disponible ahora | Próximamente |
+| AEM | Septiembre de 2026 | Próximamente |
+| Workfront | Septiembre de 2026 | Próximamente: <br><br>* a principios de septiembre de 2026 en la instancia de vista previa para determinados administradores del sistema de Workfront aptos<br><br>* a mediados de septiembre de 2026 en la instancia de producción para clientes de Workfront de versión rápida aptos<br><br>* a mediados de octubre de 2026 en la instancia de producción para clientes de Workfront de versión trimestral aptos |
+| Target | Septiembre de 2026 | Próximamente |
+
+### Experiencia envolvente {#immersive}
 
 Para acceder a Chat de compañeros, navega a [https://experience.adobe.com/#/coworker](https://experience.adobe.com/#/coworker) e inicia sesión con tus credenciales de Adobe.
 
