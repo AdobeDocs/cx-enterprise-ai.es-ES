@@ -2,14 +2,12 @@
 description: Una guía de referencia sobre la interfaz de Coworker Chat, que cubre la navegación, el cuadro de entrada, las respuestas, el historial de chat y la configuración de habilidades, servidores MCP y memoria.
 title: Guía de IU de Coworker Chat
 jira: KT-22106
-product_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
+product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: 73f2a00a3438903f72cddb35c3a5c47196b5821a
 workflow-type: tm+mt
 source-wordcount: 1713
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -17,7 +15,7 @@ ht-degree: 4%
 
 Obtenga orientación con la interfaz de Chat del compañero. Esta guía cubre todo, desde el acceso a la aplicación y la navegación por el espacio de trabajo hasta sacar el máximo partido a las conversaciones, administrar el historial y adaptar la configuración.
 
->[!VIDEO](https://video.tv.adobe.com/v/3498570?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3498558?learn=on)
 
 ## Acceso a Coworker Chat
 
@@ -34,9 +32,9 @@ La siguiente tabla muestra cuándo estarán disponibles estas experiencias para 
 | RTCDP | Disponible ahora | Próximamente |
 | AJO | Disponible ahora | Próximamente |
 | CJA | Disponible ahora | Próximamente |
+| Workfront | Disponible ahora | Próximamente: <br><br>* a principios de septiembre de 2026 en la instancia de vista previa para determinados administradores del sistema de Workfront aptos<br><br>* a mediados de septiembre de 2026 en la instancia de producción para clientes de Workfront de versión rápida aptos<br><br>* a mediados de octubre de 2026 en la instancia de producción para clientes de Workfront de versión trimestral aptos |
+| Target | Disponible ahora | Disponible ahora |
 | AEM | Septiembre de 2026 | Próximamente |
-| Workfront | Septiembre de 2026 | Próximamente: <br><br>* a principios de septiembre de 2026 en la instancia de vista previa para determinados administradores del sistema de Workfront aptos<br><br>* a mediados de septiembre de 2026 en la instancia de producción para clientes de Workfront de versión rápida aptos<br><br>* a mediados de octubre de 2026 en la instancia de producción para clientes de Workfront de versión trimestral aptos |
-| Target | Septiembre de 2026 | Próximamente |
 
 ### Experiencia envolvente {#immersive}
 
