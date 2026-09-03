@@ -2,8 +2,10 @@
 description: Una guía de referencia sobre la interfaz de Coworker Chat, que cubre la navegación, el cuadro de entrada, las respuestas, el historial de chat y la configuración de habilidades, servidores MCP y memoria.
 title: Guía de IU de Coworker Chat
 jira: KT-22106
-product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+product_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
 source-git-commit: 73f2a00a3438903f72cddb35c3a5c47196b5821a
 workflow-type: tm+mt
 source-wordcount: 1713
