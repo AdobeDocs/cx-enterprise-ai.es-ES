@@ -5,33 +5,14 @@ solution: Journey Optimizer
 product: journey optimizer
 role: Admin,User,Developer,Leader
 TQID: https://experienceleague.adobe.com/7Bamc-q4rDOB9i0oxwixdmtdU8lrx3btpvMfAsjGnig
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944fid: d0a62d3c-b79e-47e4-929e-40ef3cffa037id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: 0daf43247c80b5a2d3978515a45256bd03326c0c
 workflow-type: tm+mt
-source-wordcount: 3361
+source-wordcount: 3372
 ht-degree: 11%
 
 ---
@@ -41,7 +22,7 @@ ht-degree: 11%
 
 >[!AVAILABILITY]
 >
->Las habilidades de creación de Journey Agent y las habilidades de generación de contenido están disponibles para los clientes que forman parte del programa Agent Orchestrator Explorer. Para obtener más información, póngase en contacto con el Servicio de atención al cliente de Adobe.
+>Las funciones de creación de IA de Journey Agent y las funciones de IA de generación de contenido están disponibles para los clientes que forman parte del programa Agent Orchestrator Explorer. Para obtener más información, póngase en contacto con el Servicio de atención al cliente de Adobe.
 
 ## Introducción a Journey Agent en Adobe Journey Optimizer
 
@@ -53,13 +34,13 @@ Journey Agent consta de cuatro tareas principales que se deben realizar:
 - **Creación de contenido de canal**: genera, edita y administra contenido específico del canal (correo electrónico, push, SMS) para recorridos mediante la generación de contenido con tecnología de IA
 - **Análisis de Recorrido**: Analice recorridos, detecte problemas, descubra información y optimice la participación de los clientes
 
-Además, **Simulación de Recorrido** es una característica de Journey Optimizer que incluye [Simulación de Recorrido](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), una habilidad auténtica en el producto, no conversacional, con tres características:
+Además, **Simulación de Recorrido** es una característica de Journey Optimizer que incluye [Simulación de Recorrido](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), una capacidad de IA en el producto que no es conversacional con tres subcapacidades:
 
 - Generación de usuarios simulados
 - Generación de valores de evento
 - Simulación rápida
 
-## Recorrido Crear: Casos de uso, Aptitudes de agente y Guía del usuario
+## Recorrido Crear: Casos de uso, capacidades de IA y guía del usuario
 
 ## Información general
 
@@ -111,7 +92,7 @@ Recorrido Cree ofertas que se puedan aprovechar para acelerar la ejecución del 
 
 Para cada uno de estos casos de uso, el agente traduce los requisitos del lenguaje natural en configuraciones de recorrido estructuradas.
 
-## Aptitudes dentro y fuera del ámbito
+## Funciones de IA dentro y fuera de ámbito
 
 ### **En ámbito**
 
@@ -195,7 +176,7 @@ Cuando un usuario entre en mi ubicación de tienda, enviar un mensaje de bienven
 - **Planificar contenido del mensaje**: Defina su estrategia de mensajería antes de crear el recorrido.
 - **Tenga en cuenta la experiencia del cliente**: Diseñe flujos de recorrido que respeten las preferencias del cliente y eviten la comunicación excesiva.
 
-## Creación de contenido de canal: casos de uso, habilidades de agente y guía del usuario
+## Creación de contenido de canal: casos de uso, funciones de IA y guía del usuario
 
 >[!AVAILABILITY]
 >
@@ -221,7 +202,7 @@ La creación de contenido de canal permite a los usuarios de Journey Optimizer g
 
 1. **Integración de lienzo de Recorrido**: seleccione recorridos del inventario y vea los canales asociados.
 
-## Aptitudes dentro y fuera del ámbito
+## Funciones de IA dentro y fuera de ámbito
 
 ### **En ámbito**
 
@@ -277,13 +258,13 @@ Actualmente no se admiten las siguientes funcionalidades:
 1. **Definir tono**: especifique el tono deseado (cordial, formal, informal, urgente).
 1. **Iterar y refinar**: use la acción de regeneración para refinar el contenido hasta que cumpla con sus requisitos.
 
-## Análisis de recorrido: casos de uso, habilidades de agente y guía del usuario
+## Análisis de recorrido: casos de uso, capacidades de IA y guía del usuario
 
 ## Información general
 
 Journey Agent permitirá a los usuarios de Journey Optimizer analizar y optimizar los recorridos mediante una interfaz de lenguaje natural. Con Journey Agent, los profesionales pueden identificar y resolver rápidamente conflictos de programación o audiencia, detectar puntos de abandono de usuarios en un recorrido y proporcionar perspectivas o recomendaciones. Permite a los profesionales tomar decisiones basadas en datos, mejorar la participación del cliente y agilizar la orquestación del recorrido.
 
-Obtenga más información y descubra el agente rápidamente en esta [descripción general](https://experienceleague.adobe.com/es/slides/journey-agent-overview).
+Obtenga más información y descubra el agente rápidamente en esta [descripción general](https://experienceleague.adobe.com/en/slides/journey-agent-overview).
 
 >[!AVAILABILITY]
 >
@@ -329,7 +310,7 @@ El análisis de recorrido ofrece una serie de funcionalidades que se pueden apro
 
 Para cada uno de estos análisis, el agente no solo detecta problemas, sino que también proporciona **recomendaciones procesables para resolverlos**.
 
-## Competencias incluidas y excluidas del ámbito de aplicación
+## Capacidades de IA dentro y fuera de ámbito
 
 ### **Ámbito de aplicación**
 
@@ -425,13 +406,13 @@ Para maximizar la eficacia del análisis de Recorrido, siga estas prácticas rec
 - **Monitorice de forma periódica**: programe revisiones periódicas del rendimiento de los recorridos para identificar las tendencias y las anomalías.
 - **Optimice la segmentación**: asegúrese de que la segmentación del público está equilibrada para evitar la fatiga y maximizar la participación.
 
-## Recorrido Simular: Casos de uso, habilidades de agente y guía del usuario
+## Recorrido para simular: casos de uso, funciones de IA y guía del usuario
 
 ## Información general
 
 >[!BEGINSHADEBOX]
 
-La simulación de recorrido está disponible para todos los clientes de Journey Optimizer. Simulación de recorrido, la habilidad genética del producto dentro de la simulación de Recorrido, está disponible para los clientes que forman parte del programa Agent Orchestrator Explorer y requiere al menos uno de los siguientes permisos:
+La simulación de recorrido está disponible para todos los clientes de Journey Optimizer. Recorrido Simulate, la capacidad de IA auténtica en el producto dentro de la simulación de Recorrido, está disponible para los clientes que forman parte del programa Agent Orchestrator Explorer y requiere al menos uno de los siguientes permisos:
 
 - **Simular recorridos**: ejecute flujos de trabajo de simulación desde el lienzo de recorrido.
 
@@ -445,7 +426,7 @@ Para usar IA en **[!UICONTROL Simulación]** (**[!UICONTROL Simulación rápida]
 
 >[!ENDSHADEBOX]
 
-La simulación de recorrido es una función de Journey Optimizer que permite a los usuarios de Journey Optimizer probar y validar de forma segura los recorridos de marketing antes de la activación. Dentro de la simulación de Recorrido, la simulación de Recorrido es una habilidad agéntica en el producto, no conversacional, que automatiza y ayuda al proceso de prueba directamente desde el lienzo de recorrido.
+La simulación de recorrido es una función de Journey Optimizer que permite a los usuarios de Journey Optimizer probar y validar de forma segura los recorridos de marketing antes de la activación. Dentro de la simulación de Recorrido, la simulación de Recorrido es una capacidad de IA auténtica en el producto, no conversacional, que automatiza y ayuda en el proceso de prueba directamente desde el lienzo de recorrido.
 
 Recorrido Simulate incluye tres funciones:
 
@@ -480,7 +461,7 @@ Recorrido Simulate ofrece tres funciones que se pueden aprovechar para reducir e
 - Identifique qué flujos de usuarios simulados a través de qué ruta y por qué con una travesía detallada nodo a nodo.
 - Revise los informes de simulación al final de una ejecución en la interfaz de usuario de Journey Optimizer para validar los resultados antes de la activación.
 
-## Competencias y limitaciones del ámbito
+## En el ámbito, capacidades y limitaciones de IA
 
 ### **En ámbito**
 
@@ -493,14 +474,14 @@ La función de simulación de Recorrido admite las siguientes funciones:
 - **Informes de simulación**: vea los informes al final de una ejecución de simulación en la interfaz de usuario de Journey Optimizer.
 - **Pruebas para varios usuarios**: ejecute y visualice pruebas para varios usuarios simulados simultáneamente, cubriendo todas las ramas de recorrido.
 
-Además de esto, la aptitud para simular Recorridos admite las siguientes capacidades:
+Además, la capacidad Simular IA del Recorrido admite las siguientes capacidades:
 
 - **Generación de usuarios simulados**: cree usuarios simulados basados en rutas de recorrido, perfiles de prueba existentes o atributos especificados.
 - **Generación de valores de eventos**: genere y asigne valores de atributos de eventos para controlar la ejecución de pruebas a través de rutas de recorrido específicas.
-- **Simulación rápida**: Ejecute una simulación completa de extremo a extremo con una intervención mínima. La aptitud genera automáticamente usuarios simulados, valores de evento y ajustes de prueba prerrellenados y, a continuación, ejecuta el recorrido y muestra los resultados para su revisión.
+- **Simulación rápida**: Ejecute una simulación completa de extremo a extremo con una intervención mínima. Esta capacidad de IA genera automáticamente usuarios simulados, valores de evento y ajustes de prueba rellenados previamente y, a continuación, ejecuta el recorrido y muestra los resultados para su revisión.
 
 ### **Limitaciones**
 
 Es posible que la simulación no admita todas las actividades, canales o integraciones compatibles con el modo de prueba o un recorrido en directo, y que el comportamiento cambie a medida que la capacidad madura.
 
-➡️ Obtenga más información acerca de [Limitaciones de simulación](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) en la documentación de Journey Optimizer.
+➡️ Obtenga más información acerca de [Limitaciones de simulación](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) en la documentación de Journey Optimizer.
