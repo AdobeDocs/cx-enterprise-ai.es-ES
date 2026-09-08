@@ -80,8 +80,9 @@ The three gates are:
 [Paste Gate 1, Gate 2, and Gate 3 definitions here]
 ```
 
----
+&#x200B;---
  
+
 ## Puerta 1: supresión/consentimiento
  
 > Edite esta sección para que coincida con los requisitos de supresión y consentimiento de su organización.
@@ -109,8 +110,9 @@ Our standard:
 [Example: A consent audience is mandatory for all email and SMS destinations. For direct mail destinations it is optional.]
 ```
 
----
+&#x200B;---
  
+
 ## Puerta 2: Límite de frecuencia
 
 > Edite esta sección para que coincida con los requisitos de frecuencia de entrega de su organización.
@@ -135,7 +137,7 @@ Our standard:
 [Example: Frequency must be DAILY or less frequent. Any hourly cadence or blank value is blocked.]
 ```
 
----
+&#x200B;---
 
 ## Puerta 3: Convención de nomenclatura
  
@@ -178,7 +180,7 @@ When blocked on naming, always propose a compliant replacement name.
 
  
 
----
+&#x200B;---
 
 ## Guía
 
@@ -195,7 +197,7 @@ Todo lo demás debería permanecer igual:
 - Renderización del informe de valoración
 - Lógica de veredicto
 
----
+&#x200B;---
 
 
 ### &#x200B;2. Verificar requisitos previos
@@ -213,7 +215,7 @@ Esta aptitud depende de lo siguiente:
 
 Si estas capacidades no están disponibles en el entorno del cliente, la aptitud no puede ejecutarse como está previsto.
 
----
+&#x200B;---
 
 ### &#x200B;3. Mantener la aptitud de solo lectura
 
