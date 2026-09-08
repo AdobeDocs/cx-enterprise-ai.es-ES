@@ -1,13 +1,11 @@
 ---
 description: Casos de uso y ejemplos de mensajes de texto de Browse Coworker Chat, organizados por área en las perspectivas de datos, audiencias, recorridos y operaciones de la plataforma.
 title: Casos de uso de chat con compañeros
-product_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 83cd3d9dcc9ae0c56e8d63e995b166e8ff0736d9
+product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: b7fb10d084209e0a34023d09f568bcbfaa314705
 workflow-type: tm+mt
-source-wordcount: 4260
+source-wordcount: 4624
 ht-degree: 6%
 
 ---
@@ -24,7 +22,7 @@ El chat de compañeros de trabajo le permite consultar, analizar y actuar en los
 >
 >Todos los clientes elegibles tendrán acceso a las funciones de agente de Adobe Experience Manager en Coworker, de forma gradual.
 >
->Consulte también [IA en AEM: información general sobre las capacidades de agente en AEM](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/overview).
+>Consulte también [IA en AEM: información general sobre las capacidades de agente en AEM](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/overview).
 
 ## Experiencia de marca
 
@@ -43,9 +41,9 @@ El chat de compañeros de trabajo le permite consultar, analizar y actuar en los
 
 **Información relacionada**
 
-* [Funciones agénticas en AEM: experiencia de marca, producción de experiencias, sitios](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-sites)
+* [Funciones agénticas en AEM: experiencia de marca, producción de experiencias, sitios](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-sites)
 
-* [Funciones agénticas en AEM: experiencia de marca, producción de experiencias, Forms](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-forms)
+* [Funciones agénticas en AEM: experiencia de marca, producción de experiencias, Forms](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-forms)
 
 ### Desarrollo
 
@@ -58,7 +56,7 @@ El chat de compañeros de trabajo le permite consultar, analizar y actuar en los
 
 **Información relacionada**
 
-* [Capacidades agénticas en AEM: experiencia de marca - desarrollo](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/development/use-cases)
+* [Capacidades agénticas en AEM: experiencia de marca - desarrollo](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/development/use-cases)
 
 ### Incorporación
 
@@ -71,7 +69,7 @@ El chat de compañeros de trabajo le permite consultar, analizar y actuar en los
 
 **Información relacionada**
 
-* [Capacidades agénticas en AEM: experiencia de marca - incorporación](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/onboarding/use-cases)
+* [Capacidades agénticas en AEM: experiencia de marca - incorporación](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/onboarding/use-cases)
 
 ## Asesor de contenido
 
@@ -86,7 +84,7 @@ El chat de compañeros de trabajo le permite consultar, analizar y actuar en los
 
 **Información relacionada**
 
-* [Capacidades agénticas en AEM: Asesor de contenido: detección de contenido](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/discovery/use-cases)
+* [Capacidades agénticas en AEM: Asesor de contenido: detección de contenido](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/discovery/use-cases)
 
 ### Optimización de contenido
 
@@ -98,7 +96,7 @@ El chat de compañeros de trabajo le permite consultar, analizar y actuar en los
 
 **Información relacionada**
 
-* [Capacidades agénticas en AEM: Asesor de contenido: optimización de contenido](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/content-optimization/use-cases)
+* [Capacidades agénticas en AEM: Asesor de contenido: optimización de contenido](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/content-optimization/use-cases)
 
 ## Gobernanza de marca
 
@@ -110,7 +108,7 @@ El chat de compañeros de trabajo le permite consultar, analizar y actuar en los
 
 **Información relacionada**
 
-* [Capacidades agénticas en AEM: administración de marcas](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-governance/use-cases)
+* [Capacidades agénticas en AEM: administración de marcas](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-governance/use-cases)
 
 ## Perspectivas de datos
 
@@ -149,6 +147,43 @@ El chat de compañeros de trabajo le permite consultar, analizar y actuar en los
 | Analizar errores de acciones personalizadas | Identifique cuándo las acciones personalizadas producen errores o las tasas de error aumentan dentro de un recorrido y diagnostique las causas raíz antes de que los errores se propaguen en cascada hasta una interrupción más amplia | `journey-analyze-custom-action` | Adobe Journey Optimizer (AJO) | &quot;¿Por qué las acciones personalizadas fallan en mi recorrido de suscripción de fidelización?&quot; <br> &quot;Mostrarme la tasa de error para la acción personalizada ExternalPush en mi recorrido de bienvenida&quot;. |
 | [Crear, editar y administrar desafíos de lealtad](journeys/create-loyalty-challenge.md) | Simplificación y aceleración de la administración de programas de fidelización | `loyalty` | Adobe Journey Optimizer (AJO) | &quot;Cree un desafío que anime a los miembros a probar una nueva bebida de temporada&quot; <br> &quot;Muéstreme los desafíos de fidelidad con las tasas más altas de bajas de miembros&quot;. |
 
+## Optimización
+
+Use el chat de compañeros para examinar, analizar y planificar experimentos, y para crear, ejecutar y solucionar problemas de actividades, audiencias y recomendaciones de Adobe Target.
+
+### Análisis y estrategia del experimento
+
+| Caso de uso | Descripción | Habilidades | Aplicación | Indicadores de ejemplo |
+| --- | --- | --- | --- | --- |
+| Examinar y explorar experimentos | Buscar información general, listas, recuentos, resultados sin procesar, perspectivas y oportunidades de experimentos | `experiment-explorer` | Experimentation Accelerator | &quot;Mostrar mis experimentos&quot; · &quot;Enumerar las pruebas activas&quot; · &quot;¿Cuántos experimentos se están ejecutando?&quot; |
+| Analizar el rendimiento del experimento | Obtenga resúmenes de portafolios, comprobaciones de estado de un solo experimento, informes ejecutivos e informes de experimentos cruzados con métricas, opcionalmente enriquecidos con datos de CJA | `experiment-analysis` | Experimentation Accelerator | &quot;¿Qué rendimiento tienen mis pruebas A/B?&quot; · &quot;Generar un informe para mis actividades con métricas de CJA&quot; · &quot;¿Está saludable esta prueba?&quot; |
+| Planificar y diseñar experimentos | Obtenga la siguiente prueba de mayor impacto que se va a ejecutar, un diseño para un tema específico, una traducción de objetivo a métrica, una guía de recuperación para una prueba fallida o una hoja de ruta secuenciada de varios experimentos | `experiment-strategist` | Experimentation Accelerator | &quot;¿Qué debería probar a continuación?&quot; · &quot;Ayúdeme a diseñar un experimento para mejorar las conversiones del pago&quot; · &quot;Cree una hoja de ruta de pruebas para el tercer trimestre&quot; |
+| Buscar historial de experimentos | Recupere hipótesis, conocimientos, resultados y tratamientos de experimentos anteriores, encuentre experimentos anteriores por tema o introduzca un CSV externo para enriquecer los resultados | `experiment-knowledge-base` | Experimentation Accelerator | &quot;¿Qué sabemos del experimento X?&quot; · &quot;¿Hemos probado esta hipótesis antes?&quot; · &quot;Introduzca este CSV&quot; |
+
+### Actividades y audiencias de Target
+
+| Caso de uso | Descripción | Habilidades | Aplicación | Indicadores de ejemplo |
+| --- | --- | --- | --- | --- |
+| Examinar entidades de destino | Descubra, inspeccione y cuente actividades, ofertas, audiencias, mboxes, propiedades, espacios de trabajo, configuración de AT.js, tokens de respuesta e historial de revisiones. También puede capturar una captura de pantalla de las experiencias forzadas de una actividad | `target-browse` | Adobe Target | &quot;Enumerar mis pruebas A/B&quot; · &quot;¿Cuántas actividades se han iniciado este mes?&quot; · &quot;Mostrar detalles de la actividad 12345&quot; |
+| Analizar el rendimiento de la actividad | Obtenga tasas de conversión, alza, intervalos de confianza, ingresos y recuentos de exposición para una sola actividad. Declara hechos solamente y nunca declara un ganador | `target-analyze` | Adobe Target | &quot;¿Qué rendimiento tiene la actividad X?&quot; · &quot;Mostrarme el alza de conversión&quot; · &quot;¿Cuál es la AOV para la prueba de pago?&quot; |
+| Consigue una nave o detener el veredicto | Obtener una recomendación SHIP, WAIT, STOP o FIX para una actividad, calculada a partir de la relevancia de dos proporciones en los recuentos sin procesar más las comprobaciones de defectos de configuración | `target-activity-verdict` | Adobe Target | &quot;¿Debo enviar esta prueba?&quot; · &quot;¿Qué variante ganó?&quot; · &quot;¿Es esto significativo todavía?&quot; |
+| Creación y configuración de actividades | Cree, actualice y configure actividades, ofertas y tokens de respuesta, genere direcciones URL de vista previa de control de calidad y cree u optimice contenido de ofertas | `target-design` | Adobe Target | &quot;Crear una prueba A/B para la página principal&quot; · &quot;Actualizar la división de tráfico&quot; · &quot;Optimizar el JS de esta oferta&quot; |
+| Creación de actividades del Compositor de experiencias visuales | Cree y edite actividades del Compositor de experiencias visuales (VEC), creando variantes como modificaciones DOM con respecto a una URL de página activa, junto con la audiencia de entrega de páginas que las abarca | `target-vec` | Adobe Target | &quot;Crear una prueba A/B de VEC para la página principal&quot; · &quot;Cambiar el titular a pantalla completa en el editor visual&quot; |
+| Configurar una prueba completa desde cero | Obtenga una creación de actividades guiada e integral para pruebas A/B, XT y VEC, que cubra la recopilación de requisitos, los requisitos previos, la creación, la programación y la prioridad, los vínculos de control de calidad y la activación opcional | `target-setup` | Adobe Target | &quot;Guíame en la configuración de una prueba A/B completa&quot; · &quot;Soy nuevo en Target, ayúdame a crear mi primera prueba&quot; |
+| Auditar el estado del programa | Obtenga una auditoría de estado de todo el programa que cubra la detección de riesgos y colisiones, los hallazgos de configuración incorrecta, la higiene de ofertas y audiencias y las recomendaciones de ganancia rápida | `target-intelligence` | Adobe Target | &quot;Auditar mis actividades de Target&quot; · &quot;Encontrar pruebas riesgosas o mal configuradas&quot; · &quot;¿Qué debo limpiar?&quot; |
+| Encontrar patrones ganadores | Mi historial de Target para patrones ganadores, estrategias eficaces y audiencias o contenido de alto rendimiento, y luego recibir recomendaciones sobre qué probar a continuación, basadas en sus propios datos | `target-strategist` | Adobe Target | &quot;¿Qué nos está funcionando?&quot; · &quot;Mostrar mis patrones ganadores&quot; · &quot;¿Qué debería probar a continuación según los resultados anteriores?&quot; |
+| Calcular tamaño y duración de la muestra | Planifique el tamaño de la muestra A/B/n, la duración de la prueba y el alza detectable para las métricas de tasa de conversión e ingresos por visitante, con corrección de Bonferroni | `target-test-calculator` | Adobe Target | &quot;¿Durante cuánto tiempo debe ejecutarse mi prueba A/B?&quot; · &quot;¿Qué tamaño de muestra necesito?&quot; · &quot;¿Mi prueba ya está activada?&quot; |
+| Obtenga un resumen del rendimiento de nivel de programa | Obtenga un panel de información general, una tabla de inicio reciente y un censo agregado de ganancias/pérdidas/alzas en todas las actividades, además de lecturas de tendencia e impulso de una sola actividad | `target-portfolio-report` | Adobe Target | &quot;Hacerme una revisión médica de mi programa Target&quot; · &quot;¿Cuáles son mis pruebas principales y peores?&quot; · &quot;¿La actividad X es tendencia hacia una victoria?&quot; |
+| Crear audiencias a partir de lenguaje natural | Cree o edite audiencias nativas de Target a partir de una descripción en lenguaje natural, una condición de regla explícita o una lista de valores en línea o cargados. Asigna la solicitud a la gramática de la regla y valida el árbol de reglas antes de escribir | `target-audience-composer` | Adobe Target | &quot;Crear una audiencia de visitantes que regresan de California&quot; · &quot;Crear una audiencia a partir de estos códigos postales&quot; · &quot;Reducir la audiencia X a visitantes que regresan&quot; |
+
+### Recomendaciones
+
+| Caso de uso | Descripción | Habilidades | Aplicación | Indicadores de ejemplo |
+| --- | --- | --- | --- | --- |
+| Examinar entidades de Recommendations | Examine e inspeccione los criterios, colecciones, diseños, promociones, exclusiones, catálogos y fuentes de Recommendations, además de obtener consejos para la limpieza y orientación sobre los atributos del catálogo | `target-recs` | Adobe Target | &quot;Enumerar mis criterios de Recommendations&quot; · &quot;¿Qué diseños tengo?&quot; · &quot;¿Qué recs podemos limpiar?&quot; |
+| Diagnóstico de problemas de Recommendations | Rastree la actividad, los criterios, la fuente, la colección y la cadena de diseño para explicar por qué las recomendaciones están vacías, obsoletas o no se muestran | `target-recs-diagnose` | Adobe Target | &quot;¿Por qué mis recomendaciones están vacías?&quot; · &quot;¿Por qué mi actividad de recs ha sido &#39;resultados no listos&#39; durante 48 horas?&quot; |
+| Recomendaciones de autor | Cree y actualice criterios, colecciones, diseños, exclusiones, promociones, fuentes y actividades de Recommendations, incluidas las operaciones por lotes cerradas en muchas actividades a la vez | `target-recs-design` | Adobe Target | &quot;Cree los criterios de &#39;más vistos&#39;&quot; · &quot;Cree una colección de productos en stock por debajo de 50 $&quot; · &quot;Aplique fechas de Black Friday en todas las actividades de venta&quot; |
+
 ## Elementos básicos
 
 | Caso de uso | Descripción | Habilidades | Aplicación | Indicadores de ejemplo |
@@ -160,7 +195,7 @@ El chat de compañeros de trabajo le permite consultar, analizar y actuar en los
 | Resolución y vinculación de entidades | Utilice la búsqueda semántica y léxica para resolver las menciones de entidad a entidades Experience Platform reales y descubrir campos XDM | `entity-linking` | Adobe Experience Platform | &quot;Resolver &#39;Compradores de vacaciones&#39; en una audiencia real&quot; <br> &quot;Encuéntrenme campos relacionados con el historial de compras&quot; |
 | Administrar aptitudes personalizadas | Guardar, modificar o eliminar habilidades reutilizables propiedad del usuario que persisten entre sesiones | `manage-skill` | Todas las solicitudes elegibles | &quot;Guardar ese flujo de trabajo como una aptitud&quot; <br> &quot;Eliminar mi aptitud de informe semanal&quot; <br> &quot;Convertir esto en una aptitud reutilizable&quot; |
 | Monitorización de la capacidad de streaming y brechas | Compruebe el uso, la capacidad y el estado de brecha de flujo actual e histórico en los entornos limitados | `observability-streaming-capacity`, `observability-streaming-usage`, `observability-capacity-breaches` | Adobe Experience Platform | &quot;¿Cuál es mi capacidad de flujo actual en mi zona protegida actual?&quot; <br> &quot;¿Mi zona protegida actual ha superado los límites de capacidad en la última semana?&quot; |
-| [Ver resultados de la evaluación de comprobación de estado](https://experienceleague.adobe.com/es/docs/experience-platform/run-and-operate/health-checks/overview) | Vea la última evaluación de comprobación de estado de la zona protegida, explore en profundidad una comprobación que da error y vea las entidades afectadas | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | &quot;¿Qué hay de malo en mi zona protegida?&quot; <br> &quot;Informarme sobre la última evaluación de la comprobación de estado&quot; <br> &quot;¿Cuáles son los problemas de la comprobación de descripción de área de nombres personalizada?&quot; |
+| [Ver resultados de la evaluación de comprobación de estado](https://experienceleague.adobe.com/en/docs/experience-platform/run-and-operate/health-checks/overview) | Vea la última evaluación de comprobación de estado de la zona protegida, explore en profundidad una comprobación que da error y vea las entidades afectadas | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | &quot;¿Qué hay de malo en mi zona protegida?&quot; <br> &quot;Informarme sobre la última evaluación de la comprobación de estado&quot; <br> &quot;¿Cuáles son los problemas de la comprobación de descripción de área de nombres personalizada?&quot; |
 | Solucionar problemas de comprobación de estado | Corrija los problemas del área de nombres de identidad, la política de combinación y el esquema marcados directamente desde el chat, con su aprobación antes de realizar cualquier cambio | `rao-remediate-identity-namespace-description`, `rao-remediate-merge-policy-duplicate-name`, `rao-remediate-missing-audit-field-group`, `rao-remediate-default-merge-policy-naming` | Adobe Experience Platform | &quot;Corregir descripciones del área de nombres de identidad&quot; <br> &quot;Corregir nombres de políticas de combinación duplicados&quot; <br> &quot;Corregir esquemas que no tienen el grupo de campos de auditoría&quot; <br> &quot;Corregir nombres de políticas de combinación predeterminados&quot; |
 
 ## Herramientas de zona protegida
@@ -193,19 +228,3 @@ El chat de compañeros de trabajo le permite consultar, analizar y actuar en los
 | Perspectivas de trabajo superficial | Haga preguntas exploratorias para encontrar trabajo en riesgo, tareas sin asignar, problemas pendientes y estado en todos los proyectos | `query-workfront` | Flujo de trabajo Workfront | &quot;Encontrar tareas incompletas en proyectos actuales que no están asignados a nadie y que vencen esta semana&quot; <br> &quot;¿Cuántos problemas pendientes hay en los proyectos actuales?&quot; |
 | Resumen de proyectos y tareas | Extraer listas, tablas y recuentos de proyectos, tareas, problemas y asignaciones | `query-workfront` | Flujo de trabajo Workfront | &quot;Mostrarme una tabla de mis tareas que están listas para iniciarse, con el nombre del proyecto, la fecha de vencimiento de la tarea y el usuario asignado&quot; <br> &quot;Asignarme todas las tareas asignadas a [nombre de usuario]&quot; |
 | Seguimiento de aprobaciones y estado del portafolio | Comprobar el estado de las aprobaciones y resumir el trabajo incompleto por portafolio | `query-workfront` | Flujo de trabajo Workfront | &quot;Mostrarme el estado de mis aprobaciones&quot; <br> &quot;Mostrarme una tabla con problemas incompletos que forman parte del portafolio [Portfolio name]&quot; |
-
-## Experimentación y optimización
-
-| Dominio | Caso de uso | Descripción | Habilidades | Aplicación | Indicadores de ejemplo |
-| --- | --- | --- | --- | --- | --- |
-| **Experimentación y optimización** | Examinar y buscar entidades de Target | Descubra, inspeccione, busque y enumere entidades de Target: actividades (A/B, XT, AP, Asignación automática, MVT), audiencias y ofertas. Empiece aquí para el descubrimiento. | `target-browse` | Adobe Target | &quot;Mostrar todas mis actividades A/B activas&quot;<br>&quot;¿Qué audiencias tengo?&quot;<br>&quot;Buscar actividad \&lt;nombre o ID>&quot; |
-| **Experimentación y optimización, Análisis de audiencias, Inteligencia de rendimiento de contenido** | Informar sobre el rendimiento de la actividad | Informes de rendimiento y pedidos en todos los tipos de actividades (incluidas Recommendations): alza de conversión, ingresos y pedidos. | `target-analyze` | Adobe Target | &quot;¿Qué rendimiento tiene la actividad \&lt;name/ID>?&quot;<br>&quot;Mostrarme el alza de conversión y los ingresos de \&lt;activity>&quot;<br>&quot;¿Qué actividades generaron la mayor cantidad de pedidos el mes pasado?&quot; |
-| **Experimentación y optimización, Gestión de público** | Actividades de creación, ofertas y audiencias | Crear y configurar actividades, ofertas (HTML/JSON/redirect), audiencias y tokens de respuesta. La principal habilidad de creación. | `target-design` | Adobe Target | &quot;Crear una actividad A/B dirigida a \&lt;audience>&quot;<br>&quot;Generar una oferta JSON para \&lt;use case>&quot;<br>&quot;Agregar un token de respuesta para \&lt;attribute>&quot; |
-| **Experimentación y optimización, creación de contenido** | Creación de actividades visuales (WYSIWYG) | Creación del Compositor de experiencias visuales: cree y edite actividades A/B y XT visuales con una URL de página activa mediante modificaciones del selector CSS. | `target-vec` | Adobe Target | &quot;Crear una prueba A/B visual en \&lt;page URL>&quot;<br>&quot;Cambiar el titular a pantalla completa en \&lt;page URL> a \&lt;text>&quot;<br>&quot;Configurar una actividad XT con ediciones visuales en \&lt;page URL>&quot; |
-| **Experimentación y optimización** | Examinar e inspeccionar recomendaciones | Examinar e inspeccionar de solo lectura criterios, colecciones, diseños, promociones, exclusiones, catálogos y fuentes; incluye consejos de limpieza e inteligencia de atributos de catálogo. | `target-recs` | Adobe Target | &quot;Mostrar mis colecciones y criterios de Recommendations&quot;<br>&quot;Inspeccionar el diseño para \&lt;recs activity>&quot;<br>&quot;Revisar mis fuentes y exclusiones de catálogo&quot; |
-| **Experimentación y optimización** | Solución de problemas de Recommendations | Solución de problemas de solo lectura para problemas de recomendaciones, como &quot;resultados no listos&quot;, resultados vacíos y errores de recomendaciones. | `target-recs-diagnose` | Adobe Target | &quot;¿Por qué no están listos los resultados de mis recomendaciones?&quot;<br>&quot;Mis recomendaciones devuelven vacías, ¿qué sucede?&quot;<br>&quot;Diagnosticar por qué \&lt;recs activity> produce errores&quot; |
-| **Experimentación y optimización** | Creación y automatización de Recommendations | Creación de Recs: crear, actualizar y eliminar criterios, colecciones, diseños, exclusiones, promociones y fuentes; crear actividades de Recs; además de automatización/automatización en muchas actividades. | `target-recs-design` | Adobe Target | &quot;Crear un criterio &#39;recientemente visto&#39;&quot;<br>&quot;Generar una actividad de Recommendations con \&lt;criteria>&quot;<br>&quot;Actualizar el diseño en lotes en todas mis actividades de Recs&quot; |
-| **Experimentación y optimización** | Examinar y buscar experimentos | Exploración y búsquedas genéricas en distintos experimentos: enumera, ve y extrae resultados y perspectivas. | `experiment-explorer` | Experimentation Accelerator | &quot;Mostrar mis experimentos&quot;<br>&quot;Enumerar experimentos activos&quot;<br>&quot;Mostrar resultados para \&lt;experiment>&quot;<br>&quot;¿Qué datos tiene \&lt;experiment>?&quot; |
-| **Experimentación y optimización, Análisis de audiencias, Inteligencia de rendimiento de contenido** | Analizar y decidir sobre experimentos | Síntesis guiada y soporte de decisiones en varios experimentos: comprobaciones de estado, decisiones de envío y resúmenes ejecutivos. | `experiment-analysis` | Experimentation Accelerator | &quot;¿Cómo van mis experimentos?&quot;<br>&quot;¿Debo enviar \&lt;experimento>?&quot;<br>&quot;¿Es saludable mi experimento?&quot;<br>&quot;Escriba un resumen ejecutivo de nuestros experimentos&quot; |
-| **Experimentación y optimización** | Diseño y planificación de experimentos | Diseño y planificación de experimentos con visión de futuro: qué probar a continuación, cómo diseñar una prueba y cómo crear una hoja de ruta. | `experiment-strategist` | Experimentation Accelerator | &quot;¿Qué debería probar a continuación?&quot;<br>&quot;Ayúdeme a diseñar un experimento para \&lt;goal>&quot;<br>&quot;Mi experimento falló, ¿qué sigue?&quot;<br>&quot;Crear una hoja de ruta de pruebas&quot; |
-| **Experimentación y optimización; conocimiento del Recorrido de clientes y cuentas** | Búsqueda de conocimientos e ingesta de datos | Recupere y busque conocimiento del contexto del experimento o introduzca datos CSV externos para su análisis. | `experiment-knowledge-base` | Experimentation Accelerator | &quot;¿Qué sabemos del experimento \&lt;name>?&quot;<br>&quot;¿Hemos probado esta hipótesis anteriormente?&quot;<br>&quot;Cargue un CSV y analice este archivo&quot; |
