@@ -6,10 +6,10 @@ description: Obtenga información sobre las herramientas de IA en CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: ccdef71b4130a87032e0ba0e7b3bde3bd40614f1
+source-git-commit: 526483ff41384d0e3c297b33385f8303636bf4a5
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 19%
+source-wordcount: '311'
+ht-degree: 18%
 
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 19%
     - [Herramientas de Journey Optimizer](./mcp/ajo-mcp.md)
     - [Herramientas de Customer Journey Analytics](./mcp/cja-mcp.md)
     - [Herramientas de Adobe Analytics](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/es/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Coworker {#coworker}
   - [Acerca de Coworker](./coworker/overview.md)
   - Campañas {#campaigns}
@@ -74,6 +74,7 @@ ht-degree: 19%
     - Habilidades {#skills}
       - [¿Qué son las aptitudes?](./coworker/customizations/skills/what-are-skills.md)
       - [Cree su primera aptitud](./coworker/customizations/skills/create-your-first-skill.md)
+      - [Crear y ejecutar una aptitud de puerta de calidad](./coworker/customizations/skills/run-a-quality-gate-skill.md)
   - Chat {#chat}
     - [Información general](./coworker/chat/overview.md)
     - [Guía de IU](./coworker/chat/ui-guide.md)
