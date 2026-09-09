@@ -1,13 +1,11 @@
 ---
 description: Obtenga información sobre las mejoras y correcciones de funciones en las notas de la versión de Adobe CX Enterprise Coworker Campaigns.
 title: Notas de la versión de CX Enterprise Coworker Campaigns
-product_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+product_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+feature_v2: id: fdae8433-07cd-42e7-acce-738afe63f6bb
+source-git-commit: dcd2c251357930ae31f78e2d9460d038a0710e3d
 workflow-type: tm+mt
-source-wordcount: 2187
+source-wordcount: 3291
 ht-degree: 0%
 
 ---
@@ -16,7 +14,124 @@ ht-degree: 0%
 
 Las versiones de Campañas de compañeros funcionan con un modelo de entrega continua que permite un enfoque más escalable y gradual de la implementación de funcionalidades.
 
+## Septiembre de 2026 {#sep-2026}
+
+**Fecha de la versión: 3 de septiembre de 2026**
+
+* Copie cualquier mensaje de chat y clasifique las respuestas de IA con un pulgar hacia arriba o hacia abajo, directamente desde el mensaje
+* La lista de tareas del plan de campaña ahora permanece anclada encima de la entrada del chat mientras se ejecuta la campaña, para que pueda rastrear el progreso sin desplazarse
+* Conecte un almacén de SQL de Databricks como una nueva fuente de datos para sus campañas
+* El antiguo editor de correo electrónico basado en chat se ha sustituido por el nuevo editor de recursos de correo electrónico
+* La administración de usuarios de prueba ahora permite excluir usuarios de Adobe, lo que facilita la visualización de las suscripciones de prueba reales
+* Se ha corregido un problema en el cual las sugerencias de campañas similares no se podían cargar
+* Los mensajes de chat ahora tienen un espaciado más estrecho y coherente
+
+**Fecha de la versión: 1 de septiembre de 2026**
+
+* Los correos electrónicos de campaña grandes ahora se muestran completamente en el editor en lugar de cortarse
+* El botón de inicio del tablero de campaña ahora está etiquetado como &quot;Revisar e iniciar&quot; para una mayor claridad
+* La conexión de una cuenta de Salesforce ya no muestra un mensaje de error de Marketo incorrecto
+* Salesforce ahora tiene su propio logotipo en la lista de conectores
+* Los conectores disponibles ahora se enumeran antes de los que vendrán pronto
+* La incorporación ahora muestra un indicador de progreso mientras se carga su kit de marca
+* Las vistas previas de audiencias y fuentes de conocimiento ahora tienen un botón de cierre y pueden abrirse a pantalla completa
+* Las tarjetas de plan de campaña ya no se quedan atascadas cuando se muestra &quot;creando&quot; después de que la campaña comience a ejecutarse
+* El chat ya no mantiene los mensajes de progreso temporales (como &quot;Explorando...&quot;) en su historial de conversaciones
+* Los controles de la barra de herramientas ahora se bloquean correctamente mientras se aplican sugerencias de imagen o texto de IA
+* Se ha corregido un problema en el cual el reemplazo de una imagen en el editor de recursos no funcionaba correctamente
+
+## Agosto de 2026 {#aug-2026}
+
+**Fecha de la versión: 26 de agosto de 2026**
+
+* Al hacer clic en cualquier lugar de una tarjeta de plantilla de campaña, ahora se abre su vista previa, no solo el título
+* El marcador de posición de la barra de mensajes de campaña vuelve a aparecer correctamente después de borrar la entrada, con una compatibilidad de lector de pantalla más clara
+* La sugerencia &quot;Ayúdame a preguntar&quot; ahora reemplaza correctamente el texto existente en la barra de mensajes de la campaña
+* La descarga de las cancelaciones de suscripción como CSV ahora refleja únicamente la ejecución de la campaña que está viendo
+* La comparación del plan de prueba ahora muestra campañas de Launch y perspectivas de Campaign como funciones incluidas
+* Las audiencias creadas sin un flujo de trabajo completo ahora se muestran correctamente en la tarjeta Audiencia del tablero de la campaña
+* Las indicaciones de comentarios de estado vacío se leen de forma más natural en toda la aplicación
+
+**Fecha de la versión: 25 de agosto de 2026**
+
+* Al iniciar sesión en una pestaña del explorador, ahora se sincronizan las demás automáticamente, lo que corrige los desajustes de cuenta entre las pestañas
+* Al hacer clic en Generar ahora el plan avanza de forma fiable en lugar de volver a generarlo ocasionalmente
+* Los diagramas de flujo de trabajo del chat muestran más partes del lienzo, por lo que los controles de zoom ya no cubren los pasos
+* Las pestañas de detalles de campaña tienen una apariencia actualizada y más coherente
+* Guardar o eliminar un dominio de envío en Dominios y remitentes ahora es más rápido y fiable
+
+**Fecha de la versión: 24 de agosto de 2026**
+
+* Ver la estrategia de campaña generada directamente en el tablero de campañas
+* Sustituya la audiencia directamente desde el cuadro de diálogo de validación de la campaña
+* Las exportaciones de Campaign PDF y Word ahora incluyen el diagrama de flujo de trabajo real
+* La pestaña Perspectivas permanece visible con un útil estado vacío justo después del lanzamiento
+* Añadir o eliminar puntos de contacto al revisar los campos de la campaña
+* La barra de herramientas del tablero de campaña es más sencilla, con botones innecesarios eliminados
+* El asistente Dominios y remitentes analiza los subdominios y guía la configuración por primera vez con un marcador
+* El asistente Dominios y remitentes muestra los errores de validación de subdominios en línea mientras escribe
+* Se ha eliminado la call-to-action de campaña posterior a la prueba para un flujo más limpio
+* Los nombres en chino ahora se muestran correctamente en el selector de idioma
+* Las miniaturas de variante generadas por IA se cargan de forma fiable sin etiquetas duplicadas
+* Las campañas recién creadas ahora aparecen inmediatamente en la lista de campañas recientes en Inicio
+* Las perspectivas de todas las campañas ahora incluyen un resumen generado por IA del rendimiento de la campaña de su organización
+* Proporcionar la entrada solicitada en una conversación de flujo de trabajo ya no lo deja atascado
+* La incorporación de prueba ya no parpadea una pantalla de carga adicional al comprobar si hay un kit de marca existente
+* Las fuentes de audiencia de muestra antiguas ahora se borran automáticamente del flujo de trabajo
+* El diseño, el tema y las fuentes ahora se representan correctamente dentro del shell unificado de Experience Cloud
+* Sugerencias de campaña similares ya no muestran un campo de canal innecesario
+
+**Fecha de la versión: 14 de agosto de 2026**
+
+* Elimine los dominios de borrador que ya no necesite en Dominios y remitentes
+* Consulte Estado de verificación de DNS para cada registro durante la configuración del dominio
+* Los detalles del dominio ahora muestran el remitente de correo electrónico configurado
+* Los valores de registro DNS se truncan perfectamente con información de objeto para el texto completo
+* Dar formato a varios bloques de texto de correo electrónico a la vez con selección múltiple
+* Obtenga sugerencias de campaña similares al crear una nueva campaña
+* Perspectivas de campaña de ámbito a una sola ejecución de una campaña recurrente
+* Elija su idioma preferido en el menú de perfil
+* Obtenga un empujón cuando las descripciones de plantillas de campaña necesiten más detalles
+* Las notas de la versión son más fáciles de examinar y tienen una mejor navegación y paginación
+* Contraer la lista de campañas recientes de la barra lateral para ahorrar espacio
+* La vista del inventario de campañas ahora sigue siendo la misma que la dejó
+* Reordenar los filtros de ejecución y saltar a un intervalo de fechas desde un selector de calendarios
+* Vista previa de detalles de audiencia incluso en tarjetas de audiencia de solo lectura
+* Se han corregido los parpadeos de la pantalla de flujo de prueba de incorporación y un problema de tiempo de inicio de sesión
+* El controlador de cambio de tamaño del carril de chat ya no bloquea la barra de desplazamiento de la lista de mensajes
+* La creación del kit de marca ahora muestra la verdadera razón por la que falló un guardado
+
+**Fecha de la versión: 6 de agosto de 2026**
+
+* Ahora, las perspectivas de campaña muestran las cancelaciones de suscripción con un CSV descargable de quién se excluyó
+* Ahora hay una tabla de desglose de rendimiento por correo electrónico en la pestaña Perspectivas
+* Consulte el mapa de recorrido de la campaña directamente en la pestaña Información
+* Los pasos de espera basados en la duración ahora están visibles en la vista de flujo de trabajo de recorrido
+* Las ramas de recorridos ponderados se muestran en la vista de edición del flujo de trabajo
+* Las listas de contactos ahora están conectadas a los datos activos
+* Las campañas recurrentes muestran 0 envíos inmediatamente en lugar de &quot;perspectivas pendientes&quot;
+* Editar texto de mensaje de remezcla directamente alrededor de chips de marcador de posición
+* Se mejoraron los chips de marcador de posición y limpiadores en el editor de remix
+* Las tarjetas de flujo de trabajo de Campaign ahora muestran un estado vacío útil cuando no se está ejecutando nada
+* El botón de actualizar plan ya no desborda el encabezado de detalles de la campaña
+* Las tarjetas de flujo de trabajo tienen un diseño más sencillo con el nombre y la descripción del recorrido eliminados
+
 ## Julio de 2026 {#july-2026}
+
+**Fecha de la versión: 30 de julio de 2026**
+
+* Las perspectivas de todas las campañas ahora coinciden con el diseño de las perspectivas de campaña individuales, además de un nuevo gráfico de rendimiento diario
+* Detenga una campaña en directo directamente desde la página de campaña
+* Duplicar una campaña ahora solo pide un nombre nuevo
+* Editar plantillas de correo electrónico directamente desde la lista de plantillas
+* Filtrado de la vista del recorrido de campaña recurrente por ejecución
+* Añada una imagen de marca directamente desde el tablero de campañas
+* La tabla de administración de prueba ahora admite la búsqueda de correo electrónico, la paginación y la exportación completa de CSV
+* El botón &quot;Sorpréndeme&quot; ahora responde instantáneamente, sin retraso de la animación
+* Se ha eliminado la configuración de cancelación de suscripción del correo electrónico de campaña mientras reprocesamos esta función
+* Editar la programación de una campaña después de haberla establecido, sin volver a empezar
+* Abra el editor de estilos de escritura desde el menú de desbordamiento para acceder más rápido
+* Al pulsar Intro, ahora se realiza el envío de forma coherente en todas las barras de mensajes de la aplicación
 
 **Fecha de la versión: 23 de julio de 2026**
 
