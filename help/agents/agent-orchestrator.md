@@ -41,7 +41,7 @@ Agent Orchestrator está formado por varios componentes clave, incluida la inter
 
 ### Interfaz conversacional del Asistente de IA {#ai-assistant}
 
-AI Assistant es una experiencia conversacional inteligente en lenguaje natural que permite a los profesionales que utilizan aplicaciones de CX Enterprise habilitadas aprovechar las capacidades de GenAI e IA automática, cuya amplitud depende de las aplicaciones de CX Enterprise con licencia de los clientes. Para desbloquear el acceso, lea [la guía sobre el acceso al Asistente para IA](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access).
+AI Assistant es una experiencia conversacional inteligente en lenguaje natural que permite a los profesionales que utilizan aplicaciones de CX Enterprise habilitadas aprovechar las capacidades de GenAI e IA automática, cuya amplitud depende de las aplicaciones de CX Enterprise con licencia de los clientes. Para desbloquear el acceso, lea [la guía sobre el acceso al Asistente para IA](https://experienceleague.adobe.com/es/docs/experience-platform/ai-assistant/access).
 
 Para obtener más información, lea la [Guía de la IU del Asistente de IA](../ai-assistant/ai-assistant-ui.md).
 
@@ -81,7 +81,7 @@ Todos los usuarios tienen acceso al asistente de IA y a los agentes de Experienc
 
 * **Adobe Experience Manager**: el administrador debe concederle permiso para acceder al Asistente de IA a través de [Adobe Admin Console](https://helpx.adobe.com/es/enterprise/using/admin-console.html).
 
-* **Customer Journey Analytics**: el administrador debe concederle permiso para acceder al Asistente de IA a través de [Control de acceso de Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control). Esto le permite hacer preguntas sobre el conocimiento del producto y las perspectivas de datos.
+* **Customer Journey Analytics**: el administrador debe concederle permiso para acceder al Asistente de IA a través de [Control de acceso de Customer Journey Analytics](https://experienceleague.adobe.com/es/docs/analytics-platform/using/technotes/access-control). Esto le permite hacer preguntas sobre el conocimiento del producto y las perspectivas de datos.
 
 >[!NOTE]
 >
