@@ -2,21 +2,10 @@
 title: Adobe Experience Platform Agent Orchestrator
 description: Obtenga información sobre Adobe Experience Platform Agent Orchestrator.
 TQID: https://experienceleague.adobe.com/xv7K7636d65K0V8R1EG97xnZpZAjnNhfF7JgqQz1aoY
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: d7d9b5d89db0fc92dd401853e41765c3bae68d16
 workflow-type: tm+mt
 source-wordcount: 956
 ht-degree: 19%
@@ -41,7 +30,7 @@ Agent Orchestrator está formado por varios componentes clave, incluida la inter
 
 ### Interfaz conversacional del Asistente de IA {#ai-assistant}
 
-AI Assistant es una experiencia conversacional inteligente en lenguaje natural que permite a los profesionales que utilizan aplicaciones de CX Enterprise habilitadas aprovechar las capacidades de GenAI e IA automática, cuya amplitud depende de las aplicaciones de CX Enterprise con licencia de los clientes. Para desbloquear el acceso, lea [la guía sobre el acceso al Asistente para IA](https://experienceleague.adobe.com/es/docs/experience-platform/ai-assistant/access).
+AI Assistant es una experiencia conversacional inteligente en lenguaje natural que permite a los profesionales que utilizan aplicaciones de CX Enterprise habilitadas aprovechar las capacidades de GenAI e IA automática, cuya amplitud depende de las aplicaciones de CX Enterprise con licencia de los clientes. Para desbloquear el acceso, lea [la guía sobre el acceso al Asistente para IA](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access).
 
 Para obtener más información, lea la [Guía de la IU del Asistente de IA](../ai-assistant/ai-assistant-ui.md).
 
@@ -81,7 +70,7 @@ Todos los usuarios tienen acceso al asistente de IA y a los agentes de Experienc
 
 * **Adobe Experience Manager**: el administrador debe concederle permiso para acceder al Asistente de IA a través de [Adobe Admin Console](https://helpx.adobe.com/es/enterprise/using/admin-console.html).
 
-* **Customer Journey Analytics**: el administrador debe concederle permiso para acceder al Asistente de IA a través de [Control de acceso de Customer Journey Analytics](https://experienceleague.adobe.com/es/docs/analytics-platform/using/technotes/access-control). Esto le permite hacer preguntas sobre el conocimiento del producto y las perspectivas de datos.
+* **Customer Journey Analytics**: el administrador debe concederle permiso para acceder al Asistente de IA a través de [Control de acceso de Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control). Esto le permite hacer preguntas sobre el conocimiento del producto y las perspectivas de datos.
 
 >[!NOTE]
 >
