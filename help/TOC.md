@@ -6,10 +6,10 @@ description: Obtenga información sobre las herramientas de IA en CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 526483ff41384d0e3c297b33385f8303636bf4a5
+source-git-commit: c0a72630b0db1cbdf3191012ebb5a2911ddb9fe7
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 18%
+source-wordcount: '313'
+ht-degree: 19%
 
 ---
 
@@ -25,40 +25,7 @@ ht-degree: 18%
   - [Panel de monitorización de IA agéntica](./overview/monitoring.md)
   - [Herramientas agénticas](https://experienceleague.adobe.com/es/docs/cx-enterprise-agentic-tools/using/overview)
   - [Transparencia de contenido de IA generativa](content-transparency.md)
-- Asistente de IA {#ai-assistant}
-  - [Guía de IU del asistente de IA](./ai-assistant/ai-assistant-ui.md)
-  - [Biblioteca de mensajes](./ai-assistant/prompt-library.md)
-  - [Privacidad](./ai-assistant/privacy.md)
-  - [Descargo de responsabilidad legal](./ai-assistant/legal-disclaimer.md)
-- Agentes {#agents}
-  - [Agent Orchestrator](./agents/agent-orchestrator.md)
-  - [Audience Agent](./agents/audience.md)
-  - [Data Insights Agent](./agents/cja-data-insights-agent.md)
-  - [Agente de experimento](./agents/agent-experiment.md)
-  - [Agente de detección de campos](./agents/field-discovery-agent.md)
-  - [Journey Agent](./agents/ajo-agent.md)
-  - [Agente de soporte del producto](./agents/product-support.md)
-  - [Adobe Marketing Agent for Microsoft 365 Copilot](./agents/ama-ms.md)
-  - [Agente de notificaciones](./agents/notifications.md)
-  - [Juicio a compañeros](./agents/trial.md)
-  - [Validación de los datos](./agents/data-validation.md)
-  - Ingeniería de datos {#data-engineering}
-    - {hide-from-toc}[Data Engineering Agent](./agents/data-engineering/overview.md)
-- MCP {#mcp}
-  - [Adobe CX Coworker Gateway](./mcp/overview.md)
-  - {hide-from-toc}[Real-Time CDP MCP beta](./mcp/beta/rtcdp-mcp.md)
-  - Introducción {#mcp-get-started}
-    - [Acceso a las herramientas de CX Coworker Gateway](./mcp/access.md)
-    - [Instalar CX Coworker Gateway](./mcp/install.md)
-    - [Herramientas de contexto de sesión en CX Coworker Gateway](./mcp/context-tools.md)
-  - Herramientas de producto {#mcp-product-tools}
-    - [Herramientas de Real-Time CDP](./mcp/rtcdp-mcp.md)
-    - [Herramientas de Experience Platform](./mcp/aep-mcp.md)
-    - [Herramientas de Journey Optimizer](./mcp/ajo-mcp.md)
-    - [Herramientas de Customer Journey Analytics](./mcp/cja-mcp.md)
-    - [Herramientas de Adobe Analytics](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/es/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-- Coworker {#coworker}
+- CX Enterprise Coworker {#coworker}
   - [Acerca de Coworker](./coworker/overview.md)
   - Campañas {#campaigns}
     - [Información general](./coworker/campaigns/overview.md)
@@ -97,3 +64,36 @@ ht-degree: 18%
       - Asesor de contenido {#content-advisor}
         - [Generación de recursos de marketing](./coworker/chat/use-cases/content-advisor/generate-assets.md)
         - [Comprobación del cumplimiento de marca](./coworker/chat/use-cases/content-advisor/brand-compliance.md)
+- Asistente de IA {#ai-assistant}
+  - [Guía de IU del asistente de IA](./ai-assistant/ai-assistant-ui.md)
+  - [Biblioteca de mensajes](./ai-assistant/prompt-library.md)
+  - [Privacidad](./ai-assistant/privacy.md)
+  - [Descargo de responsabilidad legal](./ai-assistant/legal-disclaimer.md)
+- Agentes {#agents}
+  - [Agent Orchestrator](./agents/agent-orchestrator.md)
+  - [Audience Agent](./agents/audience.md)
+  - [Data Insights Agent](./agents/cja-data-insights-agent.md)
+  - [Agente de experimento](./agents/agent-experiment.md)
+  - [Agente de detección de campos](./agents/field-discovery-agent.md)
+  - [Journey Agent](./agents/ajo-agent.md)
+  - [Agente de soporte del producto](./agents/product-support.md)
+  - [Adobe Marketing Agent for Microsoft 365 Copilot](./agents/ama-ms.md)
+  - [Agente de notificaciones](./agents/notifications.md)
+  - [Juicio a compañeros](./agents/trial.md)
+  - [Validación de los datos](./agents/data-validation.md)
+  - Ingeniería de datos {#data-engineering}
+    - {hide-from-toc}[Data Engineering Agent](./agents/data-engineering/overview.md)
+- MCP {#mcp}
+  - [Adobe CX Coworker Gateway](./mcp/overview.md)
+  - {hide-from-toc}[Real-Time CDP MCP beta](./mcp/beta/rtcdp-mcp.md)
+  - Introducción {#mcp-get-started}
+    - [Acceso a las herramientas de CX Coworker Gateway](./mcp/access.md)
+    - [Instalar CX Coworker Gateway](./mcp/install.md)
+    - [Herramientas de contexto de sesión en CX Coworker Gateway](./mcp/context-tools.md)
+  - Herramientas de producto {#mcp-product-tools}
+    - [Herramientas de Real-Time CDP](./mcp/rtcdp-mcp.md)
+    - [Herramientas de Experience Platform](./mcp/aep-mcp.md)
+    - [Herramientas de Journey Optimizer](./mcp/ajo-mcp.md)
+    - [Herramientas de Customer Journey Analytics](./mcp/cja-mcp.md)
+    - [Herramientas de Adobe Analytics](./mcp/analytics-mcp.md)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
