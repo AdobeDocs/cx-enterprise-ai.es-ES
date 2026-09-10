@@ -1,6 +1,6 @@
 ---
 title: IA en aplicaciones de CX Enterprise
-description: Descubra cómo las aplicaciones de CX Enterprise utilizan IA generativa (GenAI), AI Assistant, IA auténtica, CX Enterprise Coworker y herramientas MCP.
+description: Descubra cómo las aplicaciones de CX Enterprise utilizan IA generativa (GenAI), CX Enterprise Coworker, AI Assistant, IA auténtica y herramientas MCP.
 TQID: https://experienceleague.adobe.com/heALjEZbowNaygG24oOM2HSlHa9oYVI5ViUNZDr19Ds
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
@@ -15,16 +15,16 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7668505ba139898a4747e049290e5eaf1e29b9f8
+source-git-commit: c0a72630b0db1cbdf3191012ebb5a2911ddb9fe7
 workflow-type: tm+mt
-source-wordcount: 969
+source-wordcount: 971
 ht-degree: 3%
 
 ---
 
 # IA en CX Enterprise
 
-Esta guía cubre las funciones de IA en Adobe CX Enterprise: IA generativa, AI Assistant, Agent Orchestrator, agentes de Experience Platform, compañeros de CX Enterprise y MCP.
+Esta guía cubre las funciones de IA en Adobe CX Enterprise: IA generativa, CX Enterprise Coworker, AI Assistant, Agent Orchestrator, Experience Platform Agents y MCP.
 
 ## Resumen de capacidades de IA
 
@@ -36,6 +36,20 @@ Comience aquí para obtener una guía sobre dónde y cómo se utiliza la IA en C
 - [Consumo de créditos de IA](./overview/ai-credit-consumption.md) explica cómo los trabajos del agente consumen créditos de IA, con tasas de consumo estimadas por agente y tipo de trabajo.
 - [Transparencia del contenido de IA generativa](./content-transparency.md) explica cómo Adobe adjunta automáticamente los metadatos de C2PA al contenido generado por GenAI y editado por GenAI en las aplicaciones empresariales de CX.
 - [Las herramientas agénticas de CX Enterprise](https://experienceleague.adobe.com/es/docs/cx-enterprise-agentic-tools/using/overview) cubren habilidades y herramientas agénticas adicionales que amplían los agentes de CX Enterprise (tutoriales en vídeo).
+
+## CX Enterprise Coworker
+
+Coworker es una evolución del asistente de IA que da prioridad al agente y automatiza la experiencia del cliente y los flujos de trabajo de marketing para que su equipo pueda centrarse en los objetivos comerciales en lugar de en la ejecución rutinaria. En lugar de hacer una pregunta a la vez, se describe un objetivo. El compañero planifica, ejecuta, valida y devuelve el trabajo terminado para su aprobación. El compañero incluye:
+
+- **[Chat del compañero](https://experienceleague.adobe.com/es/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/overview)**: Una interfaz conversacional para explorar los datos, validar audiencias y recorridos y completar tareas de varios pasos en las aplicaciones de CX Enterprise.
+- **[Campañas de compañeros de trabajo](https://experienceleague.adobe.com/es/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/overview)**: una aplicación nativa de IA que consolida la información de la campaña, la creación de audiencias, la generación de contenido, el diseño de recorridos y la revisión en una sola experiencia de conversación. Utiliza plantillas integradas, prácticas recomendadas y sugerencias para ayudar a equipos pequeños y ágiles a iniciar campañas rápidamente.
+- **Proyectos de compañeros** (próximamente): Un espacio de trabajo unificado para automatizar los flujos de trabajo de la orquestación de la experiencia del cliente de extremo a extremo, lo que ayuda a los equipos a coordinar tareas, aprobaciones y ejecuciones para dirigir los resultados desde la estrategia hasta la entrega. La documentación de los proyectos estará disponible próximamente.
+
+Los clientes aptos se están trasladando gradualmente del asistente de IA y los agentes de Experience Platform al chat con el compañero. Lea la [Prueba para colaboradores](./agents/trial.md) para obtener información sobre la elegibilidad del periodo de prueba, el uso del crédito de IA y cómo obtener acceso.
+
+Para ver el chat de compañeros en acción, visita [Chat de compañeros en el patio](./coworker/playground-coworker-chat.md) o lee casos de uso reales como [Validar datos de migración de AA a CJA](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md) y [Analizar datos de CJA](./coworker/chat/use-cases/data-insights/analytics-chat.md).
+
+Para obtener documentación completa del producto sobre Chat, campañas y proyectos de compañeros de trabajo, consulta [Colaborador](./coworker/overview.md). Para la replicación de objetos de espacio aislado a espacio aislado, consulte [Aptitudes de agente de herramientas de espacio aislado](./agents/sandbox-tooling.md).
 
 ## Asistente de IA
 
@@ -60,20 +74,6 @@ Los siguientes agentes de Experience Platform están documentados en esta guía:
 - [Validación de los datos](./agents/data-validation.md)
 
 Para obtener la lista completa de agentes, las aplicaciones compatibles y los requisitos de idoneidad, consulte [Inteligencia artificial aplicada a la agencia en CX Enterprise](./overview/agentic-ai.md).
-
-## Coworker
-
-Coworker es una evolución del asistente de IA que da prioridad al agente y automatiza la experiencia del cliente y los flujos de trabajo de marketing para que su equipo pueda centrarse en los objetivos comerciales en lugar de en la ejecución rutinaria. En lugar de hacer una pregunta a la vez, se describe un objetivo. El compañero planifica, ejecuta, valida y devuelve el trabajo terminado para su aprobación. El compañero incluye:
-
-- **[Chat del compañero](https://experienceleague.adobe.com/es/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/overview)**: Una interfaz conversacional para explorar los datos, validar audiencias y recorridos y completar tareas de varios pasos en las aplicaciones de CX Enterprise.
-- **[Campañas de compañeros de trabajo](https://experienceleague.adobe.com/es/docs/cx-enterprise-ai/experience-cloud-ai/coworker/campaigns/overview)**: una aplicación nativa de IA que consolida la información de la campaña, la creación de audiencias, la generación de contenido, el diseño de recorridos y la revisión en una sola experiencia de conversación. Utiliza plantillas integradas, prácticas recomendadas y sugerencias para ayudar a equipos pequeños y ágiles a iniciar campañas rápidamente.
-- **Proyectos de compañeros** (próximamente): Un espacio de trabajo unificado para automatizar los flujos de trabajo de la orquestación de la experiencia del cliente de extremo a extremo, lo que ayuda a los equipos a coordinar tareas, aprobaciones y ejecuciones para dirigir los resultados desde la estrategia hasta la entrega. La documentación de los proyectos estará disponible próximamente.
-
-Los clientes aptos se están trasladando gradualmente del asistente de IA y los agentes de Experience Platform al chat con el compañero. Lea la [Prueba para colaboradores](./agents/trial.md) para obtener información sobre la elegibilidad del periodo de prueba, el uso del crédito de IA y cómo obtener acceso.
-
-Para ver el chat de compañeros en acción, visita [Chat de compañeros en el patio](./coworker/playground-coworker-chat.md) o lee casos de uso reales como [Validar datos de migración de AA a CJA](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md) y [Analizar datos de CJA](./coworker/chat/use-cases/data-insights/analytics-chat.md).
-
-Para obtener documentación completa del producto sobre Chat, campañas y proyectos de compañeros de trabajo, consulta [Colaborador](./coworker/overview.md). Para la replicación de objetos de espacio aislado a espacio aislado, consulte [Aptitudes de agente de herramientas de espacio aislado](./agents/sandbox-tooling.md).
 
 ## MCP
 

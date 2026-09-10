@@ -12,10 +12,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: ca4515cb9010fb352489700108bbfe95396b0ad3
+source-git-commit: d7d9b5d89db0fc92dd401853e41765c3bae68d16
 workflow-type: tm+mt
 source-wordcount: 1433
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -78,7 +78,7 @@ Si el cliente desea desactivar el acceso a estas funciones del agente y deshabil
 
 Lea las siguientes guías para obtener más información sobre Coworker, Agent Orchestrator y AI Assistant:
 
-- [Compañero](https://experienceleague.adobe.com/es/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview)
+- [Coworker](https://experienceleague.adobe.co/es/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview)
 - [Información general de Agent Orchestrator](agent-orchestrator.md)
 - [Guía de IU del asistente de IA](../ai-assistant/ai-assistant-ui.md)
 - [Biblioteca de mensajes del Ayudante de IA](../ai-assistant/prompt-library.md)

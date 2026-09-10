@@ -14,10 +14,10 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 04fd79b306242d9fab4d0115ef3ac49e1c36401e
+source-git-commit: d7d9b5d89db0fc92dd401853e41765c3bae68d16
 workflow-type: tm+mt
 source-wordcount: 239
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -30,7 +30,7 @@ Lea este documento para obtener más información acerca de las capacidades cent
 * En la actualidad, AI Assistant no utiliza datos personales, ni siquiera con fines formativos.
 * El asistente de IA no tiene conocimiento de los datos de los consumidores.
 * El Asistente de IA respetará todas las directivas de [control de acceso](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/home) existentes.
-   * Cualquier nueva política de control de acceso basada en atributos se reflejará en el asistente de IA después de un máximo de 24 horas&ast;
+  * Cualquier nueva política de control de acceso basada en atributos se reflejará en el asistente de IA después de un máximo de 24 horas&ast;
 * AI Assistant es una función compatible con HIPAA cuando se utiliza en combinación con Adobe Experience Platform Healthcare Shield.
 * Puede ver un registro de las interacciones anteriores con el asistente de IA con una política de retención de 30 días.
 * El asistente de IA se basa en datos específicos de zonas protegidas y en la documentación pública de Adobe al responder a las solicitudes de los usuarios. Los datos no se comparten en entornos limitados.

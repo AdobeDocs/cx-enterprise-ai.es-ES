@@ -12,10 +12,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
+source-git-commit: d7d9b5d89db0fc92dd401853e41765c3bae68d16
 workflow-type: tm+mt
 source-wordcount: 555
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -102,7 +102,7 @@ Esta es una lista de ejemplos de mensajes para ayudarle a empezar a usar Experim
 
 ### Preguntas generales
 
-| Indicadores |
+| Indicaciones |
 |-|
 | ¿Qué experimentos se están llevando a cabo? |
 | ¿Qué experimentos se están ejecutando para `<campaign name>`? |
@@ -114,7 +114,7 @@ Esta es una lista de ejemplos de mensajes para ayudarle a empezar a usar Experim
 
 ### Preguntas de rendimiento
 
-| Indicadores |
+| Indicaciones |
 |-|
 | Para mi `<experiment name>`, ¿qué tratamiento conlleva? |
 | ¿Cuál es el alza de `<experiment name>`? |
@@ -123,7 +123,7 @@ Esta es una lista de ejemplos de mensajes para ayudarle a empezar a usar Experim
 
 ### Preguntas de perspectivas
 
-| Indicadores |
+| Indicaciones |
 |-|
 | ¿Qué es la prueba de `<experiment name>`? ? |
 | ¿Qué aprendimos de `<experiment name>`? |
@@ -134,7 +134,7 @@ Esta es una lista de ejemplos de mensajes para ayudarle a empezar a usar Experim
 
 ### Preguntas de oportunidades
 
-| Indicadores |
+| Indicaciones |
 |-|
 | ¿Qué recomiendas que haga después de este experimento? |
 | ¿Hay alguna manera de mejorar `<experiment name>`? |

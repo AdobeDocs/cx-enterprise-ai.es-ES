@@ -11,7 +11,7 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a8f0706b7c37fd87115a9af0ca646b84dcfe890b
+source-git-commit: d7d9b5d89db0fc92dd401853e41765c3bae68d16
 workflow-type: tm+mt
 source-wordcount: 365
 ht-degree: 100%
@@ -35,33 +35,33 @@ El agente de soporte de productos incluye las siguientes funcionalidades de solu
 Obtenga respuestas instantáneas a preguntas comunes de asistencia procedentes de documentación revisada por expertos, como:
 
 * **Artículos de conocimientos** seleccionados por los equipos de soporte de Adobe.
-   * Ejemplos de preguntas:
-      * &quot;¿Por qué difiere el recuento de mi perfil en el Tablero de uso de licencias y en la página de inicio de Experience Platform?&quot;
-      * &quot;¿Cuáles son las razones por las que un recorrido no se activa?&quot;
+  * Ejemplos de preguntas:
+    * &quot;¿Por qué difiere el recuento de mi perfil en el Tablero de uso de licencias y en la página de inicio de Experience Platform?&quot;
+    * &quot;¿Cuáles son las razones por las que un recorrido no se activa?&quot;
 * **Tutoriales de productos** para el aprendizaje autoguiado y la formación de habilidades.
-   * Ejemplos de preguntas:
-      * ¿Cómo crea Adobe Experience Platform experiencias en tiempo real?
-      * &quot;¿Cómo se configuran y utilizan las alertas en Adobe Experience Platform?&quot;
+  * Ejemplos de preguntas:
+    * ¿Cómo crea Adobe Experience Platform experiencias en tiempo real?
+    * &quot;¿Cómo se configuran y utilizan las alertas en Adobe Experience Platform?&quot;
 * **Documentación legal del producto** que proporciona información precisa y orientada a licencias.
-   * Ejemplos de preguntas:
-      * &quot;¿Cuál es el límite para los trabajos de segmentación por lotes en Adobe Experience Platform Activation?&quot;
-      * &quot;¿Cuál es el límite promedio de riqueza de perfiles en Adobe Experience Platform Activation?&quot;
+  * Ejemplos de preguntas:
+    * &quot;¿Cuál es el límite para los trabajos de segmentación por lotes en Adobe Experience Platform Activation?&quot;
+    * &quot;¿Cuál es el límite promedio de riqueza de perfiles en Adobe Experience Platform Activation?&quot;
 
 ## Creación de casos de soporte {#support-case-creation}
 
 Inicie casos de soporte directamente desde el Agente de soporte de productos, que automáticamente captura perspectivas contextuales para acelerar la resolución de casos.
 
 * Ejemplos de preguntas:
-   * &quot;Crear un ticket de asistencia&quot;.
-   * &quot;¿Puedes ayudarme a crear una solicitud de asistencia?&quot;
+  * &quot;Crear un ticket de asistencia&quot;.
+  * &quot;¿Puedes ayudarme a crear una solicitud de asistencia?&quot;
 
 ## Seguimiento del progreso del caso {#track-case-progress}
 
 Realice un seguimiento completo del estado de los problemas de asistencia.
 
 * Ejemplos de preguntas y comandos:
-   * &quot;¿Cuál es la última novedad en mi caso E-12345?&quot;
-   * &quot;¿Cuál es la actualización del ticket E-67890?&quot;
+  * &quot;¿Cuál es la última novedad en mi caso E-12345?&quot;
+  * &quot;¿Cuál es la actualización del ticket E-67890?&quot;
 
 ## Acceder al agente de soporte técnico
 
