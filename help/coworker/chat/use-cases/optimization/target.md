@@ -24,4 +24,4 @@ ht-degree: 0%
 
 Conozca el valor que CX Enterprise Coworker aporta a su programa de optimización. Sus compañeros comprenden el objetivo de la empresa y coordinan el trabajo en todas sus aplicaciones de Adobe: analice, diagnostique y lance sin tener que cambiar de herramienta. Ahorre días de idas y venidas con el uso de compañeros de trabajo para leer los resultados, diagnosticar la pérdida de variaciones, cambiar el tamaño de las duraciones de las pruebas.
 
->[!VIDEO](https://video.tv.adobe.com/v/3496867/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3496879/?captions=spa&learn=on&enablevpops)
