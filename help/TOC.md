@@ -6,10 +6,10 @@ description: Obtenga información sobre las herramientas de IA en CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: f06ee8c16052091f661f16e291767a38ac7edee9
+source-git-commit: 96c1e51a57d50b8c7d28a63961d6942daf1f8aee
 workflow-type: tm+mt
-source-wordcount: '317'
-ht-degree: 19%
+source-wordcount: '327'
+ht-degree: 18%
 
 ---
 
@@ -89,7 +89,7 @@ ht-degree: 19%
   - [Adobe CX Coworker Gateway](./mcp/overview.md)
   - {hide-from-toc}[Real-Time CDP MCP beta](./mcp/beta/rtcdp-mcp.md)
   - Introducción {#mcp-get-started}
-    - [Acceso a las herramientas de CX Coworker Gateway](./mcp/access.md)
+    - [Acceder a las herramientas de CX Coworker Gateway](./mcp/access.md)
     - [Instalar CX Coworker Gateway](./mcp/install.md)
     - [Herramientas de contexto de sesión en CX Coworker Gateway](./mcp/context-tools.md)
   - Herramientas de producto {#mcp-product-tools}
@@ -99,3 +99,5 @@ ht-degree: 19%
     - [Herramientas de Customer Journey Analytics](./mcp/cja-mcp.md)
     - [Herramientas de Adobe Analytics](./mcp/analytics-mcp.md)
     - [Workfront](https://experienceleague.adobe.com/es/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Target](https://experienceleague.adobe.com/es/docs/target/using/mcp/target-mcp)
+

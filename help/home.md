@@ -1,6 +1,6 @@
 ---
 title: IA en aplicaciones de CX Enterprise
-description: Descubra cómo las aplicaciones de CX Enterprise utilizan IA generativa (GenAI), CX Enterprise Coworker, AI Assistant, IA auténtica y herramientas MCP.
+description: Descubra cómo las aplicaciones de CX Enterprise utilizan las herramientas de IA generativa (GenAI), CX Enterprise Coworker, AI Assistant, IA auténtica y MCP.
 TQID: https://experienceleague.adobe.com/heALjEZbowNaygG24oOM2HSlHa9oYVI5ViUNZDr19Ds
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
@@ -15,16 +15,16 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: c0a72630b0db1cbdf3191012ebb5a2911ddb9fe7
+source-git-commit: 96c1e51a57d50b8c7d28a63961d6942daf1f8aee
 workflow-type: tm+mt
-source-wordcount: 971
+source-wordcount: 988
 ht-degree: 3%
 
 ---
 
 # IA en CX Enterprise
 
-Esta guía cubre las funciones de IA en Adobe CX Enterprise: IA generativa, CX Enterprise Coworker, AI Assistant, Agent Orchestrator, Experience Platform Agents y MCP.
+Esta guía cubre las funciones de IA en Adobe CX Enterprise: IA generativa, CX Enterprise Coworker, AI Assistant, Agent Orchestrator, agentes de Experience Platform y MCP.
 
 ## Resumen de capacidades de IA
 
@@ -77,7 +77,7 @@ Para obtener la lista completa de agentes, las aplicaciones compatibles y los re
 
 ## MCP
 
-[Adobe CX Coworker Gateway](./mcp/overview.md) es el punto final del Protocolo de contexto de modelo (MCP) unificado para CX Enterprise. Proporciona a los clientes compatibles con MCP, como [!DNL Claude], [!DNL ChatGPT] y [!DNL Cursor], una única conexión controlada a las herramientas de producto que su organización puede utilizar:
+[Adobe CX Coworker Gateway](./mcp/overview.md) es el punto final del Unified Model Context Protocol (MCP) para CX Enterprise. Proporciona a los clientes compatibles con MCP, como [!DNL Claude], [!DNL ChatGPT] y [!DNL Cursor], una única conexión controlada a las herramientas de producto que su organización puede utilizar:
 
 - [Herramientas de Real-Time CDP](./mcp/rtcdp-mcp.md)
 - [Herramientas de Experience Platform](./mcp/aep-mcp.md)
@@ -85,6 +85,7 @@ Para obtener la lista completa de agentes, las aplicaciones compatibles y los re
 - [Herramientas de Customer Journey Analytics](./mcp/cja-mcp.md)
 - [Herramientas de Adobe Analytics](./mcp/analytics-mcp.md)
 - [!DNL Workfront] herramientas, documentadas en la [guía del servidor MCP de Workfront](https://experienceleague.adobe.com/es/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+- [!DNL Target] herramientas, documentadas en la [guía del servidor MCP de Target](https://experienceleague.adobe.com/es/docs/target/using/mcp/target-mcp)
 
 ¿Es nuevo en CX Coworker Gateway? Consulte [Acceder a las herramientas de CX Coworker Gateway](./mcp/access.md) e [Instalar CX Coworker Gateway](./mcp/install.md) para conectarse. Una vez que se haya conectado, use las [herramientas de contexto de sesión](./mcp/context-tools.md) para establecer la organización activa, la zona protegida y la vista de datos antes de llamar a las herramientas de producto.
 
