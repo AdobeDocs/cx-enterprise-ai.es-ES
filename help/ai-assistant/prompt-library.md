@@ -4,22 +4,28 @@ description: Obtenga información acerca de los distintos tipos de indicadores y
 TQID: https://experienceleague.adobe.com/QICjh9cNBT3XeKObkXqSDEGQT26zpv86V36L0tqvSgo
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: d7d9b5d89db0fc92dd401853e41765c3bae68d16
+    internal-label: Privacy
+source-git-commit: 786f0b7ae7bf88a60cf3f2c619a39501e6f8247b
 workflow-type: tm+mt
-source-wordcount: 813
+source-wordcount: '841'
 ht-degree: 16%
-
 ---
-
 # Biblioteca de mensajes del Ayudante de IA
 
 Lea esta guía para ver diferentes tipos de indicadores que puede utilizar en el Asistente de IA.
@@ -71,7 +77,9 @@ Las siguientes indicaciones de ejemplo se pueden utilizar con Data Insights Agen
 
 ## Journey Agent
 
-Los siguientes indicadores de ejemplo se pueden utilizar con Journey Agent para ayudarle a analizar los ciclos de vida de los recorridos, administrar los recursos de los recorridos, obtener información sobre las relaciones entre audiencias y recorridos y detectar conflictos entre recorridos. Utilice estas indicaciones para optimizar la orquestación de recorrido y resolver los problemas de forma eficaz.
+Las siguientes indicaciones de ejemplo se pueden usar con [Journey Agent](../agents/ajo-agent.md) para ayudarle a analizar los ciclos de vida de los recorridos, administrar los recursos de los recorridos, obtener información sobre las relaciones entre audiencias y recorridos y detectar conflictos entre recorridos. Utilice estas indicaciones para optimizar la orquestación de recorrido y resolver los problemas de forma eficaz.
+
+Para obtener mensajes de ejemplo sobre la creación de recorridos, la generación de contenido de canales y el análisis de abandonos, consulte las secciones [Crear Recorrido](../agents/ajo-agent.md#journey-create), [Crear contenido de canal](../agents/ajo-agent.md#channel-content-create) y [Analizar Recorrido](../agents/ajo-agent.md#journey-analyze) de la guía de Journey Agent.
 
 ### Preguntas sobre el ciclo de vida del recorrido
 

@@ -10,15 +10,15 @@ last-substantial-update: 2026-08-10T00:00:00.000Z
 jira: KT-22081
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: 786f0b7ae7bf88a60cf3f2c619a39501e6f8247b
 workflow-type: tm+mt
-source-wordcount: 97
-ht-degree: 0%
-
+source-wordcount: '117'
+ht-degree: 1%
 ---
-
 
 # Cómo generar Recorridos de Adobe Journey Optimizer a partir de mensajes en lenguaje natural
 
@@ -26,4 +26,9 @@ Tradicionalmente, la creación de recorridos de cliente requiere una amplia conf
  
 Al automatizar el proceso de configuración inicial, los equipos pueden dedicar menos tiempo a crear recorridos desde cero y más tiempo a refinar las experiencias de los clientes y los resultados empresariales.
 
->[!VIDEO](https://video.tv.adobe.com/v/3496879/?captions=spa&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3496867/?learn=on&enablevpops)
+
+## Consulte también
+
+- [Journey Agent](../../../../agents/ajo-agent.md#journey-create), la capacidad de IA subyacente que impulsa la creación de recorridos en el chat de Coworker.
+- [Más casos de uso de chat con compañeros](../overview.md#journeys)

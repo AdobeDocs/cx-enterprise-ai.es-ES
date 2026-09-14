@@ -1,13 +1,11 @@
 ---
 title: Adobe Marketing Agent for Microsoft 365 Copilot
 description: Descubra cómo puede utilizar Adobe Marketing Agent for Microsoft 365 Copilot.
-source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
+source-git-commit: 786f0b7ae7bf88a60cf3f2c619a39501e6f8247b
 workflow-type: tm+mt
 source-wordcount: '1832'
 ht-degree: 0%
-
 ---
-
 # Adobe Marketing Agent para [!DNL Microsoft 365 Copilot]
 
 Adobe Marketing Agent para [!DNL Microsoft 365 Copilot] es una herramienta con tecnología de IA que conecta Adobe Experience Platform directamente con [!DNL Microsoft 365 Copilot]. Con este agente, puede hacer preguntas en lenguaje natural en aplicaciones de [!DNL Microsoft 365] como [!DNL Teams], [!DNL Word], [!DNL Powerpoint] y [!DNL Excel] para recuperar instantáneamente información de marketing de Experience Platform sin interrumpir el flujo de trabajo. El mismo agente está disponible en todas estas aplicaciones y el historial de chat de Adobe Marketing Agent se transfiere. De este modo, puede empezar a investigar en [!DNL Copilot] en [!DNL Teams], por ejemplo, y continuar la conversación en [!DNL Word] o [!DNL Powerpoint] mientras redacta un informe de campaña o revisa una presentación.
@@ -22,7 +20,7 @@ Con Adobe Marketing Agent para [!DNL Microsoft 365 Copilot], los administradores
 
 >[!IMPORTANT]
 >
->Adobe Marketing Agent para [!DNL Microsoft 365 Copilot] admite actualmente Experience Platform Operational Insights, Customer Journey Analytics Data Insights, Audience Agent y Journey Agent.
+>En la actualidad, Adobe Marketing Agent para [!DNL Microsoft 365 Copilot] admite Experience Platform Operational Insights, Customer Journey Analytics Data Insights, [Audience Agent](./audience.md) y [Journey Agent](./ajo-agent.md).
 
 Adobe Marketing Agent para [!DNL Microsoft 365 Copilot] proporciona una experiencia integrada entre las aplicaciones Experience Platform y [!DNL Microsoft 365]:
 
