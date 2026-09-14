@@ -310,7 +310,7 @@ Actualmente no se admiten las siguientes funcionalidades:
 
 El análisis de recorrido permite a los usuarios de Journey Optimizer analizar y optimizar los recorridos mediante una interfaz de lenguaje natural. Con el análisis de Recorrido, los profesionales pueden identificar y resolver rápidamente los conflictos de programación y audiencia, detectar puntos de abandono de usuarios en un recorrido y obtener perspectivas o recomendaciones para mejorar el rendimiento.
 
-Obtenga más información y descubra el agente rápidamente en esta [descripción general](https://experienceleague.adobe.com/en/slides/journey-agent-overview).
+Obtenga más información y descubra el agente rápidamente en esta [descripción general](https://experienceleague.adobe.com/es/slides/journey-agent-overview).
 
 Para obtener más información, consulte [Análisis de Recorrido](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/start/ajo-coworker-skills#journey-analyze){target="_blank"} en la documentación de Adobe Journey Optimizer.
 
