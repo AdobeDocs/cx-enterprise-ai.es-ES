@@ -3,15 +3,15 @@ description: la descripción se incluye aquí.
 title: Programar una campaña
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: a8859659a5d4d5820d77bf93df62550f10999ea4
 workflow-type: tm+mt
-source-wordcount: 676
-ht-degree: 1%
-
+source-wordcount: '589'
+ht-degree: 2%
 ---
-
 # Programar una campaña {#schedule-campaign}
 
 Al lanzar una campaña, los usuarios ahora pueden elegir exactamente cuándo sale: inmediatamente, en una fecha y hora futuras específicas o en una programación repetida (recurrente). Los usuarios también pueden volver más tarde y cambiar la programación de una campaña que ya se ha iniciado o programado.
@@ -39,7 +39,7 @@ Cuando un usuario inicia una campaña, elige uno de los tres modos de programaci
 
 **Para programar una campaña al inicio:**
 
-1. En la campaña, haga clic en **Listo para iniciar**.
+1. En la campaña, haga clic en **Revisar e iniciar**.
 2. En el cuadro de diálogo de lanzamiento, elija una opción de programación:
    - **Ahora**: la campaña comienza a enviarse inmediatamente después del lanzamiento.
    - **Programar una vez** — elija una **fecha de inicio** futura (fecha y hora juntas).
@@ -66,17 +66,7 @@ Cuando un usuario inicia una campaña, elige uno de los tres modos de programaci
 | Día del mes | En qué día del mes se repite la campaña | Sí, para la frecuencia mensual |
 | Finalizar campaña | Nunca, o en una fecha de finalización específica | Sí, para recurrente |
 
-## Llamadas de IU
 
-> **Nota del redactor técnico**: Se necesitan capturas de pantalla para lo siguiente:
-
-- [ ] El cuadro de diálogo de inicio que muestra las opciones Ahora / Programar una vez / Recurrente
-- [ ] El selector de fecha y hora de Programar una vez
-- [ ] Las opciones recurrentes: selector de frecuencia, alternadores de día semanales, cuadrícula mensual de día del mes
-- [ ] &quot;Finalizar campaña&quot; Nunca / En una opción de fecha
-- [ ]: el distintivo de estado &quot;Programado&quot; en una campaña que espera su hora de inicio.
-- [ ]: el distintivo de estado &quot;Activo&quot; con un resumen de periodicidad (por ejemplo, &quot;Semanal el martes, jueves a las 9:00 a. m.&quot;)
-- [ ]: sección de programación en la configuración de campaña, que muestra el punto de entrada de edición
 
 ## Qué no hace esta función
 

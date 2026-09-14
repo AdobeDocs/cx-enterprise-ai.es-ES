@@ -3,15 +3,15 @@ description: la descripción se incluye aquí.
 title: Detener una campaña
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: a8859659a5d4d5820d77bf93df62550f10999ea4
 workflow-type: tm+mt
-source-wordcount: 410
+source-wordcount: '349'
 ht-degree: 0%
-
 ---
-
 # Detener una campaña {#stop-campaign}
 
 Los usuarios ahora pueden detener una campaña que se envía activamente (una campaña &quot;en directo&quot;) directamente desde la página de detalles de la campaña. La detención de una campaña es permanente: los destinatarios dejan de avanzar por la campaña inmediatamente y la campaña no se puede reanudar ni reiniciar posteriormente.
@@ -33,13 +33,7 @@ Cada vez que una campaña está activa, aparece una acción &quot;Detener campa�
 - Después de detenerse, la insignia de estado de la campaña se actualiza a &quot;Detenido&quot;.
 - Si la solicitud de detención falla, se muestra un mensaje de error y la campaña permanece activa.
 
-## Cómo se usa
 
-1. Abra una campaña que esté activa (enviando activamente).
-2. En el encabezado de detalles de la campaña, haga clic en **Detener campaña**.
-3. En el cuadro de diálogo de confirmación, revise la advertencia: &quot;Detener la campaña es permanente. Todos los destinatarios dejarán de progresar y la campaña no se puede reanudar&quot;.
-4. Haga clic en **Detener** para confirmar.
-5. Una &quot;Campaña detenida&quot;. Aparece un mensaje de confirmación y el estado de la campaña se actualiza a Detenido.
 
 ### Campos/parámetros de entrada
 
