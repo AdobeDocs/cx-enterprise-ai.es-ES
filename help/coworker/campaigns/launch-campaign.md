@@ -42,9 +42,9 @@ CAPTURA DE PANTALLA
 
 CAPTURA DE PANTALLA
 
->>
+&#x200B;>>
 >
-No permite el inicio de una campaña con una audiencia de muestra (no real), borradores de correo electrónico que no se han revisado o ajustes de envío sin configurar
+>No permite el inicio de una campaña con una audiencia de muestra (no real), borradores de correo electrónico que no se han revisado o ajustes de envío sin configurar
 
 ### Cosas que debe tener en cuenta
 
