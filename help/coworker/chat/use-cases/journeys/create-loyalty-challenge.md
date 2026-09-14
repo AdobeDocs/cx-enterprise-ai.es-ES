@@ -30,5 +30,5 @@ El vídeo muestra el complemento de fidelidad y su habilidad de administración 
 ## Consulte también
 
 - [Journey Agent](../../../../agents/ajo-agent.md), para otras funcionalidades de IA de AJO disponibles a través de Coworker Chat, como la creación de recorridos, análisis y simulación.
-- [Administración de retos de fidelización](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#loyalty-challenge-management){target="_blank"} en la documentación de Adobe Journey Optimizer.
+- [Administración de retos de fidelización](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#loyalty-challenge-management){target="_blank"} en la documentación de Adobe Journey Optimizer.
 - [Más casos de uso de chat con compañeros](../overview.md#journeys)
