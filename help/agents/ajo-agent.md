@@ -48,9 +48,9 @@ topic_v2:
     internal-label: Insights
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
     internal-label: Audience segmentation
-source-git-commit: 786f0b7ae7bf88a60cf3f2c619a39501e6f8247b
+source-git-commit: 4bd1bca0d5f967eaf33802b8d955aa89767b662a
 workflow-type: tm+mt
-source-wordcount: '3801'
+source-wordcount: '3820'
 ht-degree: 9%
 ---
 
@@ -66,7 +66,7 @@ Journey Agent consta de cuatro tareas principales que se deben realizar:
 - **Creación de contenido de canal**: genera, edita y administra contenido específico del canal (correo electrónico, push, SMS) para recorridos mediante la generación de contenido con tecnología de IA
 - **Análisis de Recorrido**: Analice recorridos, detecte problemas, descubra información y optimice la participación de los clientes
 
-Además, **Simulación de Recorrido** es una característica de Journey Optimizer que incluye [Simulación de Recorrido](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/building-journeys/simulate-journey-gs){target="_blank"}, una capacidad de IA en el producto que no es conversacional con tres subcapacidades:
+Además, **Simulación de Recorrido** es una característica de Journey Optimizer que incluye [Simulación de Recorrido](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/validate-journey/simulate-journey/simulate-journey-gs){target="_blank"}, una capacidad de IA en el producto que no es conversacional con tres subcapacidades:
 
 - Generación de usuarios simulados
 - Generación de valores de evento
@@ -78,7 +78,7 @@ Además, **Simulación de Recorrido** es una característica de Journey Optimize
 
 Recorrido Crear permite a los usuarios de Journey Optimizer crear y configurar recorridos de marketing mediante una interfaz de lenguaje natural. Con Recorrido Crear, los profesionales pueden crear recorridos rápidamente al describir sus necesidades en mensajes de conversación. El agente optimiza la creación de recorridos, lo que permite a los especialistas en marketing centrarse en la estrategia en lugar de en la configuración técnica.
 
-Para obtener más información, consulte [Crear Recorrido](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/start/ajo-coworker-skills#journey-create){target="_blank"} en la documentación de Adobe Journey Optimizer.
+Para obtener más información, consulte [Crear Recorrido](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#journey-create){target="_blank"} en la documentación de Adobe Journey Optimizer.
 
 >[!AVAILABILITY]
 >
@@ -230,7 +230,7 @@ Cuando un usuario entre en mi ubicación de tienda, enviar un mensaje de bienven
 
 La creación de contenido de canal permite a los usuarios de Journey Optimizer generar, editar y administrar contenido específico del canal para recorridos mediante la generación de contenido con tecnología de IA.
 
-Para obtener más información, consulte [Creación de contenido de canal](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/start/ajo-coworker-skills#channel-content-create){target="_blank"} en la documentación de Adobe Journey Optimizer.
+Para obtener más información, consulte [Creación de contenido de canal](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#channel-content-create){target="_blank"} en la documentación de Adobe Journey Optimizer.
 
 ## Casos de uso
 
@@ -310,9 +310,9 @@ Actualmente no se admiten las siguientes funcionalidades:
 
 El análisis de recorrido permite a los usuarios de Journey Optimizer analizar y optimizar los recorridos mediante una interfaz de lenguaje natural. Con el análisis de Recorrido, los profesionales pueden identificar y resolver rápidamente los conflictos de programación y audiencia, detectar puntos de abandono de usuarios en un recorrido y obtener perspectivas o recomendaciones para mejorar el rendimiento.
 
-Obtenga más información y descubra el agente rápidamente en esta [descripción general](https://experienceleague.adobe.com/es/slides/journey-agent-overview).
+Obtenga más información y descubra el agente rápidamente en esta [descripción general](https://experienceleague.adobe.com/en/slides/journey-agent-overview).
 
-Para obtener más información, consulte [Análisis de Recorrido](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/start/ajo-coworker-skills#journey-analyze){target="_blank"} en la documentación de Adobe Journey Optimizer.
+Para obtener más información, consulte [Análisis de Recorrido](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#journey-analyze){target="_blank"} en la documentación de Adobe Journey Optimizer.
 
 >[!AVAILABILITY]
 >
@@ -500,7 +500,7 @@ La simulación de recorrido está disponible para todos los clientes de Journey 
 
 Para usar IA en **[!UICONTROL Simulación]** (**[!UICONTROL Simulación rápida]**, que genera usuarios simulados con IA, **[!UICONTROL Generar valores de evento]**), los usuarios necesitan el permiso **[!UICONTROL Generar contenido]** de la capacidad **[!UICONTROL Asistente de IA]**.
 
-[Obtenga más información sobre permisos](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/administration/permissions).
+[Obtenga más información sobre permisos](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/permissions).
 
 >[!ENDSHADEBOX]
 
@@ -562,7 +562,7 @@ Además, la capacidad Simular IA del Recorrido admite las siguientes capacidades
 
 Es posible que la simulación no admita todas las actividades, canales o integraciones compatibles con el modo de prueba o un recorrido en directo, y que el comportamiento cambie a medida que la capacidad madura.
 
-➡️ Obtenga más información acerca de [Limitaciones de simulación](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/building-journeys/simulate-journey-gs#limitations){target="_blank"} en la documentación de Journey Optimizer.
+➡️ Obtenga más información acerca de [Limitaciones de simulación](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/validate-journey/simulate-journey/simulate-journey-gs#limitations){target="_blank"} en la documentación de Journey Optimizer.
 
 ## Consulte también
 
