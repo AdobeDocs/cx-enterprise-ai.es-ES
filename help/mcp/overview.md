@@ -1,24 +1,22 @@
 ---
-title: Descripción general de Adobe CX Coworker Gateway
+title: Información general sobre Adobe CX Coworker Gateway
 description: Adobe CX Coworker Gateway es el MCP unificado para Adobe CX Enterprise, que proporciona a los clientes de MCP una única conexión a las herramientas de producto compatibles.
-source-git-commit: a76b4e9bdd925617039b9d6b5362b25974620c34
+source-git-commit: 786f0b7ae7bf88a60cf3f2c619a39501e6f8247b
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '469'
 ht-degree: 3%
-
 ---
-
 # Adobe CX Coworker Gateway {#mcp-overview}
 
 Adobe CX Coworker Gateway es el protocolo de contexto de modelo unificado (MCP) para Adobe CX Enterprise. Con una conexión, los clientes compatibles con MCP pueden acceder a las herramientas de producto de Adobe que su organización y su cuenta pueden utilizar.
 
 >[!IMPORTANT]
 >
->Para poder usar las herramientas de **CX Coworker Gateway**, su organización de Adobe debe estar habilitada.
+>Debe habilitarse la organización de Adobe para poder usar las herramientas de **CX Coworker Gateway**.
 >
 >Si su organización aún no tiene acceso, envíe un correo electrónico a [cx-coworker-gateway-support@adobe.com](mailto:cx-coworker-gateway-support@adobe.com) para solicitar la habilitación de su organización.
 
-Utilice el punto final de CX Coworker Gateway para toda la configuración del cliente de MCP:
+Utilice el punto final de CX Coworker Gateway para toda la configuración de cliente de MCP:
 
 ```
 https://cx-coworker-gateway.adobe.io/mcp
@@ -41,7 +39,7 @@ En esta guía se documentan las siguientes herramientas de producto:
 | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Real-Time CDP** | Audiencias, destinos, fuentes, áreas de nombres de identidad y estado de activación (solo lectura) | Beta | [Herramientas de Real-Time CDP](rtcdp-mcp.md) |
 | **Experience Platform** | Esquemas, conjuntos de datos, control de datos, servicio de consultas, eventos de auditoría, métricas de observabilidad y evaluaciones de comprobación de estado de zonas protegidas (solo lectura) | Beta | [Herramientas de Experience Platform](aep-mcp.md) |
-| **Journey Optimizer** | Campañas y configuraciones de canal (solo lectura) | Beta | [Herramientas de Journey Optimizer](ajo-mcp.md) |
+| **Journey Optimizer** | Campañas, recorridos y configuraciones de canal (solo lectura); plantillas de contenido, fragmentos, páginas de aterrizaje y contenido de mensajes en línea (lectura y escritura) | Beta | [Herramientas de Journey Optimizer](ajo-mcp.md) |
 | **Customer Journey Analytics** | Vistas de datos, dimensiones, métricas, informes, segmentos, intervalos de fechas, proyectos y audiencias (lectura y escritura) | Disponible | [Herramientas de Customer Journey Analytics](cja-mcp.md) |
 | **Adobe Analytics** | Grupos de informes, dimensiones, métricas, informes, segmentos, intervalos de fechas y proyectos de Workspace (lectura y escritura para componentes compatibles) | Disponible | [Herramientas de Adobe Analytics](analytics-mcp.md) |
 | **Workfront** | Herramientas de administración de trabajo para proyectos, tareas y flujos de trabajo de aprobación | Vista previa | [Servidor MCP de Workfront](https://experienceleague.adobe.com/es/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview) |
@@ -49,13 +47,13 @@ En esta guía se documentan las siguientes herramientas de producto:
 
 >[!NOTE]
 >
->La disponibilidad de las herramientas depende de las licencias de los productos, la habilitación de la organización, los permisos de los productos y las credenciales de Adobe utilizadas para la autenticación. El MCP solo muestra las herramientas a las que su organización y su cuenta de usuario tienen derecho de acceso. Consulte [Herramientas de Access CX Coworker Gateway](access.md).
+>La disponibilidad de las herramientas depende de las licencias de los productos, la habilitación de la organización, los permisos de los productos y las credenciales de Adobe utilizadas para la autenticación. El MCP solo muestra las herramientas a las que su organización y su cuenta de usuario tienen derecho de acceso. Consulte [Acceder a las herramientas de CX Coworker Gateway](access.md).
 
 
 
 ## Introducción {#mcp-get-started}
 
-1. Revise [Acceder a las herramientas de CX Coworker Gateway](access.md) para confirmar la disponibilidad, habilitación y permisos del producto.
-2. Siga [Instalar Adobe para CX Coworker Gateway](install.md) para conectar su cliente MCP al extremo.
+1. Revise [Acceder a las herramientas de puerta de enlace de CX Coworker](access.md) para confirmar la disponibilidad, la habilitación y los permisos del producto.
+2. Siga [Instalar Adobe para la puerta de enlace de CX Coworker](install.md) para conectar su cliente MCP al extremo.
 3. Revise la página del producto para cada herramienta de producto que planee utilizar.
 

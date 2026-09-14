@@ -7,41 +7,54 @@ role: Admin,User,Developer,Leader
 TQID: https://experienceleague.adobe.com/7Bamc-q4rDOB9i0oxwixdmtdU8lrx3btpvMfAsjGnig
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+    internal-label: Journey management
   - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+    internal-label: Communication channels
   - id: d556b755-390a-43f0-be32-a08cf6236126
+    internal-label: Configuration
   - id: d998adac-2f81-400b-a669-d07bb196e4eb
+    internal-label: Journeys
   - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+    internal-label: Use cases
   - id: fe338112-e2ce-4876-8989-fc4d497613f1
+    internal-label: Email
 subfeature_v2:
   - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
+    internal-label: Journey design
   - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
+    internal-label: Audiences
   - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+    internal-label: Best practices
   - id: fa683eda-48de-4558-af32-2673edcd44fe
+    internal-label: Events
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 0daf43247c80b5a2d3978515a45256bd03326c0c
+    internal-label: Audience segmentation
+source-git-commit: 4bd1bca0d5f967eaf33802b8d955aa89767b662a
 workflow-type: tm+mt
-source-wordcount: 3372
-ht-degree: 11%
-
+source-wordcount: '3820'
+ht-degree: 9%
 ---
 
-
 # Journey Agent: Información general y guía del usuario
-
->[!AVAILABILITY]
->
->Las funciones de creación de IA de Journey Agent y las funciones de IA de generación de contenido están disponibles para los clientes que forman parte del programa Agent Orchestrator Explorer. Para obtener más información, póngase en contacto con el Servicio de atención al cliente de Adobe.
 
 ## Introducción a Journey Agent en Adobe Journey Optimizer
 
@@ -53,21 +66,23 @@ Journey Agent consta de cuatro tareas principales que se deben realizar:
 - **Creación de contenido de canal**: genera, edita y administra contenido específico del canal (correo electrónico, push, SMS) para recorridos mediante la generación de contenido con tecnología de IA
 - **Análisis de Recorrido**: Analice recorridos, detecte problemas, descubra información y optimice la participación de los clientes
 
-Además, **Simulación de Recorrido** es una característica de Journey Optimizer que incluye [Simulación de Recorrido](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), una capacidad de IA en el producto que no es conversacional con tres subcapacidades:
+Además, **Simulación de Recorrido** es una característica de Journey Optimizer que incluye [Simulación de Recorrido](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/create-journey/validate-journey/simulate-journey/simulate-journey-gs){target="_blank"}, una capacidad de IA en el producto que no es conversacional con tres subcapacidades:
 
 - Generación de usuarios simulados
 - Generación de valores de evento
 - Simulación rápida
 
-## Recorrido Crear: Casos de uso, capacidades de IA y guía del usuario
+## Recorrido Crear: Casos de uso, capacidades de IA y guía del usuario {#journey-create}
 
 ## Información general
 
 Recorrido Crear permite a los usuarios de Journey Optimizer crear y configurar recorridos de marketing mediante una interfaz de lenguaje natural. Con Recorrido Crear, los profesionales pueden crear recorridos rápidamente al describir sus necesidades en mensajes de conversación. El agente optimiza la creación de recorridos, lo que permite a los especialistas en marketing centrarse en la estrategia en lugar de en la configuración técnica.
 
+Para obtener más información, consulte [Crear Recorrido](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#journey-create){target="_blank"} en la documentación de Adobe Journey Optimizer.
+
 >[!AVAILABILITY]
 >
->Recorrido Crear está disponible para los clientes que forman parte del programa Agent Orchestrator Explorer. También necesitará los siguientes permisos para utilizar completamente las funciones de creación de Recorridos:
+>Necesita los siguientes permisos para utilizar completamente las funciones de creación de Recorrido:
 >
 >**Administrar Recorridos**: este permiso le permite crear nuevos recorridos directamente en el Asistente para IA.
 >
@@ -109,6 +124,11 @@ Recorrido Cree ofertas que se puedan aprovechar para acelerar la ejecución del 
    - Cree ramas de decisión basadas en atributos del cliente.
    - Diseñe rutas divididas que se adapten a las preferencias de los clientes.
 
+1. **Crear recorrido a partir de la imagen**
+
+   - Cargue una imagen de referencia y pídale al agente que cree un recorrido con la imagen como referencia.
+   - El agente extrae un mensaje editable de la imagen de referencia.
+
 Para cada uno de estos casos de uso, el agente traduce los requisitos del lenguaje natural en configuraciones de recorrido estructuradas.
 
 ## Funciones de IA dentro y fuera de ámbito
@@ -128,9 +148,14 @@ Recorrido Crear admite las siguientes funciones:
 Actualmente no se admiten las siguientes funcionalidades:
 
 - **Análisis de recorrido avanzado**
-- **Modificaciones de recorrido en tiempo real**
 - **Organización entre recorridos**
 - **Configuración de prueba A/B**
+- **Generación de expresiones InAudience**
+- **Nodos de búsqueda de conjuntos de datos**
+- **Configuración de envío de ondas**
+- **Programar opciones de periodicidad**
+- **Selección de área de nombres para audiencias**
+- **Asignación de campo de acción personalizada**
 - **Transformaciones de datos complejas**
 
 ## Ejemplos de peticiones de datos
@@ -195,7 +220,7 @@ Cuando un usuario entre en mi ubicación de tienda, enviar un mensaje de bienven
 - **Planificar contenido del mensaje**: Defina su estrategia de mensajería antes de crear el recorrido.
 - **Tenga en cuenta la experiencia del cliente**: Diseñe flujos de recorrido que respeten las preferencias del cliente y eviten la comunicación excesiva.
 
-## Creación de contenido de canal: casos de uso, funciones de IA y guía del usuario
+## Creación de contenido de canal: casos de uso, funciones de IA y guía del usuario {#channel-content-create}
 
 >[!AVAILABILITY]
 >
@@ -204,6 +229,8 @@ Cuando un usuario entre en mi ubicación de tienda, enviar un mensaje de bienven
 ## Información general
 
 La creación de contenido de canal permite a los usuarios de Journey Optimizer generar, editar y administrar contenido específico del canal para recorridos mediante la generación de contenido con tecnología de IA.
+
+Para obtener más información, consulte [Creación de contenido de canal](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#channel-content-create){target="_blank"} en la documentación de Adobe Journey Optimizer.
 
 ## Casos de uso
 
@@ -277,13 +304,15 @@ Actualmente no se admiten las siguientes funcionalidades:
 1. **Definir tono**: especifique el tono deseado (cordial, formal, informal, urgente).
 1. **Iterar y refinar**: use la acción de regeneración para refinar el contenido hasta que cumpla con sus requisitos.
 
-## Análisis de recorrido: casos de uso, capacidades de IA y guía del usuario
+## Análisis de recorrido: casos de uso, capacidades de IA y guía del usuario {#journey-analyze}
 
 ## Información general
 
-Journey Agent permitirá a los usuarios de Journey Optimizer analizar y optimizar los recorridos mediante una interfaz de lenguaje natural. Con Journey Agent, los profesionales pueden identificar y resolver rápidamente conflictos de programación o audiencia, detectar puntos de abandono de usuarios en un recorrido y proporcionar perspectivas o recomendaciones. Permite a los profesionales tomar decisiones basadas en datos, mejorar la participación del cliente y agilizar la orquestación del recorrido.
+El análisis de recorrido permite a los usuarios de Journey Optimizer analizar y optimizar los recorridos mediante una interfaz de lenguaje natural. Con el análisis de Recorrido, los profesionales pueden identificar y resolver rápidamente los conflictos de programación y audiencia, detectar puntos de abandono de usuarios en un recorrido y obtener perspectivas o recomendaciones para mejorar el rendimiento.
 
 Obtenga más información y descubra el agente rápidamente en esta [descripción general](https://experienceleague.adobe.com/es/slides/journey-agent-overview).
+
+Para obtener más información, consulte [Análisis de Recorrido](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#journey-analyze){target="_blank"} en la documentación de Adobe Journey Optimizer.
 
 >[!AVAILABILITY]
 >
@@ -327,6 +356,19 @@ El análisis de recorrido ofrece una serie de funcionalidades que se pueden apro
 
    - Perspectivas de Recorrido basadas en mensajes - Perspectivas operativas de la superficie sobre recorridos , es decir, &quot;muéstreme todos los recorridos en directo&quot;.
 
+1. **Análisis de errores de acción personalizada de Recorrido**
+
+   - Identifique cuándo las acciones personalizadas dan error o las tasas de error se disparan dentro de un recorrido.
+   - Diagnostique las causas raíz antes de que los errores se propaguen en cascada hasta una interrupción del recorrido más amplia.
+   - Utilice pasos de corrección específicos para restaurar rápidamente la fiabilidad de las acciones personalizadas.
+
+1. **Analizar anomalías de Recorrido**
+
+   - Detectar picos, caídas o líneas planas inesperados en los recuentos de entrada, salida o envío de mensajes de un recorrido en comparación con las líneas de base históricas, incluso cuando la pregunta se formula en torno al número de perfiles que entran, salen o completan el recorrido.
+   - Confirme si un cambio marcado es una anomalía genuina mediante una comprobación estadística determinista, en lugar de depender únicamente del indicador de anomalía sin procesar.
+   - Ejecute diagnósticos limitados de solo lectura con datos de ejecución de recorrido para identificar una causa raíz probable, mostrando lo que cada comprobación buscó y encontró junto con la recomendación.
+   - Investigue las alertas de anomalías que hagan referencia a una versión de recorrido y una marca de tiempo específicas.
+
 Para cada uno de estos análisis, el agente no solo detecta problemas, sino que también proporciona **recomendaciones procesables para resolverlos**.
 
 ## Capacidades de IA dentro y fuera de ámbito
@@ -338,13 +380,14 @@ El análisis de Recorrido admite las siguientes funciones:
 - **Consultas reactivas**: permite a los usuarios hacer preguntas específicas sobre el rendimiento del recorrido, el uso del público y los conflictos de programación.
 - **Integración con otros agentes**: colabora con Audience Agent y Data Insights Agent para un análisis más profundo.
 - **Estructura de la respuesta del agente**: razonamiento (explicar la lógica), resumen del análisis (resaltar puntos clave), detalles del problema (describir el problema) y recomendación (proponer pasos siguientes).
+- **Análisis de errores de acciones personalizadas**: Detecte y diagnostique errores de acciones personalizadas y picos de error dentro de un recorrido.
+- **Detección de anomalías**: detecte y confirme los picos, las caídas o las líneas planas estadísticamente significativos en los recuentos de entrada, salida o envío de un recorrido, y detecte una causa probable.
 
 ### **Fuera del ámbito de aplicación**
 
 Actualmente no se admiten las siguientes funcionalidades:
 
 - **Creación automática de recorridos**
-- **Detección de anomalías en tiempo real**
 - **Los canales se solapan**
 - **Análisis de entrada del recorrido**
 - **Análisis de problemas técnicos**
@@ -409,6 +452,22 @@ Utilice estas solicitudes para analizar los posibles conflictos entre recorridos
 - &quot;Analice el riesgo de conflicto para el recorrido [Nombre de Recorrido].&quot;
 - &quot;Proporcionar diagnósticos de conflicto para [Nombre de Recorrido].&quot;
 
+### Análisis de errores de acción personalizada
+
+- &quot;¿Por qué las acciones personalizadas fallan en el recorrido [Nombre de Recorrido]?&quot;
+- &quot;¿Cuál es la tasa de error para la acción personalizada [Nombre de acción personalizada] en el recorrido [Nombre de Recorrido]?&quot;
+- &quot;Mostrarme la causa raíz de los errores de acciones personalizadas en el recorrido [Nombre de Recorrido]&quot;.
+- &quot;¿Hay algún error de acción personalizada que afecte al recorrido [Nombre de Recorrido] en este momento?&quot;
+
+### análisis de anomalías de recorrido
+
+- &quot;¿Por qué se cayeron las entradas para mi recorrido de bienvenida de ayer?&quot;
+- &quot;¿Aumentaron las salidas del recorrido de abandono del carro de compras esta semana?&quot;
+- &quot;Los envíos parecen bajos para el recorrido de recordatorio de renovación de hoy, ¿qué ha pasado?&quot;
+- &quot;¿Por qué ha habido una caída repentina en el número de perfiles que han entrado en mi recorrido de agradecimiento de aniversario de miembro en los últimos 30 días?&quot;
+- &quot;Menos perfiles de los habituales completan este mes mi recorrido de recordatorio de renovación, ¿por qué?&quot;
+- &quot;Se activó una alerta de anomalía para el recorrido [Id. de versión de Recorrido] a las [marcas de tiempo] — investigar&quot;.
+
 ## Prácticas recomendadas
 
 ### Prácticas recomendadas en materia de solicitudes
@@ -425,7 +484,7 @@ Para maximizar la eficacia del análisis de Recorrido, siga estas prácticas rec
 - **Monitorice de forma periódica**: programe revisiones periódicas del rendimiento de los recorridos para identificar las tendencias y las anomalías.
 - **Optimice la segmentación**: asegúrese de que la segmentación del público está equilibrada para evitar la fatiga y maximizar la participación.
 
-## Recorrido para simular: casos de uso, funciones de IA y guía del usuario
+## Recorrido para simular: casos de uso, funciones de IA y guía del usuario {#journey-simulate}
 
 ## Información general
 
@@ -441,7 +500,7 @@ La simulación de recorrido está disponible para todos los clientes de Journey 
 
 Para usar IA en **[!UICONTROL Simulación]** (**[!UICONTROL Simulación rápida]**, que genera usuarios simulados con IA, **[!UICONTROL Generar valores de evento]**), los usuarios necesitan el permiso **[!UICONTROL Generar contenido]** de la capacidad **[!UICONTROL Asistente de IA]**.
 
-[Obtenga más información sobre permisos](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/administration/permissions).
+[Obtenga más información sobre permisos](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/access-control/permissions).
 
 >[!ENDSHADEBOX]
 
@@ -503,4 +562,11 @@ Además, la capacidad Simular IA del Recorrido admite las siguientes capacidades
 
 Es posible que la simulación no admita todas las actividades, canales o integraciones compatibles con el modo de prueba o un recorrido en directo, y que el comportamiento cambie a medida que la capacidad madura.
 
-➡️ Obtenga más información acerca de [Limitaciones de simulación](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) en la documentación de Journey Optimizer.
+➡️ Obtenga más información acerca de [Limitaciones de simulación](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/create-journey/validate-journey/simulate-journey/simulate-journey-gs#limitations){target="_blank"} en la documentación de Journey Optimizer.
+
+## Consulte también
+
+- [Agent Orchestrator](./agent-orchestrator.md), la capa agéntica que alimenta a Journey Agent y otros agentes de Experience Platform.
+- [Herramientas de Journey Optimizer en CX Coworker Gateway](../mcp/ajo-mcp.md), una superficie MCP de solo lectura para la revisión de la configuración de campañas y canales.
+- [Cree recorridos a partir del lenguaje natural](../coworker/chat/use-cases/journeys/create-journey-from-natural-language.md) y [Cree, edite y administre desafíos de lealtad](../coworker/chat/use-cases/journeys/create-loyalty-challenge.md), casos de uso de chat con compañeros que se basan en la creación de Recorridos.
+- [Agente de soporte técnico del producto](./product-support.md), para solucionar problemas de Journey Optimizer que surgieron a través del Asistente de IA.
