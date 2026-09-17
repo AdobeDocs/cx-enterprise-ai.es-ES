@@ -1,26 +1,25 @@
 ---
 title: Instalar Adobe CX Coworker Gateway
-description: Aprenda a conectar clientes compatibles con MCP a Adobe CX Coworker Gateway.
-source-git-commit: 30f4d593bdec8cb45d10c4c49fac3dce16e8ca03
+description: Obtenga información sobre cómo conectar clientes compatibles con MCP a Adobe CX Coworker Gateway.
+hide: true
+source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
 workflow-type: tm+mt
 source-wordcount: '1004'
 ht-degree: 0%
-
 ---
-
 # Instalar Adobe CX Coworker Gateway {#mcp-install}
 
-Lea esta guía para aprender a conectar un cliente compatible con MCP a Adobe CX Coworker Gateway.  CX Coworker Gateway utiliza un punto final para todas las herramientas de producto documentadas:
+Lea esta guía para aprender a conectar un cliente compatible con MCP a Adobe CX Coworker Gateway.  CX Coworker Gateway utiliza un punto final para todas las herramientas de productos documentadas:
 
 ```
 https://cx-coworker-gateway.adobe.io/mcp
 ```
 
-Antes de instalar, confirme que su organización y cuenta de usuario pueden acceder a las herramientas de producto que necesita. Consulte [Herramientas de Access CX Coworker Gateway](access.md).
+Antes de instalar, confirme que su organización y cuenta de usuario pueden acceder a las herramientas de producto que necesita. Consulte [Acceder a las herramientas de CX Coworker Gateway](access.md).
 
 ## Funcionamiento de la instalación {#mcp-install-how}
 
-CX Coworker Gateway utiliza un transporte HTTP remoto con un flujo de inicio de sesión Adobe basado en explorador. En todos los clientes admitidos, el patrón de configuración es el mismo:
+CX Coworker Gateway utiliza un transporte HTTP remoto con un flujo de inicio de sesión de Adobe basado en explorador. En todos los clientes admitidos, el patrón de configuración es el mismo:
 
 1. Agregar la dirección URL del extremo: `https://cx-coworker-gateway.adobe.io/mcp`.
 2. Guarde o habilite la conexión.
@@ -35,7 +34,7 @@ CX Coworker Gateway utiliza un transporte HTTP remoto con un flujo de inicio de 
 
 La mayoría de los planes de cliente de MCP empresarial y de equipo requieren que un administrador agregue conectores personalizados para la organización. En estos entornos, la instalación tiene dos pasos:
 
-1. Un administrador añade el punto final de CX Coworker Gateway una vez para la organización.
+1. Un administrador agrega el punto final de la puerta de enlace de CX Coworker una vez para la organización.
 2. Cada usuario habilita el conector e inicia sesión con sus propias credenciales de Adobe.
 
 ### Paso 1: Un administrador agrega el extremo {#mcp-install-enterprise-admin}
@@ -49,7 +48,7 @@ En los planes de [!DNL Claude] equipo y empresa, los conectores a nivel de organ
 1. Inicie sesión en [!DNL Claude] como **propietario** o **propietario principal**.
 2. Vaya a **Configuración** > **Administración** > **Conectores**. En algunos planes, esto aparece como **Configuración de la organización** > **Conectores**.
 3. Seleccione **Agregar conector personalizado**.
-4. Escriba `https://cx-coworker-gateway.adobe.io/mcp` como URL del servidor y use un nombre reconocible, como &quot;Puerta de enlace de Adobe for CX Coworker&quot;.
+4. Escriba `https://cx-coworker-gateway.adobe.io/mcp` como URL del servidor y use un nombre reconocible, como &quot;Adobe for CX Coworker Gateway&quot;.
 5. Guarde el conector.
 
 #### Equipo y empresa de ChatGPT {#mcp-install-enterprise-chatgpt}
@@ -68,10 +67,10 @@ Para otros clientes que admiten conectores remotos administrados por la organiza
 
 ### Paso 2: Los usuarios habilitan el conector {#mcp-install-enterprise-user}
 
-Una vez que un administrador añade CX Coworker Gateway, cada usuario lo activa para su propia cuenta:
+Una vez que un administrador agrega la puerta de enlace de CX Coworker, cada usuario la habilita para su propia cuenta:
 
 1. Abra el conector personal, la aplicación o la configuración de MCP en el cliente.
-2. Busque el conector CX Coworker Gateway y actívelo.
+2. Busque el conector de puerta de enlace de CX Coworker y actívelo.
 3. Inicie una conversación, invoque una de las herramientas de Adobe y complete el inicio de sesión de Adobe basado en el explorador cuando se le solicite.
 4. Defina el contexto del producto para la sesión si las herramientas lo requieren: organización para todos los productos, zona protegida para herramientas basadas en Experience Platform y vista de datos para Customer Journey Analytics. Ver [contexto de producto para llamadas de herramienta](#mcp-connect-params).
 
@@ -184,7 +183,7 @@ Para los clientes que aceptan una configuración de servidor MCP basada en JSON,
 
 ### Otros clientes {#mcp-install-individual-other}
 
-Para otros clientes de escritorio o web con compatibilidad con MCP remoto, agregue Adobe for CX Coworker Gateway como servidor HTTP remoto mediante `https://cx-coworker-gateway.adobe.io/mcp`. Deje vacíos los encabezados opcionales, los campos de token de portador, los campos de ID de cliente y los campos de secreto de cliente, a menos que el cliente requiera un valor de marcador de posición.
+Para otros clientes de escritorio o web con compatibilidad con MCP remoto, agregue Adobe para la puerta de enlace de CX Coworker como servidor HTTP remoto mediante `https://cx-coworker-gateway.adobe.io/mcp`. Deje vacíos los encabezados opcionales, los campos de token de portador, los campos de ID de cliente y los campos de secreto de cliente, a menos que el cliente requiera un valor de marcador de posición.
 
 ## Contexto del producto para llamadas de herramienta {#mcp-connect-params}
 

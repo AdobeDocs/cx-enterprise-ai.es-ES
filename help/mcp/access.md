@@ -1,7 +1,8 @@
 ---
 title: Acceder a las herramientas de CX Coworker Gateway
 description: Confirme la disponibilidad del producto, la habilitación de la organización y los permisos antes de utilizar las herramientas de Adobe CX Coworker Gateway.
-source-git-commit: 786f0b7ae7bf88a60cf3f2c619a39501e6f8247b
+hide: true
+source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 4%

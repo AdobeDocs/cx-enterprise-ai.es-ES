@@ -1,28 +1,28 @@
 ---
 description: Obtenga información sobre Adobe CX Enterprise Coworker Campaigns, una aplicación de marketing nativa de IA que convierte un solo mensaje en una campaña lista para revisión.
-title: Descripción general de Adobe CX Enterprise Coworker
+title: Información general de Adobe CX Enterprise Coworker
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: 21d2304c94d68d7800283b46e2a15012ffe55810
 workflow-type: tm+mt
-source-wordcount: 950
+source-wordcount: '950'
 ht-degree: 0%
-
 ---
-
-# Información general sobre campañas de Adobe CX Enterprise Coworker {#overview}
+# Resumen de Adobe CX Enterprise Coworker Campaigns {#overview}
 
 Campañas de compañeros es una aplicación de marketing nativa de IA que le lleva de un único mensaje a una campaña completa lista para revisión.
 
-En este momento, todas las interacciones con la IA lo dirigirán hacia la [generación de campañas] (./). Próximamente habrá más funcionalidades.
+En este momento, todas las interacciones con la IA lo dirigirán hacia la [generación de campañas](/help/coworker/campaigns/create-an-email-campaign.md). Próximamente habrá más funcionalidades.
 
 ## Cómo acceder a
 
 >[!NOTE]
 >
->Campañas de Coworker está disponible a través de una prueba gratuita hasta el 1 de octubre de 2026. Durante la prueba, todos los activos y la actividad son específicos del usuario.
+>Campañas de Coworker está disponible a través de una prueba gratuita hasta el 31 de diciembre de 2026. Durante la prueba, todos los activos y la actividad son específicos del usuario.
 
 1. Vaya a coworker-campaigns.experience.adobe.com.
 
@@ -104,7 +104,7 @@ Algunas cosas que los primeros usuarios han encontrado que marcan una diferencia
 
 Campañas de compañeros de trabajo es un producto en desarrollo activo. Esto es lo que hay que saber al entrar:
 
-- **Ventana de prueba**: Desde ahora hasta el 1 de octubre de 2026.
+- **Período de prueba**: ahora hasta el 31 de diciembre de 2026.
 - **Se requiere aceptación**: Tendrá que revisar y aceptar los términos de prueba antes de acceder al producto.
 - **Región**: la versión de prueba gratuita solo está disponible para usuarios de Norteamérica en este momento.
 - **Audiencias**: Las audiencias se cargan a través de CSV. Todas las audiencias son específicas para sus respectivas campañas (no se almacenan en ningún otro lugar del entorno en este momento).

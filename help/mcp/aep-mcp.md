@@ -1,13 +1,12 @@
 ---
 title: Herramientas de Experience Platform en CX Coworker Gateway
 description: Descubra qué herramientas de Adobe Experience Platform están disponibles a través de CX Coworker Gateway.
-source-git-commit: a76b4e9bdd925617039b9d6b5362b25974620c34
+hide: true
+source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
 workflow-type: tm+mt
 source-wordcount: '1947'
 ht-degree: 6%
-
 ---
-
 
 # Herramientas de Adobe Experience Platform en Adobe CX Coworker Gateway {#aep-mcp}
 
@@ -15,7 +14,7 @@ Puede utilizar las herramientas de producto de Adobe Experience Platform para in
 
 >[!AVAILABILITY]
 >
->La herramienta de producto de Experience Platform se encuentra en Beta. El acceso se realiza únicamente por invitación y requiere la habilitación de la organización de Adobe. Consulte [Herramientas de Access CX Coworker Gateway](access.md).
+>La herramienta de producto de Experience Platform se encuentra en Beta. El acceso se realiza únicamente por invitación y requiere la habilitación de la organización de Adobe. Consulte [Acceder a las herramientas de CX Coworker Gateway](access.md).
 
 ## Resumen
 

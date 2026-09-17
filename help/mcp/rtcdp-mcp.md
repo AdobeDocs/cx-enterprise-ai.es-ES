@@ -1,20 +1,19 @@
 ---
 title: Herramientas de Real-Time CDP en CX Coworker Gateway
 description: Obtenga información sobre cómo conectar Adobe Real-Time CDP a clientes MCP mediante el servidor MCP.
-source-git-commit: 4bc180a76f3c1095a4d25ed7e07d804e4d5ff1a9
+hide: true
+source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 3%
-
 ---
+# Herramientas de Real-Time CDP en CX Coworker Gateway {#rtcdp-mcp}
 
-# Herramientas Real-Time CDP en CX Coworker Gateway {#rtcdp-mcp}
-
-Puede utilizar las herramientas de producto de Real-Time CDP MCP para inspeccionar audiencias, destinos, fuentes, áreas de nombres de identidad y el estado de activación de un cliente compatible con MCP. Estas herramientas están disponibles a través de la puerta de enlace [CX Coworker Gateway](overview.md) unificada cuando su organización está habilitada y su cuenta de usuario tiene los permisos de Real-Time CDP requeridos.
+Puede utilizar las herramientas de producto de Real-Time CDP MCP para inspeccionar audiencias, destinos, fuentes, áreas de nombres de identidad y el estado de activación de un cliente compatible con MCP. Estas herramientas están disponibles a través de la [puerta de enlace de puerta de enlace de CX Coworker](overview.md) unificada cuando su organización está habilitada y su cuenta de usuario tiene los permisos de Real-Time CDP requeridos.
 
 >[!AVAILABILITY]
 >
->La herramienta de producto de Real-Time CDP se encuentra en Beta. El acceso se realiza únicamente por invitación y requiere la habilitación de la organización de Adobe. Consulte [Herramientas de Access CX Coworker Gateway](access.md).
+>La herramienta de producto de Real-Time CDP se encuentra en Beta. El acceso se realiza únicamente por invitación y requiere la habilitación de la organización de Adobe. Consulte [Acceder a las herramientas de CX Coworker Gateway](access.md).
 
 ## Funcionalidades clave {#mcp-capabilities}
 
