@@ -1,13 +1,12 @@
 ---
 title: Herramientas de Experience Platform en CX Coworker Gateway
 description: Descubra qué herramientas de Adobe Experience Platform están disponibles a través de CX Coworker Gateway.
-source-git-commit: a76b4e9bdd925617039b9d6b5362b25974620c34
+hide: true
+source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
 workflow-type: tm+mt
 source-wordcount: '1947'
 ht-degree: 6%
-
 ---
-
 
 # Herramientas de Adobe Experience Platform en Adobe CX Coworker Gateway {#aep-mcp}
 
@@ -15,7 +14,7 @@ Puede utilizar las herramientas de producto de Adobe Experience Platform para in
 
 >[!AVAILABILITY]
 >
->La herramienta de producto de Experience Platform se encuentra en Beta. El acceso se realiza únicamente por invitación y requiere la habilitación de la organización de Adobe. Consulte [Herramientas de Access CX Coworker Gateway](access.md).
+>La herramienta de producto de Experience Platform se encuentra en Beta. El acceso se realiza únicamente por invitación y requiere la habilitación de la organización de Adobe. Consulte [Acceder a las herramientas de CX Coworker Gateway](access.md).
 
 ## Resumen
 
@@ -256,7 +255,7 @@ Recupere los resultados más recientes de la evaluación de la comprobación de 
 
 >[!NOTE]
 >
->Esta herramienta sólo recupera los resultados de la evaluación. Para solucionar un problema marcado, utilice el panel de detalles de comprobación de estado en la interfaz de usuario de [!DNL Experience Platform]. Ver [Comprobaciones de estado](https://experienceleague.adobe.com/es/docs/experience-platform/run-and-operate/health-checks). La guía de corrección automática para las comprobaciones de estado admitidas está disponible como aptitud en [CX Coworker Chat](../coworker/chat/overview.md).
+>Esta herramienta sólo recupera los resultados de la evaluación. Para solucionar un problema marcado, utilice el panel de detalles de comprobación de estado en la interfaz de usuario de [!DNL Experience Platform]. Ver [Comprobaciones de estado](https://experienceleague.adobe.com/en/docs/experience-platform/run-and-operate/health-checks). La guía de corrección automática para las comprobaciones de estado admitidas está disponible como aptitud en [CX Coworker Chat](../coworker/chat/overview.md).
 
 **Capacidades:** muestran todos los resultados de las comprobaciones de estado de la zona protegida actual y obtienen los resultados de una comprobación con nombre
 
