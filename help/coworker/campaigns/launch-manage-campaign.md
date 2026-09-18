@@ -1,5 +1,5 @@
 ---
-description: Obtenga información sobre cómo iniciar una campaña, programar cuándo se envía ahora, una vez o de forma recurrente, y detener de forma permanente una campaña en directo que se envía de forma activa.
+description: Obtenga información sobre cómo iniciar una campaña, programar cuándo se emite y con qué frecuencia y detener de forma permanente una campaña en directo que se envía de forma activa.
 title: Inicio y administración de una campaña
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 4ae7aa9127368da137582ce3aad3259fa815a497
+source-git-commit: 1e83a387cda796e41870a421187f1a160d507495
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '610'
 ht-degree: 2%
 ---
 # Inicio y administración de una campaña {#launch-campaign}
@@ -24,23 +24,15 @@ Una vez creada la campaña, aprenda a iniciarla, programarla cuando se publique 
 
 1. En la campaña completada, haga clic en **Revisar e iniciar**.
 
-   CAPTURA DE PANTALLA
-
    >[!NOTE]
    >
    >Si falta algo, aparece un cuadro de diálogo con lo que debe completar. Realice las correcciones y vuelva a seleccionar **Revisar e iniciar**.
 
 1. Una vez que la campaña pasa la comprobación de preparación, se abre el cuadro de diálogo de inicio con una previsualización del correo electrónico y la audiencia.
 
-   CAPTURA DE PANTALLA
-
 1. Revise la programación que se muestra en el cuadro de diálogo. Para cambiarlo, usa las opciones de horario descritas en [Programar cuando se inicie una campaña](#schedule-when-a-campaign-launches) y luego haz clic en **Guardar**.
 
-   CAPTURA DE PANTALLA
-
 1. Haga clic en **Iniciar campaña** cuando haya terminado.
-
-   CAPTURA DE PANTALLA
 
 >[!NOTE]
 >
@@ -60,18 +52,12 @@ La campaña debe estar lista para iniciarse (se ha completado toda la configurac
 
 1. En la campaña, haga clic en **Revisar e iniciar**.
 
-   CAPTURA DE PANTALLA
-
 1. En el cuadro de diálogo de lanzamiento, elija una opción de programación:
    - **Ahora**: la campaña comienza a enviarse inmediatamente después del lanzamiento.
-   - **Programar una vez** — elija una **fecha de inicio** futura (fecha y hora juntas).
-   - **Recurrente** — elige una **Frecuencia** (Diaria, Semanal o Mensual) y una hora de inicio, luego establece el patrón de periodicidad (consulta los campos a continuación).
-
-   CAPTURA DE PANTALLA
+   - **Programar una vez**: elija un futuro **Fecha de inicio** (fecha y hora juntas).
+   - **Recurrente**: elija una **Frecuencia** (Diaria, Semanal o Mensual) y una hora de inicio, luego establezca el patrón de periodicidad (vea los campos a continuación).
 
 1. Si se selecciona Recurrente, elija si la campaña finaliza **Nunca** o **En una fecha**, y elija una fecha de finalización si corresponde.
-
-   CAPTURA DE PANTALLA
 
 1. Confirme para iniciar la campaña con la programación seleccionada.
 
@@ -79,15 +65,9 @@ La campaña debe estar lista para iniciarse (se ha completado toda la configurac
 
 1. Abra la campaña y vaya a su configuración.
 
-   CAPTURA DE PANTALLA
-
 1. Busque la sección de programación y seleccione el resumen de programación actual.
 
-   CAPTURA DE PANTALLA
-
 1. Actualice la programación utilizando las mismas opciones descritas anteriormente.
-
-   CAPTURA DE PANTALLA
 
 1. Guarde el cambio.
 
@@ -116,24 +96,18 @@ Puede detener una campaña que esté enviando activamente (una campaña &quot;en
 >
 >Detener una campaña es permanente. Los destinatarios dejan de avanzar por la campaña inmediatamente y la campaña no se puede reanudar ni reiniciar más tarde. Para volver a enviar, debe crear una nueva campaña e iniciarla.
 
-### Requisitos previos
+<!--
 
-- [NECESITA ENTRADA — para confirmarlo con el ingeniero: ¿la detención de una campaña requiere un rol o permiso específico, o puede hacerlo cualquier usuario con acceso a la campaña?]
+### Prerequisites
+
+- [NEEDS INPUT - to confirm with engineer: does stopping a campaign require a specific role or permission, or can any user with campaign access do this?]
+
+-->
 
 ### Cómo detener una campaña
 
 1. Abra una campaña que esté activa actualmente.
 
-   CAPTURA DE PANTALLA
-
 1. En el encabezado de detalles de la campaña, haga clic en **Detener campaña**.
 
-   CAPTURA DE PANTALLA
-
-1. En el cuadro de diálogo de confirmación, haga clic en EN BLANCO.
-
-   CAPTURA DE PANTALLA
-
 1. Haga clic en **Detener** para confirmar.
-
-   CAPTURA DE PANTALLA
