@@ -2,13 +2,13 @@
 audience: user
 user-guide-title: IA en CX Enterprise
 user-guide-description: Aprenda a crear, configurar, integrar y ampliar el asistente de IA, el compañero de trabajo, los agentes y los MCP mediante documentación práctica, directrices de implementación y materiales de referencia.
-description: Obtenga información sobre las herramientas de IA en CX Enterprise. Mejore sus conocimientos sobre productos y obtenga perspectivas operativas utilizando IA en CX Enterprise.
+description: Obtenga información sobre las herramientas de IA en CX Enterprise. Mejore su conocimiento del producto y obtenga perspectivas operativas mediante la IA en CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
+source-git-commit: 4ae7aa9127368da137582ce3aad3259fa815a497
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '344'
 ht-degree: 18%
 ---
 
@@ -60,6 +60,7 @@ ht-degree: 18%
   - Campañas {#campaigns}
     - [Información general](./coworker/campaigns/overview.md)
     - [Creación de una campaña de correo electrónico](./coworker/campaigns/create-an-email-campaign.md)
+    - {hide-from-toc}[Iniciar y administrar una campaña](./coworker/campaigns/launch-manage-campaign.md)
     - [Casos de uso](./coworker/campaigns/use-cases.md)
     - [Impulso de las prácticas recomendadas](./coworker/campaigns/prompting-best-practices.md)
     - [Metadatos de C2PA](./coworker/campaigns/c2pa-metadata.md)
@@ -99,6 +100,6 @@ ht-degree: 18%
     - {hide-from-toc}[Herramientas de Journey Optimizer](./mcp/ajo-mcp.md)
     - {hide-from-toc}[Herramientas de Customer Journey Analytics](./mcp/cja-mcp.md)
     - {hide-from-toc}[Herramientas de Adobe Analytics](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/es/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [Target](https://experienceleague.adobe.com/es/docs/target/using/mcp/target-mcp)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Target](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
 
