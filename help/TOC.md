@@ -2,13 +2,13 @@
 audience: user
 user-guide-title: IA en CX Enterprise
 user-guide-description: Aprenda a crear, configurar, integrar y ampliar el asistente de IA, el compañero de trabajo, los agentes y los MCP mediante documentación práctica, directrices de implementación y materiales de referencia.
-description: Obtenga información sobre las herramientas de IA en CX Enterprise. Mejore sus conocimientos sobre productos y obtenga perspectivas operativas utilizando IA en CX Enterprise.
+description: Obtenga información sobre las herramientas de IA en CX Enterprise. Mejore su conocimiento del producto y obtenga perspectivas operativas mediante la IA en CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
+source-git-commit: 1e83a387cda796e41870a421187f1a160d507495
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '344'
 ht-degree: 18%
 ---
 
@@ -60,6 +60,7 @@ ht-degree: 18%
   - Campañas {#campaigns}
     - [Información general](./coworker/campaigns/overview.md)
     - [Creación de una campaña de correo electrónico](./coworker/campaigns/create-an-email-campaign.md)
+    - [Inicio y administración de una campaña](./coworker/campaigns/launch-manage-campaign.md)
     - [Casos de uso](./coworker/campaigns/use-cases.md)
     - [Impulso de las prácticas recomendadas](./coworker/campaigns/prompting-best-practices.md)
     - [Metadatos de C2PA](./coworker/campaigns/c2pa-metadata.md)
