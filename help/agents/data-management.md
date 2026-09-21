@@ -33,14 +33,14 @@ El agente de gestión de datos ofrece cuatro aptitudes.
 
 Utilice Data Management Agent cuando necesite buscar y analizar conjuntos de datos de Experience Event y establecer, cambiar o quitar una política de retención de lago de datos.
 
-Si no está seguro de si una política de retención de lago de datos es la opción correcta para su objetivo, consulte [Elija la capacidad de administración del ciclo de vida de datos correcta](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/choose-a-capability) para comparar las opciones de retención y eliminación disponibles.
+Si no está seguro de si una política de retención de lago de datos es la opción correcta para su objetivo, consulte [Elija la capacidad de administración del ciclo de vida de datos correcta](https://experienceleague.adobe.com/es/docs/experience-platform/data-lifecycle/choose-a-capability) para comparar las opciones de retención y eliminación disponibles.
 
 Estas habilidades no administran las siguientes capacidades relacionadas:
 
 - **Directiva de retención de almacén de perfiles.** Para administrar cuánto tiempo permanecen los eventos de experiencia en el almacén de perfiles, configure una directiva de caducidad de evento de experiencia en conjuntos de datos de evento de experiencia con perfil habilitado. Ver [caducidad del evento de experiencia](https://experienceleague.adobe.com/es/docs/experience-platform/profile/event-expirations).
 - **Caducidad de datos de perfil seudónimos en toda la zona protegida.** Para eliminar automáticamente los datos de perfil seudónimos en una zona protegida cuando cumplan las condiciones configuradas, consulte [Perfiles seudónimos](https://experienceleague.adobe.com/es/docs/experience-platform/profile/pseudonymous-profiles).
-- **Caducidad del conjunto de datos.** Para programar la eliminación de un conjunto de datos completo en una fecha futura, consulte [Caducidad del conjunto de datos](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/ui/dataset-expiration).
-- **Eliminación de registro.** Para quitar registros de perfiles individuales por motivos de privacidad o higiene, consulte [Eliminar registro](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/ui/record-delete).
+- **Caducidad del conjunto de datos.** Para programar la eliminación de un conjunto de datos completo en una fecha futura, consulte [Caducidad del conjunto de datos](https://experienceleague.adobe.com/es/docs/experience-platform/data-lifecycle/ui/dataset-expiration).
+- **Eliminación de registro.** Para quitar registros de perfiles individuales por motivos de privacidad o higiene, consulte [Eliminar registro](https://experienceleague.adobe.com/es/docs/experience-platform/data-lifecycle/ui/record-delete).
 
 ## Requisitos previos {#prerequisites}
 
@@ -50,7 +50,7 @@ Antes de empezar, asegúrese de que dispone de lo siguiente:
 - Los permisos de Adobe Experience Platform necesarios para los conjuntos de datos y las acciones de retención que desea utilizar. El agente de gestión de datos utiliza los permisos de Experience Platform existentes y no concede acceso adicional. Consulte la [Información general sobre el control de acceso](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/home) para ver cómo funcionan los permisos y las funciones de Adobe Experience Platform.
 - El complemento CXO de Adobe instalado en CX Coworker.
 
-Para obtener instrucciones sobre la instalación de complementos, consulte la [guía de la interfaz de usuario de Coworker](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide).
+Para obtener instrucciones sobre la instalación de complementos, consulte la [guía de la interfaz de usuario de Coworker](https://experienceleague.adobe.com/es/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide).
 
 ## Uso del agente de gestión de datos {#use-the-data-management-agent}
 
@@ -62,7 +62,7 @@ Interactúe con el agente de gestión de datos a través de CX Coworker utilizan
 
 Para utilizar el agente de gestión de datos:
 
-1. Vaya a **[!UICONTROL CX Coworker]**. Para obtener más información, consulte la [Guía de la interfaz de usuario de Coworker](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide).
+1. Vaya a **[!UICONTROL CX Coworker]**. Para obtener más información, consulte la [Guía de la interfaz de usuario de Coworker](https://experienceleague.adobe.com/es/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide).
 1. Introduzca una solicitud que describa lo que desea lograr.
 1. Revise los resultados y utilice preguntas de seguimiento para continuar con la investigación.
 
@@ -82,4 +82,4 @@ El agente de administración de datos puede identificar conjuntos de datos que p
 
 Para obtener instrucciones sobre cómo usar cada aptitud para buscar, analizar y administrar la retención de lago de datos en los conjuntos de datos de Experience Event, consulte [Administrar la retención de lago de datos](../coworker/chat/use-cases/data-management/manage-data-lake-retention.md).
 
-Para obtener más información sobre cómo funcionan las políticas de retención de lago de datos en Adobe Experience Platform, incluido el comportamiento de retención y la configuración, consulte la [guía de retención de conjuntos de datos de evento de experiencia (TTL)](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/experience-event-dataset-retention-ttl-guide).
+Para obtener más información sobre cómo funcionan las políticas de retención de lago de datos en Adobe Experience Platform, incluido el comportamiento de retención y la configuración, consulte la [guía de retención de conjuntos de datos de evento de experiencia (TTL)](https://experienceleague.adobe.com/es/docs/experience-platform/catalog/datasets/experience-event-dataset-retention-ttl-guide).
