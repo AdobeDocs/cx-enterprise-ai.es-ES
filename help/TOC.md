@@ -6,9 +6,9 @@ description: Obtenga información sobre las herramientas de IA en CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 285ecb52e7fd239db29e0fcba20f10cd8190b51d
+source-git-commit: 9f242cdd899327e760c27e81d28439203dca6efa
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '365'
 ht-degree: 18%
 ---
 
@@ -59,10 +59,12 @@ ht-degree: 18%
       - [Cree su primera aptitud](./coworker/customizations/skills/create-your-first-skill.md)
       - [Crear y ejecutar una aptitud de puerta de calidad](./coworker/customizations/skills/run-a-quality-gate-skill.md)
       - [Administrar e iterar en aptitudes](./coworker/customizations/skills/manage-and-iterate-on-skills.md)
+    - Integraciones {#integrations}
+      - [¿Qué son las integraciones?](./coworker/customizations/integrations/understanding-integrations-in-coworker.md)
     - Complementos {#plugins}
       - [¿Qué son los complementos?](./coworker/customizations/plugins/what-are-plugins.md)
     - Memoria {#memory}
-      - [Qué es la memoria](./coworker/customizations/memory/what-is-memory.md)
+      - [¿Qué es la memoria?](./coworker/customizations/memory/what-is-memory.md)
   - Campañas {#campaigns}
     - [Información general](./coworker/campaigns/overview.md)
     - [Creación de una campaña de correo electrónico](./coworker/campaigns/create-an-email-campaign.md)
@@ -107,6 +109,6 @@ ht-degree: 18%
     - {hide-from-toc}[Herramientas de Journey Optimizer](./mcp/ajo-mcp.md)
     - {hide-from-toc}[Herramientas de Customer Journey Analytics](./mcp/cja-mcp.md)
     - {hide-from-toc}[Herramientas de Adobe Analytics](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/es/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [Target](https://experienceleague.adobe.com/es/docs/target/using/mcp/target-mcp)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Target](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
 
