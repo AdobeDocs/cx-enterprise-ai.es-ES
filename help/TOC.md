@@ -6,9 +6,9 @@ description: Obtenga información sobre las herramientas de IA en CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 1e83a387cda796e41870a421187f1a160d507495
+source-git-commit: bc838ba25ec0c7fad8d32cbd5f0ed888bb63a73e
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '353'
 ht-degree: 18%
 ---
 
@@ -36,6 +36,8 @@ ht-degree: 18%
         - [Explorar tendencias y causas básicas](./coworker/chat/use-cases/data-insights/root-cause-analysis.md)
         - [Validar datos de AA a CJA al actualizar](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md)
         - [Validar la calidad del conjunto de datos para informes de CJA](./coworker/chat/use-cases/data-insights/validate-dataset-quality-for-cja.md)
+      - Administración de datos {#data-management}
+        - [Administrar la retención del lago de datos](./coworker/chat/use-cases/data-management/manage-data-lake-retention.md)
       - Públicos {#audiences}
         - [Evaluar el estado de la plataforma y crear audiencias](./coworker/chat/use-cases/audiences/create-audience-from-natural-language.md)
       - Recorridos {#journeys}
@@ -77,6 +79,7 @@ ht-degree: 18%
   - [Agent Orchestrator](./agents/agent-orchestrator.md)
   - [Audience Agent](./agents/audience.md)
   - [Data Insights Agent](./agents/cja-data-insights-agent.md)
+  - [Agente de gestión de datos](./agents/data-management.md)
   - [Agente de experimento](./agents/agent-experiment.md)
   - [Agente de detección de campos](./agents/field-discovery-agent.md)
   - [Journey Agent](./agents/ajo-agent.md)

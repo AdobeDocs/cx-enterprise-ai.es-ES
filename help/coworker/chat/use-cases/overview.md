@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 92553b9b27ee38ba31ccd00b443502e990e625be
+source-git-commit: bc838ba25ec0c7fad8d32cbd5f0ed888bb63a73e
 workflow-type: tm+mt
-source-wordcount: '4876'
+source-wordcount: '5040'
 ht-degree: 6%
 ---
 # Casos de uso de chat con compañeros{#use-cases}
@@ -216,6 +216,13 @@ Use el chat de compañeros para examinar, analizar y planificar experimentos, y 
 | Monitorización de la capacidad de streaming y brechas | Compruebe el uso, la capacidad y el estado de brecha de flujo actual e histórico en los entornos limitados | `observability-streaming-capacity`, `observability-streaming-usage`, `observability-capacity-breaches` | Adobe Experience Platform | &quot;¿Cuál es mi capacidad de flujo actual en mi zona protegida actual?&quot; <br> &quot;¿Mi zona protegida actual ha superado los límites de capacidad en la última semana?&quot; |
 | [Ver resultados de la evaluación de comprobación de estado](https://experienceleague.adobe.com/es/docs/experience-platform/run-and-operate/health-checks/overview) | Vea la última evaluación de comprobación de estado de la zona protegida, explore en profundidad una comprobación que da error y vea las entidades afectadas | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | &quot;¿Qué hay de malo en mi zona protegida?&quot; <br> &quot;Informarme sobre la última evaluación de la comprobación de estado&quot; <br> &quot;¿Cuáles son los problemas de la comprobación de descripción de área de nombres personalizada?&quot; |
 | Solucionar problemas de comprobación de estado | Corrija los problemas del área de nombres de identidad, la política de combinación y el esquema marcados directamente desde el chat, con su aprobación antes de realizar cualquier cambio | `rao-remediate-identity-namespace-description`, `rao-remediate-merge-policy-duplicate-name`, `rao-remediate-missing-audit-field-group`, `rao-remediate-default-merge-policy-naming` | Adobe Experience Platform | &quot;Corregir descripciones del área de nombres de identidad&quot; <br> &quot;Corregir nombres de políticas de combinación duplicados&quot; <br> &quot;Corregir esquemas que no tienen el grupo de campos de auditoría&quot; <br> &quot;Corregir nombres de políticas de combinación predeterminados&quot; |
+
+## Administración de datos
+
+| Caso de uso | Descripción | Habilidades | Aplicación | Indicadores de ejemplo |
+| --- | --- | --- | --- | --- |
+| [Busque datos que merecen ser optimizados o limpiados](./data-management/manage-data-lake-retention.md#find-data-worth-optimizing) | Obtenga una idea de si los datos de los eventos de experiencia se pueden optimizar mostrando los conjuntos de datos más grandes, menos utilizados u olvidados como candidatos para la limpieza o una política de retención del lago de datos | `List datasets` | Adobe Experience Platform | &quot;Siento que mis datos se pueden optimizar&quot; <br> &quot;Ayúdenme a comprender el valor de mis datos&quot; <br> &quot;Optimizar los datos de mi zona protegida&quot; <br> &quot;Limpiar los conjuntos de datos de mi zona protegida&quot; |
+| [Investigar el uso y administrar la retención de un conjunto de datos](./data-management/manage-data-lake-retention.md#check-how-actively-a-dataset-is-used) | Una vez que haya encontrado un conjunto de datos que vale la pena examinar más de cerca, descubra cómo se utiliza de forma activa, modele el impacto de una posible política de retención de lago de datos y establezca, cambie o elimine esa política cuando esté listo, con su revisión y aprobación antes de que cambie algo | `Analyze dataset usage`, `Analyze dataset retention`, `Manage dataset retention` | Adobe Experience Platform | &quot;¿De qué forma se utiliza mi conjunto de datos de eventos web?&quot; <br> &quot;¿Cuál sería el impacto si configuro un periodo de retención de 60 días en este conjunto de datos?&quot; |
 
 ## Herramientas de zona protegida
 
