@@ -8,7 +8,7 @@ doc-type: Feature Video
 duration: 330
 last-substantial-update: 2026-09-16
 jira: KT-22622
-source-git-commit: c60304b2c4efa512ca1ca90ba68b5fa97ea25e0b
+source-git-commit: 285ecb52e7fd239db29e0fcba20f10cd8190b51d
 workflow-type: tm+mt
 source-wordcount: '633'
 ht-degree: 0%
@@ -19,7 +19,7 @@ La calidad de los datos es la base de unos informes precisos en Adobe Customer J
 
 En este vídeo, aprenderá a utilizar la habilidad de validación de datos **de Coworker** para evaluar rápidamente la calidad de los conjuntos de datos que alimentan la implementación de Customer Journey Analytics, sin necesidad de escribir consultas ni inspeccionar manualmente los datos.
 
->[!VIDEO](https://video.tv.adobe.com/v/3503522/?captions=spa&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3503519/?learn=on&enablevpops)
 
 ## Descubra los conjuntos de datos subyacentes a los informes de CJA
 
@@ -110,3 +110,4 @@ La validación de conjuntos de datos antes de crear informes ayuda a los equipos
 - Solucionar problemas de métricas inesperadas de forma más eficaz
 
 Con Coworker, estas comprobaciones se pueden iniciar utilizando indicaciones en lenguaje natural, lo que hace que la validación de datos sea más accesible para los usuarios técnicos y no técnicos.
+
