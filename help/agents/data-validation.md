@@ -1,13 +1,11 @@
 ---
 title: Validar los datos en el asistente de IA
 description: Aprenda a utilizar la validación de datos con tecnología de Agent Orchestrator en el Asistente de IA para realizar validaciones estadísticas y semánticas en los conjuntos de datos.
-source-git-commit: 130f2df3026a4ad948b314026ca5f1b71970d0b1
+source-git-commit: a39c81f891a2bb1782f0531e210778f423a519a5
 workflow-type: tm+mt
-source-wordcount: '1585'
+source-wordcount: '1602'
 ht-degree: 0%
-
 ---
-
 # Validación de los datos en el asistente de IA
 
 Puede utilizar el Asistente de IA para validar la calidad de los datos de los conjuntos de datos de Adobe Experience Platform. Con la tecnología de Agent Orchestrator, la capacidad de validación de datos puede realizar validaciones estadísticas y semánticas de conjuntos de datos, analizar campos de conjuntos de datos, identificar problemas de calidad de datos y devolver resúmenes de lenguajes naturales con perspectivas procesables. Los ingenieros de datos, analistas y administradores de datos pueden utilizar esta capacidad a través del asistente de IA para ejecutar evaluaciones de calidad de datos rápidas sin escribir consultas SQL ni navegar por jerarquías de esquema complejas.
@@ -24,6 +22,10 @@ Lea esta documentación para aprender a validar los datos en el asistente de IA.
 >
 >El asistente de IA es la interfaz conversacional para este flujo de trabajo. Agent Orchestrator realiza el razonamiento y coordina los pasos de validación entre bastidores.
 
+>[!NOTE]
+>
+>La validación de datos también está disponible como aptitud de colaborador. Ver [Validar los datos de Experience Platform con el colaborador](/help/coworker/chat/use-cases/data-insights/data-validation-aep.md).
+
 ## Casos de uso
 
 | Ejemplo de uso | Descripción |
@@ -34,7 +36,7 @@ Lea esta documentación para aprender a validar los datos en el asistente de IA.
 
 ## Guía de IU
 
-Utilice **AI Assistant** en Adobe CX Enterprise para validar sus datos. El asistente de IA es la interfaz conversacional, mientras que Agent Orchestrator coordina el flujo de trabajo de validación entre bastidores. Los pasos siguientes siguen las pantallas principales que verá.
+Use **Ayudante de IA** en Adobe CX Enterprise para validar sus datos. El asistente de IA es la interfaz conversacional, mientras que Agent Orchestrator coordina el flujo de trabajo de validación entre bastidores. Los pasos siguientes siguen las pantallas principales que verá.
 
 ### Iniciar validación
 
