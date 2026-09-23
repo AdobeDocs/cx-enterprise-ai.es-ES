@@ -6,9 +6,9 @@ description: Obtenga información sobre las herramientas de IA en CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: bc838ba25ec0c7fad8d32cbd5f0ed888bb63a73e
+source-git-commit: 9f242cdd899327e760c27e81d28439203dca6efa
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '365'
 ht-degree: 18%
 ---
 
@@ -59,6 +59,12 @@ ht-degree: 18%
       - [Cree su primera aptitud](./coworker/customizations/skills/create-your-first-skill.md)
       - [Crear y ejecutar una aptitud de puerta de calidad](./coworker/customizations/skills/run-a-quality-gate-skill.md)
       - [Administrar e iterar en aptitudes](./coworker/customizations/skills/manage-and-iterate-on-skills.md)
+    - Integraciones {#integrations}
+      - [¿Qué son las integraciones?](./coworker/customizations/integrations/understanding-integrations-in-coworker.md)
+    - Complementos {#plugins}
+      - [¿Qué son los complementos?](./coworker/customizations/plugins/what-are-plugins.md)
+    - Memoria {#memory}
+      - [¿Qué es la memoria?](./coworker/customizations/memory/what-is-memory.md)
   - Campañas {#campaigns}
     - [Información general](./coworker/campaigns/overview.md)
     - [Creación de una campaña de correo electrónico](./coworker/campaigns/create-an-email-campaign.md)
