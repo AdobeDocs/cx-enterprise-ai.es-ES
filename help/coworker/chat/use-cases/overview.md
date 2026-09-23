@@ -7,10 +7,10 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: bc838ba25ec0c7fad8d32cbd5f0ed888bb63a73e
+source-git-commit: a1954d0dfe6a0db091e69725676e1da23a509e03
 workflow-type: tm+mt
-source-wordcount: '5040'
-ht-degree: 6%
+source-wordcount: '5256'
+ht-degree: 5%
 ---
 # Casos de uso de chat con compañeros{#use-cases}
 
@@ -24,7 +24,7 @@ El chat de compañeros de trabajo le permite consultar, analizar y actuar en los
 >
 >Todos los clientes elegibles tendrán acceso a las funciones de agente de Adobe Experience Manager en Coworker, de forma gradual.
 >
->Consulte también [IA en AEM: información general sobre las capacidades de agente en AEM](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/overview).
+>Consulte también [IA en AEM: información general sobre las capacidades de agente en AEM](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/overview).
 
 ## Experiencia de marca
 
@@ -43,9 +43,9 @@ El chat de compañeros de trabajo le permite consultar, analizar y actuar en los
 
 **Información relacionada**
 
-* [Funciones agénticas en AEM: experiencia de marca, producción de experiencias, sitios](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-sites)
+* [Funciones agénticas en AEM: experiencia de marca, producción de experiencias, sitios](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-sites)
 
-* [Funciones agénticas en AEM: experiencia de marca, producción de experiencias, Forms](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-forms)
+* [Funciones agénticas en AEM: experiencia de marca, producción de experiencias, Forms](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/experience-production/use-cases#use-cases-forms)
 
 ### Desarrollo
 
@@ -58,7 +58,7 @@ El chat de compañeros de trabajo le permite consultar, analizar y actuar en los
 
 **Información relacionada**
 
-* [Capacidades agénticas en AEM: experiencia de marca - desarrollo](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/development/use-cases)
+* [Capacidades agénticas en AEM: experiencia de marca - desarrollo](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/development/use-cases)
 
 ### Incorporación
 
@@ -71,7 +71,7 @@ El chat de compañeros de trabajo le permite consultar, analizar y actuar en los
 
 **Información relacionada**
 
-* [Capacidades agénticas en AEM: experiencia de marca - incorporación](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/onboarding/use-cases)
+* [Capacidades agénticas en AEM: experiencia de marca - incorporación](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-experience/onboarding/use-cases)
 
 ## Asesor de contenido
 
@@ -86,7 +86,7 @@ El chat de compañeros de trabajo le permite consultar, analizar y actuar en los
 
 **Información relacionada**
 
-* [Capacidades agénticas en AEM: Asesor de contenido: detección de contenido](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/discovery/use-cases)
+* [Capacidades agénticas en AEM: Asesor de contenido: detección de contenido](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/discovery/use-cases)
 
 ### Optimización de contenido
 
@@ -98,7 +98,7 @@ El chat de compañeros de trabajo le permite consultar, analizar y actuar en los
 
 **Información relacionada**
 
-* [Capacidades agénticas en AEM: Asesor de contenido: optimización de contenido](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/content-optimization/use-cases)
+* [Capacidades agénticas en AEM: Asesor de contenido: optimización de contenido](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/content-advisor/content-optimization/use-cases)
 
 ## Gobernanza de marca
 
@@ -110,7 +110,7 @@ El chat de compañeros de trabajo le permite consultar, analizar y actuar en los
 
 **Información relacionada**
 
-* [Capacidades agénticas en AEM: administración de marcas](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-governance/use-cases)
+* [Capacidades agénticas en AEM: administración de marcas](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/brand-governance/use-cases)
 
 ## Perspectivas de datos
 
@@ -149,13 +149,16 @@ El chat de compañeros de trabajo le permite consultar, analizar y actuar en los
 | Analizar errores de acciones personalizadas | Identifique cuándo las acciones personalizadas producen errores o las tasas de error aumentan dentro de un recorrido y diagnostique las causas raíz antes de que los errores se propaguen en cascada hasta una interrupción más amplia | `journey-analyze-custom-action` | Adobe Journey Optimizer (AJO) | &quot;¿Por qué las acciones personalizadas fallan en mi recorrido de suscripción de fidelización?&quot; <br> &quot;Mostrarme la tasa de error para la acción personalizada ExternalPush en mi recorrido de bienvenida&quot;. |
 | Detección de anomalías de recorrido | Detecte y confirme picos, caídas o líneas planas inesperados en los recuentos de entrada, salida o envío de un recorrido con respecto a las líneas de base históricas y vea una causa raíz probable | `journey-analyze-anomaly` | Adobe Journey Optimizer (AJO) | &quot;¿Por qué se eliminaron las entradas de mi recorrido de bienvenida de ayer?&quot; <br> &quot;¿Aumentaron las salidas del recorrido de abandono del carro de compras esta semana?&quot; |
 
-Para obtener información más detallada sobre las habilidades de CX Coworker para recorridos, consulte la [documentación de Adobe Journey Optimizer recorrido](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills){target="_blank"}.
+Para obtener información más detallada sobre las habilidades de CX Coworker para recorridos, consulte la [documentación de Adobe Journey Optimizer recorrido](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills){target="_blank"}.
 
 ## Programas de marketing
 
-| Caso de uso | Descripción | Habilidades | Aplicación | Indicadores de ejemplo |
-|---|---|---|---|---|
-| Creación de un programa | Adapte una plantilla de programa existente a un nuevo programa y genere campañas inteligentes, programación y correos electrónicos de marcador de posición a partir de una descripción de campaña en lenguaje sencillo o un resumen de campaña cargado | `build-programs` | Adobe Marketo Engage | &quot;Cree un programa de registro de seminario web para la demostración del producto de agosto&quot;<br><br>&quot;Cree un programa que genere déclencheur cuando un posible cliente alcance una puntuación de 50&quot;<br><br>&quot;Cree una serie de renovación de participación de 3 correos electrónicos para posibles clientes inactivos durante 90 días&quot; |
+| Caso de uso | Descripción | Aptitud/aptitudes | Aplicación | Indicadores de ejemplo |
+| --- | --- | --- | --- | --- |
+| Creación de un programa | Adapte una plantilla de programa existente a un nuevo programa, con campañas inteligentes, programación y correos electrónicos de marcador de posición generados a partir de una descripción en lenguaje sencillo o información cargada | `build-programs` | Adobe Marketo Engage | &quot;Cree un programa de registro de seminario web para la demostración del producto de agosto&quot;<br><br>&quot;Cree un programa que genere déclencheur cuando un posible cliente alcance una puntuación de 50&quot;<br><br>&quot;Cree una serie de renovación de participación de 3 correos electrónicos para posibles clientes inactivos durante 90 días&quot; |
+| Levantar un programa de un informe | Convierta un documento de campaña en lenguaje sencillo o cargado en un programa de trabajo: clone la plantilla coincidente más cercana, transfiera las campañas y tokens inteligentes y actualice los detalles del evento. Las nuevas campañas inteligentes se dejan desactivadas para que las revise | `build-programs` | Adobe Marketo Engage | &quot;Organizaré un seminario web el 10 de septiembre en Chicago. Configurar el programa por mí&quot;<br><br>&quot;Configurar el programa de jornadas del mes próximo a partir de este resumen y actualizar los tokens de evento&quot; |
+| Clonar y adaptar un programa existente | Copie un programa anterior para una nueva ciudad, trimestre o región y actualice las fechas, los tokens y el nombre. Las campañas inteligentes secundarias se transfieren y se dejan desactivadas hasta que las active | `build-programs` | Adobe Marketo Engage | &quot;Clona el programa de eventos del trimestre pasado para nuestra parada en Nueva York el 17 de octubre y actualiza las fechas y los tokens&quot;<br><br>&quot;Duplica el programa de eventos de Chicago para nuestra audiencia del Reino Unido&quot; |
+| Creación de una campaña inteligente con lógica de calificación | Cree un déclencheur o una campaña inteligente por lotes, agregue reglas de listas inteligentes como Rellena el formulario o Puntuación alcanza y configure pasos de flujo como Enviar correo electrónico | `build-programs` | Adobe Marketo Engage | &quot;Cree una campaña de déclencheur que envíe nuestro correo electrónico de bienvenida cuando un posible cliente rellene el formulario Contáctenos&quot;<br><br>&quot;Cree una campaña por lotes para posibles clientes que tengan una puntuación de 50 y agregue un paso Enviar correo electrónico&quot; |
 
 ## Lealtad
 
@@ -164,7 +167,7 @@ Para obtener información más detallada sobre las habilidades de CX Coworker pa
 | Cree, edite y administre desafíos de lealtad | Simplificación y aceleración de la administración de programas de fidelización | `loyalty` | Adobe Journey Optimizer (AJO) | &quot;Cree un desafío que anime a los miembros a probar una nueva bebida de temporada&quot; <br> &quot;Muéstreme los desafíos de fidelidad con las tasas más altas de bajas de miembros&quot;. |
 | Analizar el rendimiento del programa de fidelización | Consulte y analice puntos de lealtad, niveles de miembros, reembolsos y métricas de ingresos utilizando lenguaje natural | `loyalty-insights` | Adobe Journey Optimizer (AJO) | &quot;¿Cuántos puntos de lealtad se concedieron durante agosto de 2026?&quot; <br> &quot;Mostrar los ingresos totales del programa de fidelización desglosados por día durante agosto de 2026&quot;. |
 
-Para obtener información más detallada sobre las habilidades de CX Coworker para la lealtad, consulte la [documentación de lealtad de Adobe Journey Optimizer](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/loyalty-challenges/loyalty-coworker-skills){target="_blank"}.
+Para obtener información más detallada sobre las habilidades de CX Coworker para la lealtad, consulte la [documentación de lealtad de Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/loyalty-challenges/loyalty-coworker-skills){target="_blank"}.
 
 ## Optimización
 
@@ -214,7 +217,7 @@ Use el chat de compañeros para examinar, analizar y planificar experimentos, y 
 | Resolución y vinculación de entidades | Utilice la búsqueda semántica y léxica para resolver las menciones de entidad a entidades Experience Platform reales y descubrir campos XDM | `entity-linking` | Adobe Experience Platform | &quot;Resolver &#39;Compradores de vacaciones&#39; en una audiencia real&quot; <br> &quot;Encuéntrenme campos relacionados con el historial de compras&quot; |
 | Administrar aptitudes personalizadas | Guardar, modificar o eliminar habilidades reutilizables propiedad del usuario que persisten entre sesiones | `manage-skill` | Todas las solicitudes elegibles | &quot;Guardar ese flujo de trabajo como una aptitud&quot; <br> &quot;Eliminar mi aptitud de informe semanal&quot; <br> &quot;Convertir esto en una aptitud reutilizable&quot; |
 | Monitorización de la capacidad de streaming y brechas | Compruebe el uso, la capacidad y el estado de brecha de flujo actual e histórico en los entornos limitados | `observability-streaming-capacity`, `observability-streaming-usage`, `observability-capacity-breaches` | Adobe Experience Platform | &quot;¿Cuál es mi capacidad de flujo actual en mi zona protegida actual?&quot; <br> &quot;¿Mi zona protegida actual ha superado los límites de capacidad en la última semana?&quot; |
-| [Ver resultados de la evaluación de comprobación de estado](https://experienceleague.adobe.com/es/docs/experience-platform/run-and-operate/health-checks/overview) | Vea la última evaluación de comprobación de estado de la zona protegida, explore en profundidad una comprobación que da error y vea las entidades afectadas | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | &quot;¿Qué hay de malo en mi zona protegida?&quot; <br> &quot;Informarme sobre la última evaluación de la comprobación de estado&quot; <br> &quot;¿Cuáles son los problemas de la comprobación de descripción de área de nombres personalizada?&quot; |
+| [Ver resultados de la evaluación de comprobación de estado](https://experienceleague.adobe.com/en/docs/experience-platform/run-and-operate/health-checks/overview) | Vea la última evaluación de comprobación de estado de la zona protegida, explore en profundidad una comprobación que da error y vea las entidades afectadas | `rao-view-latest-health-checks-assessment` | Adobe Experience Platform | &quot;¿Qué hay de malo en mi zona protegida?&quot; <br> &quot;Informarme sobre la última evaluación de la comprobación de estado&quot; <br> &quot;¿Cuáles son los problemas de la comprobación de descripción de área de nombres personalizada?&quot; |
 | Solucionar problemas de comprobación de estado | Corrija los problemas del área de nombres de identidad, la política de combinación y el esquema marcados directamente desde el chat, con su aprobación antes de realizar cualquier cambio | `rao-remediate-identity-namespace-description`, `rao-remediate-merge-policy-duplicate-name`, `rao-remediate-missing-audit-field-group`, `rao-remediate-default-merge-policy-naming` | Adobe Experience Platform | &quot;Corregir descripciones del área de nombres de identidad&quot; <br> &quot;Corregir nombres de políticas de combinación duplicados&quot; <br> &quot;Corregir esquemas que no tienen el grupo de campos de auditoría&quot; <br> &quot;Corregir nombres de políticas de combinación predeterminados&quot; |
 
 ## Administración de datos
