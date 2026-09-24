@@ -6,10 +6,10 @@ description: Obtenga información sobre las herramientas de IA en CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 7b3e62eed184e54e03e61ea3e46b611d0ab46394
+source-git-commit: 27b08d0b2176aee18d39d5d3cd408273e34e0efc
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 16%
+source-wordcount: '374'
+ht-degree: 17%
 ---
 
 # IA en CX Enterprise {#experience-cloud-ai}
@@ -55,6 +55,7 @@ ht-degree: 16%
         - [Generación de recursos de marketing](./coworker/chat/use-cases/content-advisor/generate-assets.md)
         - [Comprobación del cumplimiento de marca](./coworker/chat/use-cases/content-advisor/brand-compliance.md)
   - Personalizaciones {#customizations}
+    - [Información general](./coworker/customizations/overview.md)
     - Habilidades {#skills}
       - [¿Qué son las aptitudes?](./coworker/customizations/skills/what-are-skills.md)
       - [Cree su primera aptitud](./coworker/customizations/skills/create-your-first-skill.md)
@@ -110,5 +111,5 @@ ht-degree: 16%
     - {hide-from-toc}[Herramientas de Journey Optimizer](./mcp/ajo-mcp.md)
     - {hide-from-toc}[Herramientas de Customer Journey Analytics](./mcp/cja-mcp.md)
     - {hide-from-toc}[Herramientas de Adobe Analytics](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/es/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [Target](https://experienceleague.adobe.com/es/docs/target/using/mcp/target-mcp)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Target](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
