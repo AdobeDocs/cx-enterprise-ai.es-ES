@@ -7,16 +7,16 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: f7d7be4b9574f8d5346a2aa23b1544637231343e
+source-git-commit: 34cad34ad13eaf9de30e49ba90ef2530763aabc1
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '203'
 ht-degree: 3%
 ---
 # Acerca de Adobe CX Enterprise Coworker
 
 Coworker es un compañero con tecnología de IA que reimagina la naturaleza del trabajo para organizaciones, equipos e individuos. Coworker automatiza de forma elegante la experiencia del cliente y los flujos de trabajo de marketing para que las organizaciones puedan centrarse en lograr sus objetivos comerciales y transformar los resultados, no en coordinar tareas. Como motor auténtico, Coworker adopta un nuevo enfoque innovador para automatizar los procesos empresariales. Mejora el rendimiento y la precisión del modelo de IA al unir los datos, la inteligencia, la colaboración y la ejecución de habilidades agénticas con el contexto empresarial, la gobernanza y la supervisión humana integrada.
 
-## Chat
+## Chat de compañeros
 
 Coworker Chat permite a los equipos automatizar las tareas de productos de Adobe utilizando un lenguaje natural, convirtiendo rápidamente las ideas en acciones con una planificación flexible, habilidades personalizables y ejecución inteligente.
 
