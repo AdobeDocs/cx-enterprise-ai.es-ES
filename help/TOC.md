@@ -6,10 +6,10 @@ description: Obtenga información sobre las herramientas de IA en CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: a39c81f891a2bb1782f0531e210778f423a519a5
+source-git-commit: 7b3e62eed184e54e03e61ea3e46b611d0ab46394
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 18%
+source-wordcount: '373'
+ht-degree: 16%
 ---
 
 # IA en CX Enterprise {#experience-cloud-ai}
@@ -23,8 +23,8 @@ ht-degree: 18%
   - [Panel de monitorización de IA agéntica](./overview/monitoring.md)
   - [Herramientas agénticas](https://experienceleague.adobe.com/es/docs/cx-enterprise-agentic-tools/using/overview)
   - [Transparencia de contenido de IA generativa](content-transparency.md)
-- CX Enterprise Coworker {#coworker}
-  - [Acerca de Coworker](./coworker/overview.md)
+- Guía de CX Enterprise Coworker {#coworker}
+  - [Información general de compañeros](./coworker/overview.md)
   - Chat {#chat}
     - [Información general](./coworker/chat/overview.md)
     - [Guía de IU](./coworker/chat/ui-guide.md)
@@ -77,12 +77,12 @@ ht-degree: 18%
       - [Marketo Engage](./coworker/campaigns/connectors/marketo.md)
       - [Hubspot](./coworker/campaigns/connectors/hubspot.md)
     - [Notas de la versión](./coworker/campaigns/release-notes.md)
-- Asistente de IA {#ai-assistant}
+- Guía del asistente de IA {#ai-assistant}
   - [Guía de IU del asistente de IA](./ai-assistant/ai-assistant-ui.md)
   - [Biblioteca de mensajes](./ai-assistant/prompt-library.md)
   - [Privacidad](./ai-assistant/privacy.md)
   - [Descargo de responsabilidad legal](./ai-assistant/legal-disclaimer.md)
-- Agentes {#agents}
+- IA del agente {#agents}
   - [Agent Orchestrator](./agents/agent-orchestrator.md)
   - [Audience Agent](./agents/audience.md)
   - [Data Insights Agent](./agents/cja-data-insights-agent.md)
@@ -110,5 +110,5 @@ ht-degree: 18%
     - {hide-from-toc}[Herramientas de Journey Optimizer](./mcp/ajo-mcp.md)
     - {hide-from-toc}[Herramientas de Customer Journey Analytics](./mcp/cja-mcp.md)
     - {hide-from-toc}[Herramientas de Adobe Analytics](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/es/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [Target](https://experienceleague.adobe.com/es/docs/target/using/mcp/target-mcp)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Target](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
