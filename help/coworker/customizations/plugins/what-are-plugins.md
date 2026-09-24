@@ -1,15 +1,15 @@
 ---
 title: 'Complementos de Coworker: qué son, cómo funcionan y cómo se instalan'
-description: Descubra cómo los complementos de Adobe CX Coworker amplían la funcionalidad con habilidades y servidores MCP.
+description: Obtenga información sobre los complementos de Adobe CX Coworker, paquetes instalables que agrupan habilidades y servidores MCP para ampliar la funcionalidad según una necesidad empresarial específica.
 role: User, Developer
 level: Beginner, Intermediate
 doc-type: Feature Video
 duration: 210
 last-substantial-update: 2026-09-22
 jira: KT-22449
-source-git-commit: 285ecb52e7fd239db29e0fcba20f10cd8190b51d
+source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '500'
 ht-degree: 4%
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 4%
 
 Este vídeo presenta los complementos y explica cómo amplían [!DNL Coworker] con nuevas funciones. Aprenderá qué es un complemento, qué componentes contiene, cómo se relacionan los complementos con las habilidades y los servidores MCP, y cómo instalar, utilizar y eliminar complementos de su espacio de trabajo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3503660/?captions=spa&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3503656/?learn=on&enablevpops)
 
 ## ¿Qué es un complemento?
 

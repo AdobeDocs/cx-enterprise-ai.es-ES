@@ -1,6 +1,6 @@
 ---
 title: ¿Qué son las aptitudes?
-description: Descubra cómo las habilidades de Coworker de Adobe CX ayudan a los equipos a estandarizar la orquestación de las experiencias del cliente, automatizar los flujos de trabajo recurrentes y ofrecer resultados coherentes mediante libros de reproducción reutilizables con tecnología de IA.
+description: Obtenga información sobre las habilidades en Adobe CX Coworker, libros de reproducción reutilizables que estandarizan los flujos de trabajo y ofrecen resultados coherentes en las conversaciones y los usuarios.
 role: User
 level: Beginner
 doc-type: Feature Video
@@ -9,21 +9,20 @@ last-substantial-update: 2026-08-26T00:00:00.000Z
 jira: KT-22377
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: a3df1a0f8e1014d95483f977aaa64435c18e6578
+    internal-label: CX Enterprise Coworker
+source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
 workflow-type: tm+mt
-source-wordcount: 220
+source-wordcount: '215'
 ht-degree: 0%
-
 ---
 
+# ¿Qué son las habilidades en Coworker?
 
-# ¿Qué son las aptitudes en el compañero de trabajo?
-
-Las aptitudes son libros de reproducción reutilizables que ayudan a los colaboradores de Adobe CX a realizar tareas de organización de experiencias del cliente de forma coherente y eficaz. En lugar de explicar repetidamente el mismo proceso, los equipos pueden utilizar Habilidades para estandarizar flujos de trabajo comunes, métodos de creación de informes y enfoques de análisis en las conversaciones y los usuarios.
+Las habilidades son libros de reproducción reutilizables que ayudan a Adobe CX Coworker a realizar tareas de orquestación de experiencias del cliente de forma coherente y eficaz. En lugar de explicar repetidamente el mismo proceso, los equipos pueden utilizar Habilidades para estandarizar flujos de trabajo comunes, métodos de creación de informes y enfoques de análisis en las conversaciones y los usuarios.
  
 En este vídeo, aprenderá cómo funcionan las habilidades, cuándo utilizarlas y cómo ayudan a los equipos a escalar prácticas de experiencia del cliente repetibles.
 
->[!VIDEO](https://video.tv.adobe.com/v/3502326/?captions=spa&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3502322/?learn=on&enablevpops)
 
 Una aptitud proporciona:
 
@@ -46,7 +45,6 @@ Muchas organizaciones realizan los mismos tipos de tareas repetidamente, entre e
 
 Las habilidades ayudan a los equipos a capturar y reutilizar estas prácticas recomendadas sin volver a explicar manualmente el proceso cada vez.
  
-
 ## Aptitudes y administración de datos
 
 Las aptitudes no almacenan datos de clientes.

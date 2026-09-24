@@ -1,6 +1,6 @@
 ---
 title: 'Journey Optimizer y compañeros de trabajo: generación de Recorridos'
-description: Descubra cómo Coworker ayuda a los especialistas en marketing a crear recorridos de Adobe Journey Optimizer utilizando indicaciones sencillas en lenguaje natural.
+description: Aprenda a crear recorridos de Adobe Journey Optimizer a partir de peticiones de datos en lenguaje natural con Coworker.
 feature: AI Tools
 role: User
 level: Beginner
@@ -14,19 +14,19 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 786f0b7ae7bf88a60cf3f2c619a39501e6f8247b
+source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '114'
 ht-degree: 1%
 ---
 
-# Cómo generar Recorridos de Adobe Journey Optimizer a partir de mensajes en lenguaje natural
+# Generar recorridos de Adobe Journey Optimizer a partir de mensajes en lenguaje natural
 
 Tradicionalmente, la creación de recorridos de cliente requiere una amplia configuración en todos los déclencheur, reglas de tiempo, canales, lógica de decisión y pasos de mensajería. En este vídeo, verá cómo Coworker simplifica el proceso al transformar una descripción en lenguaje sencillo en un recorrido totalmente redactado en Adobe Journey Optimizer.
  
 Al automatizar el proceso de configuración inicial, los equipos pueden dedicar menos tiempo a crear recorridos desde cero y más tiempo a refinar las experiencias de los clientes y los resultados empresariales.
 
->[!VIDEO](https://video.tv.adobe.com/v/3496879/?captions=spa&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3496867/?learn=on&enablevpops)
 
 ## Consulte también
 

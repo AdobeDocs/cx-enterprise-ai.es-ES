@@ -1,6 +1,6 @@
 ---
 title: Comprobación de marca de compañeros
-description: Descubra cómo el Coworker garantiza que el contenido permanezca en la marca con comprobaciones automatizadas en los flujos de trabajo de marketing.
+description: Aprenda a comprobar el contenido para el cumplimiento de la marca con Coworker Chat mediante comprobaciones automatizadas integradas en los flujos de trabajo de marketing.
 version: Experience Manager as a Cloud Service
 role: User
 level: Beginner, Intermediate
@@ -10,15 +10,15 @@ last-substantial-update: 2026-09-01T00:00:00.000Z
 jira: KT-22501
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
 workflow-type: tm+mt
-source-wordcount: 134
+source-wordcount: '137'
 ht-degree: 0%
-
 ---
-
 
 # Comprobación del contenido para comprobar el cumplimiento de la marca con Coworker Chat
 
@@ -28,4 +28,4 @@ Por ejemplo, los compañeros de trabajo pueden revisar el contenido generado aut
 
 El colaborador no solo identifica los problemas, sino que también ofrece sugerencias útiles. Por ejemplo, si un pie de ilustración es demasiado genérico o carece de call to action, proporciona una versión revisada que cumple los estándares de su marca, junto con las etiquetas correspondientes. Este proceso optimiza la creación de contenido y garantiza el cumplimiento de la marca con un esfuerzo mínimo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3502705/?captions=spa&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3502691/?learn=on&enablevpops)
