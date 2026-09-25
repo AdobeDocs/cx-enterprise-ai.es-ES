@@ -7,7 +7,7 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
+source-git-commit: 792890c00265d0319e8eee3c1008ef5ce155b0ec
 workflow-type: tm+mt
 source-wordcount: '5341'
 ht-degree: 6%
@@ -30,7 +30,7 @@ El chat de compañeros de trabajo le permite consultar, analizar y actuar en los
 
 | Caso de uso | Descripción | Aptitud/aptitudes | Aplicación | Indicadores de ejemplo |
 | --- | --- | --- | --- | --- |
-| Actualizar páginas de AEM | Realice acciones como actualizar, quitar, reemplazar o agregar elementos de contenido para mantener las experiencias precisas y actualizadas. Las entradas pueden ser lenguaje natural o anotaciones visuales como PDF o capturas de pantalla. | `aem-sites-pages-update` | Adobe Experience Manager (AEM) - AEM Sites | En &lt;URL>, actualiza el titular a Hello World<br><br>en &lt;URL> cambia el botón &quot;Prueba de café&quot; a una versión más atractiva<br><br>Actualiza &lt;URL> según el adjunto<br><br>en &lt;URL> Quiero agregar una nueva sección de teaser al final de la página acerca de una promoción que estamos ejecutando en el mes de agosto que es comprar una máquina de café y obtener 2 bolsas de café gratis. Encuentra también una imagen de amigos tomando café y úsala en el teaser |
+| [Actualizar páginas de AEM](content-advisor/author-web-pages.md) | Realice acciones como actualizar, quitar, reemplazar o agregar elementos de contenido para mantener las experiencias precisas y actualizadas. Las entradas pueden ser lenguaje natural o anotaciones visuales como PDF o capturas de pantalla. | `aem-sites-pages-update` | Adobe Experience Manager (AEM) - AEM Sites | En &lt;URL>, actualiza el titular a Hello World<br><br>en &lt;URL> cambia el botón &quot;Prueba de café&quot; a una versión más atractiva<br><br>Actualiza &lt;URL> según el adjunto<br><br>en &lt;URL> Quiero agregar una nueva sección de teaser al final de la página acerca de una promoción que estamos ejecutando en el mes de agosto que es comprar una máquina de café y obtener 2 bolsas de café gratis. Encuentra también una imagen de amigos tomando café y úsala en el teaser |
 | Actualización de AEM de forma masiva | Realice acciones masivas en varias páginas al mismo tiempo, como quitar, reemplazar o agregar elementos de contenido para mantener las experiencias precisas y actuales. | `aem-sites-pages-bulkreplace` | Adobe Experience Manager (AEM) - AEM Sites | en &lt;aem path> actualice todas las páginas que contengan copiar &quot;MyBarista\&quot; a &quot;BrewPass&quot; |
 | Pasar de Figma a fragmento de contenido visual | Importe diseños directamente desde Figma a Adobe Experience Manager utilizando un lenguaje natural. La aptitud crea automáticamente el modelo de contenido, el fragmento de contenido, los recursos y la plantilla de visualización necesarios, lo que permite a los usuarios empresariales pasar del diseño al contenido compatible con la web en minutos sin necesidad de una configuración manual. | `aem-sites-visualcontentfragments-create` | Adobe Experience Manager (AEM) - AEM Sites | Importar desde &lt;Figma_URL> |
 
@@ -200,7 +200,7 @@ Use el chat de compañeros para examinar, analizar y planificar experimentos, y 
 | Obtenga un resumen del rendimiento de nivel de programa | Obtenga un panel de información general, una tabla de inicio reciente y un censo agregado de ganancias/pérdidas/alzas en todas las actividades, además de lecturas de tendencia e impulso de una sola actividad | `target-portfolio-report` | Adobe Target | &quot;Hacerme una revisión médica de mi programa Target&quot; · &quot;¿Cuáles son mis pruebas principales y peores?&quot; · &quot;¿La actividad X es tendencia hacia una victoria?&quot; |
 | Crear audiencias a partir de lenguaje natural | Cree o edite audiencias nativas de Target a partir de una descripción en lenguaje natural, una condición de regla explícita o una lista de valores en línea o cargados. Asigna la solicitud a la gramática de la regla y valida el árbol de reglas antes de escribir | `target-audience-composer` | Adobe Target | &quot;Crear una audiencia de visitantes que regresan de California&quot; · &quot;Crear una audiencia a partir de estos códigos postales&quot; · &quot;Reducir la audiencia X a visitantes que regresan&quot; |
 
-### Recomendaciones
+### Recommendations
 
 | Caso de uso | Descripción | Habilidades | Aplicación | Indicadores de ejemplo |
 | --- | --- | --- | --- | --- |

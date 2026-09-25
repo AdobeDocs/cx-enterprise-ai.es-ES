@@ -6,9 +6,9 @@ description: Obtenga información sobre las herramientas de IA en CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 27b08d0b2176aee18d39d5d3cd408273e34e0efc
+source-git-commit: 792890c00265d0319e8eee3c1008ef5ce155b0ec
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '378'
 ht-degree: 17%
 ---
 
@@ -54,6 +54,7 @@ ht-degree: 17%
       - Asesor de contenido {#content-advisor}
         - [Generación de recursos de marketing](./coworker/chat/use-cases/content-advisor/generate-assets.md)
         - [Comprobación del cumplimiento de marca](./coworker/chat/use-cases/content-advisor/brand-compliance.md)
+        - [Crear páginas de AEM Sites](./coworker/chat/use-cases/content-advisor/author-web-pages.md)
   - Personalizaciones {#customizations}
     - [Información general](./coworker/customizations/overview.md)
     - Habilidades {#skills}
