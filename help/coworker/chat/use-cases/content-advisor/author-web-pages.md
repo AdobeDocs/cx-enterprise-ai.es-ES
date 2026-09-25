@@ -30,4 +30,4 @@ En este vídeo, el compañero agrega una nueva promoción a la página principal
 >
 >Este vídeo muestra a un compañero creando una página en un sitio basado en el Editor de páginas. Los compañeros de trabajo funcionan de la misma manera en los sitios que se entregan con Edge Delivery Services.
 
-Consulte [Resumen de chat con compañeros](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/overview) para comenzar a usar Chat con compañeros.
+Consulte [Resumen de chat con compañeros](https://experienceleague.adobe.com/es/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/overview) para comenzar a usar Chat con compañeros.
