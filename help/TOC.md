@@ -6,10 +6,10 @@ description: Obtenga información sobre las herramientas de IA en CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: a39c81f891a2bb1782f0531e210778f423a519a5
+source-git-commit: 27b08d0b2176aee18d39d5d3cd408273e34e0efc
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 18%
+source-wordcount: '374'
+ht-degree: 17%
 ---
 
 # IA en CX Enterprise {#experience-cloud-ai}
@@ -23,8 +23,8 @@ ht-degree: 18%
   - [Panel de monitorización de IA agéntica](./overview/monitoring.md)
   - [Herramientas agénticas](https://experienceleague.adobe.com/es/docs/cx-enterprise-agentic-tools/using/overview)
   - [Transparencia de contenido de IA generativa](content-transparency.md)
-- CX Enterprise Coworker {#coworker}
-  - [Acerca de Coworker](./coworker/overview.md)
+- Guía de CX Enterprise Coworker {#coworker}
+  - [Información general de compañeros](./coworker/overview.md)
   - Chat {#chat}
     - [Información general](./coworker/chat/overview.md)
     - [Guía de IU](./coworker/chat/ui-guide.md)
@@ -55,6 +55,7 @@ ht-degree: 18%
         - [Generación de recursos de marketing](./coworker/chat/use-cases/content-advisor/generate-assets.md)
         - [Comprobación del cumplimiento de marca](./coworker/chat/use-cases/content-advisor/brand-compliance.md)
   - Personalizaciones {#customizations}
+    - [Información general](./coworker/customizations/overview.md)
     - Habilidades {#skills}
       - [¿Qué son las aptitudes?](./coworker/customizations/skills/what-are-skills.md)
       - [Cree su primera aptitud](./coworker/customizations/skills/create-your-first-skill.md)
@@ -77,12 +78,12 @@ ht-degree: 18%
       - [Marketo Engage](./coworker/campaigns/connectors/marketo.md)
       - [Hubspot](./coworker/campaigns/connectors/hubspot.md)
     - [Notas de la versión](./coworker/campaigns/release-notes.md)
-- Asistente de IA {#ai-assistant}
+- Guía del asistente de IA {#ai-assistant}
   - [Guía de IU del asistente de IA](./ai-assistant/ai-assistant-ui.md)
   - [Biblioteca de mensajes](./ai-assistant/prompt-library.md)
   - [Privacidad](./ai-assistant/privacy.md)
   - [Descargo de responsabilidad legal](./ai-assistant/legal-disclaimer.md)
-- Agentes {#agents}
+- IA del agente {#agents}
   - [Agent Orchestrator](./agents/agent-orchestrator.md)
   - [Audience Agent](./agents/audience.md)
   - [Data Insights Agent](./agents/cja-data-insights-agent.md)

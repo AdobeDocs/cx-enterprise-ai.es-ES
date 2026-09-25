@@ -1,19 +1,19 @@
 ---
 title: Gestionar e iterar en habilidades en el compañero de trabajo
-description: Aprenda a administrar las habilidades de IA reutilizables con un flujo de trabajo de gobernanza probado. Descubra cómo establecer una línea de base, realizar actualizaciones de aptitudes controladas, comparar resultados, validar mejoras y retirar de forma segura aptitudes obsoletas manteniendo al mismo tiempo resultados coherentes y fiables.
+description: Aprenda a administrar habilidades de IA reutilizables con un flujo de trabajo de gobernanza, establecer una línea de base, realizar actualizaciones controladas, validar mejoras y retirar habilidades obsoletas.
 role: User, Developer
 level: Beginner, Intermediate
 doc-type: Feature Video
 duration: 258
 last-substantial-update: 2026-09-16
 jira: KT-22445
-source-git-commit: 8dc520b5e24ab07cb117fb36e70b5b5cfb4b6a5b
+source-git-commit: 3c68c4d087141956c290a1d665d6f9eeaca3300f
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '462'
 ht-degree: 0%
 ---
 
-# Administrar e iterar en aptitudes en [!DNL Coworker]
+# Administrar e iterar en habilidades en [!DNL Coworker]
 
 Las habilidades de IA reutilizables ayudan a los equipos a realizar tareas coherentes y repetibles. Sin embargo, a medida que evolucionan los requisitos empresariales, esas habilidades también tienen que evolucionar. Este vídeo muestra un enfoque práctico para administrar el ciclo de vida completo de las habilidades de IA centradas en la gobernanza, desde la evaluación y la mejora hasta la validación y la jubilación.
 

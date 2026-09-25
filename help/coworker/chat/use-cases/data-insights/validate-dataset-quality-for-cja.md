@@ -1,6 +1,6 @@
 ---
 title: Validar datos de Customer Journey Analytics con la habilidad de validación de datos de Coworker
-description: Aprenda a validar datos de Customer Journey Analytics con la aptitud Validación de datos en Coworker. Identifique los conjuntos de datos de CJA y descubra los problemas de datos antes de crear paneles, segmentos y recorridos con los clientes.
+description: Obtenga información sobre cómo validar datos de Customer Journey Analytics con la aptitud Validación de datos en Coworker y resolver problemas antes de crear paneles.
 feature: AI Tools
 role: User
 level: Beginner, Intermediate
@@ -8,9 +8,9 @@ doc-type: Feature Video
 duration: 330
 last-substantial-update: 2026-09-16
 jira: KT-22622
-source-git-commit: 285ecb52e7fd239db29e0fcba20f10cd8190b51d
+source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '625'
 ht-degree: 0%
 ---
 # Validar datos de Customer Journey Analytics con la aptitud de validación de datos en [!DNL Coworker]
