@@ -6,7 +6,7 @@ description: Obtenga información sobre las herramientas de IA en CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 60ed766e62bf5822244abdfc4e944ff71aaa0d57
+source-git-commit: a4beeda8283b677a72ec4e276276998cd0df5b01
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 17%
@@ -54,9 +54,9 @@ ht-degree: 17%
       - Asesor de contenido {#content-advisor}
         - [Generación de recursos de marketing](./coworker/chat/use-cases/content-advisor/generate-assets.md)
         - [Comprobación del cumplimiento de marca](./coworker/chat/use-cases/content-advisor/brand-compliance.md)
+        - [Crear páginas de AEM Sites](./coworker/chat/use-cases/content-advisor/author-web-pages.md)
       - Flujo de trabajo y planificación {#workflow-and-planning}
         - [Planificar el lanzamiento de una campaña digital](./coworker/chat/use-cases/workflow-and-planning/plan-digital-campaign-launch.md)
-        - [Crear páginas de AEM Sites](./coworker/chat/use-cases/content-advisor/author-web-pages.md)
   - Personalizaciones {#customizations}
     - [Información general](./coworker/customizations/overview.md)
     - Habilidades {#skills}
@@ -114,5 +114,5 @@ ht-degree: 17%
     - {hide-from-toc}[Herramientas de Journey Optimizer](./mcp/ajo-mcp.md)
     - {hide-from-toc}[Herramientas de Customer Journey Analytics](./mcp/cja-mcp.md)
     - {hide-from-toc}[Herramientas de Adobe Analytics](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/es/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [Target](https://experienceleague.adobe.com/es/docs/target/using/mcp/target-mcp)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Target](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
