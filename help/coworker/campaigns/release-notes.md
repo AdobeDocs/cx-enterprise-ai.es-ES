@@ -1,22 +1,47 @@
 ---
-description: Obtenga información sobre las mejoras y correcciones de funciones en las notas de la versión de Adobe CX Enterprise Coworker Campaigns.
-title: Notas de la versión de CX Enterprise Coworker Campaigns
+description: Obtenga información acerca de las mejoras y correcciones de funciones en las notas de la versión de Adobe CX Enterprise Coworker Campaign.
+title: Notas de la versión de CX Enterprise Coworker Campaign
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: dcd2c251357930ae31f78e2d9460d038a0710e3d
+    internal-label: CX Enterprise Coworker
+source-git-commit: 25e4b0b917fec566b7f85f6914817d3d038abf0e
 workflow-type: tm+mt
-source-wordcount: 3291
+source-wordcount: '3590'
 ht-degree: 0%
-
 ---
-
-# Notas de la versión de Adobe CX Enterprise Coworker Campaigns {#release-notes}
+# Notas de la versión de Adobe CX Enterprise Coworker Campaign {#release-notes}
 
 Las versiones de Campañas de compañeros funcionan con un modelo de entrega continua que permite un enfoque más escalable y gradual de la implementación de funcionalidades.
 
 ## Septiembre de 2026 {#sep-2026}
+
+**Fecha de la versión: 17 de septiembre de 2026**
+
+* Conectar un espacio de trabajo de Databricks alojado en Azure, GCP o un dominio personalizado
+* Las campañas ya no se pueden iniciar hasta que su flujo de trabajo esté completamente configurado
+* Las plantillas de campaña se han actualizado con contenido
+* Elija un conector directamente al cargar el CSV de la lista de contactos
+* Se corrigió un bloqueo que podría producirse después de desplazarse por una larga lista de suscripciones de prueba
+* Se ha corregido un problema en el cual la carga de un CSV de audiencia con encabezados en blanco o duplicados podía bloquear la página
+* Se ha corregido el texto de marcador de posición en un mensaje de campaña que aparecía sin rellenar después de resolverse
+* Se ha corregido un fallo en la página Aptitudes debido a la falta de un degradado de color
+* Se ha solucionado el problema del chat que repetía la misma pregunta después de que ya la hubiera contestado
+* Las respuestas de chat ya no muestran un prefijo de ID perdido delante de la respuesta seleccionada
+* El chat ahora sugiere respuestas rápidas del siguiente paso que puede pulsar para rellenar el cuadro de composición
+* Las plantillas de campaña ahora se abren en una vista en página optimizada en lugar de en un cuadro de diálogo independiente
+* La barra de progreso expandida del chat ahora se desplaza internamente en lugar de sacar la conversación de la vista
+* La configuración de la campaña ahora refleja los detalles más recientes del tablero con mayor precisión
+* El cuadro de diálogo del plan de actualización ahora utiliza una apariencia más coherente
+* Se ha eliminado un indicador de estado redundante del encabezado del plan de campaña para lograr un aspecto más limpio
+* Las ediciones rápidas por correo electrónico ahora se guardan juntas como una sola entrada del historial de versiones en lugar de muchas
+* Se corrigieron algunos títulos de kits de marca que ocasionalmente quedaban en blanco mientras se generaba un borrador
+* Edite una imagen con Adobe Express directamente desde la barra de herramientas de imágenes
+* Los datos básicos de audiencia del agente ahora permanecen sincronizados en el tablero de campañas sin una actualización manual
+* Los logotipos de marca del tablero de campaña se recortan con mayor cuidado para adaptarse a su espacio
+* Entrega visual más suave cuando el plan de campaña pasa al tablero de campañas
 
 **Fecha de la versión: 3 de septiembre de 2026**
 
@@ -345,7 +370,7 @@ Las versiones de Campañas de compañeros funcionan con un modelo de entrega con
 
 * Los tableros y las listas de campañas permanecen alineados con los detalles más recientes mientras trabaja
 * Aparece un claro descargo de responsabilidad de IA generativa en el chat de Campaign y en el generador de agentes
-* Los datos de contacto de la asistencia ahora utilizan la dirección de correo electrónico específica de las campañas de los compañeros de CX
+* Los datos de contacto de la asistencia ahora utilizan la dirección de correo electrónico específica de CX Coworker Campaign
 * La página de inicio de marketing elimina la sección de lista de espera y muestra el vídeo a pantalla completa con mayor claridad
 * Más pantallas respetan automáticamente el idioma y los formatos de fecha locales
 * Varias mejoras de rendimiento y fiabilidad en
