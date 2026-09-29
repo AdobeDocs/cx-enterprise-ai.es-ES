@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 1e83a387cda796e41870a421187f1a160d507495
+source-git-commit: d037ab69c5d03cba18dcfcdd8745c8f331765214
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '781'
 ht-degree: 1%
 ---
 # Impulso de las prácticas recomendadas {#best-practices}
@@ -18,9 +18,9 @@ Para sacar el máximo partido a las campañas de Coworker, comience con la forma
 
 >[!NOTE]
 >
->Actualmente, solo puede conectarse a integraciones compatibles con Coworker Campaign.  Si ya tiene aplicaciones de Adobe Enterprise, donde almacena audiencias o genera recorridos, le recomendamos que use [CX Enterprise Coworker](/help/coworker/chat/use-cases/overview.md) en su lugar.
+>Actualmente, solo puede conectarse a integraciones compatibles con Campañas de colaboración. Si ya tiene aplicaciones de Adobe Enterprise, donde almacena audiencias o genera recorridos, le recomendamos que use [CX Enterprise Coworker](/help/coworker/chat/use-cases/overview.md) en su lugar.
 
-## Uso del marco CO-STAR {#costar-framework}
+## Uso del marco CO-STAR
 
 Para obtener los mejores resultados, organice las indicaciones mediante el marco de trabajo CO-STAR. Este enfoque estructurado garantiza que la IA entienda exactamente lo que necesita.
 
@@ -33,7 +33,7 @@ Para obtener los mejores resultados, organice las indicaciones mediante el marco
 | **A - Audiencia** | Audiencia a la que está dirigiendo | Garantiza que el mensaje resuene con las personas adecuadas |
 | **R - Requisitos** | Restricciones específicas o elementos imprescindibles | Define límites y elementos críticos |
 
-## Preguntas frecuentes sobre AI Essentials {#key-takeaways}
+## Aspectos básicos del prompt AI
 
 ### Lo que se hace y lo que no se hace
 
@@ -106,7 +106,7 @@ Estas solicitudes **no** son compatibles y se deben administrar con otras herram
 <ul>
 <li>Cambios de fondo</li>
 <li>Adición de superposiciones de texto o logotipos</li>
-<li>Recorte o cambio de tamaño de imágenes</li>
+<li>Recorte o cambio de tamaño de imagen</li>
 <li>Ajustes de color</li>
 </ul>
 </td>
@@ -114,7 +114,7 @@ Estas solicitudes **no** son compatibles y se deben administrar con otras herram
 </tbody>
 </table>
 
-### Lista de comprobación de calidad {#quality-checklist}
+### Lista de comprobación de calidad
 
 Antes de generar contenido, asegúrese de lo siguiente:
 
@@ -160,6 +160,22 @@ Proporcione siempre el contexto y la propuesta de valor para que la API pueda ge
 </tr>
 </tbody>
 </table>
+
+## Ideas generales de mensajes de marketing
+
+### Marketing de contenido
+
+- &quot;Genera 20 temas de blogs que respondan a preguntas comunes de los nuevos compradores de viviendas&quot;.
+- &quot;Ideas de LinkedIn para una startup de ciberseguridad B2B&quot;.
+- &quot;Cree un calendario de contenido de tres meses centrado en formar nuevos clientes&quot;.
+- &quot;Sugerir temas de contenido que se puedan reutilizar en blogs, vídeos, boletines informativos y publicaciones sociales&quot;.
+
+### Marketing por correo electrónico
+
+- &quot;Genere una secuencia de correo electrónico de bienvenida para los nuevos suscriptores interesados en la moda sostenible&quot;.
+- &quot;Haga una lluvia de ideas sobre líneas de asunto que crean curiosidad sin parecer un señuelo&quot;.
+- &quot;Sugerir ideas de campañas de renovación de la participación para clientes inactivos&quot;.
+- &quot;Cree ideas de correo electrónico del ciclo vital para los usuarios que han completado la incorporación&quot;.
 
 >[!MORELIKETHIS]
 >
