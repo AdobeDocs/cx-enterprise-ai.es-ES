@@ -7,7 +7,7 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: a8859659a5d4d5820d77bf93df62550f10999ea4
+source-git-commit: 82da1f40081c2d448208a4b96c152c8b79a1ecfe
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 0%
@@ -24,11 +24,11 @@ Una vez creada y programada la campaña, aprenda a iniciarla.
 
 1. En la campaña completada, haga clic en **Revisar e iniciar**.
 
-CAPTURA DE PANTALLA
+   CAPTURA DE PANTALLA
 
->[!NOTE]
->
->Si falta algo, aparece un cuadro de diálogo con lo que debe completar. Realice las correcciones y vuelva a seleccionar **Revisar e iniciar**.
+   >[!NOTE]
+   >
+   >Si falta algo, aparece un cuadro de diálogo con lo que debe completar. Realice las correcciones y vuelva a seleccionar **Revisar e iniciar**.
 
 1. Una vez que la campaña pasa la comprobación de preparación, se abre el cuadro de diálogo de inicio con una previsualización del correo electrónico y la audiencia.
 
@@ -42,9 +42,7 @@ CAPTURA DE PANTALLA
 
 CAPTURA DE PANTALLA
 
-&#x200B;>>
->
->No permite el inicio de una campaña con una audiencia de muestra (no real), borradores de correo electrónico que no se han revisado o ajustes de envío sin configurar
+No permite el inicio de una campaña con una audiencia de muestra (no real), borradores de correo electrónico que no se han revisado o ajustes de envío sin configurar
 
 ### Cosas que debe tener en cuenta
 
