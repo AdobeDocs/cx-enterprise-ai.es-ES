@@ -6,7 +6,7 @@ description: Obtenga información sobre las herramientas de IA en CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 630b2f3ab6812251863ea3b77e1da57c04a4e4d0
+source-git-commit: 2700c732bcd4aadbae32b73c1069e9aa9613af36
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 17%
@@ -48,9 +48,9 @@ ht-degree: 17%
       - Optimización {#optimization}
         - [Iniciar actividades de Target](./coworker/chat/use-cases/optimization/target.md)
       - Herramientas de zona protegida {#sandbox-tooling}
-        - [Aptitudes agénticas de herramientas de zona protegida](./agents/sandbox-tooling.md)
+        - [Aptitudes agénticas de herramientas de zona protegida](./coworker/chat/use-cases/sandbox-tooling/sandbox-tooling.md)
       - Alertas {#alerts}
-        - [Aptitudes de alerta al cliente](./agents/customer-alerts.md)
+        - [Aptitudes de alerta al cliente](./coworker/chat/use-cases/customer-alerts/customer-alerts.md)
       - Visibilidad de la marca {#brand-visibility}
         - [Generación de recursos de marketing](./coworker/chat/use-cases/brand-visibility/generate-assets.md)
         - [Comprobación del cumplimiento de marca](./coworker/chat/use-cases/brand-visibility/brand-compliance.md)
@@ -114,5 +114,5 @@ ht-degree: 17%
     - {hide-from-toc}[Herramientas de Journey Optimizer](./mcp/ajo-mcp.md)
     - {hide-from-toc}[Herramientas de Customer Journey Analytics](./mcp/cja-mcp.md)
     - {hide-from-toc}[Herramientas de Adobe Analytics](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/es/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [Target](https://experienceleague.adobe.com/es/docs/target/using/mcp/target-mcp)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Target](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
