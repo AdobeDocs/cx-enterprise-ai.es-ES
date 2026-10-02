@@ -7,7 +7,7 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 802606e964d117abb57dabb772679a6b157352a0
+source-git-commit: 2700c732bcd4aadbae32b73c1069e9aa9613af36
 workflow-type: tm+mt
 source-wordcount: '7039'
 ht-degree: 6%
@@ -293,7 +293,7 @@ Use el chat de compañeros para examinar, analizar y planificar experimentos, y 
 
 | Caso de uso | Descripción | Habilidades | Aplicación | Indicadores de ejemplo |
 | --- | --- | --- | --- | --- |
-| [Mover objetos entre zonas protegidas](/help/agents/sandbox-tooling.md) | Migre sin problemas esquemas, audiencias y otras configuraciones de objetos entre entornos limitados, con dependencias resueltas automáticamente | `sandbox-tooling-workflow` | Adobe Experience Platform | &quot;Mover el esquema Platino de miembros de fidelidad de Luma de la zona protegida actual a la zona protegida de producción&quot; <br> &quot;Promocionar la audiencia de miembros de fidelidad de oro de EE. UU. a la fase&quot; |
+| [Mover objetos entre zonas protegidas](/help/coworker/chat/use-cases/sandbox-tooling/sandbox-tooling.md) | Migre sin problemas esquemas, audiencias y otras configuraciones de objetos entre entornos limitados, con dependencias resueltas automáticamente | `sandbox-tooling-workflow` | Adobe Experience Platform | &quot;Mover el esquema Platino de miembros de fidelidad de Luma de la zona protegida actual a la zona protegida de producción&quot; <br> &quot;Promocionar la audiencia de miembros de fidelidad de oro de EE. UU. a la fase&quot; |
 
 ## Alertas de clientes
 

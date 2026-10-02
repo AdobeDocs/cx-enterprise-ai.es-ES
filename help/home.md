@@ -25,7 +25,7 @@ topic_v2:
     internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: a39c81f891a2bb1782f0531e210778f423a519a5
+source-git-commit: 2700c732bcd4aadbae32b73c1069e9aa9613af36
 workflow-type: tm+mt
 source-wordcount: '965'
 ht-degree: 2%
@@ -59,7 +59,7 @@ Los clientes aptos se están trasladando gradualmente del asistente de IA y los 
 
 Para ver el chat de compañeros en acción, visita [Chat de compañeros en el patio](./coworker/playground-coworker-chat.md) o lee casos de uso reales como [Validar datos de migración de AA a CJA](./coworker/chat/use-cases/data-insights/data-validation-aa-cja.md), [validar tus datos de Experience Platform](./coworker/chat/use-cases/data-insights/data-validation-aep.md) y [Analizar datos de CJA](./coworker/chat/use-cases/data-insights/analytics-chat.md).
 
-Para obtener documentación completa del producto sobre Chat del compañero de trabajo, Compañero de trabajo para equipos (Campañas del compañero de trabajo) y Proyectos, consulte [Colaborador](./coworker/overview.md). Para la replicación de objetos de espacio aislado a espacio aislado, consulte [Aptitudes de agente de herramientas de espacio aislado](./agents/sandbox-tooling.md).
+Para obtener documentación completa del producto sobre Chat del compañero de trabajo, Compañero de trabajo para equipos (Campañas del compañero de trabajo) y Proyectos, consulte [Colaborador](./coworker/overview.md). Para la replicación de objetos de espacio aislado a espacio aislado, consulte [Aptitudes de agente de herramientas de espacio aislado](./coworker/chat/use-cases/sandbox-tooling/sandbox-tooling.md).
 
 ## Asistente de IA
 

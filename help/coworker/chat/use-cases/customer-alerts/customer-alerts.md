@@ -1,7 +1,7 @@
 ---
 title: Aptitudes de alerta al cliente
 description: Aprenda a utilizar las habilidades de alerta del cliente en CX Coworker para revisar, analizar y priorizar la actividad de alerta a través de conversaciones en lenguaje natural.
-source-git-commit: f1ab460d5f582a98011034004d591f68f50df372
+source-git-commit: 2700c732bcd4aadbae32b73c1069e9aa9613af36
 workflow-type: tm+mt
 source-wordcount: '1022'
 ht-degree: 4%
