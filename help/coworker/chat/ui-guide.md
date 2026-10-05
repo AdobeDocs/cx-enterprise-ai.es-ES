@@ -4,20 +4,20 @@ title: Guía de IU de Coworker Chat
 jira: KT-22106
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: 38de8c889dc46760877bc4adca8ba3b79039de98
 workflow-type: tm+mt
-source-wordcount: 1719
+source-wordcount: '1719'
 ht-degree: 4%
-
 ---
-
 # Guía de IU {#ui-guide}
 
 Obtenga orientación con la interfaz de Chat del compañero. Esta guía cubre todo, desde el acceso a la aplicación y la navegación por el espacio de trabajo hasta sacar el máximo partido a las conversaciones, administrar el historial y adaptar la configuración.
 
->[!VIDEO](https://video.tv.adobe.com/v/3498570?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3498558?learn=on)
 
 ## Acceso a Coworker Chat
 
@@ -29,21 +29,21 @@ Cuando su organización obtenga acceso a Coworker, puede utilizar sus capacidade
 
 La siguiente tabla muestra cuándo estarán disponibles estas experiencias para cada aplicación de CX Enterprise.
 
-| Aplicación empresarial de CX | Experiencia envolvente | Experiencia en el producto |
+| Aplicación CX Enterprise | Experiencia envolvente | Experiencia en el producto |
 |---|---|---|
 | RTCDP | Disponible ahora | Próximamente |
 | AJO | Disponible ahora | Próximamente |
 | CJA | Disponible ahora | Próximamente |
 | Workfront | Disponible ahora | Próximamente: <br><br>* a principios de septiembre de 2026 en la instancia de vista previa para determinados administradores del sistema de Workfront aptos<br><br>* a mediados de septiembre de 2026 en la instancia de producción para clientes de Workfront de versión rápida aptos<br><br>* a mediados de octubre de 2026 en la instancia de producción para clientes de Workfront de versión trimestral aptos |
 | Target | Disponible ahora | Disponible ahora |
-| AEM | Disponible ahora | Próximamente |
+| AEM | Disponible ahora | Disponible ahora |
 | Marketo Engage | Disponible ahora | Próximamente |
 
 ### Experiencia envolvente {#immersive}
 
 Para acceder a Chat de compañeros, navega a [https://experience.adobe.com/#/coworker](https://experience.adobe.com/#/coworker) e inicia sesión con tus credenciales de Adobe.
 
-También puede acceder a él seleccionando **Compañero** del selector de aplicaciones en el encabezado superior de CX Enterprise.
+También puede acceder a él seleccionando **Compañero** en el selector de aplicaciones en el encabezado superior de CX Enterprise.
 
 ![Acceder a Coworker desde el selector de aplicaciones de CX Enterprise](./assets/ui-guide-1.png)
 
@@ -68,7 +68,7 @@ Seleccione su nombre para abrir el menú de cuenta, donde puede cambiar el conte
 
 ## Navegación por la interfaz
 
-La interfaz de CX Coworker tiene dos áreas principales: el carril de navegación a la izquierda y el lienzo de conversación que llena el resto de la ventana.
+La interfaz de CX Coworker tiene dos áreas principales: el carril de navegación a la izquierda y el lienzo de conversación que ocupa el resto de la ventana.
 
 ![Pantalla principal](./assets/ui-guide-4.png)
 
