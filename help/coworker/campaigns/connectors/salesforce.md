@@ -7,14 +7,14 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 13961eecbb862bf40cf86e892001392c72aae36c
+source-git-commit: 38de8c889dc46760877bc4adca8ba3b79039de98
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '221'
 ht-degree: 0%
 ---
 # Conectar con Salesforce {#salesforce}
 
-Adobe Coworker Campaigns permite conectar su cuenta de Salesforce a...
+Adobe Coworker Campaigns permite conectar su cuenta de Salesforce para acceder a los posibles clientes y contactos.
 
 >[!PREREQUISITES]
 >
@@ -52,7 +52,7 @@ Adobe Coworker Campaigns permite conectar su cuenta de Salesforce a...
 
    ![](./assets/salesforce-4.png)
 
-Después de la conexión, Salesforce aparece en la lista Conectores Y ¿QUÉ MÁS?
+Después de la conexión, Salesforce aparece en la lista Conectores y se puede seleccionar al vincular un posible cliente o una lista de contactos para sincronizar desde Salesforce.
 
 **Para desconectar:**
 
