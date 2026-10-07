@@ -10,15 +10,15 @@ jira: PLAT-302857
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: a39c81f891a2bb1782f0531e210778f423a519a5
+source-git-commit: 8afbe59635212d29d84e4550a7fbada0563354a9
 workflow-type: tm+mt
-source-wordcount: '1041'
+source-wordcount: '1045'
 ht-degree: 0%
 ---
 
 # Validación de los datos de Experience Platform con Coworker
 
-Sus compañeros de trabajo incluyen la aptitud Validación de datos, que comprueba la calidad de los datos de los conjuntos de datos de Experience Platform. Utilícelo para ejecutar validaciones estadísticas y semánticas en conjuntos de datos, analizar campos de conjuntos de datos e identificar problemas de calidad de datos, todo ello a través de una sola conversación de Coworker Chat.
+Adobe CX Enterprise Coworker incluye la aptitud Validación de datos, que comprueba la calidad de los datos de los conjuntos de datos de Experience Platform. Utilícelo para ejecutar validaciones estadísticas y semánticas en conjuntos de datos, analizar campos de conjuntos de datos e identificar problemas de calidad de datos, todo ello a través de una sola conversación de Coworker Chat.
 
 Los ingenieros de datos, administradores de datos e ingenieros de implementación lo utilizan para realizar comprobaciones de calidad rápidas, sin consultas SQL ni jerarquías de esquema complejas.
 
@@ -157,4 +157,4 @@ Si sus necesidades de validación son más exhaustivas o requieren una lógica e
 * [Validar datos de Adobe Analytics a Customer Journey Analytics al actualizar](./data-validation-aa-cja.md)
 * [Validar datos de Customer Journey Analytics con la aptitud de validación de datos en Coworker](./validate-dataset-quality-for-cja.md)
 * [Validación de datos (asistente de IA)](/help/agents/data-validation.md)
-* [Confiar en los informes de Customer Journey Analytics: aptitud de validación de datos en Adobe CX Coworker](https://www.youtube.com/watch?v=gCSm_QYSYhk) (vídeo)
+* [Confiar en los informes de Customer Journey Analytics: aptitud de validación de datos en Adobe CX Enterprise Coworker](https://www.youtube.com/watch?v=gCSm_QYSYhk) (vídeo)
