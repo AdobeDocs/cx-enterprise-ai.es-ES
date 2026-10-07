@@ -6,9 +6,9 @@ product_v2:
   internal-label: CX Enterprise Coworker
 feature_v2:
   internal-label: CX Enterprise Coworker
-source-git-commit: 105c91a962a55a168272f0febb82af92b9f0bea5
+source-git-commit: 909dbae2c8abce1c89ae4f8039de04d4f4328d0b
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1944'
 ht-degree: 1%
 ---
 
@@ -18,13 +18,22 @@ La información de esta página proporciona información general sobre Adobe CX 
 
 Coworker Chat permite a los equipos automatizar las tareas de productos de Adobe utilizando un lenguaje natural, convirtiendo rápidamente las ideas en acciones con una planificación flexible, habilidades personalizables y ejecución inteligente. Para obtener más información general sobre el Compañero de trabajo, consulte [Información general de CX Enterprise Coworker](/help/coworker/overview.md).
 
->[!VIDEO](https://video.tv.adobe.com/v/3503522/?captions=spa&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3503519/?learn=on&enablevpops)
 
 ## Funcionamiento del análisis de datos
 
 El chat de compañeros puede realizar análisis de datos avanzados que anteriormente solo eran posibles en Analysis Workspace. El chat de compañeros accede a los datos de sus vistas de datos de Customer Journey Analytics o grupos de informes de Adobe Analytics, lo que le permite explorar los datos y obtener respuestas con preguntas en lenguaje natural.
 
+El chat de compañeros hereda los permisos de Customer Journey Analytics o Adobe Analytics. Solo puede acceder a las vistas de datos, los grupos de informes, las dimensiones, las métricas y los segmentos disponibles en Analysis Workspace.
+
 Cuando crea una visualización en el chat de Coworker, puede abrirla en Analysis Workspace en cualquier momento para tener un mayor control manual.
+
+## Respuestas rápidas y trabajo profundo
+
+Puede utilizar el chat de Coworker de dos formas, en función del análisis que necesite:
+
+* **Respuestas rápidas** - Haga una pregunta directa en un lenguaje sencillo y obtenga una respuesta inmediata. Los usuarios empresariales suelen utilizar el chat de Coworker de esta manera, y los analistas también lo utilizan cuando necesitan una respuesta rápida para una parte interesada.
+* **Trabajo meticuloso**: mantenga una conversación prolongada y de varias vueltas con Coworker Chat para investigar un problema empresarial, descartar causas y llegar a una recomendación. Los analistas suelen utilizar este método para explorar los datos en profundidad antes de realizar una recomendación.
 
 ## Empezar a analizar en el chat de Coworker
 
@@ -38,10 +47,10 @@ Los siguientes casos de uso se agrupan por lo que desea lograr. Cada grupo enume
 
 | Ejemplo de uso | Función |
 | --- | --- |
-| [Analizar datos de Customer Journey Analytics y Adobe Analytics](/help/coworker/chat/use-cases/data-insights/analytics-chat.md)<p>![Analizar datos de Customer Journey Analytics y Adobe Analytics](../../assets/coworker-funnel-response-card.png)</p> | Responde preguntas en lenguaje natural acerca de las vistas de datos o los grupos de informes, crea canales y otras visualizaciones y encuentra dónde abandonan los clientes. Puede abrir cualquier visualización en Analysis Workspace para un análisis más detallado.<p>**Mensaje de ejemplo:** &quot;Mostrarme vistas de página de los últimos 30 días&quot;</p><p>Para obtener más información, consulte [Analizar datos de Adobe CX Analytics con el chat de compañeros](/help/coworker/chat/use-cases/data-insights/analytics-chat.md).</p> |
-| [Comparar rendimiento](/help/coworker/chat/use-cases/data-insights/analytics-chat.md#query-and-analyze-data) | Comparar métricas en varios canales, períodos de tiempo o segmentos en paralelo.<p>**Mensaje de ejemplo:** &quot;Comparar ingresos por canal mes tras mes&quot;</p><p>Para obtener más información, consulte [Consultar y analizar datos](/help/coworker/chat/use-cases/data-insights/analytics-chat.md#query-and-analyze-data) en Análisis de datos de Adobe CX Analytics con el chat de compañeros.</p> |
+| [Analizar datos de Customer Journey Analytics y Adobe Analytics](/help/coworker/chat/use-cases/data-insights/analytics-chat.md)<p>![Analizar datos de Customer Journey Analytics y Adobe Analytics](../../assets/coworker-funnel-response-card.png)</p> | Responde preguntas en lenguaje natural acerca de las vistas de datos o los grupos de informes, crea canales y otras visualizaciones y encuentra dónde abandonan los clientes. Puede abrir cualquier visualización en Analysis Workspace para un análisis más detallado.<p>**Mensaje de ejemplo:** &quot;Mostrarme vistas de página de los últimos 30 días&quot;</p><p>Para obtener más información, consulte [Introducción al análisis de datos con Coworker Chat](/help/coworker/chat/use-cases/data-insights/analytics-chat.md).</p> |
+| [Comparar rendimiento](#skills-and-limitations) | Comparar métricas en varios canales, períodos de tiempo o segmentos en paralelo.<p>**Mensaje de ejemplo:** &quot;Comparar ingresos por canal mes tras mes&quot;</p><p>Para obtener más información, consulte [Habilidades y limitaciones](#skills-and-limitations).</p> |
 | [Medir el rendimiento de la campaña](/help/coworker/chat/use-cases/overview.md#data-insights) | Consulte el rendimiento de las campañas, los canales y las propiedades web durante un periodo determinado.<p>**Mensaje de ejemplo:** &quot;¿Cómo funcionaron nuestras campañas web de Acrobat el mes pasado?&quot;</p><p>Para obtener más información, consulte [Información sobre los datos](/help/coworker/chat/use-cases/overview.md#data-insights) en Casos de uso de Chat del compañero de trabajo.</p> |
-| [Analizar canales](/help/coworker/chat/use-cases/data-insights/analytics-chat.md#query-and-analyze-data) | Pase por los canales de conversión de varios pasos y vea la lista desplegable en cada fase.<p>**Mejor para:** Analista</p><p>**Mensaje de ejemplo:** &quot;Guíame a través del funnel de cierre de compra&quot;</p><p>Para obtener más información, consulte [Consultar y analizar datos](/help/coworker/chat/use-cases/data-insights/analytics-chat.md#query-and-analyze-data) en Análisis de datos de Adobe CX Analytics con el chat de compañeros.</p> |
+| [Analizar canales](#skills-and-limitations) | Pase por los canales de conversión de varios pasos y vea la lista desplegable en cada fase.<p>**Mejor para:** Analista</p><p>**Mensaje de ejemplo:** &quot;Guíame a través del funnel de cierre de compra&quot;</p><p>Para obtener más información, consulte [Habilidades y limitaciones](#skills-and-limitations).</p> |
 
 ### Descubra por qué cambiaron las métricas
 
@@ -58,7 +67,7 @@ Los siguientes casos de uso se agrupan por lo que desea lograr. Cada grupo enume
 
 | Ejemplo de uso | Función |
 | --- | --- |
-| [Métricas de pronóstico](/help/coworker/chat/use-cases/data-insights/analytics-chat.md#query-and-analyze-data) | Proyecte valores de métricas futuras a partir de datos históricos de Customer Journey Analytics o Adobe Analytics, como si está en el camino correcto para alcanzar un objetivo de ingresos.<p>**Mensaje de ejemplo:** &quot;Sesiones de previsión para los próximos 30 días&quot;</p><p>Para obtener más información, consulte [Consultar y analizar datos](/help/coworker/chat/use-cases/data-insights/analytics-chat.md#query-and-analyze-data) en Análisis de datos de Adobe CX Analytics con el chat de compañeros.</p> |
+| [Métricas de pronóstico](#skills-and-limitations) | Proyecte valores de métricas futuras a partir de datos históricos de Customer Journey Analytics o Adobe Analytics, como si está en el camino correcto para alcanzar un objetivo de ingresos.<p>**Mensaje de ejemplo:** &quot;Sesiones de previsión para los próximos 30 días&quot;</p><p>Para obtener más información, consulte [Habilidades y limitaciones](#skills-and-limitations).</p> |
 
 ### Compartir perspectivas con las partes interesadas
 
@@ -66,7 +75,7 @@ Los siguientes casos de uso se agrupan por lo que desea lograr. Cada grupo enume
 
 | Ejemplo de uso | Función |
 | --- | --- |
-| [Crear resúmenes ejecutivos y resúmenes de KPI](/help/coworker/chat/use-cases/data-insights/analytics-chat.md#executive-summaries-and-performance-digests) | Produzca resúmenes de rendimiento, recomendaciones y descripciones de diapositivas preparados para las partes interesadas.<p>**Mensaje de ejemplo:** &quot;Dame un resumen ejecutivo del mes pasado&quot;</p><p>Para obtener más información, consulte [Resúmenes ejecutivos y resúmenes de rendimiento](/help/coworker/chat/use-cases/data-insights/analytics-chat.md#executive-summaries-and-performance-digests) en Análisis de datos de Adobe CX Analytics con el chat de compañeros de trabajo.</p> |
+| [Crear resúmenes ejecutivos y resúmenes de KPI](#skills-and-limitations) | Produzca resúmenes de rendimiento, recomendaciones y descripciones de diapositivas preparados para las partes interesadas.<p>**Mensaje de ejemplo:** &quot;Dame un resumen ejecutivo del mes pasado&quot;</p><p>Para obtener más información, consulte [Habilidades y limitaciones](#skills-and-limitations).</p> |
 
 ### Planifique su implementación o actualización
 
@@ -94,8 +103,58 @@ Los siguientes casos de uso se agrupan por lo que desea lograr. Cada grupo enume
 
 | Ejemplo de uso | Función |
 | --- | --- |
-| [Crear aptitudes de Customer Journey Analytics personalizadas](/help/coworker/chat/use-cases/data-insights/analytics-chat.md#create-custom-skills) | Convierta un análisis que repita en una habilidad reutilizable que persiste entre sesiones.<p>**Mensaje de ejemplo:** &quot;Convierta este análisis de ingresos semanal en una aptitud reutilizable&quot;</p><p>Para obtener más información, consulte [Crear habilidades personalizadas](/help/coworker/chat/use-cases/data-insights/analytics-chat.md#create-custom-skills) en Análisis de datos de Adobe CX Analytics con el chat de compañeros.</p> |
+| [Crear aptitudes de Customer Journey Analytics personalizadas](#skills-and-limitations) | Convierta un análisis que repita en una habilidad reutilizable que persiste entre sesiones.<p>**Mensaje de ejemplo:** &quot;Convierta este análisis de ingresos semanal en una aptitud reutilizable&quot;</p><p>Para obtener más información, consulte [Habilidades y limitaciones](#skills-and-limitations).</p> |
 
 Para obtener más información sobre estos casos de uso, incluidas las habilidades que utilizan y más ejemplos de preguntas, consulte [Casos de uso de perspectivas de datos](/help/coworker/chat/use-cases/overview.md#data-insights).
+
+## Aptitudes y limitaciones
+
+Las siguientes habilidades están disponibles para analizar datos de Customer Journey Analytics o Adobe Analytics.
+
+| Habilidad | Úselo para lo siguiente | Permisos necesarios | Fuera de ámbito |
+| --- | --- | --- | --- |
+| `cja`, `aa` | Consulte vistas de datos de Customer Journey Analytics (`cja`) o grupos de informes de Adobe Analytics (`aa`) en tiempo real:<ul><li>Métricas de extracción, dimensiones, segmentos, vistas de datos y grupos de informes</li><li>Comparar canales, periodos de tiempo o segmentos en paralelo</li><li>Ejecución del análisis de visitas en el orden previsto y funnel de varios pasos</li><li>Métricas de previsión basadas en tendencias históricas</li></ul> | Ver el acceso a la vista de datos o al grupo de informes que desea consultar | <ul><li>Creación o edición de componentes de vista de datos o de grupo de informes</li><li>Datos fuera de las vistas de datos o los grupos de informes a los que tiene acceso</li><li>Modelado predictivo más allá de la previsión de métricas</li></ul> |
+| `cja-root-cause-analysis`, `aa-root-cause-analysis` | Investigue por qué ha cambiado una métrica en lugar de informar solamente de que ha cambiado:<ul><li>Investigar un cambio en una métrica conocida durante un período conocido</li><li>Aparecen las dimensiones y segmentos que contribuyeron al cambio</li></ul> | Ver el acceso a la vista de datos o al grupo de informes que se analiza | <ul><li>Detección de anomalías que no le ha preguntado (sin alertas automatizadas o en tiempo real)</li><li>Análisis de la causa raíz de las métricas fuera de una vista de datos o un grupo de informes al que tenga acceso</li></ul> |
+| `cja-executive-summary` | Produzca resúmenes de sus datos preparados para las partes interesadas:<ul><li>Resumir el rendimiento durante un periodo especificado</li><li>Generar recomendaciones prescriptivas basadas en los datos</li><li>Descripción del contenido de una presentación de diapositivas o lectura de la parte interesada</li></ul> | Ver el acceso a las vistas de datos o a los grupos de informes incluidos en el resumen | <ul><li>Generación de la presentación final o del archivo de presentación</li><li>Resúmenes que abarcan vistas de datos o grupos de informes a los que no tiene acceso</li></ul> |
+| `aa-cja-validation` | Comparar, auditar y reconciliar datos entre [!DNL Adobe Analytics] y Customer Journey Analytics:<ul><li>Comparar valores de métricas entre un grupo de informes y una vista de datos</li><li>Marcar discrepancias entre las dos fuentes de datos</li></ul> | Ver el acceso al grupo de informes [!DNL Adobe Analytics] y a la vista de datos de Customer Journey Analytics que se compara | <ul><li>Solución de la causa subyacente de una discrepancia de datos</li><li>Validando orígenes de datos distintos de [!DNL Adobe Analytics] y Customer Journey Analytics</li></ul> |
+| `cja-skill-creator` | Convierta un análisis que ya ha ejecutado en una aptitud reutilizable:<ul><li>Conversión de un análisis completado en una aptitud reutilizable con nombre</li><li>Hacer que una aptitud guardada esté disponible en las futuras sesiones de chat</li></ul> | Administrar aptitudes | <ul><li>Compartir automáticamente una aptitud guardada con otros usuarios (las bibliotecas de aptitudes de nivel de organización requieren la configuración del administrador)</li><li>Edición de los componentes de vista de datos o de grupo de informes a los que hace referencia una aptitud</li></ul> |
+
+## Prácticas recomendadas al analizar datos con Coworker Chat
+
+### Prácticas recomendadas a nivel de organización
+
+* Nombrar a un analista de su organización como Coworker champion.
+
+* Cree una biblioteca de preguntas y habilidades evaluadas que se correlacionen con los datos y los componentes disponibles para los usuarios.
+
+* Cree una o más habilidades que dirijan el chat de compañeros para utilizar solo los componentes que desee utilizar en los análisis. Esto ayuda a Coworker Chat a proporcionar a los usuarios de su organización los datos más relevantes.
+
+* Informe a los usuarios sobre cuándo preguntar a Coworker Chat una respuesta rápida en comparación con cuándo usarla para un trabajo profundo.
+
+### Prácticas recomendadas a nivel de usuario
+
+* Utilice el modo de plan.
+
+  Este modo es especialmente útil para tareas complejas, pero también puede arrojar mejores resultados para tareas simples porque permite a los compañeros hacer preguntas de seguimiento antes de actuar. Para obtener más información, consulte [Modo de planificación](/help/coworker/chat/ui-guide.md#plan-mode).
+
+* Cuando cree una solicitud, sea lo más específico posible:
+
+  * Asigne un nombre a las dimensiones, métricas e intervalos de fechas que desee analizar.
+  * Hacer referencia a los componentes por su nombre exacto.
+  * Especifique los segmentos, audiencias, canales o dispositivos que quiera incluir, excluir o comparar.
+  * Indique si desea un tipo de visualización específico, como una funnel, una tendencia o una tabla de cohorte.
+  * Pida los siguientes pasos recomendados si desea que Coworker Chat le sugiera preguntas de seguimiento.
+  * Solicite un horizonte de previsión, como &quot;próximos 30 días&quot;, al proyectar métricas.
+  * Mencione cualquier hipótesis que ya tenga, de modo que Coworker Chat pueda validarla o descartarla.
+  * Pregunte por las dimensiones de contribución si desea un desglose de un cambio de métrica.
+  * Especifique la audiencia para un resumen, como el liderazgo o el equipo de marketing, y solicite una descripción del paquete de diapositivas si planea presentar los resultados.
+  * Asigne un nombre al grupo de informes y a la vista de datos específicos que desea comparar al validar los datos.
+  * Complete primero un análisis y, a continuación, pida a Chat del compañero que lo guarde como una habilidad, poniéndole un nombre claro y descriptivo y anotando la frecuencia con la que planea reutilizarlo.
+
+* Añade direcciones estándar a la memoria de Coworker Chat. Por ejemplo, si siempre utiliza datos de las mismas vistas de datos o grupos de informes, agréguelos a la memoria. Para obtener más información, consulte [Agregar una vista de datos o una preferencia de grupo de informes en Memoria](/help/coworker/chat/use-cases/data-insights/analytics-chat.md#add-a-data-view-or-report-suite-preference-in-memory) en Introducción al análisis de datos con Chat del compañero.
+
+## Próximos pasos
+
+Para configurar el chat de compañeros y ver un ejemplo que funcione, consulta [Análisis de datos con el chat de compañeros](/help/coworker/chat/use-cases/data-insights/analytics-chat.md).
 
 
