@@ -6,10 +6,10 @@ description: Obtenga información sobre las herramientas de IA en CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 7cab54c87c39994dc07302af62de394cbc6b6df5
+source-git-commit: 211edcac77ddd5fc88b0e902ef7022ca7d7d988e
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 17%
+source-wordcount: '396'
+ht-degree: 19%
 ---
 
 # IA en CX Enterprise {#experience-cloud-ai}
@@ -52,9 +52,10 @@ ht-degree: 17%
       - Alertas {#alerts}
         - [Aptitudes de alerta al cliente](./coworker/chat/use-cases/customer-alerts/customer-alerts.md)
       - Visibilidad de la marca {#brand-visibility}
-        - [Generación de recursos de marketing](./coworker/chat/use-cases/brand-visibility/generate-assets.md)
         - [Comprobación del cumplimiento de marca](./coworker/chat/use-cases/brand-visibility/brand-compliance.md)
         - [Crear páginas de AEM Sites](./coworker/chat/use-cases/brand-visibility/author-web-pages.md)
+        - [AEM Assets integrados](./coworker/chat/use-cases/brand-visibility/onboard-aem-assets.md)
+        - [Generación de recursos de marketing](./coworker/chat/use-cases/brand-visibility/generate-assets.md)
       - Flujo de trabajo y planificación {#workflow-and-planning}
         - [Planificar el lanzamiento de una campaña digital](./coworker/chat/use-cases/workflow-and-planning/plan-digital-campaign-launch.md)
   - Personalizaciones {#customizations}
@@ -68,6 +69,7 @@ ht-degree: 17%
       - [¿Qué son las integraciones?](./coworker/customizations/integrations/understanding-integrations-in-coworker.md)
     - Complementos {#plugins}
       - [¿Qué son los complementos?](./coworker/customizations/plugins/what-are-plugins.md)
+      - [Administración de complementos para su organización](./coworker/customizations/plugins/manage-plugins-for-your-org.md)
     - Memoria {#memory}
       - [¿Qué es la memoria?](./coworker/customizations/memory/what-is-memory.md)
   - Campañas {#campaigns}
