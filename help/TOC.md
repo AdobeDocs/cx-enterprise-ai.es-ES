@@ -6,9 +6,9 @@ description: Obtenga información sobre las herramientas de IA en CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 909dbae2c8abce1c89ae4f8039de04d4f4328d0b
+source-git-commit: d46978f89c75aff6ef16223370ea41a7e74c0525
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '400'
 ht-degree: 20%
 ---
 
@@ -75,6 +75,7 @@ ht-degree: 20%
     - Memoria {#memory}
       - [¿Qué es la memoria?](./coworker/customizations/memory/what-is-memory.md)
   - Campañas {#campaigns}
+    - {hide-from-toc}[Nueva experiencia para equipos](./coworker/campaigns/new-teams-experience.md)
     - [Información general](./coworker/campaigns/overview.md)
     - [Creación de una campaña de correo electrónico](./coworker/campaigns/create-an-email-campaign.md)
     - [Inicio y administración de una campaña](./coworker/campaigns/launch-manage-campaign.md)
@@ -119,5 +120,5 @@ ht-degree: 20%
     - {hide-from-toc}[Herramientas de Journey Optimizer](./mcp/ajo-mcp.md)
     - {hide-from-toc}[Herramientas de Customer Journey Analytics](./mcp/cja-mcp.md)
     - {hide-from-toc}[Herramientas de Adobe Analytics](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/es/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [Target](https://experienceleague.adobe.com/es/docs/target/using/mcp/target-mcp)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Target](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
