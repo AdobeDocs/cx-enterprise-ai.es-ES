@@ -2,17 +2,15 @@
 title: Generación de una lista de comprobación de implementación en proyectos de compañeros
 description: Descubra cómo Proyectos de compañeros genera una lista de comprobación de implementación previamente rellenada a partir de su plan de guías de implementación, con pasos que puede asignar y rastrear.
 hold: true
-source-git-commit: 2f110983d77a4e516e4d36ebe85373a490658d5d
+source-git-commit: 8afbe59635212d29d84e4550a7fbada0563354a9
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 1%
-
+source-wordcount: '703'
+ht-degree: 0%
 ---
-
 
 # Generación de una lista de comprobación de implementación con Proyectos de compañeros
 
-Los proyectos de compañeros pueden generar un proyecto de lista de comprobación de implementación, previamente completado con los pasos ordenados del plan de guía de implementación para Customer Journey Analytics, una actualización de Adobe Analytics a Customer Journey Analytics, Content Analytics (ACA), Marketing Campaign Analytics (MCA) o medios de streaming. El compañero automatiza o asiste con tantos pasos como sea técnicamente posible, de modo que usted y su equipo tengan un único lugar al que se pueda realizar el seguimiento para trabajar durante la implementación.
+Adobe CX Enterprise Coworker puede generar un proyecto de lista de comprobación de implementación en Proyectos de compañeros, previamente completado con los pasos ordenados del plan de guía de implementación para Customer Journey Analytics, una actualización de Adobe Analytics a Customer Journey Analytics, Content Analytics (ACA), Marketing Campaign Analytics (MCA) o medios de streaming. El compañero automatiza o asiste con tantos pasos como sea técnicamente posible, de modo que usted y su equipo tengan un único lugar al que se pueda realizar el seguimiento para trabajar durante la implementación.
 
 Si lidera una implementación, ejecuta pasos técnicos o solo necesita visibilidad del progreso, puede utilizar esta lista de comprobación para asignar el trabajo, rastrear el estado y colaborar con su equipo, sin salir de Compañero de trabajo.
 
