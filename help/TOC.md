@@ -6,9 +6,9 @@ description: Obtenga información sobre las herramientas de IA en CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: d46978f89c75aff6ef16223370ea41a7e74c0525
+source-git-commit: a761ad545e40707e69538699ef69fbed1022165b
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '402'
 ht-degree: 20%
 ---
 
@@ -49,6 +49,7 @@ ht-degree: 20%
         - [Creación de un desafío de lealtad y perspectivas de superficie](./coworker/chat/use-cases/journeys/create-loyalty-challenge.md)
       - Optimización {#optimization}
         - [Iniciar actividades de Target](./coworker/chat/use-cases/optimization/target.md)
+        - [Acelerar la experimentación](./coworker/chat/use-cases/optimization/accelerate-experimentation.md)
       - Herramientas de zona protegida {#sandbox-tooling}
         - [Aptitudes agénticas de herramientas de zona protegida](./coworker/chat/use-cases/sandbox-tooling/sandbox-tooling.md)
       - Alertas {#alerts}
@@ -120,5 +121,5 @@ ht-degree: 20%
     - {hide-from-toc}[Herramientas de Journey Optimizer](./mcp/ajo-mcp.md)
     - {hide-from-toc}[Herramientas de Customer Journey Analytics](./mcp/cja-mcp.md)
     - {hide-from-toc}[Herramientas de Adobe Analytics](./mcp/analytics-mcp.md)
-    - [Workfront](https://experienceleague.adobe.com/es/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-    - [Target](https://experienceleague.adobe.com/es/docs/target/using/mcp/target-mcp)
+    - [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+    - [Target](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
