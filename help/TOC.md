@@ -6,9 +6,9 @@ description: Obtenga información sobre las herramientas de IA en CX Enterprise.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
 dummy: true
-source-git-commit: 909dbae2c8abce1c89ae4f8039de04d4f4328d0b
+source-git-commit: a761ad545e40707e69538699ef69fbed1022165b
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '402'
 ht-degree: 20%
 ---
 
@@ -49,6 +49,7 @@ ht-degree: 20%
         - [Creación de un desafío de lealtad y perspectivas de superficie](./coworker/chat/use-cases/journeys/create-loyalty-challenge.md)
       - Optimización {#optimization}
         - [Iniciar actividades de Target](./coworker/chat/use-cases/optimization/target.md)
+        - [Acelerar la experimentación](./coworker/chat/use-cases/optimization/accelerate-experimentation.md)
       - Herramientas de zona protegida {#sandbox-tooling}
         - [Aptitudes agénticas de herramientas de zona protegida](./coworker/chat/use-cases/sandbox-tooling/sandbox-tooling.md)
       - Alertas {#alerts}
@@ -75,6 +76,7 @@ ht-degree: 20%
     - Memoria {#memory}
       - [¿Qué es la memoria?](./coworker/customizations/memory/what-is-memory.md)
   - Campañas {#campaigns}
+    - {hide-from-toc}[Nueva experiencia para equipos](./coworker/campaigns/new-teams-experience.md)
     - [Información general](./coworker/campaigns/overview.md)
     - [Creación de una campaña de correo electrónico](./coworker/campaigns/create-an-email-campaign.md)
     - [Inicio y administración de una campaña](./coworker/campaigns/launch-manage-campaign.md)
