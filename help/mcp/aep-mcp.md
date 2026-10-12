@@ -2,9 +2,9 @@
 title: Herramientas de Experience Platform en CX Coworker Gateway
 description: Descubra qué herramientas de Adobe Experience Platform están disponibles a través de CX Coworker Gateway.
 hide: true
-source-git-commit: 1f9534bea8653a8dcf4dc89f5f7f2702477b6c97
+source-git-commit: 8e28bb38bd27c1e57ac7c62f74196d146d8519ca
 workflow-type: tm+mt
-source-wordcount: '1947'
+source-wordcount: '1955'
 ht-degree: 6%
 ---
 
@@ -255,7 +255,7 @@ Recupere los resultados más recientes de la evaluación de la comprobación de 
 
 >[!NOTE]
 >
->Esta herramienta sólo recupera los resultados de la evaluación. Para solucionar un problema marcado, utilice el panel de detalles de comprobación de estado en la interfaz de usuario de [!DNL Experience Platform]. Ver [Comprobaciones de estado](https://experienceleague.adobe.com/es/docs/experience-platform/run-and-operate/health-checks). La guía de corrección automática para las comprobaciones de estado admitidas está disponible como aptitud en [CX Coworker Chat](../coworker/chat/overview.md).
+>Esta herramienta sólo recupera los resultados de la evaluación. Para solucionar un problema marcado, utilice el panel de detalles de comprobación de estado en la interfaz de usuario de [!DNL Experience Platform]. Ver [Comprobaciones de estado](https://experienceleague.adobe.com/en/docs/experience-platform/run-and-operate/health-checks). La guía de corrección automática para las comprobaciones de estado admitidas está disponible como aptitud en [CX Coworker Chat](https://experienceleague.adobe.com/en/docs/coworker/content/chat/overview).
 
 **Capacidades:** muestran todos los resultados de las comprobaciones de estado de la zona protegida actual y obtienen los resultados de una comprobación con nombre
 
