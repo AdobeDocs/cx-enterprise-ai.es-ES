@@ -3,15 +3,12 @@ description: descripción.
 title: Comprender el editor de correo electrónico
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: 0594abf430c5f19f6cd36971bcd993db95770ab2
 workflow-type: tm+mt
-source-wordcount: 476
+source-wordcount: '476'
 ht-degree: 0%
-
 ---
-
 # Comprender el editor de correo electrónico {#email-editor}
 
 El editor de correo electrónico permite refinar un correo electrónico generado por IA directamente en el tablero de campaña. Edite la línea de asunto y el preencabezado, dé formato al texto y a las imágenes en línea o cambie a una plantilla diferente.

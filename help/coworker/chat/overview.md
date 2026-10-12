@@ -1,18 +1,15 @@
 ---
-description: Aprenda cómo Coworker Chat utiliza una interfaz conversacional para planificar, ejecutar y completar el trabajo de la experiencia del cliente en Adobe y los sistemas conectados en minutos.
-title: Descripción general del chat de Adobe CX Enterprise
+description: Conozca cómo el chat de Coworker utiliza una interfaz conversacional para planificar, ejecutar y completar las tareas de la experiencia del cliente en Adobe y los sistemas conectados en cuestión de minutos.
+title: Información general de Adobe CX Enterprise Coworker Chat
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: 0594abf430c5f19f6cd36971bcd993db95770ab2
 workflow-type: tm+mt
-source-wordcount: 741
-ht-degree: 0%
-
+source-wordcount: '741'
+ht-degree: 3%
 ---
-
-# Descripción general de Adobe CX Enterprise Coworker Chat {#overview}
+# Resumen de chat de Adobe CX Enterprise Coworker {#overview}
 
 El chat de compañeros es una interfaz conversacional para lograr que la experiencia del cliente funcione. Usted describe un objetivo en lenguaje sencillo (por ejemplo, &quot;construir una audiencia para la promoción de yoga de primavera&quot; o &quot;dime por qué esta audiencia se redujo la semana pasada&quot;) y Coworker Chat planifica el trabajo, lo ejecuta en su Adobe y sistemas conectados, valida los resultados y le devuelve el trabajo terminado para su aprobación.
 
@@ -24,7 +21,7 @@ El valor: el trabajo que solía abarcar varias pantallas, equipos y días ahora 
 
 >[!NOTE]
 >
->Coworker Chat es un módulo de Adobe CX Enterprise Coworker. Otros dos módulos amplían la misma base: Campañas de compañeros (levántese e inicie una campaña completa desde una conversación) y Proyectos de compañeros (un espacio de trabajo siempre activo para flujos de trabajo de extremo a extremo y de varios equipos). Esta página cubre el Chat del compañero.
+>El chat de compañeros es un módulo de Adobe CX Enterprise Coworker. Otros dos módulos amplían la misma base: Campañas de compañeros (levántese e inicie una campaña completa desde una conversación) y Proyectos de compañeros (un espacio de trabajo siempre activo para flujos de trabajo de extremo a extremo y de varios equipos). Esta página cubre el Chat del compañero.
 
 ## Una evolución de AI Assistant
 
@@ -43,7 +40,7 @@ Si ha utilizado el asistente de IA y Adobe Experience Platform Agent Orchestrato
 >
 >Las capturas de pantalla de la interfaz se añadirán a medida que se finalice la experiencia.
 
-## Aplicaciones empresariales compatibles de CX
+## Aplicaciones CX Enterprise compatibles
 
 Las siguientes aplicaciones de CX Enterprise son compatibles con Coworker Chat:
 
@@ -55,7 +52,7 @@ Las siguientes aplicaciones de CX Enterprise son compatibles con Coworker Chat:
 * Workfront
 * Marketo Engage
 * _Real-Time CDP B2B edition (próximamente)_
-* _Adobe Journey Optimizer B2B edition (próximamente)_
+* _Adobe Journey Optimizer B2B Edition (próximamente)_
 * _Customer Journey Analytics B2B edition (próximamente)_
 
 ## Bloques de creación
@@ -63,11 +60,11 @@ Las siguientes aplicaciones de CX Enterprise son compatibles con Coworker Chat:
 Coworker Chat funciona con los componentes básicos de Coworker. Los siguientes componentes básicos ya están disponibles.
 
 * **Arnés de empresa:** el motor que convierte tu objetivo en trabajo completado. Ejecuta un bucle continuo de autocorrección (motivo, selección de una aptitud, ejecución, validación, repetición), recuperándose de errores y trabajando en paralelo hasta que se realiza el trabajo, no solo se intenta.
-* **Habilidades:** libros de reproducción reutilizables, en Markdown simple, para hacer bien cada tarea. El chat de compañeros se envía con habilidades para las tareas de experiencia del cliente más comunes hoy en día, y el objetivo es cubrir el trabajo en todas las aplicaciones empresariales de Adobe CX a lo largo del tiempo.
+* **Habilidades:** libros de reproducción reutilizables, en Markdown simple, para hacer bien cada tarea. El chat de compañeros se envía con habilidades para las tareas de experiencia del cliente más comunes hoy en día y el objetivo es cubrir el trabajo en todas las aplicaciones de Adobe CX Enterprise a lo largo del tiempo.
 * Conectores **MCP:** controla el acceso para actuar en Adobe y sistemas de terceros, con conectores listos para usar y la opción de usar los suyos propios.
 * **Control:** puertas de aprobación, permisos heredados de su organización de Adobe, comprobaciones que se ejecutan antes de que se ejecute una acción y un registro de auditoría completo.
 * **Memoria:** Coworker Chat aprende tus preferencias, decisiones y correcciones en todas las sesiones, desde las reglas de toda la organización hasta tus preferencias personales, para que se agudice cuanto más trabajas con él.
 
 ## Vídeo introductorio
 
->[!VIDEO](https://video.tv.adobe.com/v/3495970?captions=spa&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3495967?learn=on){transcript=true}
