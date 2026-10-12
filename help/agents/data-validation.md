@@ -1,9 +1,9 @@
 ---
 title: Validar los datos en el asistente de IA
 description: Aprenda a utilizar la validación de datos con tecnología de Agent Orchestrator en el Asistente de IA para realizar validaciones estadísticas y semánticas en los conjuntos de datos.
-source-git-commit: a39c81f891a2bb1782f0531e210778f423a519a5
+source-git-commit: 8e28bb38bd27c1e57ac7c62f74196d146d8519ca
 workflow-type: tm+mt
-source-wordcount: '1602'
+source-wordcount: '1616'
 ht-degree: 0%
 ---
 # Validación de los datos en el asistente de IA
@@ -24,7 +24,7 @@ Lea esta documentación para aprender a validar los datos en el asistente de IA.
 
 >[!NOTE]
 >
->La validación de datos también está disponible como aptitud de colaborador. Ver [Validar los datos de Experience Platform con el colaborador](/help/coworker/chat/use-cases/data-insights/data-validation-aep.md).
+>La validación de datos también está disponible como aptitud de colaborador. Ver [Validar los datos de Experience Platform con el colaborador](https://experienceleague.adobe.com/es/docs/coworker/content/chat/use-cases/data-insights/data-validation-aep).
 
 ## Casos de uso
 

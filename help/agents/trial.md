@@ -4,34 +4,39 @@ description: Obtenga información sobre la prueba gratuita de CX Enterprise Cowo
 TQID: https://experienceleague.adobe.com/3ar5j-6IYEk2w6oyvR6JCuaw2Zrrp2DxUri5EvI0QN0
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: d7d9b5d89db0fc92dd401853e41765c3bae68d16
+    internal-label: Customer experience
+source-git-commit: 8e28bb38bd27c1e57ac7c62f74196d146d8519ca
 workflow-type: tm+mt
-source-wordcount: 1433
-ht-degree: 2%
-
+source-wordcount: '1429'
+ht-degree: 1%
 ---
-
 # Prueba de CX Enterprise Coworker
 
 >[!AVAILABILITY]
 >
->Algunos clientes de CX Enterprise que cumplan los requisitos pueden tener acceso a una prueba basada en el uso para experimentar el valor de las ofertas de IA auténtica de Adobe en su propio entorno antes de comprometerse a realizar la compra.
+>Es posible que algunos clientes de CX Enterprise aptos tengan acceso a una prueba vinculada al uso para experimentar el valor de las ofertas de IA auténtica de Adobe en su propio entorno antes de comprometerse a realizar una compra.
 
 A discreción de Adobe, los clientes del periodo de prueba tendrán acceso a **Coworker Chat**, una evolución de la experiencia conversacional del asistente de IA. Coworker Chat permite a los equipos automatizar las tareas de productos de CXO a través del lenguaje natural, convirtiendo rápidamente las ideas en acciones con una planificación flexible, habilidades personalizables y ejecución inteligente.
 
 Todos los clientes elegibles pasarán de un asistente de IA y agentes de Adobe Experience Platform a un chat con compañeros de trabajo progresivamente. Mientras tanto, ciertos clientes pueden conservar el acceso al asistente de IA y a los agentes de Experience Platform hasta que se habiliten para el chat de Coworker. Tenga en cuenta que Campañas de compañeros no entra en el ámbito de esta versión de prueba.
 
-**Asistente de IA**: Una interfaz conversacional envolvente de página completa con tecnología de Agent Orchestrator y que funciona en varios productos, lo que permite a los profesionales que utilizan productos de CX Enterprise habilitados aprovechar las capacidades de GenAI y de inteligencia artificial aplicada a la actividad. Para obtener más información, lea la [Guía de la IU del Asistente de IA](../ai-assistant/ai-assistant-ui.md).
+**Asistente de IA**: Una interfaz conversacional envolvente de página completa con tecnología Agent Orchestrator y que funciona en varios productos, lo que permite a los profesionales usar productos CX Enterprise habilitados aprovechar las capacidades de GenAI y de inteligencia artificial aplicada a la actividad. Para obtener más información, lea la [Guía de la IU del Asistente de IA](../ai-assistant/ai-assistant-ui.md).
 
-**Agentes de Adobe Experience Platform**: agentes de IA creados específicamente y capacitados para ofrecer trabajos comunes en categorías de dominios de experiencia del cliente. Puede aprovechar los agentes para ampliar su capacidad de crear y ofrecer experiencias de forma más rápida y con mayor impacto, lo que desbloquea la productividad y la eficacia del siguiente nivel. Para comprender qué agentes se pueden aprovechar con cada aplicación empresarial de CX, lea la documentación sobre [inteligencia artificial aplicada a la agencia en CX Enterprise](../overview/agentic-ai.md).
+**Agentes de Adobe Experience Platform**: agentes de IA creados específicamente y capacitados para ofrecer trabajos comunes en categorías de dominios de experiencia del cliente. Puede aprovechar los agentes para ampliar su capacidad de crear y ofrecer experiencias de forma más rápida y con mayor impacto, lo que desbloquea la productividad y la eficacia del siguiente nivel. Para saber qué agentes se pueden aprovechar con cada aplicación de CX Enterprise, lea la documentación sobre [inteligencia artificial aplicada a la agencia en CX Enterprise](../overview/agentic-ai.md).
 
 ## Detalles del programa de prueba
 
@@ -56,9 +61,9 @@ El panel de monitorización de la inteligencia artificial aplicada a la agencia 
 
 ### Acceso a Coworker Chat
 
-Los usuarios de clientes elegibles tendrán acceso predeterminado al chat de Coworker como parte de la versión de prueba, por lo que no es necesario realizar ninguna acción. Coworker Chat funciona bajo la guía y supervisión del usuario y respeta los controles de acceso de nivel de producto existentes de su organización. Los usuarios solo pueden realizar las acciones que ya están autorizados a realizar en los productos CX Enterprise subyacentes de su organización.
+Los usuarios de clientes elegibles tendrán acceso predeterminado al chat de Coworker como parte de la versión de prueba, por lo que no es necesario realizar ninguna acción. Coworker Chat funciona bajo la guía y supervisión del usuario y respeta los controles de acceso de nivel de producto existentes de su organización. Los usuarios solo pueden realizar las acciones que ya pueden realizar dentro de los productos de CX Enterprise subyacentes de su organización.
 
-Los usuarios pueden acceder a Coworker seleccionándolo en el selector de aplicaciones del encabezado superior de CX Enterprise.
+Los usuarios pueden acceder a Colaborador seleccionándolo en el selector de aplicaciones del encabezado superior de CX Enterprise.
 
 ![Selector de aplicación donde está Coworker.](../agents/assets/coworker.png)
 
@@ -68,9 +73,9 @@ Para clientes que no han pasado al chat con compañeros de trabajo:
 
 ### Acceda a agentes de Experience Platform a través del asistente de IA con tecnología de Agent Orchestrator
 
-Los usuarios de clientes aptos tendrán acceso predeterminado al asistente y a los agentes de IA como parte de la prueba, por lo que no es necesario realizar ninguna acción. Los agentes de Experience Platform se guían por los datos introducidos por el usuario y la supervisión. Los agentes también respetan los controles de acceso a nivel de producto definidos anteriormente, de modo que los usuarios solo pueden realizar trabajos o ejecutar acciones para las que tengan permisos dentro de los productos CX Enterprise subyacentes aplicables.
+Los usuarios de clientes aptos tendrán acceso predeterminado al asistente y a los agentes de IA como parte de la prueba, por lo que no es necesario realizar ninguna acción. Los agentes de Experience Platform se guían por los datos introducidos por el usuario y la supervisión. Los agentes también respetan los controles de acceso de nivel de producto definidos anteriormente, de modo que los usuarios solo pueden realizar trabajos o ejecutar acciones para las que tengan permisos dentro de los productos de CX Enterprise subyacentes aplicables.
 
-Una vez que tenga acceso, vaya a la página principal de Adobe CX Enterprise para comenzar con el asistente de IA. Puede usar las [solicitudes de detección](../ai-assistant/ai-assistant-ui.md#discovery-prompts) para ver sugerencias de solicitudes y flujos de trabajo comunes. Utilice esta función para acelerar la incorporación con AI Assistant. Además, lea la [biblioteca de mensajes](../ai-assistant/prompt-library.md) para ver una serie de mensajes que puede usar con distintos agentes. Para obtener información más completa, lea la [guía de la interfaz de usuario del Asistente de IA](../ai-assistant/ai-assistant-ui.md).
+Una vez que tenga acceso, vaya a la página principal de Adobe CX Enterprise para empezar a utilizar el asistente de IA. Puede usar las [solicitudes de detección](../ai-assistant/ai-assistant-ui.md#discovery-prompts) para ver sugerencias de solicitudes y flujos de trabajo comunes. Utilice esta función para acelerar la incorporación con AI Assistant. Además, lea la [biblioteca de mensajes](../ai-assistant/prompt-library.md) para ver una serie de mensajes que puede usar con distintos agentes. Para obtener información más completa, lea la [guía de la interfaz de usuario del Asistente de IA](../ai-assistant/ai-assistant-ui.md).
 
 Si el cliente desea desactivar el acceso a estas funciones del agente y deshabilitar el acceso de prueba, envíe una solicitud a [cx-coworker-questions@adobe.com](mailto:cx-coworker-questions@adobe.com).
 
@@ -78,7 +83,7 @@ Si el cliente desea desactivar el acceso a estas funciones del agente y deshabil
 
 Lea las siguientes guías para obtener más información sobre Coworker, Agent Orchestrator y AI Assistant:
 
-- [Coworker](https://experienceleague.adobe.co/es/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview)
+- [Guía de compañeros](https://experienceleague.adobe.com/es/docs/coworker/content/home)
 - [Información general de Agent Orchestrator](agent-orchestrator.md)
 - [Guía de IU del asistente de IA](../ai-assistant/ai-assistant-ui.md)
 - [Biblioteca de mensajes del Ayudante de IA](../ai-assistant/prompt-library.md)
@@ -94,11 +99,11 @@ La prueba de uso de Agentic permite a los clientes elegibles utilizar Coworker C
 
 ### ¿Qué agentes están incluidos en este ensayo?
 
-Lea la guía sobre [Inteligencia artificial aplicada a la agencia en CX Enterprise](../overview/agentic-ai.md) para obtener una lista completa de los agentes incluidos en el ensayo.
+Lea la guía de [Inteligencia artificial aplicada a la actividad en CX Enterprise](../overview/agentic-ai.md) para obtener una lista completa de los agentes incluidos en el ensayo.
 
 ### ¿Quién puede participar en este ensayo?
 
-La versión de prueba se está presentando a ciertos clientes empresariales de Adobe CX aptos por fases, de modo que Adobe pueda proporcionar la asistencia adecuada. Si está interesado en participar, póngase en contacto con el equipo de su cuenta de Adobe para que verifique su estado y analice las opciones de acceso.
+La versión de prueba se está poniendo a disposición de ciertos clientes de Adobe CX Enterprise aptos por fases para que Adobe pueda proporcionar la asistencia adecuada. Si está interesado en participar, póngase en contacto con el equipo de su cuenta de Adobe para que verifique su estado y analice las opciones de acceso.
 
 ### ¿Cuántos créditos de IA obtengo y qué sucede cuando se utilizan esos créditos de IA?
 

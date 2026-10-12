@@ -1,9 +1,9 @@
 ---
 title: Preparación de datos SQL en Coworker
 description: Aprenda a utilizar la preparación de datos SQL en Coworker para generar, optimizar, solucionar problemas y programar consultas SQL.
-source-git-commit: dff76b520c013554276e72a3e19b5d56c16af5fa
+source-git-commit: 8e28bb38bd27c1e57ac7c62f74196d146d8519ca
 workflow-type: tm+mt
-source-wordcount: '1117'
+source-wordcount: '1126'
 ht-degree: 1%
 ---
 # Preparación de datos SQL en Coworker
@@ -29,7 +29,7 @@ Puede identificar los conjuntos de datos que desea utilizar en la solicitud. Si 
 
 Una vez que el Compañero de trabajo haya generado o actualizado el SQL, puede continuar la conversación para obtener una vista previa de los resultados, refinar la consulta, guardarla o programarla para su ejecución recurrente.
 
-Para obtener instrucciones sobre el uso de la interfaz de Coworker, consulte la [guía de la interfaz de usuario de Coworker](../coworker/chat/ui-guide.md).
+Para obtener instrucciones sobre el uso de la interfaz de Coworker, consulte la [guía de la interfaz de usuario de Coworker](https://experienceleague.adobe.com/es/docs/coworker/content/chat/ui-guide).
 
 ## Funciones compatibles {#supported-capabilities}
 

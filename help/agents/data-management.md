@@ -1,9 +1,9 @@
 ---
 title: Agente de administración de datos para Adobe Experience Platform
 description: Aprenda a utilizar el agente de administración de datos en CX Coworker para buscar y analizar conjuntos de datos de Adobe Experience Platform y administrar políticas de retención de lago de datos.
-source-git-commit: 40f144c7a06592c78dccc6c17f19554b62f667c9
+source-git-commit: 8e28bb38bd27c1e57ac7c62f74196d146d8519ca
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: '1036'
 ht-degree: 3%
 ---
 # Agente de gestión de datos
@@ -50,7 +50,7 @@ Antes de empezar, asegúrese de que dispone de lo siguiente:
 - Los permisos de Adobe Experience Platform necesarios para los conjuntos de datos y las acciones de retención que desea utilizar. El agente de gestión de datos utiliza los permisos de Experience Platform existentes y no concede acceso adicional. Consulte la [Información general sobre el control de acceso](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/home) para ver cómo funcionan los permisos y las funciones de Adobe Experience Platform.
 - El complemento CXO de Adobe instalado en CX Coworker.
 
-Para obtener instrucciones sobre la instalación de complementos, consulte la [guía de la interfaz de usuario de Coworker](https://experienceleague.adobe.com/es/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide).
+Para obtener instrucciones sobre la instalación de complementos, consulte la [guía de la interfaz de usuario de Coworker](https://experienceleague.adobe.com/es/docs/coworker/content/chat/ui-guide).
 
 ## Uso del agente de gestión de datos {#use-the-data-management-agent}
 
@@ -62,13 +62,13 @@ Interactúe con el agente de gestión de datos a través de CX Coworker utilizan
 
 Para utilizar el agente de gestión de datos:
 
-1. Vaya a **[!UICONTROL CX Coworker]**. Para obtener más información, consulte la [Guía de la interfaz de usuario de Coworker](https://experienceleague.adobe.com/es/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide).
+1. Vaya a **[!UICONTROL CX Coworker]**. Para obtener más información, consulte la [Guía de la interfaz de usuario de Coworker](https://experienceleague.adobe.com/es/docs/coworker/content/chat/ui-guide).
 1. Introduzca una solicitud que describa lo que desea lograr.
 1. Revise los resultados y utilice preguntas de seguimiento para continuar con la investigación.
 
 Si una solicitud cambia una política de retención de lago de datos, el agente de gestión de datos muestra el impacto propuesto y requiere su confirmación antes de aplicar el cambio.
 
-Para obtener un flujo de trabajo completo que identifique conjuntos de datos, analice el uso y el impacto de la retención y administre las políticas de retención del lago de datos, consulte [Administrar la retención del lago de datos](../coworker/chat/use-cases/data-management/manage-data-lake-retention.md).
+Para obtener un flujo de trabajo completo que identifique conjuntos de datos, analice el uso y el impacto de la retención y administre las políticas de retención del lago de datos, consulte [Administrar la retención del lago de datos](https://experienceleague.adobe.com/es/docs/coworker/content/chat/use-cases/data-management/manage-data-lake-retention).
 
 ## Funcionamiento del agente de gestión de datos {#how-the-data-management-agent-works}
 
@@ -80,6 +80,6 @@ El agente de administración de datos puede identificar conjuntos de datos que p
 
 ## Próximos pasos {#next-steps}
 
-Para obtener instrucciones sobre cómo usar cada aptitud para buscar, analizar y administrar la retención de lago de datos en los conjuntos de datos de Experience Event, consulte [Administrar la retención de lago de datos](../coworker/chat/use-cases/data-management/manage-data-lake-retention.md).
+Para obtener instrucciones sobre cómo usar cada aptitud para buscar, analizar y administrar la retención de lago de datos en los conjuntos de datos de Experience Event, consulte [Administrar la retención de lago de datos](https://experienceleague.adobe.com/es/docs/coworker/content/chat/use-cases/data-management/manage-data-lake-retention).
 
 Para obtener más información sobre cómo funcionan las políticas de retención de lago de datos en Adobe Experience Platform, incluido el comportamiento de retención y la configuración, consulte la [guía de retención de conjuntos de datos de evento de experiencia (TTL)](https://experienceleague.adobe.com/es/docs/experience-platform/catalog/datasets/experience-event-dataset-retention-ttl-guide).

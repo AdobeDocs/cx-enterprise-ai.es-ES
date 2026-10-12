@@ -7,24 +7,14 @@ product_v2:
 feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-source-git-commit: 8b900f43168e74cab003eb4bd72d5c18910c882b
+source-git-commit: af2a9b4bc7082fb4813739dc0a2e9ca10f1b8db5
 workflow-type: tm+mt
-source-wordcount: '7086'
+source-wordcount: '7107'
 ht-degree: 6%
 ---
 # Casos de uso de chat con compañeros {#use-cases}
 
 El chat de compañeros de trabajo le permite consultar, analizar y actuar en los datos de [!DNL Experience Platform] con lenguaje natural en lugar de navegar por varias IU o escribir consultas manualmente. Esta página cataloga los casos de uso en los que más se basan los profesionales, organizados por área de trabajo: perspectivas de datos, audiencias, recorridos, lealtad, elementos fundacionales y herramientas de zona protegida. Cada entrada incluye la aptitud que invoca, las aplicaciones con las que trabaja y los indicadores de ejemplo que puede copiar, adaptar a sus propios datos y refinar a través de la conversación.
-
->[!NOTE]
->
->Muy pronto:
->
->Nuevas funciones agénticas de AEM a través de CX Enterprise Coworker, creadas para ayudarle a hacer más y más rápido.
->
->Todos los clientes elegibles tendrán acceso a las funciones de agente de Adobe Experience Manager en Coworker, de forma gradual.
->
->Consulte también [IA en AEM: información general sobre las capacidades de agente en AEM](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/overview).
 
 ## Experiencia de marca
 
@@ -52,6 +42,7 @@ El chat de compañeros de trabajo le permite consultar, analizar y actuar en los
 | Caso de uso | Descripción | Aptitud/aptitudes | Aplicación | Indicadores de ejemplo |
 | --- | --- | --- | --- | --- |
 | Administrar canalizaciones de Cloud Manager | Cree, ejecute y supervise canalizaciones de AEM Cloud Manager, incluidos registros, artefactos, variables y configuración | `cloud-manager-pipeline-management` | Adobe Experience Manager (AEM) | &quot;Enumerar canalizaciones para el programa 12345&quot;<br><br>&quot;¿Cuál es el estado de mi canalización más reciente?&quot; |
+| Solución de problemas de canalizaciones de Cloud Manager fallidas | Analice la ejecución de una canalización de AEM Cloud Manager fallida y explique en lenguaje sencillo por qué falló. Admite canalizaciones de pila completa (implementación y calidad de código), canalizaciones de configuración de nivel web y canalizaciones de configuración, como errores de implementación causados por una configuración de CDN no válida | Implementado como un agente especializado en la resolución de problemas de canalización de Cloud Manager. | Adobe Experience Manager (AEM) | &quot;Solucionar problemas de mi canalización con errores&quot;<br><br>&quot;Enumerar mis canalizaciones con errores para el programa &lt;nombre de programa>&quot;<br><br>&quot;Analizar la última ejecución con errores de &lt;nombre de canalización> en el programa &lt;nombre de programa>&quot; |
 | Administración de entornos de Cloud Manager | Crear, configurar y mantener entornos de AEM Cloud Manager, incluidos RDE, variables de entorno, registros y backups | `cloud-manager-environment-management` | Adobe Experience Manager (AEM) | &quot;Enumerar mis entornos para el programa 12345&quot;<br><br>&quot;Restablecer mi RDE&quot; |
 | Administrar programas de Cloud Manager | Enumerar, inspeccionar y eliminar programas de AEM Cloud Manager, incluidas sus canalizaciones y entornos | `cloud-manager-program-management` | Adobe Experience Manager (AEM) | &quot;Enumerar mis programas de Cloud Manager&quot;<br><br>&quot;Obtener detalles para la 12345 del programa&quot; |
 | Administrar las programaciones de actualización de versiones de AEM | Configure horas tranquilas diarias y periodos sin actualizaciones para el mantenimiento automatizado y consulte las ventanas globales de congelación de código de Adobe | `cloud-manager-release-management` | Adobe Experience Manager (AEM) | &quot;¿Cuál es mi ventana de horas tranquilas actual?&quot;<br><br>&quot;Programe un período sin actualizaciones del 20 de diciembre al 2 de enero&quot; |
