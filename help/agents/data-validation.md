@@ -24,7 +24,7 @@ Lea esta documentación para aprender a validar los datos en el asistente de IA.
 
 >[!NOTE]
 >
->La validación de datos también está disponible como aptitud de colaborador. Ver [Validar los datos de Experience Platform con el colaborador](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/data-insights/data-validation-aep).
+>La validación de datos también está disponible como aptitud de colaborador. Ver [Validar los datos de Experience Platform con el colaborador](https://experienceleague.adobe.com/es/docs/coworker/content/chat/use-cases/data-insights/data-validation-aep).
 
 ## Casos de uso
 

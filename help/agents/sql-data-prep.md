@@ -8,7 +8,7 @@ ht-degree: 1%
 ---
 # Preparación de datos SQL en Coworker
 
-Use la preparación de datos SQL en Coworker para realizar tareas comunes de [Data Distiller](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/overview) con indicadores en lenguaje natural. Puede generar SQL, solucionar problemas u optimizar una consulta existente, obtener una vista previa de los resultados y programar consultas para su ejecución recurrente.
+Use la preparación de datos SQL en Coworker para realizar tareas comunes de [Data Distiller](https://experienceleague.adobe.com/es/docs/experience-platform/query/data-distiller/overview) con indicadores en lenguaje natural. Puede generar SQL, solucionar problemas u optimizar una consulta existente, obtener una vista previa de los resultados y programar consultas para su ejecución recurrente.
 
 >[!AVAILABILITY]
 >
@@ -29,7 +29,7 @@ Puede identificar los conjuntos de datos que desea utilizar en la solicitud. Si 
 
 Una vez que el Compañero de trabajo haya generado o actualizado el SQL, puede continuar la conversación para obtener una vista previa de los resultados, refinar la consulta, guardarla o programarla para su ejecución recurrente.
 
-Para obtener instrucciones sobre el uso de la interfaz de Coworker, consulte la [guía de la interfaz de usuario de Coworker](https://experienceleague.adobe.com/en/docs/coworker/content/chat/ui-guide).
+Para obtener instrucciones sobre el uso de la interfaz de Coworker, consulte la [guía de la interfaz de usuario de Coworker](https://experienceleague.adobe.com/es/docs/coworker/content/chat/ui-guide).
 
 ## Funciones compatibles {#supported-capabilities}
 
@@ -56,7 +56,7 @@ Por ejemplo, puede realizar lo siguiente:
 
 Los compañeros de trabajo pueden hacer preguntas de seguimiento cuando se requiera información adicional, como identificar el conjunto de datos adecuado o confirmar la zona horaria de una programación.
 
-Una previsualización de consulta devuelve hasta cinco filas. Para ejecutar y trabajar con consultas directamente en Experience Platform, consulte la [guía de la interfaz de usuario del Editor de consultas](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/user-guide).
+Una previsualización de consulta devuelve hasta cinco filas. Para ejecutar y trabajar con consultas directamente en Experience Platform, consulte la [guía de la interfaz de usuario del Editor de consultas](https://experienceleague.adobe.com/es/docs/experience-platform/query/ui/user-guide).
 
 ![Respuesta del compañero que muestra una vista previa de cinco filas de resultados de consultas SQL y opciones para guardar la consulta como plantilla o programarla para su ejecución recurrente.](./assets/sql-data-prep/query-preview.png)
 
@@ -74,7 +74,7 @@ El compañero devuelve el SQL generado y puede ejecutar la consulta para proporc
 
 ![Respuesta del colaborador que muestra el SQL generado para resumir la participación del cliente por tipo de evento, seguida de una vista previa de la tabla de eventos totales y clientes únicos y un análisis de los resultados.](./assets/sql-data-prep/authoring-result.png)
 
-Para obtener información sobre cómo crear y ejecutar consultas directamente en Experience Platform, consulte la [guía de la interfaz de usuario del Editor de consultas](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/user-guide).
+Para obtener información sobre cómo crear y ejecutar consultas directamente en Experience Platform, consulte la [guía de la interfaz de usuario del Editor de consultas](https://experienceleague.adobe.com/es/docs/experience-platform/query/ui/user-guide).
 
 ### Optimizar SQL existente {#optimize-sql}
 
@@ -113,7 +113,7 @@ Si la consulta proporcionada ya está optimizada, el colaborador puede determina
 
 SQL generado mediante la capacidad de creación de SQL ya está optimizado. No es necesario enviar por separado el SQL recién generado para la optimización.
 
-Para ver la sintaxis SQL y los comandos admitidos, consulte la [Referencia SQL del servicio de consultas](https://experienceleague.adobe.com/en/docs/experience-platform/query/sql/overview).
+Para ver la sintaxis SQL y los comandos admitidos, consulte la [Referencia SQL del servicio de consultas](https://experienceleague.adobe.com/es/docs/experience-platform/query/sql/overview).
 
 ### Diagnóstico y corrección de errores de SQL {#diagnose-sql-errors}
 
@@ -156,13 +156,13 @@ Después de confirmar los detalles de programación necesarios, Coworker devuelv
 
 ![Respuesta del compañero que confirma una consulta SQL programada, incluida la plantilla, la programación, la zona horaria, la fecha de finalización, el estado de la programación y la alerta de error guardados.](./assets/sql-data-prep/schedule-query.png)
 
-Para obtener información detallada sobre las programaciones de consultas, la configuración de periodicidad, los conjuntos de datos de salida y las alertas, consulte [Programaciones de consultas](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/query-schedules).
+Para obtener información detallada sobre las programaciones de consultas, la configuración de periodicidad, los conjuntos de datos de salida y las alertas, consulte [Programaciones de consultas](https://experienceleague.adobe.com/es/docs/experience-platform/query/ui/query-schedules).
 
 ## Próximos pasos {#next-steps}
 
 Para obtener más información sobre las funciones de Data Distiller y Query Service que utiliza la preparación de datos SQL, consulte la siguiente documentación:
 
-- [Resumen de Data Distiller](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/overview)
-- [Guía de IU del Editor de consultas](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/user-guide)
-- [Programaciones de consultas](https://experienceleague.adobe.com/en/docs/experience-platform/query/ui/query-schedules)
-- [Referencia SQL del servicio de consultas](https://experienceleague.adobe.com/en/docs/experience-platform/query/sql/overview)
+- [Resumen de Data Distiller](https://experienceleague.adobe.com/es/docs/experience-platform/query/data-distiller/overview)
+- [Guía de IU del Editor de consultas](https://experienceleague.adobe.com/es/docs/experience-platform/query/ui/user-guide)
+- [Programaciones de consultas](https://experienceleague.adobe.com/es/docs/experience-platform/query/ui/query-schedules)
+- [Referencia SQL del servicio de consultas](https://experienceleague.adobe.com/es/docs/experience-platform/query/sql/overview)
