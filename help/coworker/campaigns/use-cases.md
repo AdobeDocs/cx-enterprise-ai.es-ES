@@ -1,20 +1,17 @@
 ---
-description: Examine patrones de mensajes reales para campañas de Adobe CX Enterprise Coworker, organizadas por casos de uso en campañas de adquisición, participación, eventos, conversión y retención.
+description: Explore patrones de mensajes reales para campañas de Adobe CX Enterprise Coworker, organizados por casos de uso, en campañas de adquisición, participación, eventos, conversión y retención.
 title: Casos de uso de campañas de compañeros
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-source-git-commit: 1abcd60090a4adb5b4fe153d1042b946d0a6a14c
+    internal-label: CX Enterprise Coworker
+source-git-commit: 0594abf430c5f19f6cd36971bcd993db95770ab2
 workflow-type: tm+mt
-source-wordcount: 508
+source-wordcount: '508'
 ht-degree: 0%
-
 ---
-
 # Casos de uso {#use-cases}
 
-A continuación se muestran patrones de mensajes instantáneos reales que utilizan los especialistas en marketing en crecimiento y ciclo vital en las campañas de compañeros de Adobe CX Enterprise. Cada una está diseñada para ser copiada, intercambiada con su propia audiencia y detalles de marca, y refinada en la conversación.
+A continuación se muestran patrones reales e inmediatos que los especialistas en marketing para el ciclo vital y el crecimiento están utilizando en las campañas de Adobe CX Enterprise Coworker. Cada una está diseñada para ser copiada, intercambiada con su propia audiencia y detalles de marca, y refinada en la conversación.
 
 ## Cómo usar
 
