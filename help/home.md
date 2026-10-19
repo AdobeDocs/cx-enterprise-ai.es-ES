@@ -25,14 +25,14 @@ topic_v2:
     internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 6908bfda861a96b10950728a9f83263335f707ea
+source-git-commit: 5810a7f782eaca7c34dda14a1eea12b435329c38
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 2%
+source-wordcount: '809'
+ht-degree: 4%
 ---
 # IA en aplicaciones de CX Enterprise
 
-Esta guía cubre las funciones de IA en Adobe CX Enterprise: IA generativa, CX Enterprise Coworker, AI Assistant, Agent Orchestrator y MCP.
+Esta guía cubre las funciones de IA en Adobe CX Enterprise: IA generativa, CX Enterprise Coworker, AI Assistant y Agent Orchestrator.
 
 ## Resumen de capacidades de IA
 
@@ -48,12 +48,12 @@ Comience aquí para obtener una guía sobre dónde y cómo se utiliza la IA en C
 
 ## Coworker
 
-Coworker es una evolución del asistente de IA que da prioridad al agente y automatiza la experiencia del cliente y los flujos de trabajo de marketing para que su equipo pueda centrarse en los objetivos comerciales en lugar de en la ejecución rutinaria. En lugar de hacer una pregunta a la vez, se describe un objetivo. El compañero planifica, ejecuta, valida y devuelve el trabajo terminado para su aprobación. Más información sobre [Adobe for Business](https://business.adobe.com/es/products/cx-enterprise-coworker.html).
+Coworker es una evolución del asistente de IA que da prioridad al agente y automatiza la experiencia del cliente y los flujos de trabajo de marketing para que su equipo pueda centrarse en los objetivos comerciales en lugar de en la ejecución rutinaria. En lugar de hacer una pregunta a la vez, se describe un objetivo. El compañero planifica, ejecuta, valida y devuelve el trabajo terminado para su aprobación. Más información sobre [Adobe for Business](https://business.adobe.com/products/cx-enterprise-coworker.html).
 
 El compañero incluye:
 
-- **[Chat del compañero](https://experienceleague.adobe.com/es/docs/coworker/content/chat/overview)**: Una interfaz conversacional para explorar tus datos, validar audiencias y recorridos y completar tareas de varios pasos en aplicaciones de CX Enterprise.
-- **[Campañas de compañeros de trabajo](https://experienceleague.adobe.com/es/docs/coworker/content/campaigns/overview)**: una aplicación nativa de IA que consolida la información de la campaña, la creación de audiencias, la generación de contenido, el diseño de recorridos y la revisión en una sola experiencia de conversación. Utiliza plantillas integradas, prácticas recomendadas y sugerencias para ayudar a equipos pequeños y ágiles a iniciar campañas rápidamente. Más información sobre [Adobe for Business](https://business.adobe.com/es/products/cx-enterprise-coworker/teams.html).
+- **[Chat del compañero](https://experienceleague.adobe.com/en/docs/coworker/content/chat/overview)**: Una interfaz conversacional para explorar tus datos, validar audiencias y recorridos y completar tareas de varios pasos en aplicaciones de CX Enterprise.
+- **[Campañas de compañeros de trabajo](https://experienceleague.adobe.com/en/docs/coworker/content/campaigns/overview)**: una aplicación nativa de IA que consolida la información de la campaña, la creación de audiencias, la generación de contenido, el diseño de recorridos y la revisión en una sola experiencia de conversación. Utiliza plantillas integradas, prácticas recomendadas y sugerencias para ayudar a equipos pequeños y ágiles a iniciar campañas rápidamente. Más información sobre [Adobe for Business](https://business.adobe.com/products/cx-enterprise-coworker/teams.html).
 - **Proyectos de compañeros** (próximamente): Un espacio de trabajo unificado para automatizar los flujos de trabajo de la orquestación de la experiencia del cliente de extremo a extremo, lo que ayuda a los equipos a coordinar tareas, aprobaciones y ejecuciones para dirigir los resultados desde la estrategia hasta la entrega. La documentación de los proyectos estará disponible próximamente.
 
 Los clientes aptos se están trasladando gradualmente del asistente de IA y los agentes de Experience Platform al chat con el compañero.
@@ -62,7 +62,7 @@ Los clientes aptos se están trasladando gradualmente del asistente de IA y los 
 
 - Lea [Prueba de compañeros de trabajo](./agents/trial.md) para obtener información sobre la elegibilidad del periodo de prueba, el uso del crédito de IA y cómo obtener acceso.
 - Ver [Página principal de ayuda de Coworker](https://experienceleague.adobe.com/es/docs/coworker/content/home) para obtener todo el contenido de Coworker.
-- Para la replicación de objetos de espacio aislado a espacio aislado, consulte [Aptitudes de agente de herramientas de espacio aislado](https://experienceleague.adobe.com/es/docs/coworker/content/chat/use-cases/sandbox-tooling/sandbox-tooling).
+- Para la replicación de objetos de espacio aislado a espacio aislado, consulte [Aptitudes de agente de herramientas de espacio aislado](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/sandbox-tooling/sandbox-tooling).
 
 ## Asistente de IA
 
@@ -88,21 +88,23 @@ Los siguientes agentes de Experience Platform están documentados en esta guía:
 
 Para obtener la lista completa de agentes, las aplicaciones compatibles y los requisitos de idoneidad, consulte [Inteligencia artificial aplicada a la agencia en CX Enterprise](./overview/agentic-ai.md).
 
+<!--
 ## MCP
 
-[Adobe CX Coworker Gateway](./mcp/overview.md) es el punto final del Unified Model Context Protocol (MCP) para CX Enterprise. Proporciona a los clientes compatibles con MCP, como [!DNL Claude], [!DNL ChatGPT] y [!DNL Cursor], una única conexión controlada a las herramientas de producto que su organización puede utilizar:
+[Adobe CX Coworker Gateway](./mcp/overview.md) is the unified Model Context Protocol (MCP) endpoint for CX Enterprise. It gives MCP-compatible clients, such as [!DNL Claude], [!DNL ChatGPT], and [!DNL Cursor], a single governed connection to the product tools your organization is entitled to use:
 
-- [Herramientas de Real-Time CDP](./mcp/rtcdp-mcp.md)
-- [Herramientas de Experience Platform](./mcp/aep-mcp.md)
-- [Herramientas de Journey Optimizer](./mcp/ajo-mcp.md)
-- [Herramientas de Customer Journey Analytics](./mcp/cja-mcp.md)
-- [Herramientas de Adobe Analytics](./mcp/analytics-mcp.md)
-- [!DNL Workfront] herramientas, documentadas en la [guía del servidor MCP de Workfront](https://experienceleague.adobe.com/es/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
-- [!DNL Target] herramientas, documentadas en la [guía del servidor MCP de Target](https://experienceleague.adobe.com/es/docs/target/using/mcp/target-mcp)
+- [Real-Time CDP tools](./mcp/rtcdp-mcp.md)
+- [Experience Platform tools](./mcp/aep-mcp.md)
+- [Journey Optimizer tools](./mcp/ajo-mcp.md)
+- [Customer Journey Analytics tools](./mcp/cja-mcp.md)
+- [Adobe Analytics tools](./mcp/analytics-mcp.md)
+- [!DNL Workfront] tools, documented in the [Workfront MCP server guide](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
+- [!DNL Target] tools, documented in the [Target MCP server guide](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp)
 
-¿Es nuevo en CX Coworker Gateway? Consulte [Acceder a las herramientas de CX Coworker Gateway](./mcp/access.md) e [Instalar CX Coworker Gateway](./mcp/install.md) para conectarse. Una vez que se haya conectado, use las [herramientas de contexto de sesión](./mcp/context-tools.md) para establecer la organización activa, la zona protegida y la vista de datos antes de llamar a las herramientas de producto.
+New to CX Coworker Gateway? See [Access CX Coworker Gateway tools](./mcp/access.md) and [Install CX Coworker Gateway](./mcp/install.md) to get connected. Once connected, use the [session context tools](./mcp/context-tools.md) to set the active organization, sandbox, and data view before calling product tools.
 
-Antes de usar estas herramientas, consulta [Antes de comenzar](./overview/overview-ai-cxe.md#before-you-begin) para conocer los requisitos de acceso y las consideraciones de privacidad y seguridad.
+Before you use any of these tools, see [Before you begin](./overview/overview-ai-cxe.md#before-you-begin) for access requirements and privacy and security considerations.
+-->
 
 ## Prácticas recomendadas
 
