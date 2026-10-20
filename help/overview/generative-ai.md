@@ -76,7 +76,7 @@ La IA generativa (genAI) de CX Enterprise le ayuda a automatizar tareas creativa
 
 >[!IMPORTANT]
 >
->Antes de usar las funciones de IA generativa de CX Enterprise, debe comprender y seguir las [Directrices del usuario de IA generativa de Adobe CX Enterprise](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
+>Antes de usar las funciones de IA generativa de CX Enterprise, debe comprender y seguir las [Directrices del usuario de IA generativa de Adobe CX Enterprise](https://www.adobe.com/es/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
 
 **¿Qué es genAI?**
 
@@ -427,7 +427,7 @@ Marketo se integra con GenStudio for Performance Marketing
 
 +++Detalles
 
-* [Recursos de IA responsables en el Centro de confianza](https://www.adobe.com/trust/responsible-ai.html?lang=es)<!-- * [Customer AI Propensity Scoring Model Card](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/model-cards/ai-model-cards/customer-ai) -->
+* [Recursos de IA responsables en el Centro de confianza](https://www.adobe.com/es/trust/responsible-ai.html?lang=es)<!-- * [Customer AI Propensity Scoring Model Card](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/model-cards/ai-model-cards/customer-ai) -->
 
 +++
 
