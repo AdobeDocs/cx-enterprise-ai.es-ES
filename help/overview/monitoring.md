@@ -22,21 +22,24 @@ subfeature_v2:
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
     internal-label: Artificial intelligence
-source-git-commit: a788c313d9df3f97f8c7b3019a09d04e0009e576
+source-git-commit: aba8260fc0aa8e2df892a985704ae56d4fc62b9a
 workflow-type: tm+mt
-source-wordcount: 996
+source-wordcount: '1024'
 ht-degree: 1%
-
 ---
-
 # Panel de monitorización de IA agéntica
 
-El tablero de [!UICONTROL Supervisión] de inteligencia artificial aplicada a la agencia proporciona a los miembros del Centro de excelencia (COE) y a otras partes interesadas en la gobernanza visibilidad sobre el uso y la adopción de IA auténtica. Vea las tendencias de 7 días o 30 días para ver quién usa [!DNL AI Assistant] u otras superficies (como [Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/es/docs/cx-enterprise-ai/experience-cloud-ai/agents/ama-ms)) para interactuar con [!DNL Experience Platform Agents] y el valor que reciben. En conjunto, estas vistas le ayudan a guiar la adopción de agentes con datos en lugar de suposiciones.
+El tablero de [!UICONTROL Supervisión] de inteligencia artificial aplicada a la agencia proporciona a los miembros del Centro de excelencia (COE) y a otras partes interesadas en la gobernanza visibilidad sobre el uso y la adopción de IA auténtica. Vea las tendencias de 7 días o 30 días para ver quién usa [!DNL AI Assistant] u otras superficies (como [Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/agents/ama-ms)) para interactuar con [!DNL Experience Platform Agents] y el valor que reciben. En conjunto, estas vistas le ayudan a guiar la adopción de agentes con datos en lugar de suposiciones.
+
+>[!IMPORTANT]
+>
+>Las métricas de este tablero no reflejan el uso de [!DNL Coworker]. Se está desarrollando un tablero de supervisión [!DNL Coworker], que se documentará cuando esté disponible.
 
 **Disponibilidad**
 
 * En este momento, cualquier cuenta con una licencia para al menos una aplicación nativa de Experience Platform (Customer Journey Analytics, Journey Optimizer o Real-Time CDP) puede acceder a este panel
 * Las métricas de uso y adopción de [aplicaciones con prioridad de IA](agentic-ai.md#ai-first-cx-enterprise-applications) como Experimentation Accelerator, LLM Optimizer y Sites Optimizer no se encuentran en el ámbito de este tablero.
+* Próximamente habrá un tablero [!DNL Coworker].
 
 El panel [!UICONTROL Supervisión] incluye las siguientes vistas:
 
@@ -47,13 +50,13 @@ El panel [!UICONTROL Supervisión] incluye las siguientes vistas:
 | **Comentarios** | Señales sobre calidad de respuesta y satisfacción del usuario |
 | **Créditos de IA** | Tendencias del consumo de crédito y saldo restante |
 
-En la documentación de [Inteligencia artificial aplicada a la agencia en Adobe CX Enterprise](agentic-ai.md) se enumeran los agentes con ámbito para la supervisión del uso en la tabla [agentes de inteligencia artificial aplicada en aplicaciones CX Enterprise existentes](agentic-ai.md#existing-apps-table).
+La documentación de [Inteligencia artificial aplicada a la actividad de la agencia en Adobe CX Enterprise](agentic-ai.md) enumera los agentes con ámbito para supervisar su uso en la tabla [agentes de inteligencia artificial aplicada en aplicaciones de CX Enterprise existentes](agentic-ai.md#existing-apps-table).
 
->[!VIDEO](https://video.tv.adobe.com/v/3491871?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491864?learn=on)
 
 ## Habilitar permisos de tablero {#permissions}
 
-Conceda acceso al panel en [!DNL Adobe Experience Platform] al actualizar el perfil de producto o la función para cada usuario autorizado. La característica [!UICONTROL Supervisión] se muestra a los usuarios en la página de inicio de CX Enterprise después de habilitar los permisos.
+Conceda acceso al panel en [!DNL Adobe Experience Platform] al actualizar el perfil de producto o la función para cada usuario autorizado. La característica [!UICONTROL Supervisión] se muestra a los usuarios en la página principal de CX Enterprise después de habilitar los permisos.
 
 >[!IMPORTANT]
 >
@@ -89,7 +92,7 @@ Conceda acceso al panel en [!DNL Adobe Experience Platform] al actualizar el per
    * **[!UICONTROL Ver paneles personalizados]**
    * **[!UICONTROL Administrar paneles estándar]**
 
-1. Para ver los paneles, vuelva al inicio de CX Enterprise y haga clic en **[!UICONTROL Supervisión]**.
+1. Para ver los paneles, vuelva a la página de inicio de CX Enterprise y haga clic en **[!UICONTROL Supervisión]**.
 
    ![Panel de monitorización de inteligencia artificial aplicada a la agencia](assets/monitoring.png)
 
@@ -104,7 +107,7 @@ El panel Información general es el lugar central para las métricas de adopció
 * **Promedio de mensajes por conversación:** Profundidad de participación por conversación.
 * **Comentarios:** Distribución de comentarios de usuarios con miniaturas hacia arriba y miniaturas hacia abajo (solo para [!DNL AI Assistant] interacciones).
 
->[!VIDEO](https://video.tv.adobe.com/v/3491881?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491865?learn=on)
 
 ### Reproducción de conversación
 
@@ -113,7 +116,7 @@ La reproducción de la conversación muestra interacciones individuales, no solo
 * **Historial de mensajes y respuestas:** El mensaje del usuario y las respuestas entregadas.
 * **Señales de comentarios:** Interacciones que los usuarios marcaron con los pulgares hacia arriba o hacia abajo para identificar fricciones, bloqueadores o necesidades de habilitación. Esta información ayuda a su organización a mejorar la relevancia rápida y ayuda a Adobe a mejorar la calidad de la respuesta con el paso del tiempo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3491890?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491866?learn=on)
 
 ## Panel de usuarios
 
@@ -130,7 +133,7 @@ El panel Usuarios muestra cómo la adopción y la participación de los agentes 
 * **Actividad de conversación:** Número de conversaciones y mensajes por usuario.
 * **Usuarios activos principales:** Usuarios y equipos altamente comprometidos que impulsan la adopción de agentes.
 
->[!VIDEO](https://video.tv.adobe.com/v/3491923?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491868?learn=on)
 
 ## Tablero de comentarios
 
@@ -144,7 +147,7 @@ El panel de comentarios muestra los comentarios del usuario enviados para las in
 * **Historial de mensajes y respuestas:** Mensajes de usuario y respuestas asociadas con los comentarios enviados.
 * **Notas y detalles de comentarios:** Contexto y comentarios adicionales de los usuarios durante el envío de comentarios.
 
->[!VIDEO](https://video.tv.adobe.com/v/3491914?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491878?learn=on)
 
 ## Panel de créditos de IA
 
@@ -156,11 +159,11 @@ El panel Créditos de IA muestra cómo el uso de [!DNL Experience Platform Agent
 * **Tendencias diarias y mensuales:** picos, caídas y cambios en los patrones de consumo.
 * **Créditos de inteligencia artificial restantes:** Saldo restante para que pueda planificar de forma proactiva y evitar cargos adicionales.
 
->[!VIDEO](https://video.tv.adobe.com/v/3491905?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491867?learn=on)
 
 ## Más ayuda sobre este tema
 
-* [Panel de uso de licencias](https://experienceleague.adobe.com/es/docs/experience-platform/dashboards/guides/license-usage) en [!DNL Experience Platform]
+* [Panel de uso de licencias](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage) en [!DNL Experience Platform]
 * [Inteligencia artificial aplicada a la agencia en Adobe CX Enterprise](agentic-ai.md)
 * [Trabajos del agente y consumo de crédito de IA](ai-credit-consumption.md)
-* [Panel de uso de licencias](https://experienceleague.adobe.com/es/docs/experience-platform/dashboards/guides/license-usage) (Experience Platform)
+* [Panel de uso de licencias](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage) (Experience Platform)
