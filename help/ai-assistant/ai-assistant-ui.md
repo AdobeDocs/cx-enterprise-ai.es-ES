@@ -17,18 +17,18 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: d7d9b5d89db0fc92dd401853e41765c3bae68d16
+source-git-commit: 88ac5904cbf810a32d3cfde06c8ab18ae5f53746
 workflow-type: tm+mt
-source-wordcount: 2162
+source-wordcount: '2219'
 ht-degree: 2%
-
 ---
-
 # Asistente de IA
+
+Este documento se aplica a AI Assistant (Next-Gen). Para obtener información sobre el asistente de IA (heredado), lea la [guía de la interfaz de usuario del asistente de IA](https://experienceleague.adobe.com/es/docs/experience-platform/ai-assistant/home) en la documentación de Adobe Experience Platform.
 
 >[!IMPORTANT]
 >
->Este documento se aplica a AI Assistant (Next-Gen). Para obtener información sobre el asistente de IA (heredado), lea la [guía de la interfaz de usuario del asistente de IA](https://experienceleague.adobe.com/es/docs/experience-platform/ai-assistant/home) en la documentación de Adobe Experience Platform.
+>Adobe CX Enterprise Coworker es una evolución más potente y capaz del asistente de IA creado para ayudar a sus usuarios a hacer más y más rápido. Los compañeros de trabajo toman todo lo que su equipo está utilizando actualmente el asistente de IA para y lo amplían, lo que les ayuda a automatizar tareas rutinarias, aumentar la productividad y tomar decisiones más inteligentes y reveladoras. [Más información](https://business.adobe.com/products/cx-enterprise-coworker.html).
 
 Consulte la siguiente tabla para ver una comparación de AI Assistant (Legacy) y AI Assistant (Next-Gen):
 
@@ -36,9 +36,9 @@ Consulte la siguiente tabla para ver una comparación de AI Assistant (Legacy) y
 | --- | --- | --- |
 | Experiencia del usuario | El asistente de IA (heredado) solo está disponible en un panel del carril derecho. | El asistente de IA (próxima generación) está disponible tanto en el panel derecho como en la experiencia de pantalla completa envolvente. |
 | Ámbito de las capacidades | Puede utilizar el asistente de IA (heredado) para obtener conocimientos del producto y perspectivas operativas. | Puede utilizar el asistente de IA (próxima generación) para obtener conocimientos del producto, perspectivas operativas, así como habilidades agénticas avanzadas y ejecución de tareas de varios pasos. |
-| Arquitectura de plataforma | El asistente de IA (heredado) no se crea en la pila de Agent Orchestrator. | El Asistente de IA (próxima generación) cuenta con la tecnología [Adobe Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/es/docs/cx-enterprise-ai/experience-cloud-ai/agents/agent-orchestrator), lo que permite la extensibilidad y la coordinación avanzada entre las distintas funcionalidades. |
-| Cobertura de aplicación | El asistente de IA (heredado) es una implementación específica de la aplicación. | Puede utilizar el asistente de IA (próxima generación) para obtener una experiencia de asistente de IA unificada en todas las aplicaciones empresariales de Adobe CX. |
-| Modelo de acceso y permiso | Modelo de acceso con ámbito de aplicación alineado con los límites de cada producto. | Todos los usuarios tienen acceso al asistente de IA (próxima generación) y a los agentes de Experience Platform asociados. **Nota**: <ul><li>**Adobe Experience Manager**: el administrador debe concederle permiso para acceder al Asistente de IA (próxima generación) a través de [Adobe Admin Console](https://helpx.adobe.com/es/enterprise/using/admin-console.html).</li><li>**Customer Journey Analytics**: el administrador debe concederle permiso para acceder al Asistente de IA a través de [Control de acceso de Customer Journey Analytics](https://experienceleague.adobe.com/es/docs/analytics-platform/using/technotes/access-control?lang=en). Esto le permite hacer preguntas sobre el conocimiento del producto y las perspectivas de datos. |
+| Arquitectura de plataforma | El asistente de IA (heredado) no se crea en la pila de Agent Orchestrator. | El Asistente de IA (próxima generación) cuenta con la tecnología [Adobe Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/agents/agent-orchestrator), lo que permite la extensibilidad y la coordinación avanzada entre las distintas funcionalidades. |
+| Cobertura de aplicación | El asistente de IA (heredado) es una implementación específica de la aplicación. | Puede utilizar el asistente de IA (próxima generación) para obtener una experiencia de asistente de IA unificada en todas las aplicaciones de Adobe CX Enterprise. |
+| Modelo de acceso y permiso | Modelo de acceso con ámbito de aplicación alineado con los límites de cada producto. | Todos los usuarios tienen acceso al asistente de IA (próxima generación) y a los agentes de Experience Platform asociados. **Nota**: <ul><li>**Adobe Experience Manager**: el administrador debe concederle permiso para acceder al Asistente de IA (próxima generación) a través de [Adobe Admin Console](https://helpx.adobe.com/es/enterprise/using/admin-console.html).</li><li>**Customer Journey Analytics**: el administrador debe concederle permiso para acceder al Asistente de IA a través de [Control de acceso de Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control?lang=en). Esto le permite hacer preguntas sobre el conocimiento del producto y las perspectivas de datos. |
 
 El asistente de IA es una herramienta inteligente de IA conversacional y generativa que impulsará la productividad y redefinirá el trabajo en aplicaciones basadas en Adobe Experience Platform. Puede utilizar el Asistente de IA para acceder a los agentes de Adobe Experience Platform y otras funciones de IA.
 
@@ -52,7 +52,7 @@ Lea esta guía para aprender a utilizar el Asistente para IA.
 
 Existen varias formas de acceder a AI Assistant.
 
-En la interfaz de inicio de CX Enterprise, seleccione **[!UICONTROL AI Assistant]** en el panel de navegación izquierdo para iniciar una vista de pantalla completa de AI Assistant.
+En la interfaz de inicio de CX Enterprise, seleccione **[!UICONTROL Asistente de IA]** en el panel de navegación izquierdo para iniciar una vista de pantalla completa del Asistente de IA.
 
 +++Seleccionar para ver
 
@@ -60,7 +60,7 @@ En la interfaz de inicio de CX Enterprise, seleccione **[!UICONTROL AI Assistant
 
 +++
 
-También puede iniciar AI Assistant desde las páginas de inicio de las aplicaciones empresariales de CX, como Experience Platform, Adobe Journey Optimizer y Customer Journey Analytics. Vaya a la página de inicio del producto y, a continuación, seleccione el **icono del asistente de IA** en el encabezado superior para iniciar el panel de chat del asistente de IA en el carril derecho.
+También puede iniciar AI Assistant desde las páginas de inicio de aplicaciones de CX Enterprise como Experience Platform, Adobe Journey Optimizer y Customer Journey Analytics. Vaya a la página de inicio del producto y, a continuación, seleccione el **icono del asistente de IA** en el encabezado superior para iniciar el panel de chat del asistente de IA en el carril derecho.
 
 +++Seleccionar para ver
 
@@ -200,7 +200,7 @@ Si la respuesta del asistente de IA incluye una imagen, puede seleccionar el ico
 
 ![Modo de vista dividida en el Asistente de IA.](./assets/ai-assistant/inputs/split-view.png)
 
-### Conversiones
+### Conversaciones
 
 Puede usar el panel *[!UICONTROL Todas las conversaciones]* para restablecer y volver a visitar las conversaciones con el Asistente de inteligencia artificial. Seleccione el icono **[!UICONTROL Conversaciones]** para ver la ventana *[!UICONTROL Todas las conversaciones]*.
 
@@ -224,7 +224,7 @@ Aparece la ventana emergente *[!UICONTROL Respuesta de...]*. Utilice esta ventan
 
 | Fuente de información | Descripción | Ejemplos |
 | --- | --- | --- |
-| Aplicación | La aplicación CX Enterprise a la que pertenece su consulta. | Experience Platform, Journey Optimizer, Customer Journey Analytics, etc. |
+| Aplicación | La aplicación de CX Enterprise a la que pertenece la consulta. | Experience Platform, Journey Optimizer, Customer Journey Analytics, etc. |
 | Zona protegida | La zona protegida que contiene los conjuntos de datos o la información a la que pertenece su consulta. | Producción (VA7), Desarrollo |
 | Dataview | Cuando utiliza el asistente de IA con Customer Journey Analytics, la configuración de vista de datos ayuda a Data Insights Agent a comprender lo siguiente: <ul><li>Qué conjuntos de datos consultar</li><li>Qué componentes de datos están disponibles</li><li>Estructurar las respuestas sobre los datos</li><li>Qué visualizaciones crear en Analysis Workspace</li></ul> | |
 
