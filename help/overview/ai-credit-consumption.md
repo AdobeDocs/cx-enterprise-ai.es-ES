@@ -1,25 +1,24 @@
 ---
 title: Consumo de crédito de IA
-description: Obtenga información sobre el consumo de créditos de IA en aplicaciones de CX Enterprise.
+description: Obtenga información acerca del consumo de créditos de IA en aplicaciones de CX Enterprise.
 solution: Experience Cloud
 topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
 last-update: '2026-05-21T00:00:00.000Z'
+last-substantial-update: 2026-19-2026
 feature_v2:
   - id: f84b2906-3ce9-4ef0-86f6-cda249273937
     internal-label: AI Tools
-source-git-commit: 28e8b218e0923c9e463cce763a182b56a660d275
+source-git-commit: 47f06af825995d14691816ff1fc3e5592ffd6250
 workflow-type: tm+mt
-source-wordcount: 967
+source-wordcount: '1033'
 ht-degree: 5%
-
 ---
-
 # Consumo de créditos de IA
 
-Obtenga información sobre el consumo de créditos de IA en aplicaciones de CX Enterprise.
+Obtenga información acerca del consumo de créditos de IA en aplicaciones de CX Enterprise.
 
 ## Créditos de IA
 
@@ -28,11 +27,19 @@ Un _crédito de IA_ es una métrica basada en el uso que cuantifica la ejecució
 ## Servicios aptos que consumen créditos de IA
 
 * [CX Enterprise Coworker](#cx-enterprise-coworker-credit-rate)
+* [Funciones de CX Enterprise AI](#cx-enterprise-ai-capabilities)
 * [Agentes AEP](#aep-agents-credit-rate)
 
-### Tasa de crédito de los compañeros de CX Enterprise
+### Tasa de crédito de CX Enterprise Coworker
 
 Durante un periodo de introducción limitado, las entradas de Coworker consumen créditos de IA a una tasa de 25 créditos de IA por entrada. Esta tarifa está disponible por tiempo limitado y está sujeta a cambios.
+
+### Funciones de CX Enterprise AI
+
+| Capacidad | Descripción | Aplicaciones compatibles | crédito de IA |
+| --- | --- | --- | --- |
+| [Metadatos Según La Marca](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/assets/best-practices/brand-aware-metadata-best-practices) | Generación de metadatos personalizados sin marca | Adobe Experience Manager [!DNL Assets] | 1 crédito de IA (por 10 generaciones de metadatos) |
+| Digital Rights Management | Extracción y administración de derechos de uso | Adobe Experience Manager [!DNL Assets] | 6 créditos AI (por documento procesado) |
 
 ### Tasa de crédito de agentes de AEP
 
@@ -46,7 +53,7 @@ El uso del crédito de IA puede variar según la complejidad y el valor del trab
 * Las tareas complejas (a menudo de varios pasos) consumen más créditos
 * Las tareas que implican razonamiento avanzado, validación, coordinación de varios agentes o integración consumen más créditos
 
-Para ver qué agentes de AEP y qué trabajos de agentes están disponibles en sus aplicaciones empresariales con licencia de CX, consulte [Catálogo de funciones de inteligencia artificial aplicada a la empresa de CX](https://agentic-capability-explorer.entapp.adproto.com/).
+Para ver qué agentes de AEP y qué trabajos de agentes están disponibles en sus aplicaciones de CX Enterprise con licencia, consulte [Catálogo de funciones de CX Enterprise Agentic AI](https://agentic-capability-explorer.entapp.adproto.com/).
 
 #### Tasas de crédito estimadas del trabajo del agente
 
